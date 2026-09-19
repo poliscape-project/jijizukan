@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import type { Topic } from "@/types/topic";
 import { StatusBadge } from "./StatusBadge";
-import { Calendar, Users, ArrowRight } from "lucide-react";
+import { Users, ArrowRight } from "lucide-react";
 
 interface TopicCardProps {
   topic: Topic;
@@ -10,14 +10,12 @@ interface TopicCardProps {
 
 const SCOPE_STYLE = {
   domestic: {
-    border: "border-l-rose-400",
     scopeLabel: "🇯🇵 国内",
-    scopeBg: "bg-rose-50 text-rose-700",
+    scopeBg: "bg-rose-50 text-rose-800 border border-rose-100",
   },
   international: {
-    border: "border-l-sky-400",
     scopeLabel: "🌍 国際",
-    scopeBg: "bg-sky-50 text-sky-700",
+    scopeBg: "bg-sky-50 text-sky-800 border border-sky-100",
   },
 };
 
@@ -28,71 +26,66 @@ export const TopicCard: React.FC<TopicCardProps> = ({ topic }) => {
   return (
     <Link
       href={`/topics/${topic.id}`}
-      className={`block bg-white rounded-xl border border-slate-200 border-l-4 ${style.border} shadow-sm hover:shadow-md hover:border-slate-300 transition-all group`}
+      className="group bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs hover:border-blue-400 hover:shadow-md transition-all flex flex-col justify-between"
     >
-      <div className="p-5">
-        {/* ヘッダー: スコープ + ステータス + カテゴリ */}
-        <div className="flex items-center gap-2 flex-wrap mb-2">
+      <div>
+        {/* バッジ: スコープ（左） + ステータス（右） */}
+        <div className="flex items-center justify-between gap-2 mb-3">
           <span
-            className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${style.scopeBg}`}
+            className={`text-[11px] font-bold px-2.5 py-0.5 rounded-md ${style.scopeBg}`}
           >
             {style.scopeLabel}
           </span>
           <StatusBadge status={topic.status} label={topic.statusLabel} />
-          <span className="text-[10px] text-slate-400">
-            {topic.categoryLabel}
-          </span>
         </div>
 
         {/* タイトル */}
-        <h3 className="text-base font-bold text-slate-900 group-hover:text-blue-700 transition-colors leading-snug">
+        <h3 className="text-lg font-black text-slate-900 group-hover:text-blue-700 transition-colors leading-snug">
           {topic.title}
         </h3>
 
         {/* サブタイトル */}
-        <p className="text-sm text-slate-600 mt-1 line-clamp-2">
+        <p className="text-xs text-slate-500 mt-1.5 leading-relaxed line-clamp-2">
           {topic.subtitle}
         </p>
 
-        {/* キーアクター */}
-        {topic.keyActors.length > 0 && (
-          <div className="flex items-center gap-1.5 mt-3 flex-wrap">
-            <Users className="w-3 h-3 text-slate-400" />
-            {topic.keyActors.slice(0, 4).map((actor, i) => (
-              <span
-                key={i}
-                className="text-[11px] bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded"
-              >
-                {actor.flag && `${actor.flag} `}
-                {actor.name}
-              </span>
-            ))}
-          </div>
-        )}
+        {/* ハイライトバッジ（カテゴリ + キーアクター） */}
+        <div className="mt-4 flex flex-wrap gap-1.5">
+          <span className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-blue-50 text-blue-800">
+            {topic.categoryLabel}
+          </span>
+          {topic.keyActors.slice(0, 3).map((actor, i) => (
+            <span
+              key={i}
+              className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600"
+            >
+              {actor.flag && `${actor.flag} `}
+              {actor.name}
+            </span>
+          ))}
+        </div>
+      </div>
 
-        {/* 最新の進展 */}
+      {/* 最新の進展 + フッター */}
+      <div className="mt-5 pt-3 border-t border-slate-100">
         {latestDev && (
-          <div className="mt-3 pt-3 border-t border-slate-100">
-            <div className="flex items-start gap-2">
-              <span className="inline-block w-1.5 h-1.5 rounded-full bg-blue-500 mt-1.5 shrink-0" />
-              <div className="min-w-0">
-                <p className="text-[11px] text-slate-400">{latestDev.date}</p>
-                <p className="text-xs text-slate-700 font-medium line-clamp-1">
-                  {latestDev.title}
-                </p>
-              </div>
+          <div className="flex items-start gap-2 mb-3">
+            <span className="inline-block w-1.5 h-1.5 rounded-full bg-blue-500 mt-1.5 shrink-0" />
+            <div className="min-w-0">
+              <p className="text-[11px] text-slate-400">{latestDev.date}</p>
+              <p className="text-xs text-slate-700 font-medium line-clamp-1">
+                {latestDev.title}
+              </p>
             </div>
           </div>
         )}
-
-        {/* フッター */}
-        <div className="flex items-center justify-between mt-3">
-          <span className="flex items-center gap-1 text-[11px] text-slate-400">
-            <Calendar className="w-3 h-3" />
-            更新: {topic.lastUpdated}
+        <div className="flex items-center justify-between text-xs font-bold text-blue-700">
+          <span>
+            📅 更新: {topic.lastUpdated}
           </span>
-          <span className="text-xs text-blue-600 font-medium group-hover:underline flex items-center gap-0.5">
-            詳しく <ArrowRight className="w-3 h-3" />
+          <span className="inline-flex items-center gap-1">
+            詳しく
+            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </span>
         </div>
       </div>
