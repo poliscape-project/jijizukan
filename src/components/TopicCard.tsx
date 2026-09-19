@@ -1,12 +1,15 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import type { Topic } from "@/types/topic";
 import { StatusBadge } from "./StatusBadge";
 import { Users, ArrowRight, Check } from "lucide-react";
+import { toggleTopicChecked } from "@/lib/checkHistory";
 
 interface TopicCardProps {
   topic: Topic;
-  isRead?: boolean;
+  isChecked?: boolean;
 }
 
 const SCOPE_STYLE = {
@@ -20,7 +23,7 @@ const SCOPE_STYLE = {
   },
 };
 
-export const TopicCard: React.FC<TopicCardProps> = ({ topic, isRead = false }) => {
+export const TopicCard: React.FC<TopicCardProps> = ({ topic, isChecked = false }) => {
   const style = SCOPE_STYLE[topic.scope];
   const latestDev = topic.developments[0];
 
@@ -28,24 +31,43 @@ export const TopicCard: React.FC<TopicCardProps> = ({ topic, isRead = false }) =
     <Link
       href={`/topics/${topic.id}`}
       className={`group bg-white rounded-2xl border ${
-        isRead ? "border-slate-200" : "border-slate-200/80"
-      } p-5 shadow-xs hover:border-blue-400 hover:shadow-md transition-all flex flex-col justify-between`}
+        isChecked ? "border-emerald-300 ring-1 ring-emerald-200/60" : "border-slate-200/80"
+      } p-5 shadow-xs hover:border-blue-400 hover:shadow-md transition-all flex flex-col justify-between relative`}
     >
       <div>
-        {/* バッジ: スコープ（左） + 既読バッジ + ステータス（右） */}
+        {/* バッジ: スコープ（左） + 確認チェックボックス + ステータス（右） */}
         <div className="flex items-center justify-between gap-2 mb-3">
-          <div className="flex items-center gap-1.5 flex-wrap">
+          <div className="flex items-center gap-2 flex-wrap">
             <span
               className={`text-[11px] font-bold px-2.5 py-0.5 rounded-md ${style.scopeBg}`}
             >
               {style.scopeLabel}
             </span>
-            {isRead && (
-              <span className="inline-flex items-center gap-0.5 text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200/80 shadow-2xs">
-                <Check className="w-3 h-3 text-emerald-600 stroke-[2.5]" />
-                既読
-              </span>
-            )}
+
+            {/* 確認チェックボックス（クリックしても記事に飛ばずチェックだけ切替） */}
+            <button
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                toggleTopicChecked(topic.id);
+              }}
+              className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer shadow-2xs ${
+                isChecked
+                  ? "bg-emerald-600 text-white shadow-xs hover:bg-emerald-700"
+                  : "bg-slate-100 text-slate-600 hover:bg-slate-200 hover:text-slate-900 border border-slate-200"
+              }`}
+              title={isChecked ? "クリックで未確認に戻す" : "クリックで確認済みにする"}
+            >
+              <div
+                className={`w-3.5 h-3.5 rounded flex items-center justify-center transition-colors ${
+                  isChecked ? "bg-white text-emerald-600" : "border-2 border-slate-400 bg-white"
+                }`}
+              >
+                {isChecked && <Check className="w-3 h-3 stroke-[3]" />}
+              </div>
+              <span>{isChecked ? "確認済" : "確認"}</span>
+            </button>
           </div>
           <StatusBadge status={topic.status} label={topic.statusLabel} />
         </div>

@@ -5,7 +5,7 @@ import { getTopicsByScope } from "@/lib/topics";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { TopicCard } from "@/components/TopicCard";
-import { useReadTopics } from "@/lib/readHistory";
+import { useCheckedTopics } from "@/lib/checkHistory";
 import { Globe, Search, X, CheckCircle2 } from "lucide-react";
 
 const internationalTopics = getTopicsByScope("international");
@@ -22,10 +22,10 @@ const CATEGORY_LABELS: Record<string, string> = {
 };
 
 export default function InternationalPage() {
-  const { readIds, isLoaded } = useReadTopics();
+  const { checkedIds, isLoaded } = useCheckedTopics();
   const [query, setQuery] = useState("");
   const [categoryFilter, setCategoryFilter] = useState<string>("all");
-  const [readFilter, setReadFilter] = useState<"all" | "unread" | "read">("all");
+  const [checkedFilter, setCheckedFilter] = useState<"all" | "unchecked" | "checked">("all");
 
   const categories = useMemo(() => {
     const cats = new Set(internationalTopics.map((t) => t.category));
@@ -39,11 +39,11 @@ export default function InternationalPage() {
       result = result.filter((t) => t.category === categoryFilter);
     }
 
-    // 既読・未読フィルタ
-    if (readFilter === "unread") {
-      result = result.filter((t) => !readIds.includes(t.id));
-    } else if (readFilter === "read") {
-      result = result.filter((t) => readIds.includes(t.id));
+    // 確認済み・未確認フィルタ
+    if (checkedFilter === "unchecked") {
+      result = result.filter((t) => !checkedIds.includes(t.id));
+    } else if (checkedFilter === "checked") {
+      result = result.filter((t) => checkedIds.includes(t.id));
     }
 
     if (query.trim()) {
@@ -61,7 +61,7 @@ export default function InternationalPage() {
       (a, b) =>
         new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
     );
-  }, [query, categoryFilter, readFilter, readIds]);
+  }, [query, categoryFilter, checkedFilter, checkedIds]);
 
   return (
     <>
@@ -125,28 +125,28 @@ export default function InternationalPage() {
             ))}
           </div>
 
-          {/* 未読のみ切り替えボタン */}
+          {/* 未確認のみ切り替えボタン */}
           <div className="flex items-center gap-2 self-start md:self-auto shrink-0">
             <button
-              onClick={() => setReadFilter(readFilter === "unread" ? "all" : "unread")}
+              onClick={() => setCheckedFilter(checkedFilter === "unchecked" ? "all" : "unchecked")}
               className={`text-xs px-3.5 py-1.5 rounded-full font-bold transition-all inline-flex items-center gap-1.5 cursor-pointer shadow-2xs ${
-                readFilter === "unread"
+                checkedFilter === "unchecked"
                   ? "bg-emerald-600 text-white shadow-xs"
                   : "bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200/80"
               }`}
-              title="まだ読んでいない国際トピックだけを表示"
+              title="まだ確認していない国際トピックだけを表示"
             >
               <CheckCircle2 className="w-3.5 h-3.5" />
-              <span>未読のみ表示</span>
-              {isLoaded && readIds.length > 0 && (
+              <span>未確認のみ表示</span>
+              {isLoaded && checkedIds.length > 0 && (
                 <span
                   className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                    readFilter === "unread"
+                    checkedFilter === "unchecked"
                       ? "bg-white/20 text-white"
                       : "bg-emerald-200 text-emerald-900"
                   }`}
                 >
-                  {internationalTopics.filter((t) => !readIds.includes(t.id)).length}
+                  {internationalTopics.filter((t) => !checkedIds.includes(t.id)).length}
                 </span>
               )}
             </button>
@@ -159,22 +159,22 @@ export default function InternationalPage() {
               <TopicCard
                 key={topic.id}
                 topic={topic}
-                isRead={readIds.includes(topic.id)}
+                isChecked={checkedIds.includes(topic.id)}
               />
             ))}
           </div>
         ) : (
           <div className="text-center py-16">
             <p className="text-slate-500">
-              {readFilter === "unread"
-                ? "国際トピックをすべて読破しました！🎉"
+              {checkedFilter === "unchecked"
+                ? "国際トピックをすべて確認完了しました！🎉"
                 : "該当するトピックがありません"}
             </p>
             <button
               onClick={() => {
                 setQuery("");
                 setCategoryFilter("all");
-                setReadFilter("all");
+                setCheckedFilter("all");
               }}
               className="mt-3 text-sm text-sky-600 hover:text-sky-800 font-medium cursor-pointer"
             >

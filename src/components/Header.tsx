@@ -4,14 +4,14 @@ import React from "react";
 import Link from "next/link";
 import { Newspaper, BookMarked, Globe, Landmark, CheckCircle2 } from "lucide-react";
 import { getAllTopics } from "@/lib/topics";
-import { useReadTopics } from "@/lib/readHistory";
+import { useCheckedTopics } from "@/lib/checkHistory";
 
 const allTopics = getAllTopics();
 const totalTopics = allTopics.length;
 
 export const Header: React.FC = () => {
-  const { readCount, isLoaded } = useReadTopics();
-  const percent = totalTopics > 0 ? Math.round((readCount / totalTopics) * 100) : 0;
+  const { checkedCount, isLoaded } = useCheckedTopics();
+  const percent = totalTopics > 0 ? Math.round((checkedCount / totalTopics) * 100) : 0;
 
   return (
     <header className="border-b border-slate-200 bg-white/80 backdrop-blur-md sticky top-0 z-50">
@@ -40,19 +40,19 @@ export const Header: React.FC = () => {
           </div>
         </Link>
 
-        {/* ナビゲーション & 読破メーター */}
+        {/* ナビゲーション & 確認メーター */}
         <nav aria-label="メインナビゲーション">
           <div className="flex items-center gap-2 self-end sm:self-auto flex-wrap">
-            {/* 読破メーター */}
+            {/* 確認メーター */}
             <div
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200/80 shadow-2xs cursor-default"
-              title={`全${totalTopics}トピック中、${readCount}トピックを読了済み`}
+              title={`全${totalTopics}トピック中、${checkedCount}トピックを確認済み`}
             >
               <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
               <span>
-                読破{" "}
+                確認済{" "}
                 <strong className="font-bold text-emerald-900">
-                  {isLoaded ? readCount : 0}
+                  {isLoaded ? checkedCount : 0}
                 </strong>
                 /{totalTopics}
               </span>
