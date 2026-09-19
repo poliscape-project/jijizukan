@@ -190,6 +190,28 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "declining-birthrate-measures",
+      "title": "少子化対策と「子ども・子育て支援金」制度",
+      "reason": "少子化で支え手が減る構造的問題が年金財政を直撃しており、少子化対策の成否が年金制度の持続可能性を左右する。"
+    },
+    {
+      "id": "healthcare-system-reform",
+      "title": "医療制度改革と現役世代の負担増",
+      "reason": "年金・医療ともに同じ社会保険財源から支出されており、全世代型社会保障改革の中で一体的に議論されている。"
+    },
+    {
+      "id": "nursing-care-system-crisis",
+      "title": "介護保険制度改革と介護現場の危機",
+      "reason": "年金・医療・介護はいずれも高齢化の進展とともに膨張する社会保障費として、財政運営上の一体的課題を形成する。"
+    },
+    {
+      "id": "consumption-tax-fiscal-consolidation",
+      "title": "消費税減税論争と国の借金・財政健全化",
+      "reason": "消費税は年金・医療・介護・少子化対策の4経費に充当される根幹財源であり、年金改革の財政論と不可分の関係にある。"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

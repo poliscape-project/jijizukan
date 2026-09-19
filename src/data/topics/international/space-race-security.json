@@ -194,6 +194,13 @@
       ]
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "drone-warfare-laws-autonomous-weapons",
+      "title": "ドローン戦・自律型致死兵器（LAWS）の戦場革命",
+      "reason": "偵察衛星・GPSなどの宇宙インフラがドローン戦の前提条件であり、宇宙の軍事利用と無人兵器システムの安全保障は密接に連動している。"
+    }
+  ],
   "relatedPolicies": [],
   "statCardsData": [
     {
@@ -283,6 +290,23 @@
       "title": "NASA Artemis Program",
       "url": "https://www.nasa.gov/specials/artemis/",
       "organization": "アメリカ航空宇宙局（NASA）"
+    }
+  ],
+  "relatedTopics": [
+    {
+      "id": "space-debris-orbital-sustainability",
+      "title": "スペースデブリ（宇宙ゴミ）問題と軌道上の安全",
+      "reason": "宇宙開発競争によるメガコンステレーション急増がデブリリスクを加速させており、宇宙の軍事・商業利用と環境持続可能性は表裏一体"
+    },
+    {
+      "id": "semiconductor-supply-chain",
+      "title": "半導体サプライチェーン覇権",
+      "reason": "宇宙システムの核心技術（衛星・ロケット制御）が最先端半導体に依存しており、半導体覇権争いが宇宙開発競争の勝敗を左右する"
+    },
+    {
+      "id": "arctic-sea-route-geopolitics",
+      "title": "北極海航路と極域開発をめぐる地政学",
+      "reason": "北極圏は宇宙監視センサーや早期警戒レーダーの配備地として戦略的に重要であり、宇宙・極域の両面で安全保障競争が重なる"
     }
   ]
 }

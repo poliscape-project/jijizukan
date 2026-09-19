@@ -223,6 +223,40 @@
       ]
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "north-korea-nuclear-missile",
+      "title": "北朝鮮の核・ミサイル問題",
+      "reason": "北朝鮮の核・ミサイル脅威はインド太平洋地域の最大の不安定要因の一つであり、日米豪印Quadの連携を促す重要な安全保障上の根拠となっている。"
+    }
+  ],
+  "relatedTopics": [
+    {
+      "id": "taiwan-strait",
+      "title": "台湾海峡情勢",
+      "reason": "Quadは台湾海峡の平和と安定を共同声明で繰り返し言及し、地域の抑止力として間接的に台湾防衛を支える役割を果たしている。"
+    },
+    {
+      "id": "south-china-sea-conflict",
+      "title": "南シナ海領有権問題と周辺国の対立",
+      "reason": "QuadのIPMDA（海洋状況把握）は南シナ海での中国海上民兵の活動を可視化・抑止するための実質的な機能を担っている。"
+    },
+    {
+      "id": "economic-security",
+      "title": "経済安全保障・サプライチェーン再編",
+      "reason": "Quadは半導体・重要鉱物・海底ケーブルのサプライチェーン強靱化を経済安全保障の柱として具体的な連携を深めている。"
+    },
+    {
+      "id": "okinawa-base-issue",
+      "title": "沖縄基地問題（普天間基地移設と辺野古新基地建設）",
+      "reason": "インド太平洋抑止戦略において沖縄の米軍基地は地理的に不可欠な拠点であり、Quadの戦略的枠組みと基地問題は連動している。"
+    },
+    {
+      "id": "india-strategic-autonomy-diplomacy",
+      "title": "インドの世界外交と「戦略的自律」",
+      "reason": "インドはQuadの中核的メンバーでありながら対露・対中関係の独自路線を保つ存在であり、Quadの結束力と実効性を左右する鍵"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

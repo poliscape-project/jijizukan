@@ -191,6 +191,23 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "teacher-work-style-kyotoku",
+      "title": "教員の働き方改革と給特法見直し",
+      "reason": "教員の給特法問題は、働き方改革で解決を目指した長時間労働・残業代の問題が教育現場に残存し続けた典型例である。"
+    },
+    {
+      "id": "minimum-wage-increase",
+      "title": "最低賃金引き上げと「全国1,500円」目標",
+      "reason": "最低賃金引き上げと働き方改革は「賃金と時間」の両面から労働環境を底上げする一体的な政策パッケージである。"
+    },
+    {
+      "id": "logistics-crisis-modal-shift",
+      "title": "物流2024年問題とモーダルシフト",
+      "reason": "物流2024年問題はトラックドライバーへの時間外労働上限規制適用（働き方改革の猶予業種適用）が直接の引き金である。"
+    }
+  ],
   "relatedPolicies": [
     {
       "id": "work-style-reform-logistics-efficiency",

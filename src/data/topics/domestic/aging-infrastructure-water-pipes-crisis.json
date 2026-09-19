@@ -219,6 +219,28 @@
     }
   ],
   "relatedPolicies": [],
+  "relatedTopics": [
+    {
+      "id": "regional-revitalization-depopulation",
+      "title": "地方創生と「消滅可能性自治体」",
+      "reason": "人口減少と税収縮小により、地方自治体単独でのインフラ維持更新が財政的に限界に達しつつある"
+    },
+    {
+      "id": "vacant-houses-land-issue",
+      "title": "空き家問題と所有者不明土地対策",
+      "reason": "空き家・所有者不明土地の増加が老朽インフラの更新・維持管理を困難にし、地方自治体の財政圧迫と連動する"
+    },
+    {
+      "id": "disaster-prevention-agency",
+      "title": "防災省（防災庁）創設と国の危機管理体制",
+      "reason": "老朽インフラの崩落・水道管破裂が引き起こす都市型災害対応の整備が防災庁設立の重要な背景の一つ"
+    },
+    {
+      "id": "noto-earthquake-disaster",
+      "title": "能登半島地震・奥能登豪雨と創造的復興の現在地",
+      "reason": "能登半島地震は老朽化した上下水道インフラの脆弱性を露呈し、インフラ更新の緊急性を再認識させた"
+    }
+  ],
   "sources": [
     {
       "title": "水道行政の国土交通省への移管について",

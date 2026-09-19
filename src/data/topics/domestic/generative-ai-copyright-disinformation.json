@@ -269,6 +269,23 @@
       ]
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "sns-investment-scam-platform-liability",
+      "title": "SNS投資詐欺・著名人なりすまし広告と巨大ITの責任",
+      "reason": "生成AIによるディープフェイクがSNSなりすまし詐欺広告の核心的手段となっており、プラットフォーム規制・偽情報対策の共通課題を持つ"
+    },
+    {
+      "id": "ai-regulation",
+      "title": "AI規制の国際的枠組み",
+      "reason": "国内の著作権・偽情報対策ガイドラインは、EUのAI法など国際的な規制枠組みと密接に連動しており、「広島AIプロセス」を通じて日本が主導的役割を担う"
+    },
+    {
+      "id": "big-tech-antitrust-regulations",
+      "title": "巨大IT（GAFAM）への独占禁止法規制",
+      "reason": "GPT等の基盤モデルを提供する巨大IT企業への責任論と、著作権・偽情報対策規制を巡る法制度整備は同一のプラットフォーム規制の文脈に置かれる"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

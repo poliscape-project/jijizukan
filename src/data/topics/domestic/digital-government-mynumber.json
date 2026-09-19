@@ -142,6 +142,18 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "tokuryu-anonymous-organized-crime",
+      "title": "闇バイト・匿名流動型犯罪グループ（トクリュウ）",
+      "reason": "闇バイト勧誘でマイナンバーカード等の個人番号情報が悪用されるリスクがあり、デジタル本人確認制度のセキュリティ課題として直結する"
+    },
+    {
+      "id": "local-gov-system-standardization",
+      "title": "自治体情報システムの標準化と行政DX",
+      "reason": "マイナンバーを基盤とする行政DXの推進と、全国1,788自治体の基幹システム標準化・ガバメントクラウド移行は一体の政策として進められている"
+    }
+  ],
   "relatedPolicies": [
     {
       "id": "myna-health-insurance",

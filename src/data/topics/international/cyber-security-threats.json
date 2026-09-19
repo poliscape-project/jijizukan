@@ -260,6 +260,23 @@
       ]
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "sns-investment-scam-platform-liability",
+      "title": "SNS投資詐欺・著名人なりすまし広告と巨大ITの責任",
+      "reason": "AIディープフェイクを悪用したSNS詐欺はサイバー犯罪の国内的発現形態であり、能動的サイバー防御が対象とする脅威の裾野に位置する"
+    },
+    {
+      "id": "cyberattack-infrastructure-line-kadokawa",
+      "title": "巨大情報漏洩・ランサムウェア攻撃と重要インフラ防衛",
+      "reason": "LINEヤフーやKADOKAWAへのランサムウェア攻撃は国家支援型サイバー攻撃の具体的事例であり、能動的サイバー防御の法制化の必要性を示す直接的な証左である"
+    },
+    {
+      "id": "economic-security",
+      "title": "経済安全保障・サプライチェーン再編",
+      "reason": "重要インフラへのサイバー攻撃は経済安全保障の中核的リスクであり、半導体・通信網等の戦略物資の防護と一体の国家安全保障課題である"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

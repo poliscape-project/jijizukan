@@ -187,6 +187,23 @@
       ]
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "sns-investment-scam-platform-liability",
+      "title": "SNS投資詐欺・著名人なりすまし広告と巨大ITの責任",
+      "reason": "MetaやGoogleが詐欺広告の温床となっていることは、プラットフォームの独占的地位と責任回避の問題であり、独禁法規制と一体の議論を要する"
+    },
+    {
+      "id": "generative-ai-copyright-disinformation",
+      "title": "生成AIと著作権・偽情報対策",
+      "reason": "巨大IT企業が開発する生成AIモデルへの規制は、独禁法規制と著作権・偽情報対策が交差する論点であり、AIガバナンスの包括的な法整備として一体的に検討される"
+    },
+    {
+      "id": "ai-regulation",
+      "title": "AI規制の国際的枠組み",
+      "reason": "EUのAI法によるGAFAMへの規制とデジタル市場法（DMA）の強制適用は同一の規制パッケージであり、巨大IT規制と国際的AI規制は表裏一体を成す"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

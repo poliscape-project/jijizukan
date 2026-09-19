@@ -271,6 +271,18 @@
       ]
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "generative-ai-copyright-disinformation",
+      "title": "生成AIと著作権・偽情報対策",
+      "reason": "EUのAI法など国際的な規制枠組みは、日本の生成AI著作権・偽情報対策の法制整備の直接的な参照基準であり、「広島AIプロセス」を通じて相互に連動する"
+    },
+    {
+      "id": "big-tech-antitrust-regulations",
+      "title": "巨大IT（GAFAM）への独占禁止法規制",
+      "reason": "EUのAI法とデジタル市場法（DMA）はGAFAMを主たる規制対象とする同一のプラットフォーム規制パッケージであり、AI規制と独禁規制は不可分の関係にある"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

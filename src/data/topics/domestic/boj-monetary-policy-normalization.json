@@ -194,6 +194,18 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "consumption-tax-fiscal-consolidation",
+      "title": "消費税減税論争と国の借金・財政健全化",
+      "reason": "日銀の利上げによる国債利払い費急増は財政健全化目標（PB黒字化）の達成を直撃し、増税・減税論争と不可分の関係にある。"
+    },
+    {
+      "id": "cost-of-living-economy",
+      "title": "物価高・円安と「103万円の壁」論争",
+      "reason": "日銀の利上げは円安是正を通じて物価高を和らげる一方、住宅ローン負担増という形で家計の物価高対策に直接影響する。"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

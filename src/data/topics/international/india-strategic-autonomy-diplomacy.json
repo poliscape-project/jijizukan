@@ -280,5 +280,22 @@
       "url": "https://www.un.org/",
       "organization": "国際連合（United Nations）"
     }
+  ],
+  "relatedTopics": [
+    {
+      "id": "global-south-brics",
+      "title": "グローバルサウスの台頭",
+      "reason": "インドはBRICSの主要メンバーとして多極化外交を体現しながら、反西側同盟化を拒む戦略的自律の中核的存在"
+    },
+    {
+      "id": "indo-pacific-quad",
+      "title": "インド太平洋戦略・Quad",
+      "reason": "インドが日米豪とともにQuadを構成し、インド太平洋地域の自由と安定を確保するための重要なパートナーとなっている"
+    },
+    {
+      "id": "critical-minerals-resource-nationalism",
+      "title": "重要鉱物・レアアース覇権と資源ナショナリズム",
+      "reason": "インドが豊富なレアアース・鉄鉱石資源と製造能力を持ち、中国依存脱却を目指す同志国のサプライチェーン代替地として急浮上している"
+    }
   ]
 }

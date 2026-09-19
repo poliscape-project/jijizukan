@@ -178,5 +178,17 @@
       "url": "https://www.pref.osaka.lg.jp/o100060/banpaku_suishin/",
       "organization": "大阪府"
     }
+  ],
+  "relatedTopics": [
+    {
+      "id": "overtourism-inbound-policy",
+      "title": "インバウンド急増とオーバーツーリズム（観光公害）",
+      "reason": "万博開催による関西への訪日客急増が観光公害問題を加速させ、インバウンド受入体制の整備と観光地の持続可能性が共通課題"
+    },
+    {
+      "id": "osaka-ir-casino-gambling-addiction",
+      "title": "大阪IR（カジノ誘致）とギャンブル等依存症問題",
+      "reason": "万博とIRはいずれも大阪・夢洲を舞台とした大規模開発事業であり、地元経済の活性化と財政リスク・社会問題が一体的に論じられる"
+    }
   ]
 }

@@ -82,6 +82,13 @@
     }
   ],
   "relatedPolicies": [],
+  "relatedTopics": [
+    {
+      "id": "global-migration-refugee-crisis",
+      "title": "世界の難民・移民危機と国境管理をめぐる対立",
+      "reason": "ベネズエラからの770万人超の難民流出は世界の移民・難民危機の最大規模の構成要素の一つ"
+    }
+  ],
   "sources": [
     {
       "title": "Venezuela Situation Overview (Refugees and Migrants)",
@@ -171,6 +178,13 @@
           "content": "ラテンアメリカ左派からも見放されつつあるマドゥロ体制が、なぜ倒れないのか。原油・金密輸による軍高官の買収構造と、米国に対抗する地政学的足場として支援を続けるロシア・中国・キューバの戦略的意図を解き明かします。"
         }
       ]
+    }
+  ],
+  "relatedTopics": [
+    {
+      "id": "latin-america-politics",
+      "title": "中南米政治の流動化と大国関係",
+      "reason": "マドゥロ独裁とベネズエラ危機が中南米全体の左右政権交代ブームと移民危機を牽引し、地域政治の最大の不安定要因となっている"
     }
   ]
 }

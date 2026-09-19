@@ -159,6 +159,13 @@
     }
   ],
   "relatedPolicies": [],
+  "relatedTopics": [
+    {
+      "id": "regional-revitalization-depopulation",
+      "title": "地方創生と「消滅可能性自治体」",
+      "reason": "農地放棄地や里山荒廃による人とクマの生息域の接近は、過疎化・人口減少が引き起こす深刻な地域課題"
+    }
+  ],
   "statCardsData": [
     {
       "id": "bear-human-casualties-record",

@@ -61,6 +61,28 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "tokuryu-anonymous-organized-crime",
+      "title": "闇バイト・匿名流動型犯罪グループ（トクリュウ）",
+      "reason": "SNS詐欺の実行部隊としてトクリュウが関与しており、両者はデジタル犯罪の組織的側面と被害者の観点で深く連動する"
+    },
+    {
+      "id": "cyber-security-threats",
+      "title": "サイバー攻撃の脅威と能動的サイバー防御",
+      "reason": "AIディープフェイク技術を悪用したSNS詐欺広告は、サイバー犯罪の一形態として国家のサイバー安全保障政策と表裏一体の課題である"
+    },
+    {
+      "id": "generative-ai-copyright-disinformation",
+      "title": "生成AIと著作権・偽情報対策",
+      "reason": "生成AIによるディープフェイク技術がSNSなりすまし詐欺広告の精巧化を加速させており、偽情報対策・プラットフォーム規制の文脈で密接に関連する"
+    },
+    {
+      "id": "big-tech-antitrust-regulations",
+      "title": "巨大IT（GAFAM）への独占禁止法規制",
+      "reason": "MetaやGoogleなどの巨大プラットフォーマーが詐欺広告の温床となっており、プラットフォームの責任と規制という点でビッグテック規制論議と密接に重なる"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

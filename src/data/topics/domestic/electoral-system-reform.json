@@ -157,6 +157,18 @@
     }
   ],
   "relatedPolicies": [],
+  "relatedTopics": [
+    {
+      "id": "political-funds-reform",
+      "title": "政治資金規正法改正と「政治とカネ」の決着",
+      "reason": "政治資金改革と選挙制度改革は「政治改革」として一体的に議論される政策課題"
+    },
+    {
+      "id": "local-assembly-candidate-shortage",
+      "title": "地方議会の担い手不足と地方自治の崩壊危機",
+      "reason": "選挙制度・公職選挙法改正の動向が地方議会の候補者不足問題と密接に連動する"
+    }
+  ],
   "sources": [
     {
       "title": "総務省 選挙制度改革関連資料",

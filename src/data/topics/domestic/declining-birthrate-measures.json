@@ -168,6 +168,33 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "child-poverty-young-carer",
+      "title": "子どもの貧困とヤングケアラー支援",
+      "reason": "子育て環境の改善と子どもの貧困解消は少子化対策の根幹であり、支援金制度も含め政策が密接に連動している。"
+    },
+    {
+      "id": "school-truancy-alternative-education",
+      "title": "小中学生の不登校34万人突破と多様な学びの確保",
+      "reason": "学校外の多様な学び支援・不登校対策は、子どもの育ちを守る少子化対策の重要施策と表裏一体の課題である。"
+    },
+    {
+      "id": "higher-education-free-tuition",
+      "title": "大学無償化と高等教育負担軽減・奨学金改革",
+      "reason": "高等教育の費用負担軽減は「こども未来戦略」少子化対策の柱の一つであり、同じ財源（支援金）で推進される。"
+    },
+    {
+      "id": "pension-reform",
+      "title": "年金制度改革と「社会保障の壁」",
+      "reason": "少子化による現役世代の減少は年金財政を直撃し、社会保険料の逆進的負担増が少子化をさらに加速させる悪循環をなす。"
+    },
+    {
+      "id": "immigration-reform",
+      "title": "入管法改正・外国人労働者",
+      "reason": "少子化による人手不足が外国人労働者受け入れ拡大の最大の背景要因であり、両政策は表裏一体の関係にある"
+    }
+  ],
   "relatedPolicies": [
     {
       "id": "childcare-support-fund",

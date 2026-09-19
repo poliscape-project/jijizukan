@@ -190,6 +190,13 @@
       ]
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "digital-government-mynumber",
+      "title": "デジタル行政・マイナンバー制度",
+      "reason": "自治体システムの標準化・ガバメントクラウド移行はマイナンバーを基盤とするデジタル行政の推進と一体であり、同一のDX政策パッケージを構成する"
+    }
+  ],
   "relatedPolicies": [],
   "statCardsData": [
     {

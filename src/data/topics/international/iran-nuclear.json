@@ -141,7 +141,31 @@
       "sources": []
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "nuclear-disarmament-npt",
+      "title": "核軍縮・不拡散体制の危機と抑止のジレンマ",
+      "reason": "イランのウラン濃縮拡大とJCPOA崩壊はNPT体制への深刻な挑戦であり、核不拡散規範の機能不全を象徴する事例となっている。"
+    }
+  ],
   "relatedPolicies": [],
+  "relatedTopics": [
+    {
+      "id": "middle-east-gaza-conflict",
+      "title": "中東情勢（イスラエル・ガザ・イラン）の激化と地域戦争危機",
+      "reason": "イスラエルとの直接軍事衝突がイランの核武装を加速させる可能性があり、中東全体の安全保障と核拡散リスクが直結している"
+    },
+    {
+      "id": "middle-east-proxy-conflicts",
+      "title": "中東の代理戦争と紅海危機（ヒズボラ・フーシ派）",
+      "reason": "「抵抗の枢軸」の弱体化がイランを直接参戦に追い込み、核抑止力への依存を高める戦略的背景がある"
+    },
+    {
+      "id": "nuclear-disarmament-npt",
+      "title": "核軍縮・不拡散体制の危機と抑止のジレンマ",
+      "reason": "イランの高濃縮ウラン備蓄拡大はNPT体制への最大の挑戦の一つであり、核不拡散体制の崩壊リスクを象徴している"
+    }
+  ],
   "sources": [
     {
       "title": "イランの核問題に関するIAEA報告書",

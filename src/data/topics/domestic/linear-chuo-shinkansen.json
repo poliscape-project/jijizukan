@@ -240,5 +240,22 @@
       "url": "https://www.mlit.go.jp/tetudo/tetudo_tk1_000004.html",
       "organization": "国土交通省"
     }
+  ],
+  "relatedTopics": [
+    {
+      "id": "overtourism-inbound-policy",
+      "title": "インバウンド急増とオーバーツーリズム（観光公害）",
+      "reason": "リニア開通による東京・大阪間の移動時間短縮が訪日客の地方分散を促し、観光公害の地理的分散策としても期待される"
+    },
+    {
+      "id": "logistics-crisis-modal-shift",
+      "title": "物流2024年問題とモーダルシフト",
+      "reason": "リニア開業で東海道新幹線の貨客混載が可能となるなど、鉄道を活用したモーダルシフト推進の重要なインフラ条件となる"
+    },
+    {
+      "id": "local-railways-bus-restructuring",
+      "title": "ローカル鉄道・地方路線の廃線危機と再構築",
+      "reason": "リニアが東海道幹線を引き受けることで在来線のリソース再配分が可能になる一方、並行在来線の経営分離問題を引き起こすリスクもある"
+    }
   ]
 }

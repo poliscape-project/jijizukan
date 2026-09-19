@@ -150,6 +150,28 @@
     }
   ],
   "relatedPolicies": [],
+  "relatedTopics": [
+    {
+      "id": "regional-revitalization-depopulation",
+      "title": "地方創生と「消滅可能性自治体」",
+      "reason": "人口減少による過疎化がローカル線の利用者減・廃線危機の根本原因であり、地域の移動手段確保は地方創生の前提条件"
+    },
+    {
+      "id": "ride-sharing-transport",
+      "title": "ライドシェア導入と地域交通維持",
+      "reason": "ローカル線廃線後の代替交通手段としてライドシェアや自家用有償旅客運送の活用が不可欠"
+    },
+    {
+      "id": "logistics-crisis-modal-shift",
+      "title": "物流2024年問題とモーダルシフト",
+      "reason": "ローカル線の貨物輸送機能維持はトラック輸送からのモーダルシフトに直結し、物流2024年問題の解決策として連動する"
+    },
+    {
+      "id": "linear-chuo-shinkansen",
+      "title": "リニア中央新幹線と静岡工区問題",
+      "reason": "リニア整備がもたらす在来線ネットワーク再編と並行在来線の経営分離問題がローカル線の廃線・再構築議論と連動している"
+    }
+  ],
   "sources": [
     {
       "title": "地域モビリティの再構築に向けた取組について",

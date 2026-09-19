@@ -187,5 +187,27 @@
       "url": "https://www.imf.org/en/Publications/WEO",
       "organization": "国際通貨基金（IMF）"
     }
+  ],
+  "relatedTopics": [
+    {
+      "id": "de-dollarization-currency-hegemony",
+      "title": "「脱ドル化」の動きと通貨覇権の攻防",
+      "reason": "BRICSが推進する自国通貨決済や独自決済網（BRICS Pay）構想が脱ドル化運動の制度的な核心を担っている"
+    },
+    {
+      "id": "sahel-africa-coups",
+      "title": "アフリカ・サヘル地域の政変と国際秩序",
+      "reason": "サヘルの軍事クーデター政権がBRICSやロシアに接近し、反欧米陣営の地政学的影響圏を広げるグローバルサウス再編の最前線"
+    },
+    {
+      "id": "latin-america-politics",
+      "title": "中南米政治の流動化と大国関係",
+      "reason": "ブラジルが議長国を務めるなどBRICSの重要メンバーが中南米に集中しており、地域政治の動向がBRICS結束力を左右する"
+    },
+    {
+      "id": "india-strategic-autonomy-diplomacy",
+      "title": "インドの世界外交と「戦略的自律」",
+      "reason": "BRICSの主要メンバーであるインドが反西側同盟化に抵抗し、多極的連合体としての性格を決定づける存在"
+    }
   ]
 }

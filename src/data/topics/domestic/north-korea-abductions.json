@@ -145,6 +145,23 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "russia-north-korea-alliance",
+      "title": "ロシア・北朝鮮軍事同盟と核・ミサイル",
+      "reason": "露朝軍事同盟の深化で北朝鮮への国際圧力が弱体化し、拉致問題解決に向けた外交交渉空間がさらに狭まっている。"
+    },
+    {
+      "id": "north-korea-nuclear-missile",
+      "title": "北朝鮮の核・ミサイル問題",
+      "reason": "拉致問題と核・ミサイル問題は日朝間の二大懸案として連動しており、北朝鮮の核開発強化が交渉の進展を阻んでいる。"
+    },
+    {
+      "id": "japan-south-korea-relations",
+      "title": "日韓関係",
+      "reason": "北朝鮮問題への対応において日韓の緊密な連携が不可欠であり、拉致問題の国際的な訴えも日韓協力が支えている。"
+    }
+  ],
   "relatedPolicies": [],
   "statCardsData": [
     {

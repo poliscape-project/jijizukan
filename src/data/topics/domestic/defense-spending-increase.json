@@ -175,6 +175,23 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "defense-equipment-transfer",
+      "title": "防衛装備移転三原則の緩和と次期戦闘機輸出",
+      "reason": "防衛費の大幅増額は防衛産業基盤の強化・装備移転政策と一体で推進されており、GCAPなど国際共同開発への参画も財政的に支えられている。"
+    },
+    {
+      "id": "constitutional-amendment-debate",
+      "title": "憲法改正議論",
+      "reason": "GDP比2%への防衛費大幅増額は自衛隊の法的位置づけや専守防衛原則の再解釈と深く結びつき、憲法改正議論の最大の背景要因の一つとなっている。"
+    },
+    {
+      "id": "okinawa-base-issue",
+      "title": "沖縄基地問題（普天間基地移設と辺野古新基地建設）",
+      "reason": "防衛費増額による南西諸島へのミサイル部隊配備強化は沖縄の基地負担問題と直接連動しており、基地問題の複雑さをさらに増している。"
+    }
+  ],
   "relatedPolicies": [
     {
       "id": "defense-tax-hike",

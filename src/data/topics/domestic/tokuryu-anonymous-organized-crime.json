@@ -61,6 +61,23 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "sns-investment-scam-platform-liability",
+      "title": "SNS投資詐欺・著名人なりすまし広告と巨大ITの責任",
+      "reason": "闇バイトで集めた実行犯がSNS投資詐欺の受け子・出し子として使われており、トクリュウはSNS詐欺エコシステムの犯罪インフラを担う"
+    },
+    {
+      "id": "cyberattack-infrastructure-line-kadokawa",
+      "title": "巨大情報漏洩・ランサムウェア攻撃と重要インフラ防衛",
+      "reason": "トクリュウは暗号化通信アプリや匿名プラットフォームを駆使する点でサイバー犯罪と交差し、通信傍受法整備という共通の立法課題がある"
+    },
+    {
+      "id": "digital-government-mynumber",
+      "title": "デジタル行政・マイナンバー制度",
+      "reason": "闇バイト応募時に個人番号カードや免許証情報が悪用される問題は、マイナンバー等のデジタル本人確認制度の悪用防止対策と密接に関連する"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

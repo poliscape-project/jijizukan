@@ -133,6 +133,23 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "defense-spending-increase",
+      "title": "防衛費増額（GDP比2%）と防衛増税の現在地",
+      "reason": "防衛費増額による南西諸島へのミサイル部隊配備強化は沖縄の基地負担問題と直接連動しており、国の防衛戦略と地域の基地問題が緊張関係にある。"
+    },
+    {
+      "id": "indo-pacific-quad",
+      "title": "インド太平洋戦略・Quad",
+      "reason": "インド太平洋の抑止体制において沖縄の米軍基地は地理的に不可欠な拠点であり、Quadの戦略的文脈から基地問題の位置づけを理解することができる。"
+    },
+    {
+      "id": "japan-china-relations",
+      "title": "日中関係の雪解けと摩擦",
+      "reason": "沖縄に集中する米軍基地は中国側から見た日米同盟の象徴であり、尖閣問題や台湾問題と絡んで日中間の安全保障摩擦の核心に位置している。"
+    }
+  ],
   "relatedPolicies": [
     {
       "id": "okinawa-base-futenma-relocation",

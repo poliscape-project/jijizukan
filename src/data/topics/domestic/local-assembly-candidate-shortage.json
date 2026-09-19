@@ -62,6 +62,23 @@
     }
   ],
   "relatedPolicies": [],
+  "relatedTopics": [
+    {
+      "id": "political-funds-reform",
+      "title": "政治資金規正法改正と「政治とカネ」の決着",
+      "reason": "政治資金規制の強化が地方議会の候補者不足に与える影響も議論されており、政治参加の障壁として連動する"
+    },
+    {
+      "id": "electoral-system-reform",
+      "title": "選挙制度改革と「一票の格差」・選挙運動のあり方",
+      "reason": "選挙制度・公職選挙法改正の動向が地方議会の候補者不足問題と密接に連動する"
+    },
+    {
+      "id": "regional-revitalization-depopulation",
+      "title": "地方創生と「消滅可能性自治体」",
+      "reason": "人口減少と過疎化が地方議会の担い手不足を直接引き起こしており、地方創生と議会再生は表裏一体の課題"
+    }
+  ],
   "sources": [
     {
       "title": "総務省 地方制度調査会 答申および専門小委員会資料",

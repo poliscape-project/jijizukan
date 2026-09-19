@@ -173,6 +173,33 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "russia-north-korea-alliance",
+      "title": "ロシア・北朝鮮軍事同盟と核・ミサイル",
+      "reason": "北朝鮮がロシアに砲弾・兵士を供与しウクライナ戦争を直接支援しており、両者は不可分のグローバル安全保障問題となっている。"
+    },
+    {
+      "id": "nato-expansion-defense-burden",
+      "title": "NATOの拡大と防衛費負担増（東方防衛強化）",
+      "reason": "ロシアの侵攻を受けてフィンランド・スウェーデンが加盟し、欧州全体の防衛費増額が急加速した直接的な契機となっている。"
+    },
+    {
+      "id": "european-far-right",
+      "title": "欧州政治の変動（極右台頭）",
+      "reason": "戦争の長期化に伴うエネルギー高騰や難民流入が欧州の右派政党を勢いづけ、ウクライナ支援継続への反対論とも連動している。"
+    },
+    {
+      "id": "nuclear-disarmament-npt",
+      "title": "核軍縮・不拡散体制の危機と抑止のジレンマ",
+      "reason": "ロシアが核威嚇を日常的に利用し、核のタブーの崩壊と軍備管理枠組みの崩壊を象徴するケースとして直結している。"
+    },
+    {
+      "id": "drone-warfare-laws-autonomous-weapons",
+      "title": "ドローン戦・自律型致死兵器（LAWS）の戦場革命",
+      "reason": "ウクライナ戦争はFPVドローンやAI自律兵器が大規模に実戦投入された史上初の事例であり、現代戦の変革を象徴している。"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

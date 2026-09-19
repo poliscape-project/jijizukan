@@ -170,6 +170,23 @@
     }
   ],
   "relatedPolicies": [],
+  "relatedTopics": [
+    {
+      "id": "global-migration-refugee-crisis",
+      "title": "世界の難民・移民危機と国境管理をめぐる対立",
+      "reason": "日本の外国人受け入れ制度改革は、世界規模の難民・移民危機という国際的文脈の中に位置づけられる"
+    },
+    {
+      "id": "foreign-residents-provisional-release-friction",
+      "title": "外国人住民・仮放免者と地域社会の摩擦",
+      "reason": "仮放免制度の矛盾は入管法改正と表裏一体であり、地域社会への影響が直接連動している"
+    },
+    {
+      "id": "declining-birthrate-measures",
+      "title": "少子化対策と「子ども・子育て支援金」制度",
+      "reason": "少子化による深刻な人手不足が外国人労働者受け入れ拡大の根本的な背景要因となっている"
+    }
+  ],
   "sources": [
     {
       "title": "出入国在留管理庁 政策・法令情報",

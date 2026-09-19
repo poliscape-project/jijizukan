@@ -61,6 +61,23 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "declining-birthrate-measures",
+      "title": "少子化対策と「子ども・子育て支援金」制度",
+      "reason": "不登校対策・多様な学びの確保は、子どもの育ちを全社会で支える少子化対策の重要な柱として位置づけられている。"
+    },
+    {
+      "id": "child-poverty-young-carer",
+      "title": "子どもの貧困とヤングケアラー支援",
+      "reason": "経済的困窮やヤングケアラー状態にある子どもが不登校になりやすく、支援策の連携が急務となっている。"
+    },
+    {
+      "id": "teacher-work-style-kyotoku",
+      "title": "教員の働き方改革と給特法見直し",
+      "reason": "不登校への個別対応が教員の過重負担をさらに増大させており、教員の労働環境改善が不登校支援の前提条件となっている。"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

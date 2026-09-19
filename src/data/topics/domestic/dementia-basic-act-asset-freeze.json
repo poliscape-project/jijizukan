@@ -61,6 +61,23 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "loneliness-isolation-prevention-act",
+      "title": "孤独・孤立対策と「孤独・孤立対策推進法」",
+      "reason": "認知症高齢者の社会的孤立や8050問題は、孤独・孤立対策推進法が解決しようとする課題と重なっている。"
+    },
+    {
+      "id": "healthcare-system-reform",
+      "title": "医療制度改革と現役世代の負担増",
+      "reason": "認知症患者の急増は医療費膨張の主因の一つであり、医療制度改革の財政論・2025年問題と一体の課題である。"
+    },
+    {
+      "id": "nursing-care-system-crisis",
+      "title": "介護保険制度改革と介護現場の危機",
+      "reason": "認知症高齢者は介護保険の主要利用者であり、認知症増加は介護財政・人材不足危機の最大要因の一つである。"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

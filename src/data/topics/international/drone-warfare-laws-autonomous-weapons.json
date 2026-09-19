@@ -151,6 +151,18 @@
       "significance": "high"
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "ukraine-russia-war",
+      "title": "ウクライナ戦争の長期化と停戦交渉の現実",
+      "reason": "ウクライナ戦争は史上初のドローン・AI自律兵器大規模実戦の場となり、現代戦の革命的変容を世界に示した最大の事例である。"
+    },
+    {
+      "id": "space-race-security",
+      "title": "宇宙開発競争と安全保障",
+      "reason": "偵察衛星・GPS・衛星通信はドローン戦の前提インフラであり、宇宙と無人兵器の安全保障は不可分に結びついている。"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

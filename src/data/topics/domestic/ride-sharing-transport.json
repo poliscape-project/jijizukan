@@ -157,6 +157,13 @@
     }
   ],
   "relatedPolicies": [],
+  "relatedTopics": [
+    {
+      "id": "local-railways-bus-restructuring",
+      "title": "ローカル鉄道・地方路線の廃線危機と再構築",
+      "reason": "ローカル線廃線後の代替交通手段としてライドシェアや自家用有償旅客運送の活用が不可欠"
+    }
+  ],
   "sources": [
     {
       "title": "国土交通省 自家用車活用事業（日本版ライドシェア）",
@@ -177,6 +184,18 @@
       "title": "全国ハイヤー・タクシー連合会",
       "url": "http://www.taxi-japan.or.jp/",
       "organization": "一般社団法人全国ハイヤー・タクシー連合会"
+    }
+  ],
+  "relatedTopics": [
+    {
+      "id": "logistics-crisis-modal-shift",
+      "title": "物流2024年問題とモーダルシフト",
+      "reason": "ドライバー不足という共通課題を抱えており、ライドシェアによる輸送力補完とモーダルシフトは地域交通・物流の持続可能性を同じ文脈で問う"
+    },
+    {
+      "id": "local-railways-bus-restructuring",
+      "title": "ローカル鉄道・地方路線の廃線危機と再構築",
+      "reason": "ローカル線廃線後の代替交通手段としてライドシェアや自家用有償旅客運送の活用が地域モビリティ維持の鍵を握っている"
     }
   ]
 }

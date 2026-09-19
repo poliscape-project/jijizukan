@@ -203,6 +203,18 @@
       ]
     }
   ],
+  "relatedTopics": [
+    {
+      "id": "tokuryu-anonymous-organized-crime",
+      "title": "闇バイト・匿名流動型犯罪グループ（トクリュウ）",
+      "reason": "ランサムウェアやサイバー攻撃のインフラは闇バイトを使う犯罪組織と重複し、通信傍受・捜査権限強化という共通の立法課題を持つ"
+    },
+    {
+      "id": "cyber-security-threats",
+      "title": "サイバー攻撃の脅威と能動的サイバー防御",
+      "reason": "LINEヤフーやKADOKAWAへの攻撃は国際的な国家支援型サイバー攻撃の文脈と重なり、能動的サイバー防御の法制化の必要性を裏付ける具体的事例である"
+    }
+  ],
   "relatedPolicies": [],
   "sources": [
     {

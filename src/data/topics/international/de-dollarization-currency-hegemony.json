@@ -255,5 +255,22 @@
       "url": "https://www.bis.org/statistics/rpfx22.htm",
       "organization": "国際決済銀行（BIS）"
     }
+  ],
+  "relatedTopics": [
+    {
+      "id": "global-south-brics",
+      "title": "グローバルサウスの台頭",
+      "reason": "BRICSが独自の決済網構築（BRICS Pay）や自国通貨建て貿易を推進しており、脱ドル化の制度的核心を担っている"
+    },
+    {
+      "id": "middle-east-proxy-conflicts",
+      "title": "中東の代理戦争と紅海危機（ヒズボラ・フーシ派）",
+      "reason": "中東のシーレーン混乱や産油国のドル決済離れがペトロダラー体制を揺るがし、脱ドル化の地政学的背景となっている"
+    },
+    {
+      "id": "us-china-relations",
+      "title": "米中関係と対中ハイテク規制",
+      "reason": "米国の対中制裁と中国による人民元国際化推進が脱ドル化の主要な推進力であり、覇権争いの金融戦線を形成している"
+    }
   ]
 }
