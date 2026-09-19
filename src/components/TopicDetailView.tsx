@@ -11,6 +11,7 @@ import { KeyActorsBar } from "./KeyActorsBar";
 import { DevelopmentTimeline } from "./DevelopmentTimeline";
 import { RelatedPolicies } from "./RelatedPolicies";
 import { RelatedTopics } from "./RelatedTopics";
+import { TopicDiscussion } from "./TopicDiscussion";
 import {
   ArrowLeft,
   Calendar,
@@ -458,6 +459,9 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
             </button>
           </div>
         )}
+
+        {/* 💬 議論・専門知識・補足情報スレッド（Giscus & GitHub連携） */}
+        <TopicDiscussion topic={topic} />
 
         {/* 戻るリンク */}
         <div className="pt-6 border-t border-slate-200">
