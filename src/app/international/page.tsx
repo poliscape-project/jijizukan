@@ -6,7 +6,8 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { TopicCard } from "@/components/TopicCard";
 import { useCheckedTopics } from "@/lib/checkHistory";
-import { Globe, Search, X, CheckCircle2 } from "lucide-react";
+import { sortTopics, SORT_OPTIONS, type SortOption } from "@/lib/sortTopics";
+import { Globe, Search, X, CheckCircle2, ArrowUpDown } from "lucide-react";
 
 const internationalTopics = getTopicsByScope("international");
 
@@ -26,6 +27,7 @@ export default function InternationalPage() {
   const [query, setQuery] = useState("");
   const [categoryFilter, setCategoryFilter] = useState<string>("all");
   const [checkedFilter, setCheckedFilter] = useState<"all" | "unchecked" | "checked">("all");
+  const [sortBy, setSortBy] = useState<SortOption>("latest-event");
 
   const categories = useMemo(() => {
     const cats = new Set(internationalTopics.map((t) => t.category));
@@ -57,11 +59,8 @@ export default function InternationalPage() {
       );
     }
 
-    return result.sort(
-      (a, b) =>
-        new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
-    );
-  }, [query, categoryFilter, checkedFilter, checkedIds]);
+    return sortTopics(result, sortBy, checkedIds);
+  }, [query, categoryFilter, checkedFilter, checkedIds, sortBy]);
 
   return (
     <>
@@ -125,8 +124,26 @@ export default function InternationalPage() {
             ))}
           </div>
 
-          {/* 未確認のみ切り替えボタン */}
-          <div className="flex items-center gap-2 self-start md:self-auto shrink-0">
+          {/* ソート＆未確認切り替え */}
+          <div className="flex items-center gap-2 self-start md:self-auto shrink-0 flex-wrap">
+            {/* ソート順セレクタ */}
+            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-slate-200 rounded-full shadow-2xs hover:border-slate-300 transition-all">
+              <ArrowUpDown className="w-3.5 h-3.5 text-slate-500 shrink-0" />
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value as SortOption)}
+                aria-label="並び順"
+                className="bg-transparent text-xs font-bold text-slate-700 focus:outline-none cursor-pointer pr-1"
+              >
+                {SORT_OPTIONS.map((opt) => (
+                  <option key={opt.value} value={opt.value}>
+                    {opt.shortLabel}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* 未確認のみ切り替えボタン */}
             <button
               onClick={() => setCheckedFilter(checkedFilter === "unchecked" ? "all" : "unchecked")}
               className={`text-xs px-3.5 py-1.5 rounded-full font-bold transition-all inline-flex items-center gap-1.5 cursor-pointer shadow-2xs ${

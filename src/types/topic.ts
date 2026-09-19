@@ -79,6 +79,7 @@ export interface Topic {
   status: TopicStatus;
   statusLabel: string;
   lastUpdated: string;
+  createdAt?: string;
   overview: string;
 
   // なぜ起きたのか（背景・根本原因）
