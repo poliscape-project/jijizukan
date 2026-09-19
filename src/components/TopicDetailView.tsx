@@ -202,21 +202,25 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
                       key={idx}
                       className="bg-white rounded-xl border border-slate-200 p-4 sm:p-5 shadow-2xs hover:border-slate-300 transition-all"
                     >
-                      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-b border-slate-100 pb-3 mb-3.5">
-                        <div className="flex items-center gap-2">
+                      <div className="border-b border-slate-100 pb-3 mb-3.5 space-y-2.5">
+                        {/* タイトル行：横幅全体を使い、タイトルが縦に押し潰されないように配置 */}
+                        <div className="flex flex-wrap items-center gap-2">
                           <span className="w-2 h-2 rounded-full bg-blue-600 shrink-0" />
-                          <h3 className="font-bold text-sm sm:text-base text-slate-900">
+                          <h3 className="font-bold text-sm sm:text-base text-slate-900 leading-snug">
                             {item.title}
                           </h3>
                           {item.badge && (
-                            <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 shrink-0">
+                            <span className="text-[11px] font-bold px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 shrink-0">
                               {item.badge}
                             </span>
                           )}
                         </div>
+
+                        {/* ハイライト数値（value）：独立した行でゆったり美しく目立たせる */}
                         {item.value && (
-                          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-50 text-blue-800 border border-blue-200/70 font-bold text-xs sm:text-sm shrink-0 self-start sm:self-auto shadow-2xs">
-                            <span>{item.value}</span>
+                          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-blue-50/80 text-blue-800 border border-blue-200/70 font-bold text-xs sm:text-sm shadow-2xs max-w-full">
+                            <span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0" />
+                            <span className="break-words leading-relaxed">{item.value}</span>
                           </div>
                         )}
                       </div>
