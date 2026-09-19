@@ -136,7 +136,7 @@ export const topics: Topic[] = [
   { ...henokoBoatCapsizeAccidentData, createdAt: "2026-09-19T23:17:03+09:00" } as unknown as Topic,
   { ...henokoProtestMovementControversyData, createdAt: "2026-09-19T23:29:02+09:00" } as unknown as Topic,
   { ...higherEducationFreeTuitionData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
-  { ...hyogoGubernatorialElection2024Data, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...hyogoGubernatorialElection2024Data, createdAt: "2026-09-20T00:27:48+09:00" } as unknown as Topic,
   { ...immigrationReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...imperialSuccessionData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...kawaguchiFatalAccidentCourtRulingData, createdAt: "2026-09-19T20:37:59+09:00" } as unknown as Topic,
