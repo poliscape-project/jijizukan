@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (60件)
+// 国内トピック (61件)
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import bojMonetaryPolicyNormalizationData from "@/data/topics/domestic/boj-monetary-policy-normalization.json";
 import childPovertyYoungCarerData from "@/data/topics/domestic/child-poverty-young-carer.json";
@@ -25,6 +25,7 @@ import healthcareSystemReformData from "@/data/topics/domestic/healthcare-system
 import henokoBoatCapsizeAccidentData from "@/data/topics/domestic/henoko-boat-capsize-accident.json";
 import henokoProtestMovementControversyData from "@/data/topics/domestic/henoko-protest-movement-controversy.json";
 import higherEducationFreeTuitionData from "@/data/topics/domestic/higher-education-free-tuition.json";
+import hyogoGubernatorialElection2024Data from "@/data/topics/domestic/hyogo-gubernatorial-election-2024.json";
 import immigrationReformData from "@/data/topics/domestic/immigration-reform.json";
 import imperialSuccessionData from "@/data/topics/domestic/imperial-succession.json";
 import kawaguchiFatalAccidentCourtRulingData from "@/data/topics/domestic/kawaguchi-fatal-accident-court-ruling.json";
@@ -135,6 +136,7 @@ export const topics: Topic[] = [
   { ...henokoBoatCapsizeAccidentData, createdAt: "2026-09-19T23:17:03+09:00" } as unknown as Topic,
   { ...henokoProtestMovementControversyData, createdAt: "2026-09-19T23:29:02+09:00" } as unknown as Topic,
   { ...higherEducationFreeTuitionData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
+  { ...hyogoGubernatorialElection2024Data, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...immigrationReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...imperialSuccessionData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...kawaguchiFatalAccidentCourtRulingData, createdAt: "2026-09-19T20:37:59+09:00" } as unknown as Topic,
