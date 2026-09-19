@@ -2,9 +2,17 @@
 
 import React from "react";
 import Link from "next/link";
-import { Newspaper, BookMarked, Globe, Landmark } from "lucide-react";
+import { Newspaper, BookMarked, Globe, Landmark, CheckCircle2 } from "lucide-react";
+import { getAllTopics } from "@/lib/topics";
+import { useReadTopics } from "@/lib/readHistory";
+
+const allTopics = getAllTopics();
+const totalTopics = allTopics.length;
 
 export const Header: React.FC = () => {
+  const { readCount, isLoaded } = useReadTopics();
+  const percent = totalTopics > 0 ? Math.round((readCount / totalTopics) * 100) : 0;
+
   return (
     <header className="border-b border-slate-200 bg-white/80 backdrop-blur-md sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-3.5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
@@ -32,9 +40,27 @@ export const Header: React.FC = () => {
           </div>
         </Link>
 
-        {/* ナビゲーション */}
+        {/* ナビゲーション & 読破メーター */}
         <nav aria-label="メインナビゲーション">
           <div className="flex items-center gap-2 self-end sm:self-auto flex-wrap">
+            {/* 読破メーター */}
+            <div
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200/80 shadow-2xs cursor-default"
+              title={`全${totalTopics}トピック中、${readCount}トピックを読了済み`}
+            >
+              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+              <span>
+                読破{" "}
+                <strong className="font-bold text-emerald-900">
+                  {isLoaded ? readCount : 0}
+                </strong>
+                /{totalTopics}
+              </span>
+              <span className="text-[10px] font-bold px-1.5 py-0.2 bg-emerald-600 text-white rounded-full">
+                {isLoaded ? percent : 0}%
+              </span>
+            </div>
+
             <Link
               href="/domestic"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-rose-50 text-rose-800 hover:bg-rose-100 border border-rose-200/70 transition-all shadow-2xs cursor-pointer"

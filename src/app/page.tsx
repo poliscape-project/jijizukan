@@ -5,7 +5,8 @@ import { getAllTopics } from "@/lib/topics";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { TopicCard } from "@/components/TopicCard";
-import { Search, X, Landmark, Globe, Filter } from "lucide-react";
+import { useReadTopics } from "@/lib/readHistory";
+import { Search, X, Landmark, Globe, Filter, CheckCircle2 } from "lucide-react";
 import type { TopicStatus } from "@/types/topic";
 
 const allTopics = getAllTopics();
@@ -19,11 +20,13 @@ const STATUS_FILTERS: { value: TopicStatus | "all"; label: string }[] = [
 ];
 
 export default function HomePage() {
+  const { readIds, isLoaded } = useReadTopics();
   const [query, setQuery] = useState("");
   const [scopeFilter, setScopeFilter] = useState<
     "all" | "domestic" | "international"
   >("all");
   const [statusFilter, setStatusFilter] = useState<TopicStatus | "all">("all");
+  const [readFilter, setReadFilter] = useState<"all" | "unread" | "read">("all");
 
   const filtered = useMemo(() => {
     let result = allTopics;
@@ -36,6 +39,13 @@ export default function HomePage() {
     // ステータスフィルタ
     if (statusFilter !== "all") {
       result = result.filter((t) => t.status === statusFilter);
+    }
+
+    // 既読・未読フィルタ
+    if (readFilter === "unread") {
+      result = result.filter((t) => !readIds.includes(t.id));
+    } else if (readFilter === "read") {
+      result = result.filter((t) => readIds.includes(t.id));
     }
 
     // 検索
@@ -56,7 +66,7 @@ export default function HomePage() {
       (a, b) =>
         new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
     );
-  }, [query, scopeFilter, statusFilter]);
+  }, [query, scopeFilter, statusFilter, readFilter, readIds]);
 
   return (
     <>
@@ -96,60 +106,88 @@ export default function HomePage() {
         </div>
 
         {/* フィルタ */}
-        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 mb-6">
-          {/* スコープフィルタ */}
-          <div className="flex items-center gap-1.5">
-            <Filter className="w-3.5 h-3.5 text-slate-400" />
-            <button
-              onClick={() => setScopeFilter("all")}
-              className={`text-xs px-3 py-1.5 rounded-full font-medium transition-all ${
-                scopeFilter === "all"
-                  ? "bg-slate-900 text-white"
-                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-              }`}
-            >
-              すべて ({allTopics.length})
-            </button>
-            <button
-              onClick={() => setScopeFilter("domestic")}
-              className={`text-xs px-3 py-1.5 rounded-full font-medium transition-all inline-flex items-center gap-1 ${
-                scopeFilter === "domestic"
-                  ? "bg-rose-600 text-white"
-                  : "bg-rose-50 text-rose-700 hover:bg-rose-100"
-              }`}
-            >
-              <Landmark className="w-3 h-3" />
-              国内 ({allTopics.filter((t) => t.scope === "domestic").length})
-            </button>
-            <button
-              onClick={() => setScopeFilter("international")}
-              className={`text-xs px-3 py-1.5 rounded-full font-medium transition-all inline-flex items-center gap-1 ${
-                scopeFilter === "international"
-                  ? "bg-sky-600 text-white"
-                  : "bg-sky-50 text-sky-700 hover:bg-sky-100"
-              }`}
-            >
-              <Globe className="w-3 h-3" />
-              国際 (
-              {allTopics.filter((t) => t.scope === "international").length})
-            </button>
-          </div>
-
-          {/* ステータスフィルタ */}
-          <div className="flex items-center gap-1.5 flex-wrap">
-            {STATUS_FILTERS.map((sf) => (
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-6">
+          <div className="flex items-center gap-2 flex-wrap">
+            {/* スコープフィルタ */}
+            <div className="flex items-center gap-1.5 flex-wrap">
+              <Filter className="w-3.5 h-3.5 text-slate-400 shrink-0" />
               <button
-                key={sf.value}
-                onClick={() => setStatusFilter(sf.value)}
-                className={`text-[11px] px-2.5 py-1 rounded-full font-medium transition-all ${
-                  statusFilter === sf.value
-                    ? "bg-slate-700 text-white"
-                    : "bg-slate-100 text-slate-500 hover:bg-slate-200"
+                onClick={() => setScopeFilter("all")}
+                className={`text-xs px-3 py-1.5 rounded-full font-medium transition-all ${
+                  scopeFilter === "all"
+                    ? "bg-slate-900 text-white"
+                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
                 }`}
               >
-                {sf.label}
+                すべて ({allTopics.length})
               </button>
-            ))}
+              <button
+                onClick={() => setScopeFilter("domestic")}
+                className={`text-xs px-3 py-1.5 rounded-full font-medium transition-all inline-flex items-center gap-1 ${
+                  scopeFilter === "domestic"
+                    ? "bg-rose-600 text-white"
+                    : "bg-rose-50 text-rose-700 hover:bg-rose-100"
+                }`}
+              >
+                <Landmark className="w-3 h-3" />
+                国内 ({allTopics.filter((t) => t.scope === "domestic").length})
+              </button>
+              <button
+                onClick={() => setScopeFilter("international")}
+                className={`text-xs px-3 py-1.5 rounded-full font-medium transition-all inline-flex items-center gap-1 ${
+                  scopeFilter === "international"
+                    ? "bg-sky-600 text-white"
+                    : "bg-sky-50 text-sky-700 hover:bg-sky-100"
+                }`}
+              >
+                <Globe className="w-3 h-3" />
+                国際 ({allTopics.filter((t) => t.scope === "international").length})
+              </button>
+            </div>
+
+            {/* ステータスフィルタ */}
+            <div className="flex items-center gap-1.5 flex-wrap">
+              {STATUS_FILTERS.map((sf) => (
+                <button
+                  key={sf.value}
+                  onClick={() => setStatusFilter(sf.value)}
+                  className={`text-[11px] px-2.5 py-1 rounded-full font-medium transition-all ${
+                    statusFilter === sf.value
+                      ? "bg-slate-700 text-white"
+                      : "bg-slate-100 text-slate-500 hover:bg-slate-200"
+                  }`}
+                >
+                  {sf.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* 未読のみ切り替えボタン */}
+          <div className="flex items-center gap-2 self-start md:self-auto shrink-0">
+            <button
+              onClick={() => setReadFilter(readFilter === "unread" ? "all" : "unread")}
+              className={`text-xs px-3.5 py-1.5 rounded-full font-bold transition-all inline-flex items-center gap-1.5 cursor-pointer shadow-2xs ${
+                readFilter === "unread"
+                  ? "bg-emerald-600 text-white shadow-xs"
+                  : "bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200/80"
+              }`}
+              title="まだ読んでいないトピックだけを表示"
+            >
+              <CheckCircle2 className="w-3.5 h-3.5" />
+              <span>未読のみ表示</span>
+              {isLoaded && readIds.length > 0 && (
+                <span
+                  className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                    readFilter === "unread"
+                      ? "bg-white/20 text-white"
+                      : "bg-emerald-200 text-emerald-900"
+                  }`}
+                >
+                  {allTopics.length - readIds.length}
+                </span>
+              )}
+            </button>
           </div>
         </div>
 
@@ -157,21 +195,30 @@ export default function HomePage() {
         {filtered.length > 0 ? (
           <div className="grid gap-4 sm:grid-cols-2">
             {filtered.map((topic) => (
-              <TopicCard key={topic.id} topic={topic} />
+              <TopicCard
+                key={topic.id}
+                topic={topic}
+                isRead={readIds.includes(topic.id)}
+              />
             ))}
           </div>
         ) : (
           <div className="text-center py-16">
-            <p className="text-slate-500">該当するトピックがありません</p>
+            <p className="text-slate-500">
+              {readFilter === "unread"
+                ? "すべてのトピックを読破しました！🎉"
+                : "該当するトピックがありません"}
+            </p>
             <button
               onClick={() => {
                 setQuery("");
                 setScopeFilter("all");
                 setStatusFilter("all");
+                setReadFilter("all");
               }}
-              className="mt-3 text-sm text-blue-600 hover:text-blue-800 font-medium"
+              className="mt-3 text-sm text-blue-600 hover:text-blue-800 font-medium cursor-pointer"
             >
-              フィルタをリセット
+              フィルターをリセット
             </button>
           </div>
         )}

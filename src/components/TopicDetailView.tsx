@@ -1,8 +1,9 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import type { Topic } from "@/types/topic";
+import { useReadTopics } from "@/lib/readHistory";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { StatusBadge } from "./StatusBadge";
@@ -18,6 +19,8 @@ import {
   Landmark,
   Globe,
   Tag,
+  CheckCircle2,
+  Circle,
 } from "lucide-react";
 
 interface TopicDetailViewProps {
@@ -25,6 +28,34 @@ interface TopicDetailViewProps {
 }
 
 export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
+  const { isRead, markAsRead, unmarkAsRead, isLoaded } = useReadTopics();
+  const read = isRead(topic.id);
+
+  // 記事を開いてスクロールまたは一定時間滞在で自動「既読」に記録
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const totalHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      // 250pxスクロール、または全長の25%以上スクロールで既読
+      if (scrollY > 250 || (totalHeight > 0 && scrollY / totalHeight >= 0.25)) {
+        markAsRead(topic.id);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    // 4秒以上滞在でも読了判定
+    const timer = setTimeout(() => {
+      markAsRead(topic.id);
+    }, 4000);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      clearTimeout(timer);
+    };
+  }, [topic.id, markAsRead]);
+
   const scopeIcon =
     topic.scope === "domestic" ? (
       <Landmark className="w-4 h-4 text-rose-600" />
@@ -81,9 +112,36 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
             {topic.title}
           </h1>
           <p className="text-base text-slate-600 mt-2">{topic.subtitle}</p>
-          <div className="flex items-center gap-1 mt-3 text-xs text-slate-400">
-            <Calendar className="w-3.5 h-3.5" />
-            最終更新: {topic.lastUpdated}
+          <div className="flex items-center justify-between flex-wrap gap-2 mt-3 text-xs text-slate-400">
+            <div className="flex items-center gap-1">
+              <Calendar className="w-3.5 h-3.5" />
+              最終更新: {topic.lastUpdated}
+            </div>
+
+            {isLoaded && (
+              <button
+                type="button"
+                onClick={() => (read ? unmarkAsRead(topic.id) : markAsRead(topic.id))}
+                className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold transition-all cursor-pointer ${
+                  read
+                    ? "bg-emerald-50 text-emerald-700 border border-emerald-200/80 hover:bg-emerald-100"
+                    : "bg-slate-100 text-slate-500 border border-slate-200 hover:bg-slate-200 hover:text-slate-700"
+                }`}
+                title={read ? "クリックで未読に戻す" : "クリックで読了にする"}
+              >
+                {read ? (
+                  <>
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                    <span>読了済み</span>
+                  </>
+                ) : (
+                  <>
+                    <Circle className="w-3.5 h-3.5 text-slate-400" />
+                    <span>スクロールで読了</span>
+                  </>
+                )}
+              </button>
+            )}
           </div>
         </div>
 

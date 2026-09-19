@@ -2,10 +2,11 @@ import React from "react";
 import Link from "next/link";
 import type { Topic } from "@/types/topic";
 import { StatusBadge } from "./StatusBadge";
-import { Users, ArrowRight } from "lucide-react";
+import { Users, ArrowRight, Check } from "lucide-react";
 
 interface TopicCardProps {
   topic: Topic;
+  isRead?: boolean;
 }
 
 const SCOPE_STYLE = {
@@ -19,23 +20,33 @@ const SCOPE_STYLE = {
   },
 };
 
-export const TopicCard: React.FC<TopicCardProps> = ({ topic }) => {
+export const TopicCard: React.FC<TopicCardProps> = ({ topic, isRead = false }) => {
   const style = SCOPE_STYLE[topic.scope];
   const latestDev = topic.developments[0];
 
   return (
     <Link
       href={`/topics/${topic.id}`}
-      className="group bg-white rounded-2xl border border-slate-200/80 p-5 shadow-xs hover:border-blue-400 hover:shadow-md transition-all flex flex-col justify-between"
+      className={`group bg-white rounded-2xl border ${
+        isRead ? "border-slate-200" : "border-slate-200/80"
+      } p-5 shadow-xs hover:border-blue-400 hover:shadow-md transition-all flex flex-col justify-between`}
     >
       <div>
-        {/* バッジ: スコープ（左） + ステータス（右） */}
+        {/* バッジ: スコープ（左） + 既読バッジ + ステータス（右） */}
         <div className="flex items-center justify-between gap-2 mb-3">
-          <span
-            className={`text-[11px] font-bold px-2.5 py-0.5 rounded-md ${style.scopeBg}`}
-          >
-            {style.scopeLabel}
-          </span>
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <span
+              className={`text-[11px] font-bold px-2.5 py-0.5 rounded-md ${style.scopeBg}`}
+            >
+              {style.scopeLabel}
+            </span>
+            {isRead && (
+              <span className="inline-flex items-center gap-0.5 text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200/80 shadow-2xs">
+                <Check className="w-3 h-3 text-emerald-600 stroke-[2.5]" />
+                既読
+              </span>
+            )}
+          </div>
           <StatusBadge status={topic.status} label={topic.statusLabel} />
         </div>
 
