@@ -168,53 +168,85 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
               </div>
             )}
 
-            {/* 数値・予算ハイライト付きデータカード（横スクロール不要のスタックカード） */}
+            {/* 数値・予算・比較ハイライト付きデータカード（横スクロール不要のスタックカード） */}
             {section.type === "stat_cards" && section.statCardsData && (
               <div className="space-y-4">
-                {section.statCardsData.map((item, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-white rounded-xl border border-slate-200 p-4 sm:p-5 shadow-2xs hover:border-slate-300 transition-all"
-                  >
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-b border-slate-100 pb-3 mb-3.5">
-                      <div className="flex items-center gap-2">
-                        <span className="w-2 h-2 rounded-full bg-blue-600 shrink-0" />
-                        <h3 className="font-bold text-sm sm:text-base text-slate-900">
-                          {item.title}
-                        </h3>
-                        {item.badge && (
-                          <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 shrink-0">
-                            {item.badge}
-                          </span>
+                {section.statCardsData.map((item, idx) => {
+                  const leftContent = item.leftContent || item.challenge;
+                  const leftTitle = item.leftTitle || (item.challenge ? "⚠️ 現状と課題" : undefined);
+                  const rightContent = item.rightContent || item.measure;
+                  const rightTitle = item.rightTitle || (item.measure ? "💡 対策・今後の見通し" : undefined);
+
+                  return (
+                    <div
+                      key={idx}
+                      className="bg-white rounded-xl border border-slate-200 p-4 sm:p-5 shadow-2xs hover:border-slate-300 transition-all"
+                    >
+                      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-b border-slate-100 pb-3 mb-3.5">
+                        <div className="flex items-center gap-2">
+                          <span className="w-2 h-2 rounded-full bg-blue-600 shrink-0" />
+                          <h3 className="font-bold text-sm sm:text-base text-slate-900">
+                            {item.title}
+                          </h3>
+                          {item.badge && (
+                            <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 shrink-0">
+                              {item.badge}
+                            </span>
+                          )}
+                        </div>
+                        {item.value && (
+                          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-50 text-blue-800 border border-blue-200/70 font-bold text-xs sm:text-sm shrink-0 self-start sm:self-auto shadow-2xs">
+                            <span>{item.value}</span>
+                          </div>
                         )}
                       </div>
-                      <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-blue-50 text-blue-800 border border-blue-200/70 font-bold text-xs sm:text-sm shrink-0 self-start sm:self-auto shadow-2xs">
-                        <span>💰</span>
-                        <span>{item.value}</span>
-                      </div>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      <div className="bg-amber-50/40 rounded-lg p-3.5 border border-amber-200/40">
-                        <div className="font-bold text-xs text-amber-900 mb-1.5 flex items-center gap-1.5">
-                          <span>⚠️</span>
-                          <span>現状と課題</span>
+
+                      {/* 2カラム比較・詳細ブロック */}
+                      {(leftContent || rightContent) && (
+                        <div className={`grid ${leftContent && rightContent ? "grid-cols-1 md:grid-cols-2" : "grid-cols-1"} gap-3`}>
+                          {leftContent && (
+                            <div className="bg-amber-50/30 rounded-lg p-3.5 border border-amber-200/40">
+                              {leftTitle && (
+                                <div className="font-bold text-xs text-amber-900 mb-1.5 flex items-center gap-1.5">
+                                  <span>{leftTitle}</span>
+                                </div>
+                              )}
+                              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed whitespace-pre-line">
+                                {leftContent}
+                              </p>
+                            </div>
+                          )}
+                          {rightContent && (
+                            <div className="bg-emerald-50/30 rounded-lg p-3.5 border border-emerald-200/40">
+                              {rightTitle && (
+                                <div className="font-bold text-xs text-emerald-900 mb-1.5 flex items-center gap-1.5">
+                                  <span>{rightTitle}</span>
+                                </div>
+                              )}
+                              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed whitespace-pre-line">
+                                {rightContent}
+                              </p>
+                            </div>
+                          )}
                         </div>
-                        <p className="text-xs sm:text-sm text-slate-700 leading-relaxed whitespace-pre-line">
-                          {item.challenge}
-                        </p>
-                      </div>
-                      <div className="bg-emerald-50/40 rounded-lg p-3.5 border border-emerald-200/40">
-                        <div className="font-bold text-xs text-emerald-900 mb-1.5 flex items-center gap-1.5">
-                          <span>💡</span>
-                          <span>対策・今後の見通し</span>
+                      )}
+
+                      {/* フッター全幅ブロック（裁判所判断や結論など） */}
+                      {item.footerContent && (
+                        <div className="mt-3 bg-blue-50/40 rounded-lg p-3.5 border border-blue-200/50">
+                          {item.footerTitle && (
+                            <div className="font-bold text-xs text-blue-900 mb-1.5 flex items-center gap-1.5">
+                              <span>{item.footerTitle}</span>
+                            </div>
+                          )}
+                          <p className="text-xs sm:text-sm text-slate-700 leading-relaxed whitespace-pre-line">
+                            {item.footerContent}
+                          </p>
                         </div>
-                        <p className="text-xs sm:text-sm text-slate-700 leading-relaxed whitespace-pre-line">
-                          {item.measure}
-                        </p>
-                      </div>
+                      )}
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
 

@@ -108,10 +108,16 @@ export interface CustomSection {
   }[];
   statCardsData?: {
     title: string;
-    value: string;
+    value?: string;
     badge?: string;
-    challenge: string;
-    measure: string;
+    leftTitle?: string;
+    leftContent?: string;
+    rightTitle?: string;
+    rightContent?: string;
+    challenge?: string;
+    measure?: string;
+    footerTitle?: string;
+    footerContent?: string;
   }[];
   content?: string;
 }
