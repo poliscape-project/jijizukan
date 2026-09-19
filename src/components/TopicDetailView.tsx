@@ -9,6 +9,7 @@ import { StatusBadge } from "./StatusBadge";
 import { KeyActorsBar } from "./KeyActorsBar";
 import { DevelopmentTimeline } from "./DevelopmentTimeline";
 import { RelatedPolicies } from "./RelatedPolicies";
+import { RelatedTopics } from "./RelatedTopics";
 import {
   ArrowLeft,
   Calendar,
@@ -325,7 +326,14 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
           </section>
         )}
 
-        {/* 関連する政策（日本政策図鑑） */}
+        {/* 関連する時事トピック（時事図鑑内の相互リンク） */}
+        {topic.relatedTopics && topic.relatedTopics.length > 0 && (
+          <section className="mb-8">
+            <RelatedTopics topics={topic.relatedTopics} />
+          </section>
+        )}
+
+        {/* 関連する政策（日本政策図鑑への外部リンク） */}
         {topic.relatedPolicies && topic.relatedPolicies.length > 0 && (
           <section className="mb-8">
             <RelatedPolicies policies={topic.relatedPolicies} />

@@ -61,6 +61,13 @@ export interface RelatedPolicy {
   relationship: string;
 }
 
+// === 関連する時事図鑑のトピック ===
+export interface RelatedTopic {
+  id: string;
+  title: string;
+  relationship: string;
+}
+
 // === トピック（メインデータ型） ===
 export interface Topic {
   id: string;
@@ -90,6 +97,7 @@ export interface Topic {
   keyActors: KeyActor[];
   tags: string[];
   developments: Development[];
+  relatedTopics?: RelatedTopic[];
   relatedPolicies?: RelatedPolicy[];
   sources: TopicSource[];
 }
