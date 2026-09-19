@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (55件)
+// 国内トピック (56件)
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import bojMonetaryPolicyNormalizationData from "@/data/topics/domestic/boj-monetary-policy-normalization.json";
 import childPovertyYoungCarerData from "@/data/topics/domestic/child-poverty-young-carer.json";
@@ -18,6 +18,7 @@ import digitalGovernmentMynumberData from "@/data/topics/domestic/digital-govern
 import disasterPreventionAgencyData from "@/data/topics/domestic/disaster-prevention-agency.json";
 import electoralSystemReformData from "@/data/topics/domestic/electoral-system-reform.json";
 import foodSecurityBasicActReformData from "@/data/topics/domestic/food-security-basic-act-reform.json";
+import foreignDriversTrafficAccidentsInsuranceGapData from "@/data/topics/domestic/foreign-drivers-traffic-accidents-insurance-gap.json";
 import foreignResidentsProvisionalReleaseFrictionData from "@/data/topics/domestic/foreign-residents-provisional-release-friction.json";
 import generativeAiCopyrightDisinformationData from "@/data/topics/domestic/generative-ai-copyright-disinformation.json";
 import healthcareSystemReformData from "@/data/topics/domestic/healthcare-system-reform.json";
@@ -123,6 +124,7 @@ export const topics: Topic[] = [
   disasterPreventionAgencyData as unknown as Topic,
   electoralSystemReformData as unknown as Topic,
   foodSecurityBasicActReformData as unknown as Topic,
+  foreignDriversTrafficAccidentsInsuranceGapData as unknown as Topic,
   foreignResidentsProvisionalReleaseFrictionData as unknown as Topic,
   generativeAiCopyrightDisinformationData as unknown as Topic,
   healthcareSystemReformData as unknown as Topic,
