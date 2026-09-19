@@ -198,7 +198,12 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
                     <thead>
                       <tr className="bg-slate-100/80 border-b border-slate-200">
                         {section.tableData.headers.map((header, hIdx) => (
-                          <th key={hIdx} className="py-3 px-4 font-bold text-slate-700 whitespace-nowrap">
+                          <th
+                            key={hIdx}
+                            className={`py-3 px-3 sm:px-4 font-bold text-slate-700 ${
+                              hIdx === 0 ? "whitespace-nowrap shrink-0" : "min-w-[120px]"
+                            }`}
+                          >
                             {header}
                           </th>
                         ))}
@@ -208,7 +213,12 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
                       {section.tableData.rows.map((row, rIdx) => (
                         <tr key={rIdx} className={rIdx % 2 === 1 ? "bg-slate-50/50" : "bg-white"}>
                           {row.map((cell, cIdx) => (
-                            <td key={cIdx} className={`py-3 px-4 text-slate-700 leading-relaxed ${cIdx === 0 ? "font-bold text-slate-900 whitespace-nowrap" : ""}`}>
+                            <td
+                              key={cIdx}
+                              className={`py-3 px-3 sm:px-4 text-slate-700 leading-relaxed ${
+                                cIdx === 0 ? "font-bold text-slate-900 whitespace-nowrap align-top" : "align-top"
+                              }`}
+                            >
                               {cell}
                             </td>
                           ))}
