@@ -79,9 +79,32 @@ export interface Topic {
 
   // ざっくり言うと（かんたんな説明）
   simpleSummary?: string;
+
+  // 記事ごとの特別セクション（表、比較カード、詳細解説等）
+  customSections?: CustomSection[];
+
   keyActors: KeyActor[];
   tags: string[];
   developments: Development[];
   relatedPolicies?: RelatedPolicy[];
   sources: TopicSource[];
+}
+
+// === 記事ごとの特別セクション（表、比較カード、詳細解説など） ===
+export interface CustomSection {
+  title: string;
+  icon?: string;
+  description?: string;
+  type: "table" | "cards" | "text";
+  tableData?: {
+    headers: string[];
+    rows: string[][];
+  };
+  cardsData?: {
+    title: string;
+    subtitle?: string;
+    badge?: string;
+    content: string;
+  }[];
+  content?: string;
 }

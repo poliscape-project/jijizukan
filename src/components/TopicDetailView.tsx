@@ -127,6 +127,80 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
           </div>
         </section>
 
+        {/* 記事ごとの特別セクション（表、比較カード、独自解説等） */}
+        {topic.customSections && topic.customSections.map((section, sIdx) => (
+          <section key={sIdx} className="mb-8">
+            <h2 className="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
+              {section.icon ? <span>{section.icon}</span> : <FileText className="w-5 h-5 text-blue-600" />}
+              {section.title}
+            </h2>
+            {section.description && (
+              <p className="text-xs text-slate-500 mb-3">{section.description}</p>
+            )}
+
+            {/* テーブル型レイアウト */}
+            {section.type === "table" && section.tableData && (
+              <div className="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-2xs">
+                <div className="overflow-x-auto">
+                  <table className="w-full text-left border-collapse text-xs sm:text-sm">
+                    <thead>
+                      <tr className="bg-slate-100/80 border-b border-slate-200">
+                        {section.tableData.headers.map((header, hIdx) => (
+                          <th key={hIdx} className="py-3 px-4 font-bold text-slate-700 whitespace-nowrap">
+                            {header}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100">
+                      {section.tableData.rows.map((row, rIdx) => (
+                        <tr key={rIdx} className={rIdx % 2 === 1 ? "bg-slate-50/50" : "bg-white"}>
+                          {row.map((cell, cIdx) => (
+                            <td key={cIdx} className={`py-3 px-4 text-slate-700 leading-relaxed ${cIdx === 0 ? "font-bold text-slate-900 whitespace-nowrap" : ""}`}>
+                              {cell}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
+            {/* カード型レイアウト */}
+            {section.type === "cards" && section.cardsData && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+                {section.cardsData.map((card, cIdx) => (
+                  <div key={cIdx} className="bg-white rounded-xl border border-slate-200 p-4 shadow-2xs">
+                    <div className="flex items-center justify-between gap-2 mb-1.5">
+                      <h3 className="font-bold text-sm text-slate-900">{card.title}</h3>
+                      {card.badge && (
+                        <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-100 shrink-0">
+                          {card.badge}
+                        </span>
+                      )}
+                    </div>
+                    {card.subtitle && (
+                      <p className="text-xs font-semibold text-slate-500 mb-2">{card.subtitle}</p>
+                    )}
+                    <p className="text-xs text-slate-600 leading-relaxed whitespace-pre-line">{card.content}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* テキストコールアウト型レイアウト */}
+            {section.type === "text" && section.content && (
+              <div className="bg-white rounded-xl border border-slate-200 p-5">
+                <p className="text-sm text-slate-700 leading-relaxed whitespace-pre-line">
+                  {section.content}
+                </p>
+              </div>
+            )}
+          </section>
+        ))}
+
         {/* 主な関係者 */}
         {topic.keyActors.length > 0 && (
           <section className="mb-8">
