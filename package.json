@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "find-policies": "node scripts/find-related-policies.cjs"
   },
   "dependencies": {
     "lucide-react": "^1.43.0",

@@ -237,16 +237,30 @@
       "id": "cost-of-living-economy",
       "title": "物価高・円安と「103万円の壁」論争",
       "reason": "コメ価格の急騰・高止まりは物価高問題の象徴的な事例として、家計の生活費負担増加という文脈で直接連動している。"
-    }
-  ],
-  "relatedTopics": [
+    },
     {
       "id": "food-security-basic-act-reform",
       "title": "食料安全保障と食料・農業・農村基本法の25年ぶり抜本改正",
       "reason": "令和の米騒動は25年ぶりの食料・農業・農村基本法抜本改正の直接的な契機であり、コメ政策と食料安全保障法制は表裏一体の関係にある"
     }
   ],
-  "relatedPolicies": [],
+  "relatedPolicies": [
+    {
+      "id": "food-agriculture-rural-basic-act-food-security-emergency",
+      "title": "食料・農業・農村基本法改正と食料有事時の増産指示権",
+      "reason": "25年ぶりの農政憲章大改正に関する制度であり、コメ品薄問題（令和の米騒動）と食料基本法の課題解決や法的枠組みと直接連動します。"
+    },
+    {
+      "id": "rice-production-adjustment-stockpile",
+      "title": "コメ生産調整（減反）見直しと政府備蓄米機動的放出",
+      "reason": "令和の米騒動」が突きつけた食の危機に関する制度であり、コメ品薄問題（令和の米騒動）と食料基本法の課題解決や法的枠組みと直接連動します。"
+    },
+    {
+      "id": "smart-agriculture-promotion-act-ai-robot-tractors",
+      "title": "スマート農業推進法（ドローン・自動トラクター・AI導入支援）",
+      "reason": "人手不足の農村を先端技術で救うに関する制度であり、コメ品薄問題（令和の米騒動）と食料基本法の課題解決や法的枠組みと直接連動します。"
+    }
+  ],
   "sources": [
     {
       "title": "米穀の需給及び価格の安定に関する基本指針",
