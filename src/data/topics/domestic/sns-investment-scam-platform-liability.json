@@ -83,7 +83,33 @@
       "reason": "MetaやGoogleなどの巨大プラットフォーマーが詐欺広告の温床となっており、プラットフォームの責任と規制という点でビッグテック規制論議と密接に重なる"
     }
   ],
-  "relatedPolicies": [],
+  "relatedPolicies": [
+    {
+      "id": "sns-defamation-platform-act",
+      "title": "SNS誹謗中傷・なりすまし広告対策（情報流通プラットフォーム対処法）",
+      "reason": "本トピックの中心的な法的根拠。大規模プラットフォームに対し、なりすまし詐欺広告の迅速削除・窓口設置・審査体制開示を法定義務化した法律です。"
+    },
+    {
+      "id": "fraud-damage-recovery-restitution-act-romance-scam-reform",
+      "title": "犯罪被害財産等支給法のSNS投資詐欺・ロマンス詐欺への適用拡大",
+      "reason": "SNS型投資詐欺・ロマンス詐欺の被害者が凍結口座から被害回復給付金を受け取れるよう同法の対象を拡大した法改正です。"
+    },
+    {
+      "id": "voice-cloning-deepfake-fraud-penal-code-crackdown",
+      "title": "偽動画・音声（ディープフェイク・ボイスクローン）悪用による特殊詐欺等への罰則強化",
+      "reason": "著名人の顔・声をAIで偽造したなりすまし広告に用いられるディープフェイク技術への刑事罰強化を定めた法律であり、本トピックの詐欺手口と直結します。"
+    },
+    {
+      "id": "anonymous-fluid-criminal-groups-tokuryu-countermeasures",
+      "title": "匿名・流動型犯罪グループ（トクリュウ）とSNS闇バイト規制",
+      "reason": "SNS投資詐欺の実行犯を担うトクリュウ対策として、SNS上での犯罪勧誘広告の即時削除要請を含む規制強化法案です。"
+    },
+    {
+      "id": "anti-phishing-fake-site-rapid-takedown-framework",
+      "title": "フィッシング詐欺偽サイト即時テイクダウン官民連携フレームワーク",
+      "reason": "投資詐欺グループが被害者を誘導する偽投資サイト・フィッシングサイトを速やかに閉鎖させる官民連携の枠組みで、本トピックの被害拡大防止策と連動します。"
+    }
+  ],
   "sources": [
     {
       "title": "総務省 情報流通プラットフォーム対処法（旧プロバイダ責任制限法）について",
