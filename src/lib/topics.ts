@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (56件)
+// 国内トピック (58件)
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import bojMonetaryPolicyNormalizationData from "@/data/topics/domestic/boj-monetary-policy-normalization.json";
 import childPovertyYoungCarerData from "@/data/topics/domestic/child-poverty-young-carer.json";
@@ -22,6 +22,7 @@ import foreignDriversTrafficAccidentsInsuranceGapData from "@/data/topics/domest
 import foreignResidentsProvisionalReleaseFrictionData from "@/data/topics/domestic/foreign-residents-provisional-release-friction.json";
 import generativeAiCopyrightDisinformationData from "@/data/topics/domestic/generative-ai-copyright-disinformation.json";
 import healthcareSystemReformData from "@/data/topics/domestic/healthcare-system-reform.json";
+import henokoBoatCapsizeAccidentData from "@/data/topics/domestic/henoko-boat-capsize-accident.json";
 import higherEducationFreeTuitionData from "@/data/topics/domestic/higher-education-free-tuition.json";
 import immigrationReformData from "@/data/topics/domestic/immigration-reform.json";
 import imperialSuccessionData from "@/data/topics/domestic/imperial-succession.json";
@@ -39,6 +40,7 @@ import notoEarthquakeDisasterData from "@/data/topics/domestic/noto-earthquake-d
 import nuclearEnergyPolicyData from "@/data/topics/domestic/nuclear-energy-policy.json";
 import nursingCareSystemCrisisData from "@/data/topics/domestic/nursing-care-system-crisis.json";
 import okinawaBaseIssueData from "@/data/topics/domestic/okinawa-base-issue.json";
+import okinawaGubernatorialElection2026Data from "@/data/topics/domestic/okinawa-gubernatorial-election-2026.json";
 import osakaExpo2025Data from "@/data/topics/domestic/osaka-expo-2025.json";
 import osakaIrCasinoGamblingAddictionData from "@/data/topics/domestic/osaka-ir-casino-gambling-addiction.json";
 import overtourismInboundPolicyData from "@/data/topics/domestic/overtourism-inbound-policy.json";
@@ -128,6 +130,7 @@ export const topics: Topic[] = [
   foreignResidentsProvisionalReleaseFrictionData as unknown as Topic,
   generativeAiCopyrightDisinformationData as unknown as Topic,
   healthcareSystemReformData as unknown as Topic,
+  henokoBoatCapsizeAccidentData as unknown as Topic,
   higherEducationFreeTuitionData as unknown as Topic,
   immigrationReformData as unknown as Topic,
   imperialSuccessionData as unknown as Topic,
@@ -145,6 +148,7 @@ export const topics: Topic[] = [
   nuclearEnergyPolicyData as unknown as Topic,
   nursingCareSystemCrisisData as unknown as Topic,
   okinawaBaseIssueData as unknown as Topic,
+  okinawaGubernatorialElection2026Data as unknown as Topic,
   osakaExpo2025Data as unknown as Topic,
   osakaIrCasinoGamblingAddictionData as unknown as Topic,
   overtourismInboundPolicyData as unknown as Topic,
