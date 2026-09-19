@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (58件)
+// 国内トピック (59件)
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import bojMonetaryPolicyNormalizationData from "@/data/topics/domestic/boj-monetary-policy-normalization.json";
 import childPovertyYoungCarerData from "@/data/topics/domestic/child-poverty-young-carer.json";
@@ -23,6 +23,7 @@ import foreignResidentsProvisionalReleaseFrictionData from "@/data/topics/domest
 import generativeAiCopyrightDisinformationData from "@/data/topics/domestic/generative-ai-copyright-disinformation.json";
 import healthcareSystemReformData from "@/data/topics/domestic/healthcare-system-reform.json";
 import henokoBoatCapsizeAccidentData from "@/data/topics/domestic/henoko-boat-capsize-accident.json";
+import henokoProtestMovementControversyData from "@/data/topics/domestic/henoko-protest-movement-controversy.json";
 import higherEducationFreeTuitionData from "@/data/topics/domestic/higher-education-free-tuition.json";
 import immigrationReformData from "@/data/topics/domestic/immigration-reform.json";
 import imperialSuccessionData from "@/data/topics/domestic/imperial-succession.json";
@@ -131,6 +132,7 @@ export const topics: Topic[] = [
   generativeAiCopyrightDisinformationData as unknown as Topic,
   healthcareSystemReformData as unknown as Topic,
   henokoBoatCapsizeAccidentData as unknown as Topic,
+  henokoProtestMovementControversyData as unknown as Topic,
   higherEducationFreeTuitionData as unknown as Topic,
   immigrationReformData as unknown as Topic,
   imperialSuccessionData as unknown as Topic,
