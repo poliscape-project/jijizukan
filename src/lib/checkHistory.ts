@@ -9,17 +9,32 @@
 import { useState, useEffect } from "react";
 
 const STORAGE_KEY = "jijizukan_checked_topics";
+const OLD_STORAGE_KEY = "jijizukan_read_topics";
 
 /**
  * 保存されている確認済みトピックIDの配列を取得（SSRセーフ）
+ * 以前の「既読」キー（jijizukan_read_topics）が存在する場合は自動で引き継ぎます。
  */
 export function getCheckedTopicIds(): string[] {
   if (typeof window === "undefined") return [];
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return [];
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed)) return parsed;
+    }
+
+    // 新キーが存在しない場合、旧「既読」キーから自動移行
+    const oldRaw = localStorage.getItem(OLD_STORAGE_KEY);
+    if (oldRaw) {
+      const parsed = JSON.parse(oldRaw);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed));
+        return parsed;
+      }
+    }
+
+    return [];
   } catch {
     return [];
   }
@@ -55,19 +70,23 @@ export function useCheckedTopics() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    setCheckedIds(getCheckedTopicIds());
-    setIsLoaded(true);
-
-    const handleUpdate = () => {
+    const sync = () => {
       setCheckedIds(getCheckedTopicIds());
+      setIsLoaded(true);
     };
 
-    window.addEventListener("checkedTopicsChanged", handleUpdate);
-    window.addEventListener("storage", handleUpdate);
+    sync();
+
+    window.addEventListener("checkedTopicsChanged", sync);
+    window.addEventListener("storage", sync);
+    window.addEventListener("pageshow", sync);
+    window.addEventListener("focus", sync);
 
     return () => {
-      window.removeEventListener("checkedTopicsChanged", handleUpdate);
-      window.removeEventListener("storage", handleUpdate);
+      window.removeEventListener("checkedTopicsChanged", sync);
+      window.removeEventListener("storage", sync);
+      window.removeEventListener("pageshow", sync);
+      window.removeEventListener("focus", sync);
     };
   }, []);
 
