@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (46件)
+// 国内トピック (54件)
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import bojMonetaryPolicyNormalizationData from "@/data/topics/domestic/boj-monetary-policy-normalization.json";
 import childPovertyYoungCarerData from "@/data/topics/domestic/child-poverty-young-carer.json";
@@ -9,18 +9,23 @@ import consumptionTaxFiscalConsolidationData from "@/data/topics/domestic/consum
 import costOfLivingEconomyData from "@/data/topics/domestic/cost-of-living-economy.json";
 import customerHarassmentPreventionData from "@/data/topics/domestic/customer-harassment-prevention.json";
 import cyberattackInfrastructureLineKadokawaData from "@/data/topics/domestic/cyberattack-infrastructure-line-kadokawa.json";
+import dangerousDrivingLawReformData from "@/data/topics/domestic/dangerous-driving-law-reform.json";
 import decliningBirthrateMeasuresData from "@/data/topics/domestic/declining-birthrate-measures.json";
 import defenseEquipmentTransferData from "@/data/topics/domestic/defense-equipment-transfer.json";
 import defenseSpendingIncreaseData from "@/data/topics/domestic/defense-spending-increase.json";
+import dementiaBasicActAssetFreezeData from "@/data/topics/domestic/dementia-basic-act-asset-freeze.json";
 import digitalGovernmentMynumberData from "@/data/topics/domestic/digital-government-mynumber.json";
 import disasterPreventionAgencyData from "@/data/topics/domestic/disaster-prevention-agency.json";
 import electoralSystemReformData from "@/data/topics/domestic/electoral-system-reform.json";
+import foodSecurityBasicActReformData from "@/data/topics/domestic/food-security-basic-act-reform.json";
+import foreignResidentsProvisionalReleaseFrictionData from "@/data/topics/domestic/foreign-residents-provisional-release-friction.json";
 import generativeAiCopyrightDisinformationData from "@/data/topics/domestic/generative-ai-copyright-disinformation.json";
 import healthcareSystemReformData from "@/data/topics/domestic/healthcare-system-reform.json";
 import higherEducationFreeTuitionData from "@/data/topics/domestic/higher-education-free-tuition.json";
 import immigrationReformData from "@/data/topics/domestic/immigration-reform.json";
 import imperialSuccessionData from "@/data/topics/domestic/imperial-succession.json";
 import linearChuoShinkansenData from "@/data/topics/domestic/linear-chuo-shinkansen.json";
+import localAssemblyCandidateShortageData from "@/data/topics/domestic/local-assembly-candidate-shortage.json";
 import localGovSystemStandardizationData from "@/data/topics/domestic/local-gov-system-standardization.json";
 import localRailwaysBusRestructuringData from "@/data/topics/domestic/local-railways-bus-restructuring.json";
 import logisticsCrisisModalShiftData from "@/data/topics/domestic/logistics-crisis-modal-shift.json";
@@ -41,14 +46,17 @@ import regionalRevitalizationDepopulationData from "@/data/topics/domestic/regio
 import retrialLawReformHakamadaData from "@/data/topics/domestic/retrial-law-reform-hakamada.json";
 import riceShortageAgricultureData from "@/data/topics/domestic/rice-shortage-agriculture.json";
 import rideSharingTransportData from "@/data/topics/domestic/ride-sharing-transport.json";
+import schoolTruancyAlternativeEducationData from "@/data/topics/domestic/school-truancy-alternative-education.json";
 import selectiveSurnameMarriageData from "@/data/topics/domestic/selective-surname-marriage.json";
+import snsInvestmentScamPlatformLiabilityData from "@/data/topics/domestic/sns-investment-scam-platform-liability.json";
 import teacherWorkStyleKyotokuData from "@/data/topics/domestic/teacher-work-style-kyotoku.json";
+import tokuryuAnonymousOrganizedCrimeData from "@/data/topics/domestic/tokuryu-anonymous-organized-crime.json";
 import unificationChurchIssueData from "@/data/topics/domestic/unification-church-issue.json";
 import vacantHousesLandIssueData from "@/data/topics/domestic/vacant-houses-land-issue.json";
 import wildlifeProtectionBearAttacksData from "@/data/topics/domestic/wildlife-protection-bear-attacks.json";
 import workStyleReformData from "@/data/topics/domestic/work-style-reform.json";
 
-// 国際トピック (45件)
+// 国際トピック (46件)
 import aiRegulationData from "@/data/topics/international/ai-regulation.json";
 import arcticSeaRouteGeopoliticsData from "@/data/topics/international/arctic-sea-route-geopolitics.json";
 import aseanUnityCrisisSuperpowersRivalryData from "@/data/topics/international/asean-unity-crisis-superpowers-rivalry.json";
@@ -88,6 +96,7 @@ import spaceDebrisOrbitalSustainabilityData from "@/data/topics/international/sp
 import spaceRaceSecurityData from "@/data/topics/international/space-race-security.json";
 import sudanCivilWarHumanitarianCrisisData from "@/data/topics/international/sudan-civil-war-humanitarian-crisis.json";
 import taiwanStraitData from "@/data/topics/international/taiwan-strait.json";
+import trumpSecondTermAmericaFirstData from "@/data/topics/international/trump-second-term-america-first.json";
 import ukraineRussiaWarData from "@/data/topics/international/ukraine-russia-war.json";
 import usChinaRelationsData from "@/data/topics/international/us-china-relations.json";
 import usPresidentialElectionData from "@/data/topics/international/us-presidential-election.json";
@@ -104,18 +113,23 @@ export const topics: Topic[] = [
   costOfLivingEconomyData as unknown as Topic,
   customerHarassmentPreventionData as unknown as Topic,
   cyberattackInfrastructureLineKadokawaData as unknown as Topic,
+  dangerousDrivingLawReformData as unknown as Topic,
   decliningBirthrateMeasuresData as unknown as Topic,
   defenseEquipmentTransferData as unknown as Topic,
   defenseSpendingIncreaseData as unknown as Topic,
+  dementiaBasicActAssetFreezeData as unknown as Topic,
   digitalGovernmentMynumberData as unknown as Topic,
   disasterPreventionAgencyData as unknown as Topic,
   electoralSystemReformData as unknown as Topic,
+  foodSecurityBasicActReformData as unknown as Topic,
+  foreignResidentsProvisionalReleaseFrictionData as unknown as Topic,
   generativeAiCopyrightDisinformationData as unknown as Topic,
   healthcareSystemReformData as unknown as Topic,
   higherEducationFreeTuitionData as unknown as Topic,
   immigrationReformData as unknown as Topic,
   imperialSuccessionData as unknown as Topic,
   linearChuoShinkansenData as unknown as Topic,
+  localAssemblyCandidateShortageData as unknown as Topic,
   localGovSystemStandardizationData as unknown as Topic,
   localRailwaysBusRestructuringData as unknown as Topic,
   logisticsCrisisModalShiftData as unknown as Topic,
@@ -136,8 +150,11 @@ export const topics: Topic[] = [
   retrialLawReformHakamadaData as unknown as Topic,
   riceShortageAgricultureData as unknown as Topic,
   rideSharingTransportData as unknown as Topic,
+  schoolTruancyAlternativeEducationData as unknown as Topic,
   selectiveSurnameMarriageData as unknown as Topic,
+  snsInvestmentScamPlatformLiabilityData as unknown as Topic,
   teacherWorkStyleKyotokuData as unknown as Topic,
+  tokuryuAnonymousOrganizedCrimeData as unknown as Topic,
   unificationChurchIssueData as unknown as Topic,
   vacantHousesLandIssueData as unknown as Topic,
   wildlifeProtectionBearAttacksData as unknown as Topic,
@@ -181,6 +198,7 @@ export const topics: Topic[] = [
   spaceRaceSecurityData as unknown as Topic,
   sudanCivilWarHumanitarianCrisisData as unknown as Topic,
   taiwanStraitData as unknown as Topic,
+  trumpSecondTermAmericaFirstData as unknown as Topic,
   ukraineRussiaWarData as unknown as Topic,
   usChinaRelationsData as unknown as Topic,
   usPresidentialElectionData as unknown as Topic,
