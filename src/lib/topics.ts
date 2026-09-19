@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (54件)
+// 国内トピック (55件)
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import bojMonetaryPolicyNormalizationData from "@/data/topics/domestic/boj-monetary-policy-normalization.json";
 import childPovertyYoungCarerData from "@/data/topics/domestic/child-poverty-young-carer.json";
@@ -24,6 +24,7 @@ import healthcareSystemReformData from "@/data/topics/domestic/healthcare-system
 import higherEducationFreeTuitionData from "@/data/topics/domestic/higher-education-free-tuition.json";
 import immigrationReformData from "@/data/topics/domestic/immigration-reform.json";
 import imperialSuccessionData from "@/data/topics/domestic/imperial-succession.json";
+import kawaguchiFatalAccidentCourtRulingData from "@/data/topics/domestic/kawaguchi-fatal-accident-court-ruling.json";
 import linearChuoShinkansenData from "@/data/topics/domestic/linear-chuo-shinkansen.json";
 import localAssemblyCandidateShortageData from "@/data/topics/domestic/local-assembly-candidate-shortage.json";
 import localGovSystemStandardizationData from "@/data/topics/domestic/local-gov-system-standardization.json";
@@ -128,6 +129,7 @@ export const topics: Topic[] = [
   higherEducationFreeTuitionData as unknown as Topic,
   immigrationReformData as unknown as Topic,
   imperialSuccessionData as unknown as Topic,
+  kawaguchiFatalAccidentCourtRulingData as unknown as Topic,
   linearChuoShinkansenData as unknown as Topic,
   localAssemblyCandidateShortageData as unknown as Topic,
   localGovSystemStandardizationData as unknown as Topic,
