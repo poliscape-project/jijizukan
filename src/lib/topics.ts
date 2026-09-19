@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (59件)
+// 国内トピック (60件)
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import bojMonetaryPolicyNormalizationData from "@/data/topics/domestic/boj-monetary-policy-normalization.json";
 import childPovertyYoungCarerData from "@/data/topics/domestic/child-poverty-young-carer.json";
@@ -30,6 +30,7 @@ import imperialSuccessionData from "@/data/topics/domestic/imperial-succession.j
 import kawaguchiFatalAccidentCourtRulingData from "@/data/topics/domestic/kawaguchi-fatal-accident-court-ruling.json";
 import linearChuoShinkansenData from "@/data/topics/domestic/linear-chuo-shinkansen.json";
 import localAssemblyCandidateShortageData from "@/data/topics/domestic/local-assembly-candidate-shortage.json";
+import localAssemblyCorruptionGovernanceData from "@/data/topics/domestic/local-assembly-corruption-governance.json";
 import localGovSystemStandardizationData from "@/data/topics/domestic/local-gov-system-standardization.json";
 import localRailwaysBusRestructuringData from "@/data/topics/domestic/local-railways-bus-restructuring.json";
 import logisticsCrisisModalShiftData from "@/data/topics/domestic/logistics-crisis-modal-shift.json";
@@ -139,6 +140,7 @@ export const topics: Topic[] = [
   { ...kawaguchiFatalAccidentCourtRulingData, createdAt: "2026-09-19T20:37:59+09:00" } as unknown as Topic,
   { ...linearChuoShinkansenData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...localAssemblyCandidateShortageData, createdAt: "2026-09-19T17:17:14+09:00" } as unknown as Topic,
+  { ...localAssemblyCorruptionGovernanceData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...localGovSystemStandardizationData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...localRailwaysBusRestructuringData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
   { ...logisticsCrisisModalShiftData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
