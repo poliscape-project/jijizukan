@@ -1,0 +1,211 @@
+{
+  "id": "big-tech-antitrust-regulations",
+  "title": "巨大IT（GAFAM）への独占禁止法規制",
+  "subtitle": "米欧日において市場独占・囲い込みに対する法執行と事前規制が本格化し、デジタル市場のルール再編が加速",
+  "scope": "international",
+  "category": "economy",
+  "categoryLabel": "経済・規制",
+  "status": "ongoing",
+  "statusLabel": "規制強化・司法判断進行中",
+  "lastUpdated": "2026-09-15",
+  "background": "2000年代以降、Google（Alphabet）、Apple、Meta（旧Facebook）、Amazon、Microsoftに代表される巨大テクノロジー企業（いわゆるGAFAM／メガテック）は、デジタルプラットフォームの強力なネットワーク効果と膨大な個人データの囲い込みを梃子に急速な成長を遂げた。検索エンジン、スマートフォン基本ソフト（OS）およびアプリ配信市場、SNS、電子商取引、デジタル広告、クラウドサービスなど、各中核分野において圧倒的な市場シェアを確立し、世界規模の情報・経済インフラを掌握するに至った。\n\nこれらの企業は、自社プラットフォーム上で自社製品やサービスを優遇する「自己優遇（Self-preferencing）」、競合となりうる新興スタートアップ企業の先制的な買収（キラー買収）、競合排除を狙った排他的契約の締結、アプリ内決済に対する高率な手数料（いわゆるApple税／Google税）の強制などにより、潜在的競争を排除してきたと指摘された。従来の独占禁止法（反トラスト法）は主に「価格上昇による直接的な消費者被害」の立証を前提としていたため、検索やSNSなど表向き無料で提供されるデジタルプラットフォームの寡占やデータ支配に対しては十分に対応できない限界が浮き彫りとなった。\n\nまた、事後的な法執行による違反立証には何年もの訴訟期間を要し、その間に新興企業が市場から退出してしまう事態が常態化した。このため、米国、欧州連合（EU）、日本などの主要規制当局は、巨大プラットフォーマーをあらかじめ特定して禁止行為や義務を課す「事前規制（Ex-ante regulation）」の枠組み創設と、司法当局による積極的な提訴へと政策を大きく舵を切った。",
+  "simpleSummary": "世界中でグーグルやアップル、メタ、アマゾンなどの巨大IT企業に対する独占禁止法の取り締まりが厳しくなっています。これらの企業はインターネット検索やスマートフォンのアプリ配信などで圧倒的な力を持っており、自分たちのサービスを有利に扱ったり他社を締め出したりしていると問題視されています。これまでの法律では調査に時間がかかりすぎて追いつかないため、欧州ではあらかじめルールを決めて守らせる強力な法律が始まり、日本でも新しい法律ができました。アメリカの裁判所でもグーグルの検索独占を違法とする判決が出るなど、巨大企業のビジネスのやり方を改めさせる動きが広がっています。",
+  "overview": "世界の独占禁止法規制は、規制当局による積極的な法執行と事前規制の運用という二つの柱で歴史的な転換期を迎えている。欧州連合（EU）では2024年3月、一定規模以上の巨大プラットフォームを「ゲートキーパー」に指定し、自社優遇の禁止、外部アプリストアの容認、データの相互運用性確保などを義務付ける「デジタル市場法（DMA）」の全面適用を開始した。欧州委員会は直ちにAlphabet、Apple、Metaに対しDMA違反の疑いで正式調査に着手し、巨額の制裁金を科す姿勢を鮮明にしている。\n\n米国においても司法省（DOJ）と連邦取引委員会（FTC）が積極的な反トラスト訴訟を展開している。2024年8月、ワシントン連邦地方裁判所は米司法省が提訴した訴訟において、Googleが端末メーカーに巨額の対価を支払って自社検索をデフォルト設定させていた契約について、反トラスト法（シャーマン法第2条）違反とする判決を下した。さらに米司法省はAppleをiPhoneエコシステムの閉鎖的独占で提訴し、FTCはAmazonを出店業者に対する不当な搾取と価格操作で提訴するなど、メガテックの解体や事業分離を視野に入れた司法判断が進行している。\n\n日本でも2024年6月、「スマートフォン特定ソフトウェア競争促進法」が国会で成立した。スマートフォンの基本ソフト（OS）、アプリストア、ブラウザ、検索エンジンを提供する巨大IT企業を指定し、他社アプリストアの参入妨害や自己優遇の禁止、決済システムの選択自由などを義務付けた。違反時には国内売上高の最大20%（再違反時は30%）という重い課徴金が設定され、公正取引委員会による監視体制が整備されている。",
+  "keyActors": [
+    {
+      "name": "Alphabet / Google",
+      "flag": "🇺🇸",
+      "role": "検索・デジタル広告・Android OSの独占を巡り米司法省・EUから訴訟・調査を受ける"
+    },
+    {
+      "name": "Apple",
+      "flag": "🇺🇸",
+      "role": "App Storeの排他性や外部決済制限、iOSの囲い込みで米欧の規制当局から追及"
+    },
+    {
+      "name": "欧州委員会（European Commission）",
+      "flag": "🇪🇺",
+      "role": "デジタル市場法（DMA）に基づきゲートキーパー企業への厳格な是正を指揮"
+    },
+    {
+      "name": "米国司法省（DOJ）／連邦取引委員会（FTC）",
+      "flag": "🇺🇸",
+      "role": "反トラスト法執行を主導し巨大ITの独占打破と競争環境回復を目指す"
+    },
+    {
+      "name": "公正取引委員会（日本）",
+      "flag": "🇯🇵",
+      "role": "スマホソフトウェア競争促進法の執行とデジタル市場の適正化を担う"
+    }
+  ],
+  "tags": [
+    "巨大IT",
+    "GAFAM",
+    "独占禁止法",
+    "反トラスト法",
+    "デジタル市場法",
+    "スマホソフトウェア競争促進法",
+    "公正取引委員会",
+    "米司法省"
+  ],
+  "developments": [
+    {
+      "date": "2024-08-05",
+      "title": "米連邦地裁、Googleの検索市場における違法な独占を認定する判決",
+      "content": "米ワシントン連邦地方裁判所のアミット・メータ判事は、GoogleがApple等に巨額の金銭を支払い自社検索を端末のデフォルトに維持していた排他的契約について、反トラスト法（シャーマン法第2条）に違反する違法な独占行為であると認定した。救済措置として事業分割や排他的契約禁止が検討される。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Justice Department Secures Groundbreaking Antitrust Decision Against Monopolist Google",
+          "url": "https://www.justice.gov/opa/pr/justice-department-sues-monopolist-google-violating-antitrust-laws",
+          "organization": "米国司法省"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-12",
+      "title": "日本、参議院本会議で「スマートフォン特定ソフトウェア競争促進法」が可決・成立",
+      "content": "スマートフォンのOS、アプリストア、ブラウザ、検索エンジンを対象に、巨大ITによる他社サービスの参入阻止や自己優遇を禁止する新法が成立した。違反した事業者には国内売上高の最大20%（再違反時は30%）という高額の課徴金が科される。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "「スマートフォンにおいて利用される特定ソフトウェアに係る競争の促進に関する法律」の成立について",
+          "url": "https://www.jftc.go.jp/houdou/pressrelease/2024/jun/240612_smartphone_act.html",
+          "organization": "公正取引委員会"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-25",
+      "title": "欧州委員会、デジタル市場法（DMA）違反の疑いでAlphabet、Apple、Metaの正式調査を開始",
+      "content": "欧州委員会は、Alphabetによる自社検索サービスの自己優遇やGoogle Playの誘導制限、AppleによるApp Store外への誘導制限（アンチステアリング）やブラウザ選択画面の不備、Metaの有料課金・広告同意モデルについてDMA違反の疑いで調査を開始した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Commission opens non-compliance investigations against Alphabet, Apple and Meta under the Digital Markets Act",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1689",
+          "organization": "欧州委員会"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-21",
+      "title": "米司法省および16州・地域の司法長官、Appleを反トラスト法違反で提訴",
+      "content": "米司法省は、AppleがApp Storeの審査基準や技術的制約を通じて競合するアプリ、メッセージング機能、スマートウォッチ、デジタルウォレットの連携を阻害し、スマートフォン市場の独占を違法に維持したとしてニュージャージー連邦地裁に提訴した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Justice Department Sues Apple for Monopolizing Smartphone Markets",
+          "url": "https://www.justice.gov/opa/pr/justice-department-sues-apple-monopolizing-smartphone-markets",
+          "organization": "米国司法省"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-07",
+      "title": "EUの「デジタル市場法（DMA）」、指定ゲートキーパー6社に対し全面適用開始",
+      "content": "Alphabet、Amazon、Apple、ByteDance、Meta、Microsoftの6社（計22のコアプラットフォームサービス）に対し、自社優遇の禁止や外部決済の容認、データ相互運用性の確保などの義務履行が法的に義務付けられた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "The Digital Markets Act: Ensuring fair and open digital markets",
+          "url": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-markets-act-ensuring-fair-and-open-digital-markets_en",
+          "organization": "欧州委員会"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-04",
+      "title": "欧州委員会、音楽配信市場でのApp Store運営を巡りAppleに18.4億ユーロの制裁金",
+      "content": "欧州委員会は、Appleが音楽配信アプリ開発者に対し自社App Store外の安価な購入オプションをユーザーに案内することを禁じた（ステアリング制限）行為をEU競争法違反と認定し、約18億4000万ユーロ（約3,000億円）の制裁金を科した。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Commission fines Apple EUR 1.8 billion over abusive App store rules for music streaming providers",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1161",
+          "organization": "欧州委員会"
+        }
+      ]
+    },
+    {
+      "date": "2023-09-26",
+      "title": "米FTCおよび17州、Amazonを反トラスト法違反で提訴",
+      "content": "米連邦取引委員会（FTC）と17州の司法長官は、Amazonが出店者に対して競合サイトでより安く販売することを禁じる措置や、広告・配送サービスの利用を強制する仕組みを通じてオンライン小売市場の独占力を不当に維持したとして提訴した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "FTC Sues Amazon for Illegally Maintaining Monopoly Power",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2023/09/ftc-sues-amazon-illegally-maintaining-monopoly-power",
+          "organization": "米国連邦取引委員会（FTC）"
+        }
+      ]
+    },
+    {
+      "date": "2023-01-24",
+      "title": "米司法省、Googleをデジタル広告技術（アドテック）市場の独占で提訴",
+      "content": "米司法省は、Googleが広告主向けツール、媒体社向けサーバー、広告取引所（Ad Exchange）の全サプライチェーンを買収と排他的慣行で支配し競争を歪めたとして、Google Ad Manager等の事業分割を求めてバージニア東部連邦地裁に提訴した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Justice Department Sues Google for Monopolizing Digital Advertising Technologies",
+          "url": "https://www.justice.gov/opa/pr/justice-department-sues-google-monopolizing-digital-advertising-technologies",
+          "organization": "米国司法省"
+        }
+      ]
+    },
+    {
+      "date": "2022-09-14",
+      "title": "EU司法裁判所、GoogleのAndroid独禁違反制裁金を大筋で支持",
+      "content": "EU一般裁判所は、GoogleがAndroid端末メーカーに対し自社検索アプリ等のプリインストールを義務付けた行為を独禁法違反とした欧州委員会の決定を大筋で支持し、制裁金額を微修正した約41億2500万ユーロの支払いを命じた。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Judgment of the General Court in Case T-604/18 Google and Alphabet v Commission (Google Android)",
+          "url": "https://curia.europa.eu/jcms/jcms/j_6/en/",
+          "organization": "欧州連合司法裁判所"
+        }
+      ]
+    },
+    {
+      "date": "2020-10-20",
+      "title": "米司法省および11州、Googleを検索市場における反トラスト法違反で提訴",
+      "content": "米司法省は、Googleが数十億ドルを投じて自社検索をApple製品やAndroid端末の初期設定とする排他的契約を結び、競争相手の参入機会を不当に奪ったとして提訴した。連邦政府による対GAFAM大型訴訟の契機となった。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Justice Department Sues Monopolist Google For Violating Antitrust Laws",
+          "url": "https://www.justice.gov/opa/pr/justice-department-sues-monopolist-google-violating-antitrust-laws",
+          "organization": "米国司法省"
+        }
+      ]
+    }
+  ],
+  "relatedPolicies": [],
+  "sources": [
+    {
+      "title": "公正取引委員会（デジタルプラットフォーム取引透明化・競争促進）",
+      "url": "https://www.jftc.go.jp/",
+      "organization": "公正取引委員会"
+    },
+    {
+      "title": "米国司法省 反トラスト部門（Antitrust Division）",
+      "url": "https://www.justice.gov/atr",
+      "organization": "米国司法省"
+    },
+    {
+      "title": "欧州委員会 競争総局（Directorate-General for Competition）",
+      "url": "https://competition-policy.ec.europa.eu/",
+      "organization": "欧州委員会"
+    },
+    {
+      "title": "米国連邦取引委員会（FTC）",
+      "url": "https://www.ftc.gov/",
+      "organization": "米国連邦取引委員会"
+    },
+    {
+      "title": "経済産業省 デジタル市場競争本部",
+      "url": "https://www.kantei.go.jp/jp/singi/digitalmarket/",
+      "organization": "デジタル市場競争本部事務局"
+    }
+  ]
+}

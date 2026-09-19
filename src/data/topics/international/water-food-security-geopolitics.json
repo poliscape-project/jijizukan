@@ -1,0 +1,199 @@
+{
+  "id": "water-food-security-geopolitics",
+  "title": "世界的な水・食料安全保障と地政学リスク",
+  "subtitle": "気候変動に伴う異常気象と国際河川のダム開発、武力紛争による供給網寸断が複合危機を深刻化",
+  "scope": "international",
+  "category": "multilateral",
+  "categoryLabel": "多国間",
+  "status": "ongoing",
+  "statusLabel": "複合危機・供給リスク継続",
+  "lastUpdated": "2026-09-15",
+  "background": "水と食料は人類の生存に不可欠な基本的資源であるが、世界人口の増加、新興国の経済成長に伴う食生活の変化、および工業化の進展により、淡水および穀物の需要は過去数十年で爆発的に増大した。地球温暖化に伴う熱波、大干ばつ、記録的豪雨などの異常気象は主要農業地帯の単収を不安定化させ、地下水枯渇や土壌劣化と相まって農業生産基盤を脅かしている。\n\n国境を越えて流れる国際河川（ナイル川、メコン川、チグリス・ユーフラテス川、インダス川等）を巡っては、上流国による大規模ダム開発や水力発電・灌漑優先の運用と、水流量減少や水質悪化を懸念する下流国との間で激しい水利権対立（水紛争）が構造化している。特にエチオピアが青ナイル川に建設を進めた「大エチオピア・ルネサンスダム（GERD）」は、国家の生存をナイル川に依存する下流のエジプトおよびスーダンとの間で軍事的緊張を孕む外交問題へと発展した。\n\nさらに、世界有数の穀物・化学肥料供給国であるロシアとウクライナにおける武力紛争の勃発は、黒海航路の遮断や対露経済制裁を通じて世界の小麦、トウモロコシ、植物油、およびカリウム・リン肥料の流通網を直撃した。これにより、自国民優先を掲げた輸出国による輸出制限（食料ナショナリズム）が連鎖し、中東・アフリカ諸国をはじめとする食料輸入依存国の食料インフレと政情不安を急速に悪化させた。",
+  "simpleSummary": "地球温暖化による深刻な干ばつや大雨、そして世界的な人口の増加によって、「水」や「食べ物」が足りなくなる問題が世界中で深刻化しています。国境を越えて流れるナイル川などの大河川では、上流の国が巨大なダムを造って電気を作ろうとし、水が減ることを恐れる下流の国と激しく対立しています。また、世界有数の小麦の産地であるウクライナでの戦争によって、穀物の輸出が止まったり肥料の値段が上がったりして、世界的な物価高と食料危機が起きました。自分の国の食料を確保するために輸出を止める国も現れており、国際社会全体で協力して安定供給を守ることが急務となっています。",
+  "overview": "世界の水・食料安全保障は、気候ショックと武力紛争、地政学的対立が複合的に作用する「ポリクライシス（複合危機）」の様相を呈している。国連食糧農業機関（FAO）や国連世界食糧計画（WFP）がまとめた報告書によれば、深刻な急性食料不安に直面する人口は世界で2億8,000万人を超え、特にスーダン、ガザ地区、サヘル地域、イエメンなど紛争地帯における飢餓リスクが極めて深刻な水準に達している。\n\n国際河川の水利権を巡っては、エチオピアが青ナイル川のGERD（大ルネサンスダム）における全4段階の湛水を完了し発電機の稼働を進める一方、法的拘束力のある水配分・放流協定を求めるエジプトとの協議は膠着状態が続いている。東南アジアのメコン川流域でも、中国領内の上流ダム群の水流操作が下流諸国の農業や内水面漁業に影響を与えており、水資源管理を巡る透明性確保が地域外交の重要課題となっている。\n\n黒海の穀物輸出を巡っては、2022年7月に国連とトルコの仲介で成立した「黒海穀物イニシアティブ」が途上国への食料供給を支えたものの、ロシアが自国産肥料の輸出制限緩和などを要求して2023年7月に合意から離脱した。ウクライナは独自に沿岸航路を防衛する人道回廊を開設して一定の輸出を回復させたが、インドによる白米輸出制限措置など、主要輸出国による自国優先の輸出規制が国際市場の価格高止まりと不安定要因をもたらしている。",
+  "keyActors": [
+    {
+      "name": "エジプト",
+      "flag": "🇪🇬",
+      "role": "国民の9割以上がナイル川に依存。GERDの運用に関する法的拘束力ある国際合意を要求"
+    },
+    {
+      "name": "エチオピア",
+      "flag": "🇪🇹",
+      "role": "国内の深刻な電力不足解消と経済発展のためGERDを建設・稼働し主権的権利を主張"
+    },
+    {
+      "name": "ウクライナ",
+      "flag": "🇺🇦",
+      "role": "世界有数の小麦・ヒマワリ油輸出国。黒海の独自人道回廊を防衛し輸出を継続"
+    },
+    {
+      "name": "ロシア連邦",
+      "flag": "🇷🇺",
+      "role": "小麦・化学肥料の世界最大輸出国。食料供給や黒海航路封鎖を外交カードとして行使"
+    },
+    {
+      "name": "国際連合（FAO/WFP）",
+      "flag": "🇺🇳",
+      "role": "飢餓撲滅と食料安全保障の強化を掲げ、緊急食料支援と多国間協調・調停を推進"
+    },
+    {
+      "name": "インド",
+      "flag": "🇮🇳",
+      "role": "世界最大のコメ輸出国。国内のインフレ抑制を優先し白米輸出禁止措置等を発動"
+    }
+  ],
+  "tags": [
+    "食料安全保障",
+    "水安全保障",
+    "大エチオピア・ルネサンスダム",
+    "黒海穀物イニシアティブ",
+    "気候変動",
+    "地政学リスク",
+    "FAO",
+    "水紛争",
+    "肥料供給"
+  ],
+  "developments": [
+    {
+      "date": "2024-04-24",
+      "title": "国連機関等が「食料危機に関するグローバル報告書2024」を発表",
+      "content": "FAO、WFP、EUなどが参加する「食料危機に対するグローバル・ネットワーク」は年次報告書を公表した。2023年に59カ国の約2億8,160万人が急性食料不安（IPCフェーズ3以上）に直面し、紛争、異常気象、経済ショックが主因であると報告された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Global Report on Food Crises 2024",
+          "url": "https://www.fao.org/newsroom/detail/global-report-on-food-crises-2024/en",
+          "organization": "国連食糧農業機関（FAO）"
+        }
+      ]
+    },
+    {
+      "date": "2023-09-10",
+      "title": "エチオピアが大ルネサンスダム（GERD）の第4段階貯水完了を宣言",
+      "content": "エチオピアのアビィ首相は、青ナイル川上流に建設中の大ルネサンスダムにおける最終段階の貯水作業が成功裏に完了したと発表した。これに対し下流のエジプト外務省は、一方的な貯水完了は国際法違反であるとする抗議声明を発表した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Egypt rejects Ethiopia's unilateral filling of Renaissance Dam",
+          "url": "https://www.mfa.gov.eg/",
+          "organization": "エジプト外務省"
+        }
+      ]
+    },
+    {
+      "date": "2023-08-10",
+      "title": "ウクライナ海軍が黒海の民間船舶向け臨時人道回廊の開設を発表",
+      "content": "ロシアによる黒海封鎖に対抗し、ウクライナ海軍はオデーサ港など主要港に滞留する商船の出港を可能にする臨時航路を開設した。ルーマニアやブルガリアの領海内を航行するルートを設定し、ロシア軍の攻撃を回避しながら穀物輸出の自主的再開を進めた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Temporary corridors announced for civilian vessels to/from Ukrainian Black Sea ports",
+          "url": "https://www.kmu.gov.ua/en",
+          "organization": "ウクライナ政府"
+        }
+      ]
+    },
+    {
+      "date": "2023-07-20",
+      "title": "インド政府が国内価格安定のためノンバスマティ白米の輸出を即時禁止",
+      "content": "世界最大のコメ輸出国であるインドは、エルニーニョ現象に伴う降雨不足と国内米価上昇を抑えるため、輸出全体の約25%を占めるノンバスマティ白米の輸出を禁止した。アジアやアフリカの輸入国でコメの国際価格が十数年ぶりの高値に跳ね上がった。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Amendment in Export Policy of Non-Basmati White Rice",
+          "url": "https://dgft.gov.in/",
+          "organization": "インド商工省外国貿易局（DGFT）"
+        }
+      ]
+    },
+    {
+      "date": "2023-07-17",
+      "title": "ロシア政府が「黒海穀物イニシアティブ」の履行停止・合意離脱を表明",
+      "content": "ロシア政府は、自国の農業銀行の国際送金網（SWIFT）復帰や肥料輸出正常化に関する覚書が履行されていないと主張し、黒海経由のウクライナ穀物輸出合意の延長を拒否して離脱した。安全航行の保証が撤回され、国際穀物相場が再び上昇した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Statement by the Ministry of Foreign Affairs of the Russian Federation on the Black Sea Initiative",
+          "url": "https://mid.ru/en/",
+          "organization": "ロシア外務省"
+        }
+      ]
+    },
+    {
+      "date": "2022-07-22",
+      "title": "国連・トルコ仲介によりロシア・ウクライナ双方が黒海穀物合意に署名",
+      "content": "イスタンブールにおいて、封鎖されていたウクライナ3港からの穀物海上輸送を再開させる「黒海穀物イニシアティブ」が成立した。国連のグテーレス事務総長とトルコのエルドアン大統領が立ち会い、共同調整センター（JCC）が設置された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Black Sea Grain Initiative Joint Coordination Centre",
+          "url": "https://www.un.org/en/black-sea-grain-initiative",
+          "organization": "国際連合"
+        }
+      ]
+    },
+    {
+      "date": "2022-05-18",
+      "title": "国連安保理で「紛争と食料安全保障」に関する閣僚級公開討論会が開催",
+      "content": "米国主導により国連安全保障理事会で武力紛争に伴う世界の食料安全保障危機を協議する公開会合が開催された。食料の武器化や飢餓の戦術的利用を非難する議論が行われ、途上国への緊急支援拠出が訴えられた。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Security Council Ministerial Meeting on Food Security and Conflict",
+          "url": "https://press.un.org/en/2022/sc14894.doc.htm",
+          "organization": "国連安保理"
+        }
+      ]
+    },
+    {
+      "date": "2022-02-24",
+      "title": "ロシアのウクライナ侵攻開始に伴い黒海航路が封鎖、小麦相場が急騰",
+      "content": "ロシア軍によるウクライナ全面侵攻を受け、黒海の主要商港が閉鎖された。世界の小麦輸出の約3割、ヒマワリ油の過半を占める地域からの供給が途絶し、シカゴ小麦先物価格が一時史上最高値圏へ暴騰した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "The importance of Ukraine and the Russian Federation for global agricultural markets",
+          "url": "https://www.fao.org/",
+          "organization": "国連食糧農業機関（FAO）"
+        }
+      ]
+    },
+    {
+      "date": "2020-07-15",
+      "title": "エチオピアが大ルネサンスダム（GERD）の第1段階湛水を開始",
+      "content": "エチオピア政府は、下流のエジプトおよびスーダンとの三者協定が未妥結のまま、雨季を利用して大ルネサンスダムの初期貯留を開始した。ナイル川の水利権を巡る下流国との対立が決定的な外交危機へと発展した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Statement on the Grand Ethiopian Renaissance Dam",
+          "url": "https://au.int/",
+          "organization": "アフリカ連合（AU）"
+        }
+      ]
+    }
+  ],
+  "relatedPolicies": [],
+  "sources": [
+    {
+      "title": "FAO Food Price Index and Agricultural Market Information System (AMIS)",
+      "url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/",
+      "organization": "国連食糧農業機関（FAO）"
+    },
+    {
+      "title": "World Food Programme (WFP) - Global Hunger and Crisis Response",
+      "url": "https://www.wfp.org/",
+      "organization": "国連世界食糧計画（WFP）"
+    },
+    {
+      "title": "農林水産省 - 国際食料需給と食料安全保障",
+      "url": "https://www.maff.go.jp/j/zyukyu/jki/",
+      "organization": "農林水産省"
+    },
+    {
+      "title": "外務省 - 地球規模課題（食料安全保障・水衛生）",
+      "url": "https://www.mofa.go.jp/mofaj/gaiko/oda/bunya/agriculture/",
+      "organization": "外務省"
+    }
+  ]
+}

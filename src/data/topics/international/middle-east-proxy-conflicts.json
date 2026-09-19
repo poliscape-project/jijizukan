@@ -1,0 +1,233 @@
+{
+  "id": "middle-east-proxy-conflicts",
+  "title": "中東の代理戦争と紅海危機（ヒズボラ・フーシ派）",
+  "subtitle": "ガザ紛争に連動した親イラン武装勢力による商船攻撃や越境交戦により、紅海シーレーンと中東全域の安全保障が緊迫",
+  "scope": "international",
+  "category": "conflict",
+  "categoryLabel": "紛争・安全保障",
+  "status": "escalating",
+  "statusLabel": "軍事衝突拡大・航路危機継続",
+  "lastUpdated": "2026-09-15",
+  "background": "イラン・イスラム共和国は1979年のイスラム革命以降、反米・反イスラエルを基本方針に掲げ、中東域内のシーア派系武装勢力ネットワーク（自称「抵抗の枢軸」）を軍事・資金・技術面で支援してきた。レバノンのヒズボラ、イエメンのアンサール・アッラー（フーシ派）、シリアのアサド政権、イラクの親イラン民兵組織などがこれに含まれ、イラン革命防衛隊コッズ部隊が連絡・指導支援を担ってきた。\n\nレバノン南部を拠点とするヒズボラは、1980年代のレバノン内戦期に結成され、2006年のイスラエル・レバノン戦争以降、精密誘導ロケット弾や弾道ミサイル、無人機の大規模な備蓄を急速に進め、イスラエル北部に対する強力な軍事抑止・攻撃力を構築した。一方、イエメンでは2014年以降の内戦で首都サナアと北西部を掌握したフーシ派が、イラン製技術を用いた対艦ミサイルや自爆ドローンを獲得し、紅海とアデン湾を結ぶ要衝バブ・エル・マンデブ海峡に対する軍事打撃力を確立した。\n\n2023年10月7日にイスラム組織ハマスがイスラエル南部へ奇襲攻撃を行い、イスラエル軍がガザ地区への軍事作戦を開始すると、これら「抵抗の枢軸」各組織はパレスチナ支援を掲げて一斉に行動を開始した。フーシ派はイスラエル関連船舶や欧米商船に対する攻撃を本格化させ、ヒズボラはイスラエル北部への砲撃を常態化させたことで、局地的な衝突が国際シーレーンの麻痺と中東全域を巻き込む複合的な軍事危機へと拡大した。",
+  "simpleSummary": "中東では、イランの支援を受ける武装組織（レバノンのヒズボラやイエメンのフーシ派など）が、イスラエルや欧米と激しく対立しています。2023年10月にガザ紛争が始まると、フーシ派は重要な貿易ルートである紅海を通る外国の船をミサイルやドローンで次々と攻撃し、多くの船が遠回りを強いられました。また、イスラエルとヒズボラの間でも国境を挟んだ激しい攻撃の応酬が続いており、中東全体に戦争が広がる危険が高まっています。",
+  "overview": "フーシ派による紅海・バブ・エル・マンデブ海峡での商船攻撃により、国際海上コンテナ物流の要所であるスエズ運河ルートが深刻な打撃を受け、大手海運会社はアフリカ南端の喜望峰を経由する迂回航路への変更を余儀なくされた。航行日数の長期化、燃料費および海上保険料の高騰は、欧州やアジアを結ぶサプライチェーンに運賃上昇や納入遅延といった経済的混乱をもたらした。米国主導の有志連合作戦「繁栄の守護者作戦」やEUの海上防護作戦「アスピデス」が展開され、米英軍によるイエメン領内軍事拠点への反撃爆撃が行われているが、散発的な商船攻撃は継続している。\n\n一方、イスラエル北部とレバノン南部を挟む前線では、イスラエル軍とヒズボラの激しい越境砲撃戦が長期化し、双方の国境地帯から計十数万人規模の住民が避難生活を強いられた。2024年後半にはイスラエル軍によるヒズボラ最高幹部や通信機器を狙った精密攻撃、レバノン領内への地上侵攻が行われ、これに対抗してイランがイスラエル本土へ直接弾道ミサイルを発射するなど、代理組織を介した対立から国家間の直接軍事衝突へとエスカレーションの段階が進んだ。\n\n国連安全保障理事会は商船攻撃の即時停止を求める決議第2722号を採択し、国際海事機関（IMO）も航行の自由の回復を強く要求している。日本政府も運航船舶の安全確保に向け、自衛隊によるアデン湾での情報収集・警戒監視活動を維持するとともに、紅海周辺の緊張緩和と地域の安定を関係各国に働きかけている。",
+  "keyActors": [
+    {
+      "name": "フーシ派（アンサール・アッラー）",
+      "role": "イエメン北部実効支配勢力・紅海航行船舶へのミサイル・無人機攻撃を実行"
+    },
+    {
+      "name": "ヒズボラ",
+      "role": "レバノンのシーア派武装組織・イスラエル北部への越境砲撃と軍事対峙"
+    },
+    {
+      "name": "イスラエル国",
+      "flag": "🇮🇱",
+      "role": "自国防衛と住民帰還を掲げヒズボラ拠点・幹部への空爆および地上作戦を展開"
+    },
+    {
+      "name": "アメリカ合衆国",
+      "flag": "🇺🇸",
+      "role": "繁栄の守護者作戦を主導・英軍等とフーシ派軍事拠点への反撃爆撃を実施"
+    },
+    {
+      "name": "イラン・イスラム共和国",
+      "flag": "🇮🇷",
+      "role": "「抵抗の枢軸」各勢力に兵器・技術・資金を支援・イスラエルへ直接報復攻撃"
+    },
+    {
+      "name": "日本",
+      "flag": "🇯🇵",
+      "role": "紅海シーレーンを利用する貿易国として攻撃を非難・自衛隊海賊対処部隊による監視"
+    }
+  ],
+  "tags": [
+    "中東情勢",
+    "紅海危機",
+    "フーシ派",
+    "ヒズボラ",
+    "代理戦争",
+    "抵抗の枢軸",
+    "シーレーン",
+    "イラン",
+    "繁栄の守護者作戦"
+  ],
+  "developments": [
+    {
+      "date": "2024-09-27",
+      "title": "イスラエル軍、レバノン首都ベイルート郊外を空爆しヒズボラ最高指導者ナスララ師を殺害",
+      "content": "イスラエル軍はベイルート南郊ダヒエにあるヒズボラ地下本部を空爆し、30年以上にわたり組織を率いたハサン・ナスララ書記長を殺害した。イスラエル軍は北部住民の帰還に向けた作戦目標の一環と発表し、ヒズボラの指揮系統に打撃を与えた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "レバノン情勢（外務報道官談話）",
+          "url": "https://www.mofa.go.jp/mofaj/press/danwa/page24_000788.html",
+          "organization": "外務省"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-30",
+      "title": "イスラエル軍、ベイルート南郊でヒズボラ最高幹部シュクル司令官を空爆殺害",
+      "content": "イスラエル軍はベイルート南郊を空爆し、ゴラン高原でのロケット弾着弾による民間人犠牲への報復として、ヒズボラ軍事部門の最高幹部フアド・シュクル司令官を殺害した。ヒズボラ側はイスラエル軍事施設への報復攻撃を実施した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Middle East Situation updates",
+          "url": "https://press.un.org/en/2024/sc15783.doc.htm",
+          "organization": "国際連合（UN Press）"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-20",
+      "title": "イスラエル空軍、イエメンのホデイダ港を空爆（テルアビブ攻撃への報復）",
+      "content": "イスラエル空軍の戦闘機が、フーシ派が実効支配するイエメン西部の紅海沿岸ホデイダ港の燃料貯蔵施設や港湾インフラを空爆した。前日にフーシ派が発射したドローンがイスラエル中枢テルアビブに着弾し1名が死亡した事態に対する直接の報復措置とされた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "UN Security Council Briefing on the situation in the Middle East (Yemen)",
+          "url": "https://dppa.dpmg.un.org/",
+          "organization": "国連政治・平和構築局（UN DPPA）"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-12",
+      "title": "フーシ派、紅海でギリシャ企業運航の貨物船「チューター」を無人艇で攻撃し沈没",
+      "content": "フーシ派は紅海南部でリベリア船籍・ギリシャ企業運航の石炭運搬船「チューター」を自爆型無人水上艇（USV）および空中ドローンで攻撃した。船員1名が死亡し、同船は浸水が拡大して数日後に沈没した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Red Sea Navigation Security Incidents",
+          "url": "https://www.imo.org/",
+          "organization": "国際海事機関（IMO）"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-02",
+      "title": "フーシ派のミサイル攻撃を受けた英国船籍貨物船「ルビマー」が紅海で沈没",
+      "content": "2024年2月18日にフーシ派の対艦弾道ミサイル直撃を受け放棄されていた英国船籍・ベリーズ船籍の貨物船「ルビマー」が、紅海南部の公海上で沈没した。大量の化学肥料を積載していたため海洋環境への影響が懸念された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "IMO Secretary-General statement on the sinking of Rubymar",
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/RubymarStatement.aspx",
+          "organization": "国際海事機関（IMO）"
+        }
+      ]
+    },
+    {
+      "date": "2024-02-19",
+      "title": "欧州連合（EU）、紅海での船舶防護を目的とした海上軍事作戦「アスピデス」を開始",
+      "content": "欧州連合外相理事会は、紅海、バブ・エル・マンデブ海峡、アデン湾における商船の安全航行を確保するため、専ら防衛目的の海軍合同作戦「アスピデス（EUNAVFOR ASPIDES）」の立ち上げを正式に承認した。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "EU launches maritime operation ASPIDES in the Red Sea",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2024/02/19/eu-launches-eunavfor-aspides/",
+          "organization": "欧州連合理事会（EU Council）"
+        }
+      ]
+    },
+    {
+      "date": "2024-01-12",
+      "title": "米英両軍、イエメン領内のフーシ派軍事拠点に対して初の大規模共同空爆を実施",
+      "content": "米軍と英軍は豪州、カナダ、オランダ、バーレーンの支援を受け、イエメン国内のフーシ派のミサイル発射場、レーダー施設、防空拠点など十数カ所に対して艦載機や巡航ミサイルによる精密攻撃を実施した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Joint Statement on Coalition Strikes against Houthi Targets in Yemen",
+          "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2024/01/11/joint-statement-from-the-governments-of-the-united-states-australia-bahrain-canada-denmark-germany-netherlands-new-zealand-republic-of-korea-and-the-united-kingdom/",
+          "organization": "ホワイトハウス（White House）"
+        }
+      ]
+    },
+    {
+      "date": "2024-01-10",
+      "title": "国連安全保障理事会、フーシ派による紅海での商船攻撃即時停止を求める決議2722号を採択",
+      "content": "安保理は、フーシ派による国際商業船舶への前例のない攻撃を強く非難し、すべての攻撃の即時停止と拿捕船舶の解放を要求する決議第2722号を賛成11、棄権4（ロシア、中国、アルジェリア、モザンビーク）で採択した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Security Council Resolution 2722 (2024) on the Red Sea",
+          "url": "https://press.un.org/en/2024/sc15561.doc.htm",
+          "organization": "国際連合（UN Press）"
+        },
+        {
+          "title": "紅海情勢に関する国連安保理決議第2722号の採択について（外務報道官談話）",
+          "url": "https://www.mofa.go.jp/mofaj/press/danwa/page24_000662.html",
+          "organization": "外務省"
+        }
+      ]
+    },
+    {
+      "date": "2023-12-18",
+      "title": "米国国防長官、多国籍海上安保枠組み「繁栄の守護者作戦」の創設を発表",
+      "content": "オースティン米国防長官は、紅海南部およびアデン湾における航行の自由と安全を確保するため、英国、バーレーン、カナダ、フランス、イタリアなど10カ国以上が参加する多国籍安全保障イニシアティブ「繁栄の守護者作戦（Operation Prosperity Guardian）」を発足させると発表した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Statement by Secretary of Defense Lloyd J. Austin III on Ensuring Freedom of Navigation in the Red Sea",
+          "url": "https://www.defense.gov/News/Releases/Release/Article/3621110/",
+          "organization": "米国国防総省（DoD）"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-19",
+      "title": "フーシ派、紅海で日本郵船運航の自動車運搬船「ギャラクシー・リーダー」を拿捕",
+      "content": "フーシ派特殊部隊が紅海南端付近で、日本郵船が用船運航していたバハマ船籍の自動車運搬船「ギャラクシー・リーダー」にヘリコプターから突入し拿捕した。同派はイスラエル資本関係を理由として船員25名を拘束し、船舶をホデイダ港に留め置いた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "紅海における船舶拿捕事案について（官房長官記者会見）",
+          "url": "https://www.kantei.go.jp/jp/tyoukanpress/202311/20_a.html",
+          "organization": "首相官邸"
+        },
+        {
+          "title": "イエメン沿岸での自動車運搬船拿捕事案について（外務報道官談話）",
+          "url": "https://www.mofa.go.jp/mofaj/press/danwa/page24_000639.html",
+          "organization": "外務省"
+        }
+      ]
+    },
+    {
+      "date": "2023-10-19",
+      "title": "米海軍駆逐艦「カーニー」、紅海でイスラエル方面へ向かう巡航ミサイル・ドローンを迎撃",
+      "content": "紅海北部に展開していた米海軍ミサイル駆逐艦「カーニー」は、イエメン国内のフーシ派支配地域からイスラエル方面に向けて発射された対地巡航ミサイル3発および複数のドローンを撃墜した。ガザ紛争開始後、紅海において米軍が迎撃を実施した初の事例となった。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Department of Defense Press Briefing on Intercepts in the Red Sea",
+          "url": "https://www.defense.gov/News/Transcripts/Transcript/Article/3563148/",
+          "organization": "米国国防総省（DoD）"
+        }
+      ]
+    }
+  ],
+  "relatedPolicies": [],
+  "sources": [
+    {
+      "title": "中東情勢（外務省）",
+      "url": "https://www.mofa.go.jp/mofaj/area/middleeast/index.html",
+      "organization": "外務省"
+    },
+    {
+      "title": "ソマリア沖・アデン湾における海賊対処・中東地域での情報収集活動",
+      "url": "https://www.mod.go.jp/j/approach/operation/piracy/index.html",
+      "organization": "防衛省"
+    },
+    {
+      "title": "Red Sea Crisis and Maritime Security",
+      "url": "https://www.imo.org/",
+      "organization": "国際海事機関（IMO）"
+    },
+    {
+      "title": "United Nations Security Council - Yemen & Middle East",
+      "url": "https://www.un.org/securitycouncil/",
+      "organization": "国際連合（United Nations）"
+    }
+  ]
+}

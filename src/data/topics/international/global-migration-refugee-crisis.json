@@ -1,0 +1,207 @@
+{
+  "id": "global-migration-refugee-crisis",
+  "title": "世界の難民・移民危機と国境管理をめぐる対立",
+  "subtitle": "紛争や困窮による強制移住者が過去最多を更新し、欧米諸国での国境管理厳格化と政治的対立が激化",
+  "scope": "international",
+  "category": "multilateral",
+  "categoryLabel": "多国間",
+  "status": "escalating",
+  "statusLabel": "移住者最多・国境規制強化",
+  "lastUpdated": "2026-09-15",
+  "background": "シリア内戦、アフガニスタン情勢の悪化、ベネズエラの経済破綻、ウクライナ戦争、スーダン内戦など、世界各地での武力紛争や独裁政権による弾圧、さらに気候変動に伴う生活基盤の喪失により、故郷を追われた強制移住者の総数は2024年に史上最多の1億2,000万人を突破した。1951年の国連「難民の地位に関する条約（難民条約）」は、迫害のおそれがある人々を庇護し、生命の危険がある国への強制送還を禁じる「ノン・ルフールマン原則」を定めているが、未曾有の規模での人口移動に対し、既存の国際保護体制は著しい過負荷に直面している。\n\n欧州連合（EU）においては、2015年の地中海難民危機以降、中東や北アフリカからの不法入国者の流入が域内の治安悪化懸念や社会保障負担増を巡る論争を激化させた。これにより、国境審査なしでの自由移動を保障する「シェンゲン協定」の維持が揺らぐとともに、反移民・排外主義を掲げる右派ポピュリズム政党が各地で台頭した。加盟国内では、地中海に面した最前線の南欧諸国と受入負担を巡る東西・南北の亀裂が固定化した。\n\n米国においても、中米諸国やベネズエラ、ハイチなどからの移民・亡命希望者が南部メキシコ国境に殺到し、年間摘発件数が200万件を超える水準が常態化した。不法移民問題は、法と秩序、国家主権、治安、雇用、および地方自治体の財政負担を巡る最大の政治対立軸となり、大統領選挙や連邦議会選挙の帰趨を決定づける最重要争点へと浮上した。人権・人道的義務と自国の防衛・治安維持の優先を巡る葛藤が、西側民主主義諸国の統治基盤を揺るがしている。",
+  "simpleSummary": "戦争や暴力、極度の貧しさから逃れるために、自分の国を離れざるを得なくなった「難民」や移住者の数が世界で過去最多の1億2,000万人を超えました。アメリカでは南部メキシコとの国境から非常に多くの不法入国者が押し寄せ、国の治安や政治を大きく揺るがす最大の問題になっています。ヨーロッパでも、海を渡ってくる移民や難民の受け入れ負担や治安への不安から、国境での検査を復活させたり、入国審査を厳しくする法律を作ったりする動きが広がっています。困っている人々を人道的に助けるべきだという国際ルールと、自分の国の治安や社会を守るために国境をしっかり管理したいという考え方の間で激しい対立が続いています。",
+  "overview": "国連難民高等弁務官事務所（UNHCR）の発表によれば、世界の強制移住者数は1億2,000万人を超え、12年連続で過去最多を更新した。スーダン内戦に伴う約1,000万人の避難民やガザ地区の破局的人道状況に加え、ウクライナからの難民約600万人以上が欧州各国で避難生活を継続している。一方で国際的な人道支援ドナーからの資金拠出は必要額を大きく下回っており、食料配給の削減やキャンプでの生活環境悪化が深刻化している。\n\n欧州では、2024年5月にEU理事会が「新移民・難民協定（Pact on Migration and Asylum）」を最終承認した。入国時の生体認証スクリーニングの厳格化、不法入国者の迅速な送還手続き、加盟国間での受入分担または財政拠出を義務付ける「連帯メカニズム」が導入された。さらに、2024年9月にはドイツ政府が治安対策と不法移民抑制を理由に、全9隣国との全陸上国境において一時的な旅券検査を開始するなど、シェンゲン圏の原則である国境管理撤廃の枠組みが事実上後退している。\n\n米国では、2024年6月にバイデン大統領が、南部国境での不法越境摘発件数が1日平均2,500件を超えた場合に亡命申請の受付を即時停止し迅速送還を可能とする大統領布告を発令した。国境警備の強化と不法移民対策は米国民の最関心事項となっており、人権団体による訴訟や合衆国の庇護制度の将来を巡る議論が紛糾している。主要先進国において、国境管理の厳格化と国際法上の人道保護義務の調和は極めて困難な局面を迎えている。",
+  "keyActors": [
+    {
+      "name": "国連難民高等弁務官事務所（UNHCR）",
+      "flag": "🇺🇳",
+      "role": "世界各地の難民・強制移住者の保護と人道支援、難民条約の遵守を主導する国連機関"
+    },
+    {
+      "name": "アメリカ合衆国",
+      "flag": "🇺🇸",
+      "role": "南部国境での越境者急増に直面し、大統領令による亡命申請停止や送還強化を実施"
+    },
+    {
+      "name": "欧州連合（EU）",
+      "flag": "🇪🇺",
+      "role": "「新移民・難民協定」を成立させ、対外国境審査の厳格化と加盟国間の負担分担を推進"
+    },
+    {
+      "name": "ドイツ",
+      "flag": "🇩🇪",
+      "role": "欧州最大の難民受入国だが、治安不安や右派政党台頭を受け全陸上国境での検査を導入"
+    },
+    {
+      "name": "メキシコ",
+      "flag": "🇲🇽",
+      "role": "米国向け中南米移民の主要経由国・出身国として、対米交渉と自国内国境管理に対応"
+    }
+  ],
+  "tags": [
+    "難民危機",
+    "移民問題",
+    "UNHCR",
+    "国境管理",
+    "シェンゲン協定",
+    "EU移民協定",
+    "米南部国境",
+    "人道危機",
+    "亡命申請"
+  ],
+  "developments": [
+    {
+      "date": "2024-09-16",
+      "title": "ドイツ政府が治安対策と不法移民抑制のため全陸上国境で検査を開始",
+      "content": "ドイツ連邦内務省は、オーストリア、スイス、フランス、ポーランドなど全9つの隣国との陸上国境において、一時的な入国管理検査を開始した。シェンゲン圏内での自由移動を制限する異例の措置であり、近隣諸国との間で摩擦が生じた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Federal Minister Faeser orders temporary checks at all land borders",
+          "url": "https://www.bmi.bund.de/SharedDocs/pressemitteilungen/EN/2024/09/grenzkontrollen.html",
+          "organization": "ドイツ連邦内務省"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-13",
+      "title": "UNHCRが年次報告書「グローバル・トレンズ」を発表、強制移住者が1億2000万人を突破",
+      "content": "UNHCRは2023年末時点で世界で故郷を追われた人々が1億1,730万人に達し、2024年5月時点で1億2,000万人を超えたと公表した。スーダン内戦やガザ紛争、ウクライナ情勢が主因であり、過去最多を更新し続けている実態が示された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Global Trends Report 2023 - Forced displacement surges to new post-war high",
+          "url": "https://www.unhcr.org/global-trends-report-2023",
+          "organization": "国連難民高等弁務官事務所（UNHCR）"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-04",
+      "title": "米バイデン大統領が国境越境者急増時に亡命申請を即時停止する大統領布告を発令",
+      "content": "米政権は南部国境における不法越境の摘発件数が1日平均2,500件を超えた場合、国境間での亡命申請の処理を即時停止し、迅速送還を可能とする大統領布告を発表・即日発効させた。人権団体が訴訟を提起するなど激しい論争を呼んだ。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Fact Sheet: President Biden Announces New Actions to Secure the Border",
+          "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2024/06/04/fact-sheet-president-biden-announces-new-actions-to-secure-the-border/",
+          "organization": "米ホワイトハウス"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-14",
+      "title": "EU理事会が新移民・難民協定（Pact on Migration and Asylum）を最終承認",
+      "content": "EU加盟国は長年対立していた移民・難民政策の包括的改革法案を正式採択した。不法入国者に対する迅速な審査・送還手続きの導入、共通生体データベース（Eurodac）の拡充、および加盟国間での難民受け入れか財政支援の分担（連帯メカニズム）が法制化された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "The Council adopts the EU pact on migration and asylum",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2024/05/14/the-council-adopts-the-eu-pact-on-migration-and-asylum/",
+          "organization": "欧州連合理事会（Council of the EU）"
+        }
+      ]
+    },
+    {
+      "date": "2023-10-01",
+      "title": "米南部国境での2023会計年度の不法越境摘発件数が過去最多水準を記録",
+      "content": "米税関国境警備局（CBP）の集計により、2023会計年度（2022年10月〜2023年9月）における南部国境での不法移民摘発・遭遇件数が約247万件に達し、前年に続き過去最多を更新したことが判明した。ベネズエラ、キューバ、ニカラグアからの流入が急増した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "CBP Releases September 2023 Monthly Update",
+          "url": "https://www.cbp.gov/newsroom/national-media-release/cbp-releases-september-2023-monthly-update",
+          "organization": "米税関国境警備局（CBP）"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-11",
+      "title": "米国政府がコロナ禍に伴う移民即時追放措置「タイトル42」の適用を終了",
+      "content": "米政権は公衆衛生上の緊急事態宣言の解除に伴い、公衆衛生法に基づく移民の即時追放規則「タイトル42」の適用を終了した。これにより従来の移民法（タイトル8）に基づく厳格な不法越境罰則と亡命審査手続きへ復帰した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Fact Sheet: U.S. Government Prepares for End of Title 42",
+          "url": "https://www.dhs.gov/",
+          "organization": "米国土安全保障省（DHS）"
+        }
+      ]
+    },
+    {
+      "date": "2022-03-04",
+      "title": "EUがウクライナ避難民保護のため「一時保護指令」を史上初発動",
+      "content": "EU理事会はロシアの軍事侵略から逃れるウクライナ市民を支援するため、1997年策定の「一時保護指令」の全会一致適用を決定した。通常の個別亡命審査を経ることなく、EU域内全域での居住権、労働権、教育機会が即時付与された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Ukraine: Council unanimously introduces temporary protection for persons fleeing the war",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2022/03/04/ukraine-council-unanimously-introduces-temporary-protection-for-persons-fleeing-the-war/",
+          "organization": "欧州連合理事会（Council of the EU）"
+        }
+      ]
+    },
+    {
+      "date": "2021-11-08",
+      "title": "ベラルーシが中東からの移民をポーランド国境へ誘導し軍事緊張が発生",
+      "content": "ベラルーシのルカシェンコ政権がEUの経済制裁への対抗措置として、中東からの移民数千人をポーランドやリトアニア国境へ組織的に誘導した。国境フェンス前で移民と国境警備部隊が対峙し、「ハイブリッド脅威」として国際問題化した。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "EU response to the state-sponsored instrumentalisation of migrants at the EU external border",
+          "url": "https://www.consilium.europa.eu/",
+          "organization": "欧州連合理事会（Council of the EU）"
+        }
+      ]
+    },
+    {
+      "date": "2018-12-19",
+      "title": "国連総会で「安全で秩序ある正規移住のためのグローバル・コンパクト」が採択",
+      "content": "国連総会において、国際移住に関する初の包括的な政府間合意「移住に関するグローバル・コンパクト」が圧倒的多数で採択された。移住者の人権保護や秩序ある受入の原則を定めたが、米国や東欧諸国など一部は主権侵害への懸念から反対・棄権した。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "General Assembly Endorses Global Compact for Safe, Orderly and Regular Migration",
+          "url": "https://press.un.org/en/2018/ga12113.doc.htm",
+          "organization": "国際連合"
+        }
+      ]
+    },
+    {
+      "date": "2015-09-04",
+      "title": "欧州難民危機の激化を受け、ドイツ政府がシリア難民等の無制限受け入れを決定",
+      "content": "ハンガリー等で滞留していたシリア等の難民数万人がオーストリア・ドイツへ殺到する中、メルケル独首相はダブリン規則（最初の到着国で審査する原則）の適用を一時停止し、人道的見地から難民を受け入れる方針を発表した。欧州難民危機の象徴的契機となった。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "外交青書 - 欧州における難民問題",
+          "url": "https://www.mofa.go.jp/mofaj/gaiko/bluebook/",
+          "organization": "外務省"
+        }
+      ]
+    }
+  ],
+  "relatedPolicies": [],
+  "sources": [
+    {
+      "title": "UNHCR Global Trends - Forced Displacement",
+      "url": "https://www.unhcr.org/global-trends",
+      "organization": "国連難民高等弁務官事務所（UNHCR）"
+    },
+    {
+      "title": "U.S. Department of Homeland Security (DHS) - Immigration and Border Statistics",
+      "url": "https://www.dhs.gov/immigration-statistics",
+      "organization": "米国土安全保障省（DHS）"
+    },
+    {
+      "title": "European Commission - Migration and Home Affairs",
+      "url": "https://home-affairs.ec.europa.eu/index_en",
+      "organization": "欧州委員会（European Commission）"
+    },
+    {
+      "title": "外務省 - 地球規模課題（難民支援・人道支援）",
+      "url": "https://www.mofa.go.jp/mofaj/gaiko/nanmin/",
+      "organization": "外務省"
+    }
+  ]
+}

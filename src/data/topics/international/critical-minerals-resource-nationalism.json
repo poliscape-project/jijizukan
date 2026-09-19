@@ -1,0 +1,244 @@
+{
+  "id": "critical-minerals-resource-nationalism",
+  "title": "重要鉱物・レアアース覇権と資源ナショナリズム",
+  "subtitle": "脱炭素とハイテク産業を支えるリチウム・レアアース・ニッケル等の偏在と輸出規制に対し、同志国がサプライチェーン多角化を推進",
+  "scope": "international",
+  "category": "economy",
+  "categoryLabel": "経済安全保障",
+  "status": "ongoing",
+  "statusLabel": "供給網再編・資源確保競争激化",
+  "lastUpdated": "2026-09-15",
+  "background": "世界的な脱炭素化の流れに伴い、電気自動車（EV）、車載蓄電池、風力発電タービン、さらに誘導ミサイルや戦闘機レーダーなどの先端防衛装備向けに、リチウム、ニッケル、コバルト、グラファイト（黒鉛）、希土類（レアアース）などの「重要鉱物（クリティカル・ミネラルズ）」の需要が急増した。国際エネルギー機関（IEA）の試算では、2050年の温室効果ガス排出実質ゼロに向けて、これらのクリーンエネルギー技術関連鉱物の需要は今後数倍から数十倍に拡大すると予測されている。\n\nしかし、重要鉱物のサプライチェーンは地理的に極度に偏在している。特に中華人民共和国は、レアアース製錬の約7割、リチウム加工の約6割、コバルト製錬の約7割など、鉱石から高純度材料への分離・精錬工程において圧倒的なシェアを掌握してきた。2010年の尖閣諸島沖漁船衝突事件を契機とした中国による対日レアアース輸出停止措置のように、特定国への過度な依存が地政学的な供給途絶リスクとして顕在化してきた。\n\nさらに近年、資源を産出する新興国・途上国において、未加工鉱石の輸出を禁止・制限し、国内に製錬所や加工施設を誘致して高付加価値化と雇用創出を図る「資源ナショナリズム（ダウンストリーミング政策）」が拡大した。世界最大のニッケル産出国であるインドネシアの未加工鉱石輸出禁止措置や、中南米のリチウム資源国家管理強化などが相次ぎ、消費国にとって原料確保のハードルと調達コストが急激に上昇した。",
+  "simpleSummary": "電気自動車のバッテリーやスマートフォン、風力発電、最新の防衛装備などを作るには、リチウムやレアアースといった特別な「重要鉱物」が欠かせません。しかし、これらの鉱物の加工や生産の多くを中国が握っているほか、資源を持つ国々が自国の産業を育てるために未加工の鉱石を輸出禁止にする動きが広がっています。日本やアメリカ、ヨーロッパの国々は、特定の国に頼りすぎないよう、仲間同士で共同投資を行い、安全で安定した新しい供給ルート作りを急いでいます。",
+  "overview": "主要先進国は、重要鉱物の特定国依存を解消するため「デリスキング（リスク低減）」政策を相次ぎ法制化した。米国は「インフレ抑制法（IRA）」において、北米または米国とFTA（自由貿易協定）を締結している同志国から調達された重要鉱物を一定割合以上含むEV電池のみを税額控除の対象とする規制を導入した。欧州連合（EU）も2024年に「重要原材料法（CRMA）」を施行し、2030年までに特定第三国からの輸入依存度を域内消費の65%以下に抑える目標を義務づけた。日本も「経済安全保障推進法」に基づき、抗菌性物質や半導体とともに重要鉱物を「特定重要物資」に指定し、鉱山開発や備蓄に対する公的助成を実施している。\n\n同志国間の多国間連携も加速している。2022年に米国主導で日本、EU、豪州、カナダ、韓国など14カ国と欧州委員会が参加する「鉱物安全保障パートナーシップ（MSP）」が発足した。MSPはアフリカや中南米などの第三国における採掘・製錬プロジェクトに対し、政府系金融機関による協調融資や民間投資支援を行い、中国資本に依存しない代替サプライチェーンの構築を進めている。2024年には鉱物資源保有国も交えた「MSPフォーラム」へと枠組みが拡充された。\n\nこれに対抗し、中国政府は輸出管理法に基づき、半導体基盤材料のガリウム・ゲルマニウム、EV用電池材料の高純度グラファイト（黒鉛）、アンチモンなどの輸出規制を相次いで施行したほか、レアアースの採掘・製錬技術や磁石製造技術の国外輸出を全面禁止した。重要鉱物の確保を巡る国家間の戦略的競争と囲い込みは、経済安全保障の中心的な争点となっている。",
+  "keyActors": [
+    {
+      "name": "中華人民共和国",
+      "flag": "🇨🇳",
+      "role": "重要鉱物の製錬・加工で圧倒的シェア・輸出管理令等により戦略物資の囲い込みを強化"
+    },
+    {
+      "name": "アメリカ合衆国",
+      "flag": "🇺🇸",
+      "role": "MSPを主導・IRA税額控除条件や国防生産法により脱中国サプライチェーンを構築"
+    },
+    {
+      "name": "日本",
+      "flag": "🇯🇵",
+      "role": "経済安全保障推進法で重要鉱物を特定物資に指定・JOGMECを通じ豪州や同志国開発を支援"
+    },
+    {
+      "name": "欧州連合（EU）",
+      "role": "重要原材料法（CRMA）を施行・域内採掘精錬の拡大と特定国依存度65%以下を義務化"
+    },
+    {
+      "name": "インドネシア共和国",
+      "flag": "🇮🇩",
+      "role": "世界最大のニッケル産出国・未加工鉱石輸出禁止により国内EV電池産業の育成を推進"
+    },
+    {
+      "name": "オーストラリア連邦",
+      "flag": "🇦🇺",
+      "role": "世界最大のリチウム産出国・日米など同志国への重要鉱物供給拠点として投資誘致"
+    }
+  ],
+  "tags": [
+    "重要鉱物",
+    "レアアース",
+    "資源ナショナリズム",
+    "リチウム",
+    "ニッケル",
+    "MSP",
+    "サプライチェーン",
+    "経済安全保障",
+    "脱炭素"
+  ],
+  "developments": [
+    {
+      "date": "2024-06-29",
+      "title": "中国国務院、「レアアース管理条例」を公布し国家による一元管理を法制化",
+      "content": "中国国務院は、レアアース資源の採掘、製錬、流通、輸出に至る全サプライチェーンを国家の統一計画と管理監督下に置く「レアアース管理条例」を公布した（同年10月1日施行）。国家の安全と経済主権の保護を理由に挙げた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "State Council decree on Rare Earth Management Regulations",
+          "url": "https://www.gov.cn/",
+          "organization": "中華人民共和国国務院"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-23",
+      "title": "欧州連合（EU）の「重要原材料法（CRMA）」が正式発効",
+      "content": "EUは重要原材料法を発効させた。2030年までに域内消費の10%以上を域内採掘、40%以上を域内加工、25%以上をリサイクル材で賄うとともに、いかなる単一の特定第三国からの調達依存度も65%未満に抑える目標を加盟国に課した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "European Critical Raw Materials Act enters into force",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_2721",
+          "organization": "欧州委員会（European Commission）"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-03",
+      "title": "鉱物安全保障パートナーシップ（MSP）参加国、産出国連携「MSPフォーラム」設立を発表",
+      "content": "日米欧韓など14カ国と欧州委員会で構成されるMSPは、鉱物資源の原産国や鉱業国を広く巻き込み、重要鉱物プロジェクトの資金調達と持続可能な開発を促進する対話枠組み「MSPフォーラム」を立ち上げた。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Joint Statement on the Minerals Security Partnership Forum",
+          "url": "https://www.state.gov/joint-statement-on-the-minerals-security-partnership-forum/",
+          "organization": "米国国務省（US Department of State）"
+        },
+        {
+          "title": "鉱物安全保障パートナーシップ（MSP）フォーラム立ち上げに関する共同声明",
+          "url": "https://www.meti.go.jp/press/2023/03/20240305001/20240305001.html",
+          "organization": "経済産業省"
+        }
+      ]
+    },
+    {
+      "date": "2023-12-21",
+      "title": "中国商務部、レアアース抽出・分離技術の国外輸出を全面禁止",
+      "content": "中国商務部と科学技術部は改定版「中国輸出禁止・制限技術目録」を公表し、レアアースの採掘・選鉱・製錬およびサマリウムコバルト磁石やネオジム磁石などの高性能磁石製造技術を輸出禁止対象に指定した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Announcement on the Catalogue of Technologies Prohibited or Restricted from Export",
+          "url": "http://www.mofcom.gov.cn/",
+          "organization": "中華人民共和国商務部"
+        }
+      ]
+    },
+    {
+      "date": "2023-12-01",
+      "title": "中国政府、EVバッテリー主要素材のグラファイト（黒鉛）輸出規制を施行",
+      "content": "中国商務部と海関総署は、高純度・高強度の人造黒鉛材料および天然鱗状黒鉛の関連品目について、国家安全保障上の理由から商務部の個別許可を義務付ける輸出管理措置を正式に発効させた。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Announcement on Optimizing and Adjusting Temporary Export Control Measures for Graphite Items",
+          "url": "http://www.mofcom.gov.cn/",
+          "organization": "中華人民共和国商務部"
+        }
+      ]
+    },
+    {
+      "date": "2023-08-01",
+      "title": "中国政府、先端半導体・光通信材料のガリウムおよびゲルマニウムの輸出規制を施行",
+      "content": "中国政府は、次世代パワー半導体や赤外線光学機器に用いられるガリウムおよびゲルマニウム関連の8品目について、事前許可制を導入する輸出規制を実施した。輸出事業者に対し最終需要者と用途の申告を義務付けた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Export Controls on Gallium- and Germanium-Related Items",
+          "url": "http://www.mofcom.gov.cn/",
+          "organization": "中華人民共和国商務部"
+        }
+      ]
+    },
+    {
+      "date": "2023-04-20",
+      "title": "チリ大統領、「国家リチウム戦略」を発表し塩湖資源の国家主導管理方針を表明",
+      "content": "世界最大級のリチウム埋蔵量を誇るチリのボリック大統領は「国家リチウム戦略」を発表し、戦略的価値を持つ主要塩湖の新規開発において国営企業が過半を出資する官民合弁を義務付ける方針を示した。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "National Lithium Strategy (Estrategia Nacional del Litio)",
+          "url": "https://www.gob.cl/",
+          "organization": "チリ政府（Gobierno de Chile）"
+        }
+      ]
+    },
+    {
+      "date": "2023-03-28",
+      "title": "日米両政府、「重要鉱物サプライチェーン強化協定」に署名",
+      "content": "日米両政府はワシントンで重要鉱物協定に署名した。EV電池等に用いられるリチウム、ニッケル、コバルト等の二国間輸出入関税賦課の禁止や輸出規制の禁止を確認し、米国IRAに基づく税額控除の優遇対象基準に日本産材料を含める根拠となった。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "重要鉱物サプライチェーンの強化に関する日本国政府とアメリカ合衆国政府との間の協定の署名",
+          "url": "https://www.mofa.go.jp/mofaj/press/release/press1_001392.html",
+          "organization": "外務省"
+        },
+        {
+          "title": "United States and Japan Sign Critical Minerals Agreement",
+          "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2023/march/united-states-and-japan-sign-critical-minerals-agreement",
+          "organization": "米国通商代表部（USTR）"
+        }
+      ]
+    },
+    {
+      "date": "2022-11-30",
+      "title": "WTOパネル、インドネシアの未加工ニッケル鉱石輸出禁止を協定違反と判断",
+      "content": "欧州連合（EU）がインドネシアの未加工ニッケル鉱石輸出禁止措置を提訴していた紛争処理小委員会（パネル）において、WTOは同措置がGATT第11条（数量制限の一般的廃止）に違反するとの報告書を公表した（インドネシアは上訴）。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "WTO Panel Report: Indonesia - Measures Relating to Raw Materials (DS592)",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds592_e.htm",
+          "organization": "世界貿易機関（WTO）"
+        }
+      ]
+    },
+    {
+      "date": "2022-06-14",
+      "title": "米国主導で多国間連携「鉱物安全保障パートナーシップ（MSP）」が発足",
+      "content": "カナダのトロントで開催された鉱業会議（PDAC）において、米国、日本、EU、オーストラリア、カナダ、韓国など14カ国・機関が参加し、重要鉱物サプライチェーンの強靭化と責任ある鉱業投資を促進する「MSP」の設立を共同発表した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Minerals Security Partnership Joint Statement",
+          "url": "https://www.state.gov/minerals-security-partnership/",
+          "organization": "米国国務省（US Department of State）"
+        },
+        {
+          "title": "鉱物安全保障パートナーシップ（MSP）の立ち上げについて",
+          "url": "https://www.meti.go.jp/press/2022/06/20220615001/20220615001.html",
+          "organization": "経済産業省"
+        }
+      ]
+    },
+    {
+      "date": "2020-01-01",
+      "title": "インドネシア政府、未加工ニッケル鉱石の輸出を全面禁止（資源ナショナリズムの本格化）",
+      "content": "インドネシア政府は、国内での製錬・高付加価値化とEV蓄電池サプライチェーンの誘致を目的に、未加工のニッケル鉱石の輸出を原則全面禁止した。同国のニッケル製錬投資が急増する一方、海外製錬所への供給が遮断された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Ministry of Energy and Mineral Resources Regulation on Nickel Export Bans",
+          "url": "https://www.esdm.go.id/",
+          "organization": "インドネシアエネルギー鉱物資源省（ESDM）"
+        }
+      ]
+    }
+  ],
+  "relatedPolicies": [],
+  "sources": [
+    {
+      "title": "重要鉱物サプライチェーンの強靱化に向けた取組",
+      "url": "https://www.meti.go.jp/policy/economy/economic_security/index.html",
+      "organization": "経済産業省"
+    },
+    {
+      "title": "The Role of Critical Minerals in Clean Energy Transitions",
+      "url": "https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions",
+      "organization": "国際エネルギー機関（IEA）"
+    },
+    {
+      "title": "Minerals Security Partnership (MSP) Overview",
+      "url": "https://www.state.gov/minerals-security-partnership/",
+      "organization": "米国国務省（US Department of State）"
+    },
+    {
+      "title": "Critical Raw Materials Act",
+      "url": "https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/critical-raw-materials-act_en",
+      "organization": "欧州委員会（European Commission）"
+    },
+    {
+      "title": "JOGMECの重要鉱物確保の取組",
+      "url": "https://www.jogmec.go.jp/",
+      "organization": "エネルギー・金属鉱物資源機構（JOGMEC）"
+    }
+  ]
+}

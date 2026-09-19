@@ -1,0 +1,227 @@
+{
+  "id": "ai-regulation",
+  "title": "AI規制の国際的枠組み",
+  "subtitle": "生成AIの急速な普及を受け、リスク管理とイノベーション促進を両立する国際ルールの形成が進展",
+  "scope": "international",
+  "category": "multilateral",
+  "categoryLabel": "多国間",
+  "status": "ongoing",
+  "statusLabel": "国際ルール形成・法規制進展",
+  "lastUpdated": "2026-09-15",
+  "background": "2022年11月のChatGPT登場を契機として、テキストや画像、音声を極めて高度に自動生成する「生成AI（Generative AI）」が急速に世界中で普及した。業務効率化や科学的発見、新産業創出への期待が高まる一方で、偽情報・ディープフェイクの拡散による民主的選挙への干渉、大規模な著作権侵害、プライバシー侵害、サイバー攻撃への悪用、雇用への悪影響など、多面的なリスクが顕在化した。\n\nAIのガバナンス（統治）を巡っては、主要国・地域の間で制度設計の思想に違いが存在する。欧州連合（EU）は人権保護や基本的権利の侵害防止を重視し、違反に対して高額な制裁金を科す包括的な法的規制の導入を先行させた。一方、米国は技術革新と市場競争を重視し、自主的な安全宣言や大統領令を通じた標準化を主導した。日本はイノベーション促進とリスク管理のバランスを重視し、ソフトロー（ガイドライン）を中心とするアプローチをとった。\n\n基盤モデルの開発やデータ流通が国境を越えてグローバルに行われるため、一国単独の規制では限界があり、国際的な相互運用性（インターオペラビリティ）を確保した多国間ルールの策定が喫緊の課題となった。",
+  "simpleSummary": "人工知能（AI）が急速に進化し、文章や画像をかんたんに作れるようになって便利になった一方、嘘の情報の拡散や悪用への心配が広がっています。そのため、世界中の国々が協力して「AIを使うときの安全なルール」作りに取り組んでいます。ヨーロッパが世界で初めて厳しい法律を作ったほか、日本やアメリカなども話し合いを進めています。",
+  "overview": "AI規制の国際的枠組みは、欧州連合（EU）による世界初の包括的規制法「EU AI法（AI Act）」の成立（2024年3月可決・8月発効）により法的拘束力を持つルール形成が本格化した。同法はAIシステムをリスクに応じて「許容不可」「ハイリスク」「限定的リスク」「最小リスク」の4段階に分類し、個人の生体分類や社会的信用スコアリングを禁止するとともに、汎用AI（フロンティアモデル）に対して透明性確保や著作権法の遵守を義務付けている。\n\n多国間協調の分野では、2023年に日本がG7議長国として主導した「広島AIプロセス」において、生成AIの開発者・提供者・利用者向けの包括的国際指針および行動規範が合意された。また、2023年11月の英国ブレッチリー・パークでの「AI安全性サミット」を契機に、英・米・日・欧などが「AI安全研究所（AI Safety Institute: AISI）」を相次いで設置し、国家レベルでの安全性評価技術の開発や国際的なネットワーク連携を進めている。\n\n国際連合でも2024年3月に安全で信頼できるAI利用を推進する初の包括的決議が全会一致で採択されるなど、多層的なルール形成が進展している。日本国内においても、総務省・経済産業省による「AI事業者ガイドライン」の運用が始まるとともに、技術革新を阻害しない形での法制度整備に関する検討が続けられている。",
+  "keyActors": [
+    {
+      "name": "欧州連合",
+      "flag": "🇪🇺",
+      "role": "世界初の包括的規制「EU AI法」の成立・施行"
+    },
+    {
+      "name": "アメリカ合衆国",
+      "flag": "🇺🇸",
+      "role": "AI大統領令の発令・米AI安全研究所（AISI）による安全性評価"
+    },
+    {
+      "name": "日本",
+      "flag": "🇯🇵",
+      "role": "G7広島AIプロセスの主導・AI事業者ガイドライン策定と日本AISI設置"
+    },
+    {
+      "name": "英国",
+      "flag": "🇬🇧",
+      "role": "第1回AI安全性サミットの主催・AI安全研究所の設立"
+    },
+    {
+      "name": "国際連合",
+      "role": "AIに関する包括的総会決議の採択とグローバルガバナンス推進"
+    }
+  ],
+  "tags": [
+    "AI規制",
+    "生成AI",
+    "EU AI法",
+    "広島AIプロセス",
+    "AI安全研究所",
+    "ブレッチリー宣言",
+    "ディープフェイク",
+    "ガバナンス"
+  ],
+  "developments": [
+    {
+      "date": "2024-08-01",
+      "title": "欧州連合（EU）の「AI法（AI Act）」が正式発効",
+      "content": "世界初となる包括的な人工知能規制法「EU AI法」が正式に発効した。生体認証監視などの「容認できないリスク」を伴うAIの禁止が半年後に適用され、汎用AIモデルへの義務付けやハイリスクAIへの適合義務が段階的に施行される。最大で世界年間売上高の7%または3500万ユーロの制裁金が規定された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "EUのAI法が発効、段階的に適用開始",
+          "url": "https://www.jetro.go.jp/biznews/2024/08/9483dcbcdaea7a53.html",
+          "organization": "日本貿易振興機構（JETRO）"
+        },
+        {
+          "title": "European AI Act comes into force",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_4133",
+          "organization": "欧州委員会（European Commission）"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-19",
+      "title": "総務省と経済産業省、「AI事業者ガイドライン（第1.0版）」を取りまとめ公表",
+      "content": "日本政府は、従来のガイドラインを統合・改定した「AI事業者ガイドライン（第1.0版）」を正式公表した。AI開発者、AI提供者、AI利用者の全主体を対象に、人権尊重、透明性、安全性、公平性などの共通指針を提示し、自主的なリスクマネジメントを促すソフトロー体制を確立した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "「AI事業者ガイドライン（第1.0版）」を取りまとめました",
+          "url": "https://www.meti.go.jp/press/2024/04/20240419004/20240419004.html",
+          "organization": "経済産業省"
+        },
+        {
+          "title": "AI事業者ガイドライン（第1.0版）の公表",
+          "url": "https://www.soumu.go.jp/menu_news/s-news/01tsushin01_02000438.html",
+          "organization": "総務省"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-21",
+      "title": "国連総会、AIに関する初の包括的決議を全会一致で採択",
+      "content": "国連総会は、米国が主導し120カ国以上が共同提案国となったAIに関する決議「安全で安心かつ信頼できるAIシステムの機会の獲得」を全会一致で採択した。人権を侵害するAI利用の防止や途上国とのデジタル格差の是正、国際的なデータ安全基準の確立が盛り込まれた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "General Assembly Adopts Landmark Resolution on Artificial Intelligence",
+          "url": "https://press.un.org/en/2024/ga12588.doc.htm",
+          "organization": "国際連合（UN）"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-13",
+      "title": "欧州議会、包括的AI規制「EU AI法案」を圧倒的多数で可決承認",
+      "content": "欧州議会の本会議でEU AI法案の採決が行われ、賛成523票、反対46票、棄権49票の圧倒的多数で可決・成立した。リスクベースのアプローチを採用し、透明性の確保や高リスクAIへの適合性評価義務を課す世界基準となる法制が固まった。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Artificial Intelligence Act: MEPs adopt landmark law",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law",
+          "organization": "欧州議会（European Parliament）"
+        }
+      ]
+    },
+    {
+      "date": "2024-02-14",
+      "title": "日本政府、情報処理推進機構（IPA）に「AIセーフティ・インスティテュート」を設立",
+      "content": "経済産業省など関係省庁の連携のもと、IPA内に「AIセーフティ・インスティテュート（AISI）」が設立された。生成AIの安全性評価手法の研究開発や規格化を進めるとともに、米英など各国のAI安全機関との国際協調の窓口としての機能を担うことが決定された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "「AIセーフティ・インスティテュート」の設立について",
+          "url": "https://www.meti.go.jp/press/2023/02/20240214002/20240214002.html",
+          "organization": "経済産業省"
+        }
+      ]
+    },
+    {
+      "date": "2023-12-01",
+      "title": "G7首脳、「広島AIプロセス」の包括的政策枠組みを正式承認",
+      "content": "G7首脳テレビ会議が開催され、高度なAIシステムを開発・提供する組織向けの「国際指針」および「国際行動規範」を含む広島AIプロセスの包括的枠組みが正式に承認された。透明性の確保や偽情報対策（電子透かし技術の活用等）に関する国際協調の基盤が整備された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "G7首脳テレビ会議（広島AIプロセスに関する成果文書の承認）",
+          "url": "https://www.mofa.go.jp/mofaj/ecm/ec/page1_001625.html",
+          "organization": "外務省"
+        },
+        {
+          "title": "広島AIプロセス包括的政策枠組み",
+          "url": "https://www.soumu.go.jp/hiroshimaaiprocess/index.html",
+          "organization": "総務省"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-01",
+      "title": "英国で第1回「AI安全性サミット」開催、28カ国とEUが「ブレッチリー宣言」に署名",
+      "content": "英国ブレッチリー・パークで世界初のAI安全性サミットが開催され、米国、中国、日本、英国を含む28カ国と欧州連合が「ブレッチリー宣言」に署名した。フロンティアAIモデルがもたらす破滅的リスクや偏見のリスクを共同で評価・管理していく決意が表明された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "The Bletchley Declaration by Countries Attending the AI Safety Summit",
+          "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+          "organization": "英国政府（UK Government）"
+        }
+      ]
+    },
+    {
+      "date": "2023-10-30",
+      "title": "バイデン米大統領、AIの安全性に関する包括的大統領令に署名",
+      "content": "米政権は「安全・安心で信頼できる人工知能の開発と利用に関する大統領令」に署名した。国家安全保障や経済安全保障にリスクを及ぼす可能性のある最先端AIモデルの開発企業に対し、安全性テスト（レッドチーミング）の結果を米政府に報告することを義務付けた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence",
+          "url": "https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/",
+          "organization": "ホワイトハウス（The White House）"
+        }
+      ]
+    },
+    {
+      "date": "2023-05-20",
+      "title": "G7広島サミット、首脳級枠組み「広島AIプロセス」の創設で合意",
+      "content": "広島で開催されたG7主要国首脳会議において、生成AIのガバナンスや知的財産権の保護、偽情報対策を議論するため、年内に担当閣僚級会合を開く「広島AIプロセス」の立ち上げが首脳コミュニケに盛り込まれた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "G7広島首脳コミュニケ（抜粋・仮訳）",
+          "url": "https://www.mofa.go.jp/mofaj/gaiko/g7_summit2023/index.html",
+          "organization": "外務省"
+        }
+      ]
+    },
+    {
+      "date": "2022-11-30",
+      "title": "米OpenAIが「ChatGPT」を公開、生成AIの爆発的普及が開始",
+      "content": "米国の人工知能研究所OpenAIが大規模言語モデル（LLM）に基づく対話型AI「ChatGPT」の一般公開を開始した。わずか2カ月で月間アクティブユーザー数が1億人を突破し、世界中で生成AIの活用とリスクへの懸念が急速に高まった。",
+      "significance": "high",
+      "sources": []
+    },
+    {
+      "date": "2021-04-21",
+      "title": "欧州委員会、世界初となる包括的な「AI規則案（EU AI法案）」を発表",
+      "content": "欧州委員会は、リスクの度合いに応じてAIシステムを分類・規制する包括的な法的枠組み案を世界に先駆けて提案した。人間の基本的権利を保護しつつ、信頼性の高いAIの開発・普及を促すルール形成の嚆矢となった。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Proposal for a Regulation laying down harmonised rules on artificial intelligence",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0206",
+          "organization": "欧州委員会（European Commission）"
+        }
+      ]
+    }
+  ],
+  "relatedPolicies": [],
+  "sources": [
+    {
+      "title": "広島AIプロセス（G7関連情報）",
+      "url": "https://www.soumu.go.jp/hiroshimaaiprocess/index.html",
+      "organization": "総務省"
+    },
+    {
+      "title": "AI政策・AI事業者ガイドライン",
+      "url": "https://www.meti.go.jp/policy/it_policy/ai_policy/index.html",
+      "organization": "経済産業省"
+    },
+    {
+      "title": "AI戦略会議・AIセーフティ・インスティテュート",
+      "url": "https://www.cas.go.jp/jp/seisaku/ai_senryaku/index.html",
+      "organization": "内閣官房"
+    },
+    {
+      "title": "EU Artificial Intelligence Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "organization": "欧州委員会（European Commission）"
+    }
+  ]
+}

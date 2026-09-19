@@ -1,0 +1,230 @@
+{
+  "id": "semiconductor-supply-chain",
+  "title": "半導体サプライチェーンを巡る国際覇権競争",
+  "subtitle": "先端半導体の囲い込みと国内製造基盤の再構築を巡り米中対立および多国間投資競争が激化",
+  "scope": "international",
+  "category": "economy",
+  "categoryLabel": "経済安全保障",
+  "status": "ongoing",
+  "statusLabel": "多国間競争・投資加速",
+  "lastUpdated": "2026-09-15",
+  "background": "自動車、スマートフォン、データセンター、生成AI、さらに精密誘導兵器やレーダー等の防衛装備に至るまで、あらゆる現代産業および安全保障の基盤は半導体によって支えられている。冷戦後のグローバル化において、設計（米国等）、受託製造・ファウンドリ（台湾・韓国等）、製造装置・重要素材（日本・オランダ・米国等）への極端な水平分業体制が構築され、生産の効率化が進んだ。\n\nしかし、回路線幅10ナノメートル以下の最先端ロジック半導体の製造能力の約9割が台湾（TSMC）に集中した結果、台湾海峡における地政学的リスクや自然災害が世界経済全体を麻痺させかねない構造的脆弱性（チョークポイント）が浮き彫りとなった。また、新型コロナウイルス禍に伴う世界的な半導体供給不足は、自動車産業をはじめとする主要製造業の操業停止を引き起こし、供給網途絶の危険性を世界に認識させた。\n\n中国が国家戦略「中国製造2025」を通じて半導体の自給率向上と軍民融合を加速させたことに対し、米国は軍事転用の阻止とハイテク覇権の維持を目的として、最先端半導体および微細加工装置の対中輸出規制を段階的に強化した。これに伴い、日米欧など主要先進国が巨額の国家財政を投じて自国内への工場誘致とサプライチェーンの囲い込み（リショアリング・フレンドショアリング）を推進する国家間競争へと発展した。",
+  "simpleSummary": "半導体は、スマートフォンや自動車、最新の人工知能（AI）や軍事兵器を動かす「産業の頭脳」です。現在、最先端の半導体を作る技術の多くが台湾に集中しており、災害や戦争が起きた場合に世界中でモノが作れなくなる大きなリスクがあります。そのためアメリカは、中国に先端技術が渡らないよう厳しく規制するとともに、自国内に半導体工場を呼び戻すために巨額の補助金を出しています。日本も熊本県に台湾の大手企業TSMCの工場を誘致し、北海道で次世代の最先端半導体を作る「ラピダス」を支援するなど、国を挙げた取り組みが進んでいます。",
+  "overview": "最先端半導体を巡る国際環境は、米中対立の激化と各国による産業政策の復活によって、自由貿易から国家介入主導のブロック化へと大きく転換している。米国は2022年8月に成立した「CHIPSおよび科学法（CHIPS Act）」に基づき、527億ドルの財政支援枠からTSMC、インテル、サムスン電子などへの巨額補助金の交付を決定した。また、オランダ（ASML）や日本（東京エレクトロン等）と協調し、極端紫外線（EUV）露光装置を含む先端半導体製造装置の対中輸出管理を厳格化している。\n\n日本政府は「半導体・デジタル産業戦略」を推進し、経済産業省が主導して台湾TSMCの子会社JASMによる熊本第1工場の建設・開所（2024年2月）に最大約4,760億円を助成した。さらに第2工場に対しても最大約7,320億円の追加助成を決定したほか、次世代2ナノメートル半導体の国産量産化を目指す国策企業「ラピダス（Rapidus）」に対して累計9,000億円を超える助成枠を承認し、北海道千歳市での製造拠点整備を進めている。\n\n一方の中国は、米国の輸出規制に対抗して国内の半導体基金（ビッグファンド）第3期を立ち上げるなど投資を拡大し、規制対象外であるレガシー（成熟世代）半導体の生産能力を急拡張して世界シェアの獲得を図っている。さらに、半導体原材料となるガリウム、ゲルマニウム、アンチモンなどの重要鉱物の輸出管理を強化しており、サプライチェーンの分断と相互牽制が常態化している。",
+  "keyActors": [
+    {
+      "name": "アメリカ合衆国",
+      "flag": "🇺🇸",
+      "role": "CHIPS法に基づく巨額助成の配分と対中包括輸出規制・多国間輸出管理を主導"
+    },
+    {
+      "name": "台湾（TSMC）",
+      "flag": "🇹🇼",
+      "role": "先端半導体受託製造の世界シェア過半を占める最大手。日米欧への製造拠点分散を推進"
+    },
+    {
+      "name": "日本",
+      "flag": "🇯🇵",
+      "role": "経済安全保障施策としてTSMC熊本誘致やラピダス支援に巨額財政支出。先端製造装置の輸出管理を実施"
+    },
+    {
+      "name": "中華人民共和国",
+      "flag": "🇨🇳",
+      "role": "半導体内製化を国家プロジェクトで推進。成熟世代半導体の増産と重要鉱物輸出制限で対抗"
+    },
+    {
+      "name": "オランダ",
+      "flag": "🇳🇱",
+      "role": "最先端露光装置を独占供給するASMLを擁し、米国の対中輸出管理枠組みに同調"
+    },
+    {
+      "name": "欧州連合（EU）",
+      "flag": "🇪🇺",
+      "role": "「欧州半導体法」に基づき430億ユーロ規模の投資を誘導、域内生産シェア倍増を目指す"
+    }
+  ],
+  "tags": [
+    "半導体",
+    "サプライチェーン",
+    "経済安全保障",
+    "TSMC",
+    "ラピダス",
+    "CHIPS法",
+    "輸出規制",
+    "米中対立",
+    "ASML"
+  ],
+  "developments": [
+    {
+      "date": "2024-09-05",
+      "title": "米商務省が量子コンピュータや先端半導体製造技術の輸出管理強化を公表",
+      "content": "米商務省産業安全保障局（BIS）は、量子コンピューティングや最先端GAA（Gate-All-Around）トランジスタ製造技術などを含む重要新興技術を対象に、国際的な枠組みに合わせた輸出管理暫定規則を発表した。軍事転用防止を理由とした同盟国・同志国間の管理整合化が進められた。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Commerce Implements Export Controls on Advanced Technologies Alongside International Partners",
+          "url": "https://www.bis.gov/",
+          "organization": "米商務省産業安全保障局（BIS）"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-08",
+      "title": "米政府がTSMCのアリゾナ工場建設に対し最大66億ドルの直接助成を発表",
+      "content": "米バイデン政権はCHIPS法に基づき、台湾TSMCが米アリゾナ州に建設する先端半導体工場群に対し、最大66億ドルの直接助成金と最大50億ドルの政府融資を提供すると発表した。TSMCは同州での投資総額を650億ドル超に引き上げ、第3工場の新設を発表した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Biden-Harris Administration Announces Preliminary Terms with TSMC",
+          "url": "https://www.whitehouse.gov/",
+          "organization": "米ホワイトハウス"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-02",
+      "title": "経済産業省がラピダスに対し2024年度研究開発費として最大5900億円の追加助成を決定",
+      "content": "経済産業省は、北海道千歳市で次世代2ナノメートル半導体の量産基盤確立を目指すラピダスに対し、最大5,900億円の追加助成を承認した。これまでの支援決定額と合わせ、国からの助成枠は累計で約9,200億円に達した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Rapidus株式会社の研究開発計画の変更を認可しました",
+          "url": "https://www.meti.go.jp/press/2024/04/20240402001/20240402001.html",
+          "organization": "経済産業省"
+        }
+      ]
+    },
+    {
+      "date": "2024-02-24",
+      "title": "台湾TSMCの日本初製造拠点となる熊本第1工場が開所",
+      "content": "TSMC子会社のJASMが熊本県菊陽町に建設した第1工場の開所式が行われた。日本政府は第1工場に対し最大4,760億円を支援しており、開所式において経済産業大臣は第2工場の建設に対しても最大約7,320億円を追加支援する方針を表明した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "TSMC熊本工場の開所について",
+          "url": "https://www.meti.go.jp/",
+          "organization": "経済産業省"
+        }
+      ]
+    },
+    {
+      "date": "2023-10-17",
+      "title": "米商務省が対中半導体輸出規制を改定、AI半導体の性能基準を厳格化",
+      "content": "米商務省は、2022年10月に発表した先端半導体の対中輸出規制規則を更新した。規制逃れを防ぐためAI半導体の計算能力密度に関する新たな基準を導入し、エヌビディア等による中国向け特定チップの輸出を事実上遮断した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Commerce Strengthens Restrictions on Advanced Computing Semiconductors",
+          "url": "https://www.bis.gov/",
+          "organization": "米商務省産業安全保障局（BIS）"
+        }
+      ]
+    },
+    {
+      "date": "2023-07-23",
+      "title": "日本政府が先端半導体製造装置23品目を対象とする改正外為法省令を施行",
+      "content": "日本政府は、極端紫外線（EUV）露光装置や先端エッチング装置など23品目の高性能半導体製造装置を輸出管理の規制対象に追加した改正省令を施行した。特定の国を名指ししていないものの、事実上中国への先端装置輸出管理を強化する措置となった。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "輸出貿易管理令の一部を改正する政令等を閣議決定しました",
+          "url": "https://www.meti.go.jp/press/2023/05/20230523001/20230523001.html",
+          "organization": "経済産業省"
+        }
+      ]
+    },
+    {
+      "date": "2023-06-30",
+      "title": "オランダ政府が先端液浸露光装置を含む半導体製造装置の輸出管理規則を公表",
+      "content": "オランダ政府は、半導体露光装置大手ASMLが製造する液浸DUV（深紫外線）露光装置の先端モデルを対象とした輸出許可制度の導入を発表した。米国が求めていた多国間での対中先端半導体包囲網への足並みを揃える措置となった。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "National export control measures for advanced semiconductor equipment",
+          "url": "https://www.government.nl/",
+          "organization": "オランダ政府（Government of the Netherlands）"
+        }
+      ]
+    },
+    {
+      "date": "2022-10-07",
+      "title": "米商務省（BIS）が先端半導体および製造装置の対中輸出包括規制を発表",
+      "content": "米商務省産業安全保障局は、中国の先端半導体製造能力（16/14ナノメートル以下のロジック、18ナノメートル以下のDRAM、128層以上のNAND等）を標的とした前例のない包括的輸出規制を導入した。米国人の関与禁止条項も盛り込まれ、業界に強い衝撃を与えた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Commerce Implements New Export Controls on Advanced Computing and Semiconductor Manufacturing Items to PRC",
+          "url": "https://www.bis.gov/",
+          "organization": "米商務省産業安全保障局（BIS）"
+        }
+      ]
+    },
+    {
+      "date": "2022-08-10",
+      "title": "日本の主要企業8社が次世代半導体量産を目指す「ラピダス（Rapidus）」を設立",
+      "content": "トヨタ自動車、NTT、ソニーグループ、キオクシアなど国内8社が出資し、2ナノメートル以下の最先端ロジック半導体の国産量産化を目指す新会社「ラピダス」が設立された。経済産業省の新エネルギー・産業技術総合開発機構（NEDO）を通じて国が研究開発支援を行う枠組みが発足した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "半導体・デジタル産業戦略の推進",
+          "url": "https://www.meti.go.jp/policy/mono_info_service/joho/telecom/semicon_digital.html",
+          "organization": "経済産業省"
+        }
+      ]
+    },
+    {
+      "date": "2022-08-09",
+      "title": "米バイデン大統領が「CHIPSおよび科学法（CHIPS Act）」に署名し成立",
+      "content": "米国内での半導体製造および研究開発支援に総額約527億ドルの予算措置を講じる包括法案が成立した。助成金受給企業が中国など懸念国で先端半導体製造能力を拡張することを禁止する「ガードレール条項」が盛り込まれた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Fact Sheet: CHIPS and Science Act Will Lower Costs, Create Jobs, Strengthen Supply Chains",
+          "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2022/08/09/fact-sheet-chips-and-science-act-will-lower-costs-create-jobs-strengthen-supply-chains-and-counter-china/",
+          "organization": "米ホワイトハウス"
+        }
+      ]
+    },
+    {
+      "date": "2021-11-09",
+      "title": "TSMCがソニーと合弁会社JASMを設立し熊本県への工場新設を正式発表",
+      "content": "台湾のTSMCは、ソニーセミコンダクタソリューションズと共同で日本法人JASMを設立し、熊本県に新工場を建設すると発表した。初期投資額は約70億ドルとされ、日本政府が「特定半導体生産施設整備計画」として巨額助成を行う第一号案件となった。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "特定高度情報通信技術活用システムの開発供給及び導入の促進に関する法律に基づく計画認定",
+          "url": "https://www.meti.go.jp/press/2022/06/20220617004/20220617004.html",
+          "organization": "経済産業省"
+        }
+      ]
+    }
+  ],
+  "relatedPolicies": [],
+  "sources": [
+    {
+      "title": "半導体・デジタル産業戦略",
+      "url": "https://www.meti.go.jp/policy/mono_info_service/joho/telecom/semicon_digital.html",
+      "organization": "経済産業省"
+    },
+    {
+      "title": "Bureau of Industry and Security (BIS) - Export Administration Regulations",
+      "url": "https://www.bis.gov/",
+      "organization": "米商務省産業安全保障局"
+    },
+    {
+      "title": "Fact Sheet: CHIPS and Science Act",
+      "url": "https://www.whitehouse.gov/",
+      "organization": "米ホワイトハウス"
+    },
+    {
+      "title": "European Chips Act",
+      "url": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/european-chips-act_en",
+      "organization": "欧州委員会（European Commission）"
+    },
+    {
+      "title": "外交青書 - 経済安全保障の推進",
+      "url": "https://www.mofa.go.jp/mofaj/gaiko/bluebook/",
+      "organization": "外務省"
+    }
+  ]
+}

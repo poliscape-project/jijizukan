@@ -1,0 +1,196 @@
+{
+  "id": "ocean-plastics-treaty",
+  "title": "海洋プラスチック汚染防止条約の国際交渉",
+  "subtitle": "プラスチックのライフサイクル全体を包括する国際条約策定に向け、生産上限規制を求める国とリサイクル重視派が対立",
+  "scope": "international",
+  "category": "multilateral",
+  "categoryLabel": "多国間・環境",
+  "status": "ongoing",
+  "statusLabel": "国際交渉継続中",
+  "lastUpdated": "2026-09-15",
+  "background": "20世紀半ば以降、プラスチックはその軽量性、耐久性、加工の容易さから大量生産・大量消費され、現代社会に不可欠な素材となった。しかし、その多くが使い捨て（シングルユース）容器包装として短期間で廃棄され、世界全体で毎年1,000万トン以上のプラスチックごみが河川等を通じて海洋へ流出していると推計されている。紫外線や波浪によって微細化されたマイクロプラスチック（5mm以下）は、北極海から深海堆積物、さらには海洋生物の体内にまで蓄積し、食物連鎖を通じて生態系や人体の健康に及ぼすリスクが世界的な懸念となっている。\n\n経済協力開発機構（OECD）の試算によると、抜本的な対策が講じられない場合、2060年までに世界のプラスチック使用量は2019年比で約3倍に急増し、海洋流出量も大幅に増加すると予測されている。また、エレン・マッカーサー財団の調査では「2050年には海に存在するプラスチックごみの重量が、海洋に生息する魚の総重量を超える」との深刻な予測が示された。これを受け、2019年のG20大阪サミットで日本主導の「大阪ブルー・オーシャン・ビジョン」（2050年までに追加汚染ゼロ）が採択されるなど、国際的枠組みの必要性が急速に高まった。\n\n従来の国際環境条約（バーゼル条約や国連海洋法条約等）は、有害廃棄物の国境を越える移動規制や洋上投棄の禁止など、廃棄後の段階を主に対象としていた。このため、石油等の原料採取からポリマー製造、製品設計、消費、再利用、最終処分に至る「プラスチックの全ライフサイクル」を包括的に規律する法的拘束力のある国際条約を策定するため、2022年3月の第5回国連環境総会（UNEA-5.2）において歴史的な交渉開始が決議された。",
+  "simpleSummary": "海に流れ出た大量のプラスチックごみが生き物や環境を脅かす問題を解決するため、国連で法的拘束力のある新しい国際条約を作る話し合いが進められています。細かく砕けた「マイクロプラスチック」は魚の体に入り、人間への悪影響も心配されています。条約作りでは、プラスチックの「生産量そのものを減らす世界共通のルール」を作りたい欧州や島国などのグループと、石油の売上減少を心配して「リサイクルやゴミ分別の強化にとどめたい」産油国などのグループが激しく対立しており、合意に向けた最終調整が続けられています。",
+  "overview": "国連環境計画（UNEP）のもとに設置された「政府間交渉委員会（INC）」は、2024年末までの条約策定完了を目指し、INC-1（ウルグアイ）からINC-4（カナダ・オタワ）を経て、最終会合となるINC-5（韓国・釜山）に向けた精力的な外交交渉を展開している。条約の共通目的は「海洋環境を含むプラスチック汚染を終わらせる」ことにあるが、条約の拘束力や具体的義務を巡って各国の利害が真っ向から対立している。\n\n交渉の最大の争点は、バージン（一次）プラスチックの「生産抑制（生産上限規制）」を条約に盛り込むか否かである。欧州連合（EU）、太平洋島嶼国、ノルウェー、アフリカ諸国などで構成される有志国連合「高い志の連合（HAC）」は、生産段階からの総量削減目標や特定の有害化学物質・使い捨てプラ製品の禁止を主張している。これに対し、サウジアラビア、ロシア、イラン、中国などの産油国・化学品輸出国グループ（志を同じくする国々：LMDC）は、生産規制は経済発展を阻害するとして猛烈に反発し、廃棄物管理の改善やリサイクル技術の革新、製品回収の徹底に限定すべきだと主張している。\n\n日本政府は、気候変動対策と海洋環境保全の両立を重視しつつ、過度の生産制限ではなく代替素材（生分解性プラスチック等）の開発普及やリサイクルインフラ整備を中心とする実効的な枠組みを提唱している。さらに、途上国への資金・技術支援メカニズムの設計（既存の地球環境ファシリティ活用か新基金創設か）や、各国の国別行動計画（NDC型）による自主的取組と共通義務のバランスも重要論点となっており、国際環境ガバナンスの試金石として最終交渉が進展している。",
+  "keyActors": [
+    {
+      "name": "国連環境計画（UNEP）",
+      "role": "政府間交渉委員会（INC）の運営事務局を務め条約策定プロセスの合意形成を主導"
+    },
+    {
+      "name": "高い志の連合（High Ambition Coalition: HAC）",
+      "role": "欧州連合や島嶼国等から成り、プラスチック生産抑制や有害物質禁止を含む野心的義務を要求"
+    },
+    {
+      "name": "産油国グループ（サウジアラビア、ロシア、イラン等）",
+      "flag": "🇸🇦🇷🇺",
+      "role": "生産上限規制に強く反対し、廃棄物処理インフラやリサイクル技術重視を主張"
+    },
+    {
+      "name": "日本（環境省・外務省）",
+      "flag": "🇯🇵",
+      "role": "大阪ブルー・オーシャン・ビジョンを推進し、実行可能性と野心の両立を図る調停役"
+    },
+    {
+      "name": "アメリカ合衆国",
+      "flag": "🇺🇸",
+      "role": "国別行動計画を中心とする柔軟な枠組みを支持しつつ生産規制に関する姿勢を模索"
+    }
+  ],
+  "tags": [
+    "海洋プラスチック",
+    "プラスチック条約",
+    "UNEP",
+    "マイクロプラスチック",
+    "環境条約",
+    "大阪ブルー・オーシャン・ビジョン",
+    "サーキュラーエコノミー",
+    "INC"
+  ],
+  "developments": [
+    {
+      "date": "2024-04-29",
+      "title": "カナダ・オタワで第4回政府間交渉委員会（INC-4）が閉幕、会期間作業を決定",
+      "content": "オタワで開催されたINC-4では、一次プラスチック生産規制を巡る議論が平行線をたどったものの、11月のINC-5（釜山）に向け、資金調達メカニズムやプラスチック製品・化学物質の基準に関する専門家会期間作業の実施で合意した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Fourth session of the Intergovernmental Negotiating Committee on Plastic Pollution (INC-4)",
+          "url": "https://www.unep.org/inc-plastic-pollution/session-4",
+          "organization": "国連環境計画（UNEP）"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-19",
+      "title": "ケニア・ナイロビで第3回政府間交渉委員会（INC-3）開催、条約草案を巡り議論難航",
+      "content": "ナイロビで開催されたINC-3において、UNEP事務局が作成したゼロ・ドラフトを基に交渉が行われたが、意思決定ルール（全会一致か多数決か）や生産抑制条項を巡り産油国とHACが対立し、会期間作業の合意が見送られた。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Third session of the Intergovernmental Negotiating Committee on Plastic Pollution (INC-3)",
+          "url": "https://www.unep.org/inc-plastic-pollution/session-3",
+          "organization": "国連環境計画（UNEP）"
+        }
+      ]
+    },
+    {
+      "date": "2023-09-04",
+      "title": "UNEP事務局、プラスチック条約の「ゼロ・ドラフト（条約草案初案）」を公表",
+      "content": "INC議長およびUNEP事務局は、一次プラスチックポリマーの生産抑制、問題のあるプラスチック製品の段階的廃止、製品設計基準、資金支援メカニズムなどの選択肢を整理した初の包括的草案条文を加盟国に提示した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Zero draft text of the international legally binding instrument on plastic pollution",
+          "url": "https://www.unep.org/inc-plastic-pollution",
+          "organization": "国連環境計画（UNEP）"
+        }
+      ]
+    },
+    {
+      "date": "2023-06-02",
+      "title": "フランス・パリで第2回政府間交渉委員会（INC-2）が閉幕、草案作成権限を付与",
+      "content": "パリで開催されたINC-2において、手続き規則を巡る激しい応酬があったものの、次回会合に向けてINC議長に対し条約条文の「ゼロ・ドラフト」を作成する権限を付与することが決定された。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Second session of the Intergovernmental Negotiating Committee on Plastic Pollution (INC-2)",
+          "url": "https://www.unep.org/inc-plastic-pollution/session-2",
+          "organization": "国連環境計画（UNEP）"
+        }
+      ]
+    },
+    {
+      "date": "2022-12-02",
+      "title": "ウルグアイ・プンタ・デル・エステで第1回政府間交渉委員会（INC-1）が開幕",
+      "content": "法的拘束力のあるプラスチック汚染防止条約の策定に向けた第1回交渉会合が開催され、160カ国以上の政府代表やNGOが参加し、全ライフサイクルを視野に入れた条約の基本方針や枠組みについて初期協議が行われた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "First session of the Intergovernmental Negotiating Committee on Plastic Pollution (INC-1)",
+          "url": "https://www.unep.org/inc-plastic-pollution/session-1",
+          "organization": "国連環境計画（UNEP）"
+        }
+      ]
+    },
+    {
+      "date": "2022-08-22",
+      "title": "2040年までのプラ汚染撲滅を目指す「高い志の連合（HAC）」が発足",
+      "content": "ノルウェーとルワンダが主導し、EU諸国や日本、カナダなどが参加する「高い志の連合（HAC）」が結成され、プラスチックの生産・消費制限、サーキュラーエコノミー構築、有害物質排除を盛り込んだ野心的な条約合意を目指す共同宣言を発表した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "High Ambition Coalition to End Plastic Pollution Joint Ministerial Statement",
+          "url": "https://hactoendplasticpollution.org/",
+          "organization": "高い志の連合（HAC）"
+        }
+      ]
+    },
+    {
+      "date": "2022-03-02",
+      "title": "第5回国連環境総会（UNEA-5.2）、プラスチック汚染防止条約策定の歴史的決議を採択",
+      "content": "ケニア・ナイロビで開催されたUNEA-5.2において、海洋環境を含むプラスチック汚染に関する法的拘束力のある国際文書の策定を目的とする決議5/14「プラスチック汚染を終わらせる：法的拘束力のある国際文書に向けて」が全会一致で採択された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "UNEA Resolution 5/14: End plastic pollution: Towards an international legally binding instrument",
+          "url": "https://www.unep.org/environmentassembly/unea-5.2/resolutions",
+          "organization": "国連環境総会（UNEA）"
+        }
+      ]
+    },
+    {
+      "date": "2021-09-02",
+      "title": "ジュネーブで海洋ごみ・プラスチック汚染に関する閣僚級会議を開催",
+      "content": "ドイツ、ガーナ、エクアドル、ベトナムが共同主催した閣僚級会議において、70カ国以上の閣僚が参加し、全ライフサイクルを対象とする新たな国際条約交渉の即時開始を支持する閣僚声明を取りまとめた。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Ministerial Conference on Marine Litter and Plastic Pollution",
+          "url": "https://www.unep.org/events/conference/ministerial-conference-marine-litter-and-plastic-pollution",
+          "organization": "国連環境計画（UNEP）"
+        }
+      ]
+    },
+    {
+      "date": "2019-06-29",
+      "title": "G20大阪サミット、2050年追加汚染ゼロを目指す「大阪ブルー・オーシャン・ビジョン」を共有",
+      "content": "日本が議長国を務めたG20大阪サミットにおいて、海洋プラスチックごみによる新たな汚染を2050年までにゼロにすることを目指す首脳ビジョンが共有され、世界80以上の国・地域が支持を表明した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "大阪ブルー・オーシャン・ビジョン",
+          "url": "https://www.mofa.go.jp/mofaj/ecm/es/page23_000570.html",
+          "organization": "外務省"
+        }
+      ]
+    }
+  ],
+  "relatedPolicies": [],
+  "sources": [
+    {
+      "title": "国連環境計画（UNEP）プラスチック汚染に関する政府間交渉委員会（INC）",
+      "url": "https://www.unep.org/inc-plastic-pollution",
+      "organization": "国連環境計画（UNEP）"
+    },
+    {
+      "title": "環境省 海洋プラスチックごみ問題および条約策定動向",
+      "url": "https://www.env.go.jp/water/marine_plastics/treaty.html",
+      "organization": "環境省"
+    },
+    {
+      "title": "外務省 プラスチック汚染に関する国際条約策定交渉",
+      "url": "https://www.mofa.go.jp/mofaj/ic/ch/page22_003780.html",
+      "organization": "外務省"
+    },
+    {
+      "title": "OECD Global Plastics Outlook（世界のプラスチック展望）",
+      "url": "https://www.oecd.org/environment/plastics/",
+      "organization": "経済協力開発機構（OECD）"
+    },
+    {
+      "title": "経済産業省 サーキュラーエコノミー・プラスチック資源循環",
+      "url": "https://www.meti.go.jp/policy/energy_environment/recycle/plastic/index.html",
+      "organization": "経済産業省"
+    }
+  ]
+}

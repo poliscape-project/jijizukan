@@ -1,0 +1,263 @@
+{
+  "id": "middle-east-gaza-conflict",
+  "title": "中東情勢（ガザ紛争）",
+  "subtitle": "2023年10月の武力衝突発生以降、深刻な人道危機と地域波及の懸念が続く",
+  "scope": "international",
+  "category": "conflict",
+  "categoryLabel": "紛争・安全保障",
+  "status": "ongoing",
+  "statusLabel": "武力衝突・人道危機継続",
+  "lastUpdated": "2026-09-15",
+  "background": "パレスチナ問題の歴史的根源は、第一次世界大戦期における英国の三枚舌外交（1917年のバルフォア宣言等）とその後の英国委任統治期にさかのぼる。1947年に国連総会がパレスチナをアラブ国家とユダヤ国家に分割する決議181号を採択したが、アラブ側はこれを拒否した。1948年のイスラエル建国宣言直後から第一次中東戦争が勃発し、70万人以上のパレスチナ人が難民（ナクバ）となった。さらに1967年の第三次中東戦争により、イスラエルはヨルダン川西岸地区、東エルサレム、ガザ地区を軍事占領した。\n\n冷戦後の1993年、イスラエルとパレスチナ解放機構（PLO）は「オスロ合意」に署名し、パレスチナ暫定自治政府の樹立と将来的な「二国家解決」を目指す和平プロセスが開始された。しかし、イスラエルによる入植地拡大の継続や双方の強硬派による暴力の連鎖により交渉は難航し、2000年の第2次インティファーダを経て和平プロセスは事実上停滞した。\n\n2005年にイスラエルはガザ地区から入植者と軍を撤退させたが、2006年の評議会選挙で勝利したイスラム組織ハマスが2007年にガザ地区の実効支配を確立した。これに対しイスラエルとエジプトは厳格な境界封鎖を実施した。物資や人の移動が厳しく制限されたことでガザ地区の経済や生活インフラは著しく困窮し、国連機関が人道危機を警告する中、イスラエル軍とハマス等の武装勢力の間で断続的な武力衝突が繰り返されてきた。",
+  "simpleSummary": "イスラエル人とパレスチナ人が、昔から同じ土地をめぐって長く争っています。2023年10月にパレスチナの武装組織ハマスがイスラエルを攻撃し、これに対してイスラエル軍がガザ地区への攻撃を開始しました。激しい戦闘で多くの市民が被害を受け深刻な食料不足が起きており、国際社会が停戦を求めています。",
+  "overview": "2023年10月7日、パレスチナ自治区ガザ地区を実効支配するイスラム組織ハマス等の武装勢力がイスラエル南部へ越境奇襲攻撃を行い、多数の市民を殺害し200人以上を人質として連行した。これに対しイスラエル政府は「宣戦布告」を行い、ガザ地区全域に対する大規模な空爆および地上侵攻を開始した。軍事作戦によりガザ地区内の住宅や医療・インフラ施設が壊滅的な被害を受け、多数の民間人死傷者と避難民が発生している。\n\n国連機関（OCHA、UNRWA、WHO等）はガザ地区における極度の食料・医薬品・水不足を「壊滅的な人道危機」として警告し、国際社会は人道支援物資の無条件かつ円滑な搬入を強く求めている。また、レバノンのヒズボラやイエメンのフーシ派による攻撃、イスラエルとイランとの直接的な軍事応酬など、紛争の地域的拡大が国際秩序とシーレーン安全保障上の重大な課題となっている。\n\n米国、カタール、エジプトなどの仲介国による停戦および人質解放交渉が継続して行われており、国連安全保障理事会では複数回の停戦決議が採択されているが、即時かつ永続的な停戦の合意および履行には至っておらず、交渉と武力衝突が並行している。",
+  "keyActors": [
+    {
+      "name": "イスラエル国",
+      "flag": "🇮🇱",
+      "role": "自衛権の行使・ハマスの壊滅と人質奪還を掲げ軍事作戦を継続"
+    },
+    {
+      "name": "パレスチナ（ハマス）",
+      "flag": "🇵🇸",
+      "role": "越境攻撃の実行・ガザ実効支配組織として軍事抵抗を継続"
+    },
+    {
+      "name": "アメリカ合衆国",
+      "flag": "🇺🇸",
+      "role": "イスラエルへの安全保障支援と停戦案の提示・仲介"
+    },
+    {
+      "name": "カタール国",
+      "flag": "🇶🇦",
+      "role": "ハマス指導部とのパイプを活かした人質解放・停戦仲介国"
+    },
+    {
+      "name": "日本",
+      "flag": "🇯🇵",
+      "role": "二国家解決の支持・安保理非常任理事国としての外交関与と人道支援供与"
+    }
+  ],
+  "tags": [
+    "中東情勢",
+    "ガザ紛争",
+    "イスラエル",
+    "ハマス",
+    "人道危機",
+    "国連安保理",
+    "停戦交渉"
+  ],
+  "developments": [
+    {
+      "date": "2024-06-10",
+      "title": "国連安保理、米提示の3段階停戦案を支持する決議第2735号を採択",
+      "content": "国連安全保障理事会は、完全な停戦、人質解放、人道支援物資の即時分配、住民の帰還、ガザ復興計画を定めた3段階の停戦構想を支持する決議第2735号を賛成14、棄権1（ロシア）で採択した。決議はイスラエルとハマスの双方に遅滞なく条件を受け入れ履行するよう要求した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "ガザ情勢に関する国連安保理決議第2735号の採択について（外務報道官談話）",
+          "url": "https://www.mofa.go.jp/mofaj/press/danwa/page24_000744.html",
+          "organization": "外務省"
+        },
+        {
+          "title": "Security Council Adopts Resolution 2735 Supporting Full and Complete Ceasefire",
+          "url": "https://press.un.org/en/2024/sc15723.doc.htm",
+          "organization": "国際連合（UN Press）"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-24",
+      "title": "国際司法裁判所（ICJ）、イスラエルに対しラファでの軍事行動即時停止を命令",
+      "content": "国際司法裁判所（ICJ）は南アフリカが申し立てた集団殺害条約適用訴訟において、ガザ最南部ラファにおける人道状況の悪化を踏まえ、イスラエルに対してラファにおける軍事作戦を直ちに停止し、人道支援物資搬入のためラファ検問所を開放するよう命じる暫定措置を発出した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Application of the Convention on the Prevention and Punishment of the Crime of Genocide (Order of 24 May 2024)",
+          "url": "https://www.icj-cij.org/node/204018",
+          "organization": "国際司法裁判所（ICJ）"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-20",
+      "title": "国際刑事裁判所（ICC）検察官、イスラエル首相やハマス指導者らの逮捕状を請求",
+      "content": "国際刑事裁判所（ICC）のカリーム・カーン主任検察官は、ガザ地区およびイスラエル領内での戦争犯罪および人道に対する罪の疑いで、イスラエルのネタニヤフ首相とガラント国防相、ならびにハマス幹部らに対する逮捕状の発付を裁判部に請求したと発表した。人道物資遮断による飢餓の戦術的利用や市民への攻撃などを理由に挙げた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Statement of ICC Prosecutor Karim A.A. Khan KC: Applications for arrest warrants in the situation in the State of Palestine",
+          "url": "https://www.icc-cpi.int/news/statement-icc-prosecutor-karim-aa-khan-kc-applications-arrest-warrants-situation-state",
+          "organization": "国際刑事裁判所（ICC）"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-07",
+      "title": "イスラエル軍、ガザ最南部ラファへの地上侵攻を開始し検問所を制圧",
+      "content": "イスラエル軍は避難民100万人以上が密集していたガザ最南部ラファ東部に退避勧告を発令し、地上侵攻を開始した。エジプト境界にあるラファ国境検問所のガザ地区側を武力制圧して境界を閉鎖したことで、主要な人道支援物資の搬入経路が遮断され、国連や国際社会が人道状況の壊滅的悪化を強く警告した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Secretary-General Distressed by Military Activity in Rafah, Surrounding Area",
+          "url": "https://press.un.org/en/2024/sgsm22216.doc.htm",
+          "organization": "国際連合（UN Press）"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-25",
+      "title": "国連安保理、ラマダン期間中の即時停戦を要求する決議第2728号を採択",
+      "content": "安保理はイスラエルとハマスの衝突開始以降初めて、すべての当事者による即時停戦と人質の即時無条件解放を要求する決議第2728号を採択した。米国が拒否権を行使せず棄権し、日本を含む非常任理事国10カ国の共同提案に基づき可決された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "ガザ地区情勢に関する国連安保理決議第2728号の採択について（外務大臣談話）",
+          "url": "https://www.mofa.go.jp/mofaj/press/danwa/page22_004739.html",
+          "organization": "外務省"
+        }
+      ]
+    },
+    {
+      "date": "2024-01-26",
+      "title": "国際司法裁判所（ICJ）、南アフリカの提訴を受けイスラエルに集団殺害防止の暫定措置を命令",
+      "content": "国際司法裁判所（ICJ）は、南アフリカがイスラエルを集団殺害（ジェノサイド）条約違反で提訴した裁判において暫定措置命令を下した。イスラエルに対し、ガザ地区でのパレスチナ人に対するジェノサイド行為の防止、虐殺扇動の処罰、および緊急に必要とされる基本的サービスや人道支援の提供を可能にする即時有効な措置をとるよう命じた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip (Order of 26 January 2024)",
+          "url": "https://www.icj-cij.org/node/203447",
+          "organization": "国際司法裁判所（ICJ）"
+        },
+        {
+          "title": "外交青書 2024（中東地域情勢）",
+          "url": "https://www.mofa.go.jp/mofaj/gaiko/bluebook/2024/html/chapter2_05.html",
+          "organization": "外務省"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-24",
+      "title": "カタール・エジプト・米国の仲介により初の一時停戦が成立",
+      "content": "イスラエルとハマスは戦闘を4日間休止することで合意し、その後7日間に延長された。休止期間中にハマスが拘束していた人質100人以上が解放され、イスラエル側の刑務所からパレスチナ人拘禁者240人が釈放されたほか、ガザへの人道支援物資の搬入が行われた。12月1日に戦闘が再開された。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "イスラエル・パレスチナ情勢（一時停戦の合意）",
+          "url": "https://www.mofa.go.jp/mofaj/me_a/me1/page22_004077.html",
+          "organization": "外務省"
+        }
+      ]
+    },
+    {
+      "date": "2023-10-07",
+      "title": "ハマスによるイスラエル越境大規模奇襲攻撃とイスラエル軍の報復作戦開始",
+      "content": "ガザ地区から数千発のロケット弾が発射されるとともにハマス戦闘員がイスラエル領内に侵入し、民間人ら1,200人以上が死亡、250人超が人質として連行された。イスラエル政府は非常事態を宣言し、ガザ地区の完全封鎖と大規模な航空爆撃および地上作戦を開始した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "イスラエル・パレスチナ情勢に関する日本政府の対応",
+          "url": "https://www.mofa.go.jp/mofaj/me_a/me1/page22_004077.html",
+          "organization": "外務省"
+        }
+      ]
+    },
+    {
+      "date": "2014-07-08",
+      "title": "イスラエル軍、ガザ地区で「プロテクティブ・エッジ作戦」を実施",
+      "content": "ハマスによるロケット弾攻撃に対し、イスラエル軍は空爆と地上侵攻を伴う「プロテクティブ・エッジ作戦」を実施した。約50日間の激しい戦闘でパレスチナ側2,100人以上、イスラエル側70人以上が死亡し、エジプトの仲介で無期限停戦に合意した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Report of the independent commission of inquiry on the 2014 Gaza conflict",
+          "url": "https://www.ohchr.org/en/hr-bodies/hrc/coi-gaza-conflict/report-coi-gaza",
+          "organization": "国連人権高等弁務官事務所（OHCHR）"
+        }
+      ]
+    },
+    {
+      "date": "2008-12-27",
+      "title": "イスラエル軍、ガザ地区で「キャストレッド作戦」を開始",
+      "content": "イスラエル軍はロケット弾攻撃の阻止とハマスの弱体化を掲げ、ガザ地区に対する空爆と地上侵攻（キャストレッド作戦）を展開した。約3週間の戦闘でパレスチナ側に約1,400人の死者が出たのち、双方が一方的停戦を宣言した。",
+      "significance": "high",
+      "sources": []
+    },
+    {
+      "date": "2006-01-25",
+      "title": "ハマスがパレスチナ評議会選挙で勝利、その後にガザ地区を実効支配",
+      "content": "パレスチナ自治政府の立法評議会選挙でイスラム主義組織ハマスが過半数を獲得した。主流派ファタハとの連立決裂と武力衝突を経て、2007年6月にハマスがガザ地区を武力制圧して実効支配を確立し、パレスチナ自治政府の政治的分断が定着した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "パレスチナ概況",
+          "url": "https://www.mofa.go.jp/mofaj/area/palestine/data.html",
+          "organization": "外務省"
+        }
+      ]
+    },
+    {
+      "date": "2005-09-12",
+      "title": "イスラエル軍、ガザ地区からの入植地撤廃および一方的撤退を完了",
+      "content": "シャロン首相の推進により、イスラエル政府はガザ地区内のユダヤ人入植地全21カ所を撤廃し、イスラエル軍部隊の完全撤退を完了した。これにより1967年以来の地区内占領統治は終了したが、イスラエルはガザの境界線、領空、領海、出入域の管理を継続した。",
+      "significance": "high",
+      "sources": []
+    },
+    {
+      "date": "1993-09-13",
+      "title": "イスラエルとPLOが「オスロ合意」に署名、相互承認と暫定自治開始",
+      "content": "イスラエル政府とパレスチナ解放機構（PLO）が相互承認文書を交わし、ワシントンでパレスチナ暫定自治原則宣言（オスロ合意）に署名した。ガザ地区とヨルダン川西岸エリコからの先行自治が開始され、「二国家解決」を目指す中東和平プロセスの基礎となった。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Declaration of Principles on Interim Self-Government Arrangements (Oslo Accords)",
+          "url": "https://peacemaker.un.org/israelopt-osloaccord93",
+          "organization": "国際連合（UN Peacemaker）"
+        }
+      ]
+    },
+    {
+      "date": "1967-06-05",
+      "title": "第三次中東戦争（六日戦争）の勃発、イスラエルがガザ・ヨルダン川西岸等を占領",
+      "content": "イスラエルとアラブ諸国の間で第三次中東戦争が勃発し、イスラエル軍は6日間でエジプト領ガザ地区およびシナイ半島、ヨルダン領ヨルダン川西岸・東エルサレム、シリア領ゴラン高原を占領した。国連安保理は「占領地からの撤退」を求めた決議第242号を採択した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Security Council Resolution 242 (1967)",
+          "url": "https://www.un.org/unispal/document/auto-insert-184840/",
+          "organization": "国際連合（UN）"
+        }
+      ]
+    },
+    {
+      "date": "1948-05-14",
+      "title": "イスラエル建国宣言と第一次中東戦争の勃発",
+      "content": "国連パレスチナ分割決議および英国委任統治終了を受け、イスラエルが独立を宣言した。直後に周辺アラブ諸国軍が侵攻して第一次中東戦争が勃発し、多数のパレスチナ難民（ナクバ）が発生した。1949年の休戦協定によりガザ地区はエジプトの管理下に置かれた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "General Assembly Resolution 181 (II). Future government of Palestine",
+          "url": "https://www.un.org/unispal/document/auto-insert-185393/",
+          "organization": "国際連合（UN）"
+        }
+      ]
+    }
+  ],
+  "relatedPolicies": [],
+  "sources": [
+    {
+      "title": "イスラエル・パレスチナ情勢",
+      "url": "https://www.mofa.go.jp/mofaj/me_a/me1/page22_004077.html",
+      "organization": "外務省"
+    },
+    {
+      "title": "Hostilities in the Gaza Strip and Israel - Reported Impact",
+      "url": "https://www.ochaopt.org/",
+      "organization": "国連人道問題調整事務所（UN OCHA）"
+    },
+    {
+      "title": "The Question of Palestine and the United Nations",
+      "url": "https://www.un.org/unispal/",
+      "organization": "国際連合（United Nations）"
+    }
+  ]
+}
