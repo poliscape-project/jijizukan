@@ -128,7 +128,26 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
         </section>
 
         {/* 記事ごとの特別セクション（表、比較カード、独自解説等） */}
-        {topic.customSections && topic.customSections.map((section, sIdx) => (
+        {(() => {
+          const sections = [...(topic.customSections || [])];
+          if (topic.statCardsData && topic.statCardsData.length > 0 && !sections.some((s) => s.type === "stat_cards")) {
+            sections.push({
+              title: "重要指標・対比データ",
+              icon: "📊",
+              type: "stat_cards",
+              statCardsData: topic.statCardsData,
+            });
+          }
+          if (topic.cardsData && topic.cardsData.length > 0 && !sections.some((s) => s.type === "cards")) {
+            sections.push({
+              title: "深掘り4大論点",
+              icon: "📌",
+              type: "cards",
+              cardsData: topic.cardsData,
+            });
+          }
+
+          return sections.map((section, sIdx) => (
           <section key={sIdx} className="mb-8">
             <h2 className="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
               {section.icon ? <span>{section.icon}</span> : <FileText className="w-5 h-5 text-blue-600" />}
@@ -281,7 +300,8 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
               </div>
             )}
           </section>
-        ))}
+        ));
+        })()}
 
         {/* 主な関係者 */}
         {topic.keyActors.length > 0 && (

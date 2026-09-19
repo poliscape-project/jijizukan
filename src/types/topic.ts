@@ -83,6 +83,10 @@ export interface Topic {
   // 記事ごとの特別セクション（表、比較カード、詳細解説等）
   customSections?: CustomSection[];
 
+  // ルート直下スタックカードデータ（フォールバック用）
+  statCardsData?: CustomSection["statCardsData"];
+  cardsData?: CustomSection["cardsData"];
+
   keyActors: KeyActor[];
   tags: string[];
   developments: Development[];
