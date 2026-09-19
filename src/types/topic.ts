@@ -90,12 +90,12 @@ export interface Topic {
   sources: TopicSource[];
 }
 
-// === 記事ごとの特別セクション（表、比較カード、詳細解説など） ===
+// === 記事ごとの特別セクション（表、比較カード、詳細解説、統計・予算カードなど） ===
 export interface CustomSection {
   title: string;
   icon?: string;
   description?: string;
-  type: "table" | "cards" | "text";
+  type: "table" | "cards" | "text" | "stat_cards";
   tableData?: {
     headers: string[];
     rows: string[][];
@@ -105,6 +105,13 @@ export interface CustomSection {
     subtitle?: string;
     badge?: string;
     content: string;
+  }[];
+  statCardsData?: {
+    title: string;
+    value: string;
+    badge?: string;
+    challenge: string;
+    measure: string;
   }[];
   content?: string;
 }
