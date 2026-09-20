@@ -12,6 +12,7 @@ import { DevelopmentTimeline } from "./DevelopmentTimeline";
 import { RelatedPolicies } from "./RelatedPolicies";
 import { RelatedTopics } from "./RelatedTopics";
 import { TopicDiscussion } from "./TopicDiscussion";
+import { ViewCounter } from "./ViewCounter";
 import {
   ArrowLeft,
   Calendar,
@@ -82,6 +83,7 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
               label={topic.statusLabel}
               size="md"
             />
+            <ViewCounter topicId={topic.id} />
           </div>
           <h1 className="text-2xl sm:text-3xl font-black text-slate-900 leading-tight">
             {topic.title}
