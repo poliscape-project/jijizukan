@@ -223,6 +223,21 @@
       "id": "unification-church-issue",
       "title": "旧統一教会問題と被害者救済・政界との関係",
       "reason": "旧統一教会の同性婚・選択的夫婦別姓反対ロビー活動が地方議会や国会に影響を与え、法制化議論に直接絡む"
+    },
+    {
+      "id": "joint-custody-civil-code-reform",
+      "title": "共同親権の導入（2024年民法改正）と単独親権からの歴史的転換",
+      "reason": "明治民法以来の家族法・親族編の抜本見直しと、個人の尊厳・家族のあり方を巡る司法・立法論争で直結"
+    },
+    {
+      "id": "global-lgbtq-gender-culture-war",
+      "title": "世界のLGBTQ+・ジェンダー対立（欧米 vs 反ジェンダー同盟）",
+      "reason": "選択的夫婦別姓・同性婚論議は国際的なジェンダー平等・個人の権利をめぐるカルチャーウォーの日本版として位置づけられる"
+    },
+    {
+      "id": "imperial-succession",
+      "title": "皇位継承問題",
+      "reason": "いずれも「家族制度のあり方」と法律・制度改正をめぐる保守・リベラルの価値観対立を軸とした国論を二分する論点"
     }
   ],
   "sources": [
@@ -245,18 +260,6 @@
       "title": "女子差別撤廃条約に関する情報",
       "url": "https://www.mofa.go.jp/mofaj/fp/hr_ha/page22_004543.html",
       "organization": "外務省"
-    }
-  ],
-  "relatedTopics": [
-    {
-      "id": "global-lgbtq-gender-culture-war",
-      "title": "世界のLGBTQ+・ジェンダー対立（欧米 vs 反ジェンダー同盟）",
-      "reason": "選択的夫婦別姓・同性婚論議は国際的なジェンダー平等・個人の権利をめぐるカルチャーウォーの日本版として位置づけられる"
-    },
-    {
-      "id": "imperial-succession",
-      "title": "皇位継承問題",
-      "reason": "いずれも「家族制度のあり方」と法律・制度改正をめぐる保守・リベラルの価値観対立を軸とした国論を二分する論点"
     }
   ]
 }
