@@ -389,7 +389,7 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
         )}
 
         {/* タグ */}
-        {topic.tags.length > 0 && (
+        {topic.tags && topic.tags.length > 0 && (
           <section className="mb-8">
             <h2 className="text-sm font-bold text-slate-800 mb-2 flex items-center gap-2">
               <Tag className="w-4 h-4 text-slate-500" />
