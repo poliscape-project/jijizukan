@@ -81,3 +81,34 @@ export function getRecentlyUpdatedTopics(limit: number = 10): Topic[] {
 
 fs.writeFileSync('src/lib/topics.ts', code);
 console.log(`Successfully generated topics.ts with ${domFiles.length + intlFiles.length} topics!`);
+
+// --- TOPIC_REGISTRY.md 自動生成 ---
+const path = require('path');
+
+function readTopicMeta(dir, filename) {
+  const data = JSON.parse(fs.readFileSync(path.join(dir, filename), 'utf8'));
+  const tags = (data.tags || []).slice(0, 6).join(', ');
+  return { id: data.id, title: data.title, tags };
+}
+
+function buildTable(rows) {
+  let table = '| ID | タイトル | 主要キーワード |\n|---|---|---|\n';
+  for (const r of rows) {
+    table += `| ${r.id} | ${r.title} | ${r.tags} |\n`;
+  }
+  return table;
+}
+
+const domMeta = domFiles.map(f => readTopicMeta('src/data/topics/domestic', f));
+const intlMeta = intlFiles.map(f => readTopicMeta('src/data/topics/international', f));
+
+let registry = `<!-- このファイルは generate-topics.cjs により自動生成されます。手動編集しないでください。 -->\n`;
+registry += `# TOPIC_REGISTRY — 全${domFiles.length + intlFiles.length}件のトピック一覧\n\n`;
+registry += `> **AIエージェントへ**: 新しいトピックを提案する前に、このファイルで既存トピックとの重複がないか必ず確認してください。ID・タイトル・キーワードのいずれかが類似していれば、そのトピックは既に存在します。\n\n`;
+registry += `## 国内トピック（${domFiles.length}件）\n\n`;
+registry += buildTable(domMeta);
+registry += `\n## 国際トピック（${intlFiles.length}件）\n\n`;
+registry += buildTable(intlMeta);
+
+fs.writeFileSync('TOPIC_REGISTRY.md', registry);
+console.log(`Successfully generated TOPIC_REGISTRY.md with ${domFiles.length + intlFiles.length} entries!`);
