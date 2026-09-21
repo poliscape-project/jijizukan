@@ -32,6 +32,7 @@ export const metadata: Metadata = {
   authors: [{ name: "時事図鑑" }],
   creator: "時事図鑑",
   publisher: "時事図鑑",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://jijizukan.vercel.app"),
   openGraph: {
     title: "時事図鑑 | 政治・国際情勢を事実ベースで追跡",
     description:
