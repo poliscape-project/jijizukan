@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (79件)
+// 国内トピック (83件)
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import benikojiSupplementHealthDamageFoodLabelingData from "@/data/topics/domestic/benikoji-supplement-health-damage-food-labeling.json";
 import bigmotorInsuranceFraudStreetTreesData from "@/data/topics/domestic/bigmotor-insurance-fraud-street-trees.json";
@@ -37,6 +37,7 @@ import immigrationReformData from "@/data/topics/domestic/immigration-reform.jso
 import imperialSuccessionData from "@/data/topics/domestic/imperial-succession.json";
 import incomeBarrierTaxReformData from "@/data/topics/domestic/income-barrier-tax-reform.json";
 import invoiceSystemFreelanceControversyData from "@/data/topics/domestic/invoice-system-freelance-controversy.json";
+import itadakiJoshiRirichanRomanceFraudData from "@/data/topics/domestic/itadaki-joshi-ririchan-romance-fraud.json";
 import japanDbsChildSexualAbusePreventionData from "@/data/topics/domestic/japan-dbs-child-sexual-abuse-prevention.json";
 import johnnysSexualAbuseMediaSilenceData from "@/data/topics/domestic/johnnys-sexual-abuse-media-silence.json";
 import jointCustodyCivilCodeReformData from "@/data/topics/domestic/joint-custody-civil-code-reform.json";
@@ -69,8 +70,11 @@ import retrialLawReformHakamadaData from "@/data/topics/domestic/retrial-law-ref
 import riceShortageAgricultureData from "@/data/topics/domestic/rice-shortage-agriculture.json";
 import rideSharingTransportData from "@/data/topics/domestic/ride-sharing-transport.json";
 import schoolTruancyAlternativeEducationData from "@/data/topics/domestic/school-truancy-alternative-education.json";
+import scienceCouncilJapanAppointmentRefusalData from "@/data/topics/domestic/science-council-japan-appointment-refusal.json";
 import selectiveSurnameMarriageData from "@/data/topics/domestic/selective-surname-marriage.json";
+import shiretokoTourBoatSinkingAccidentData from "@/data/topics/domestic/shiretoko-tour-boat-sinking-accident.json";
 import snsInvestmentScamPlatformLiabilityData from "@/data/topics/domestic/sns-investment-scam-platform-liability.json";
+import sushiroNuisanceVideoFoodTerrorismData from "@/data/topics/domestic/sushiro-nuisance-video-food-terrorism.json";
 import takarazukaHarassmentOverworkReformsData from "@/data/topics/domestic/takarazuka-harassment-overwork-reforms.json";
 import teacherWorkStyleKyotokuData from "@/data/topics/domestic/teacher-work-style-kyotoku.json";
 import tokuryuAnonymousOrganizedCrimeData from "@/data/topics/domestic/tokuryu-anonymous-organized-crime.json";
@@ -81,7 +85,7 @@ import vacantHousesLandIssueData from "@/data/topics/domestic/vacant-houses-land
 import wildlifeProtectionBearAttacksData from "@/data/topics/domestic/wildlife-protection-bear-attacks.json";
 import workStyleReformData from "@/data/topics/domestic/work-style-reform.json";
 
-// 国際トピック (47件)
+// 国際トピック (49件)
 import aiRegulationData from "@/data/topics/international/ai-regulation.json";
 import arcticSeaRouteGeopoliticsData from "@/data/topics/international/arctic-sea-route-geopolitics.json";
 import aseanUnityCrisisSuperpowersRivalryData from "@/data/topics/international/asean-unity-crisis-superpowers-rivalry.json";
@@ -92,6 +96,7 @@ import chinaJapanSeafoodBanAlpsWaterData from "@/data/topics/international/china
 import chinaRealEstateEconomicSlowdownData from "@/data/topics/international/china-real-estate-economic-slowdown.json";
 import climateChangeData from "@/data/topics/international/climate-change.json";
 import criticalMineralsResourceNationalismData from "@/data/topics/international/critical-minerals-resource-nationalism.json";
+import crowdstrikeGlobalItOutageSpofData from "@/data/topics/international/crowdstrike-global-it-outage-spof.json";
 import cyberSecurityThreatsData from "@/data/topics/international/cyber-security-threats.json";
 import deDollarizationCurrencyHegemonyData from "@/data/topics/international/de-dollarization-currency-hegemony.json";
 import droneWarfareLawsAutonomousWeaponsData from "@/data/topics/international/drone-warfare-laws-autonomous-weapons.json";
@@ -122,6 +127,7 @@ import spaceDebrisOrbitalSustainabilityData from "@/data/topics/international/sp
 import spaceRaceSecurityData from "@/data/topics/international/space-race-security.json";
 import sudanCivilWarHumanitarianCrisisData from "@/data/topics/international/sudan-civil-war-humanitarian-crisis.json";
 import taiwanStraitData from "@/data/topics/international/taiwan-strait.json";
+import trumpAssassinationAttemptButlerData from "@/data/topics/international/trump-assassination-attempt-butler.json";
 import trumpSecondTermAmericaFirstData from "@/data/topics/international/trump-second-term-america-first.json";
 import ukraineRussiaWarData from "@/data/topics/international/ukraine-russia-war.json";
 import usChinaRelationsData from "@/data/topics/international/us-china-relations.json";
@@ -156,18 +162,19 @@ export const topics: Topic[] = [
   { ...foreignResidentsProvisionalReleaseFrictionData, createdAt: "2026-09-19T17:17:14+09:00" } as unknown as Topic,
   { ...gasolineTaxDoubleTaxationTriggerClauseData, createdAt: "2026-09-20T22:21:57+09:00" } as unknown as Topic,
   { ...generativeAiCopyrightDisinformationData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
-  { ...hanedaAirportRunwayCollisionAccidentData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...hanedaAirportRunwayCollisionAccidentData, createdAt: "2026-09-21T22:06:31+09:00" } as unknown as Topic,
   { ...healthcareSystemReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...henokoBoatCapsizeAccidentData, createdAt: "2026-09-19T23:17:03+09:00" } as unknown as Topic,
   { ...henokoProtestMovementControversyData, createdAt: "2026-09-19T23:29:02+09:00" } as unknown as Topic,
   { ...higherEducationFreeTuitionData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
-  { ...hostClubUncollectedBillsExploitationData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...hostClubUncollectedBillsExploitationData, createdAt: "2026-09-21T22:06:31+09:00" } as unknown as Topic,
   { ...hyogoGubernatorialElection2024Data, createdAt: "2026-09-20T00:27:48+09:00" } as unknown as Topic,
   { ...immigrationReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...imperialSuccessionData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...incomeBarrierTaxReformData, createdAt: "2026-09-20T22:21:57+09:00" } as unknown as Topic,
-  { ...invoiceSystemFreelanceControversyData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
-  { ...japanDbsChildSexualAbusePreventionData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...invoiceSystemFreelanceControversyData, createdAt: "2026-09-21T22:06:31+09:00" } as unknown as Topic,
+  { ...itadakiJoshiRirichanRomanceFraudData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...japanDbsChildSexualAbusePreventionData, createdAt: "2026-09-21T22:06:31+09:00" } as unknown as Topic,
   { ...johnnysSexualAbuseMediaSilenceData, createdAt: "2026-09-21T22:00:47+09:00" } as unknown as Topic,
   { ...jointCustodyCivilCodeReformData, createdAt: "2026-09-20T22:21:57+09:00" } as unknown as Topic,
   { ...kawaguchiFatalAccidentCourtRulingData, createdAt: "2026-09-19T20:37:59+09:00" } as unknown as Topic,
@@ -199,9 +206,12 @@ export const topics: Topic[] = [
   { ...riceShortageAgricultureData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...rideSharingTransportData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...schoolTruancyAlternativeEducationData, createdAt: "2026-09-19T17:17:14+09:00" } as unknown as Topic,
+  { ...scienceCouncilJapanAppointmentRefusalData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...selectiveSurnameMarriageData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
+  { ...shiretokoTourBoatSinkingAccidentData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...snsInvestmentScamPlatformLiabilityData, createdAt: "2026-09-19T17:17:14+09:00" } as unknown as Topic,
-  { ...takarazukaHarassmentOverworkReformsData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...sushiroNuisanceVideoFoodTerrorismData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...takarazukaHarassmentOverworkReformsData, createdAt: "2026-09-21T22:06:31+09:00" } as unknown as Topic,
   { ...teacherWorkStyleKyotokuData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...tokuryuAnonymousOrganizedCrimeData, createdAt: "2026-09-19T17:17:14+09:00" } as unknown as Topic,
   { ...tokyoGubernatorialElection2024PosterHijackData, createdAt: "2026-09-21T22:00:47+09:00" } as unknown as Topic,
@@ -216,10 +226,11 @@ export const topics: Topic[] = [
   { ...bigTechAntitrustRegulationsData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...brexitFalloutUkLabourGovernmentData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
   { ...centralAsiaC5GeopoliticsData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
-  { ...chinaJapanSeafoodBanAlpsWaterData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...chinaJapanSeafoodBanAlpsWaterData, createdAt: "2026-09-21T22:06:31+09:00" } as unknown as Topic,
   { ...chinaRealEstateEconomicSlowdownData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...climateChangeData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...criticalMineralsResourceNationalismData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
+  { ...crowdstrikeGlobalItOutageSpofData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...cyberSecurityThreatsData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...deDollarizationCurrencyHegemonyData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...droneWarfareLawsAutonomousWeaponsData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
@@ -250,6 +261,7 @@ export const topics: Topic[] = [
   { ...spaceRaceSecurityData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...sudanCivilWarHumanitarianCrisisData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...taiwanStraitData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
+  { ...trumpAssassinationAttemptButlerData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...trumpSecondTermAmericaFirstData, createdAt: "2026-09-19T17:17:14+09:00" } as unknown as Topic,
   { ...ukraineRussiaWarData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...usChinaRelationsData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
