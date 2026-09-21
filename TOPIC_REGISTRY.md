@@ -1,18 +1,20 @@
 <!-- このファイルは generate-topics.cjs により自動生成されます。手動編集しないでください。 -->
-# TOPIC_REGISTRY — 全154件のトピック一覧
+# TOPIC_REGISTRY — 全162件のトピック一覧
 
 > **AIエージェントへ**: 新しいトピックを提案する前に、このファイルで既存トピックとの重複がないか必ず確認してください。ID・タイトル・キーワードのいずれかが類似していれば、そのトピックは既に存在します。
 
-## 国内トピック（96件）
+## 国内トピック（101件）
 
 | ID | タイトル | 主要キーワード |
 |---|---|---|
+| abandoned-graves-temple-crisis-cremation | 「墓じまい」急増・無縁墓問題と地方寺院の消滅危機 | 墓じまい, 改葬, 無縁墓, 檀家制度崩壊, 地方寺院消滅, 樹木葬 |
 | aging-infrastructure-water-pipes-crisis | 水道・道路など老朽化インフラ危機と自治体の限界 | 道路陥没, 水道管老朽化, 下水道管破損, インフラ維持更新費, 予防保全, 国土強靱化 |
 | benikoji-supplement-health-damage-food-labeling | 小林製薬「紅麹サプリ」健康被害事件と機能性表示食品制度の抜本見直し | 紅麹, 小林製薬, 機能性表示食品, プベルル酸, 健康被害, アベノミクス規制緩和 |
 | bigmotor-insurance-fraud-street-trees | ビッグモーター不正請求・街路樹除草剤事件と損害保険業界の構造的癒着 | ビッグモーター, 損保ジャパン, 保険金不正請求, 街路樹, 除草剤, 兼重宏行 |
 | boj-monetary-policy-normalization | 日銀の金融政策正常化と「金利のある世界」 | 日本銀行, 金融政策正常化, 政策金利1.25パーセント, 国債金利4パーセント, 超長期国債利回り, アメリカ利上げ |
 | child-poverty-young-carer | 子どもの貧困とヤングケアラー支援 | 子どもの貧困, ヤングケアラー, こども家庭庁, 相対的貧困率, ひとり親世帯, 子ども・若者育成支援推進法 |
 | childcare-support-contribution-stealth-tax | 「子ども・子育て支援金」制度と社会保険料上乗せの「実質負担ゼロ」詭弁論争 | 子ども子育て支援金, 少子化対策, ステルス増税, 社会保険料, 現役世代負担, 岸田文雄 |
+| children-smartphone-sns-addiction-regulation | 子どものスマホ・SNS依存と学校持ち込み・利用制限論争 | スマホ依存, SNS利用制限, 16歳未満SNS禁止, 学校持ち込み, 文部科学省, こども家庭庁 |
 | constitutional-amendment-debate | 憲法改正議論 | 憲法改正, 衆議院憲法審査会, 緊急事態条項, 自衛隊明記, 国会議員任期延長, 憲法第9条 |
 | consumption-tax-fiscal-consolidation | 消費税減税論争と国の借金・財政健全化 | 消費税, 消費税減税, 財政健全化, プライマリーバランス, 国の借金, 国債 |
 | cost-of-living-economy | 物価高・円安と「103万円の壁」論争 | 103万円の壁, 所得税非課税枠, 基礎控除, 給与所得控除, 手取り増, 就労調整 |
@@ -24,6 +26,7 @@
 | defense-spending-increase | 防衛費増額（GDP比2%）と防衛増税の現在地 | 防衛費増額, GDP比2%, 防衛増税, 5年43兆円, 反撃能力, トマホーク |
 | dementia-basic-act-asset-freeze | 認知症700万人時代と「認知症基本法」 | 認知症, 認知症基本法, 資産凍結, 成年後見制度, 超高齢社会, 共生社会 |
 | digital-government-mynumber | デジタル行政・マイナンバー制度 | デジタル行政, デジタル庁, マイナンバーカード, マイナ保険証, マイナ免許証, 資格確認書 |
+| digital-yen-cbdc-bank-branch-consolidation | 「デジタル円（CBDC）」実証実験と地方銀行ATM・店舗大削減 | デジタル円, CBDC, 日本銀行, キャッシュレス, 地方銀行, ATM削減 |
 | disaster-prevention-agency | 防災省（防災庁）創設と国の危機管理体制 | 防災庁, 防災庁設置法成立, 2026年11月発足, 防災省, 能登半島地震の教訓, 南海トラフ巨大地震 |
 | elderly-drivers-license-revocation-mobility | 高齢ドライバー事故・免許自主返納と地方の「移動難民」問題 | 高齢ドライバー, 免許返納, 運転技能検査, サポカー限定免許, 認知機能検査, 移動難民 |
 | electoral-system-reform | 選挙制度改革と「一票の格差」・選挙運動のあり方 | 選挙制度改革, 一票の格差, 公職選挙法, アダムズ方式, 10増10減, ポスター掲示場 |
@@ -100,17 +103,21 @@
 | tokyo-olympics-costs-corruption-governance | 東京五輪の経費膨張と汚職・談合事件 | 東京五輪, 五輪マネー, 新国立競技場, 電通, 受託収賄, 談合 |
 | tower-mansion-inheritance-tax-reform | 「タワマン節税」規制と相続税算定ルール激変（富裕層 vs 税務当局の攻防） | タワマン節税, 相続税, 国税庁, 総則6項, 最高裁判決, タワーマンション |
 | unification-church-issue | 旧統一教会問題と被害者救済・政界との関係 | 旧統一教会, 世界平和統一家庭連合, 政治と宗教, 自民党点検結果, 国際勝共連合, 推薦確認書 |
+| university-research-crisis-10-trillion-fund | 日本の研究力低下と「10兆円大学ファンド」・若手ポスドク雇い止め危機 | 研究力低下, 10兆円大学ファンド, 国際卓越研究大学, 東北大学, ポスドク問題, 科学技術立国 |
 | vacant-houses-land-issue | 空き家問題と所有者不明土地対策 | 空き家問題, 所有者不明土地, 空家等対策特別措置法, 相続登記義務化, 管理不全空家, 特定空家 |
+| welfare-assistance-system-elderly-poverty | 生活保護の受給者半数が高齢者化・「扶養照会」の壁と捕捉率の低さ | 生活保護, 高齢者貧困, 扶養照会, 捕捉率, 憲法25条, 水際作戦 |
 | wildlife-protection-bear-attacks | クマ被害急増と指定管理鳥獣・鳥獣保護管理法改正 | クマ被害, 指定管理鳥獣, 鳥獣保護管理法, ヒグマ, ツキノワグマ, 銃猟規制緩和 |
 | work-style-reform | 働き方改革・2024年問題 | 働き方改革, 2024年問題, 時間外労働上限規制, 過労死防止, 物流効率化法, 日本版ライドシェア |
 
-## 国際トピック（58件）
+## 国際トピック（61件）
 
 | ID | タイトル | 主要キーワード |
 |---|---|---|
 | ai-regulation | AI規制の国際的枠組み | AI規制, 生成AI, EU AI法, 広島AIプロセス, AI安全研究所, ブレッチリー宣言 |
 | arctic-sea-route-geopolitics | 北極海航路と極域開発をめぐる地政学 | 北極海航路, 北極圏, 地政学, 氷上シルクロード, 北極評議会, ロシア |
 | asean-unity-crisis-superpowers-rivalry | 東南アジア（ASEAN）の分断と大国間パワーゲーム | ASEAN, 南シナ海, ASEAN中心性, フィリピン, マルコス大統領, カンボジア |
+| australia-under-16-social-media-ban | オーストラリア「16歳未満SNS禁止法」世界初可決の衝撃 | オーストラリア, 16歳未満SNS禁止, アルバニージー首相, TikTok, Instagram, Meta |
+| bangladesh-revolution-hasina-yunus-transition | バングラデシュ「学生革命」とハシナ政権崩壊・ユヌス暫定政権発足 | バングラデシュ, 学生デモ, ハシナ首相, ムハマドユヌス, 暫定政権, クオータ制 |
 | big-tech-antitrust-regulations | 巨大IT（GAFAM）への独占禁止法規制 | 巨大IT, GAFAM, 独占禁止法, 反トラスト法, スマホ特定ソフトウェア競争促進法, デジタル市場法 |
 | boeing-quality-crisis-737max-safety | 米ボーイング社（Boeing）の品質崩壊スキャンダルと航空安全の危機 | ボーイング, 737MAX, アラスカ航空1282便, ドアプラグ脱落, FAA, NTSB |
 | brexit-fallout-uk-labour-government | ブレグジット（EU離脱）後のイギリスの苦悩と政権交代 | ブレグジット, EU離脱, イギリス総選挙, キア・スターマー, 労働党政権, 英国保守党 |
@@ -144,6 +151,7 @@
 | nuclear-disarmament-npt | 核軍縮・不拡散体制の危機と抑止のジレンマ | 核軍縮, NPT, 核兵器禁止条約, 拡大抑止, 新START, 核の傘 |
 | ocean-plastics-treaty | 海洋プラスチック汚染防止条約の国際交渉 | 海洋プラスチック, プラスチック条約, UNEP, マイクロプラスチック, 環境条約, 大阪ブルー・オーシャン・ビジョン |
 | pacific-island-nations-climate-geopolitics | 太平洋島嶼国と気候危機・大国間安全保障競争 | 太平洋島嶼国, 気候変動, 海面上昇, 地政学競争, PALM, ソロモン諸島 |
+| panama-canal-drought-global-shipping-chokepoint | パナマ運河の歴史的渇水・通航制限と世界海上物流の麻痺 | パナマ運河, 渇水, ガトゥン湖, 海上物流, チョークポイント, 気候変動 |
 | paris-2024-olympics-controversies-polarization | パリオリンピック2024の論争と現代社会の分断（性別適格性・誤審・ルーレット・セーヌ川） | パリオリンピック2024, イマネケリフ, 性別適格性検査, 永山竜樹, 柔道誤審, 混合団体ルーレット |
 | russia-north-korea-alliance | ロシア・北朝鮮軍事同盟と核・ミサイル | ロシア, 北朝鮮, 包括的戦略パートナーシップ条約, 軍事同盟, 部隊派遣, 弾道ミサイル |
 | sahel-africa-coups | アフリカ・サヘル地域の政変と国際秩序 | サヘル地域, 軍事クーデター, マリ, ブルキナファソ, ニジェール, サヘル諸国連合 |
