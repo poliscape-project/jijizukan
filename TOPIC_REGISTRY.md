@@ -1,9 +1,9 @@
 <!-- このファイルは generate-topics.cjs により自動生成されます。手動編集しないでください。 -->
-# TOPIC_REGISTRY — 全146件のトピック一覧
+# TOPIC_REGISTRY — 全154件のトピック一覧
 
 > **AIエージェントへ**: 新しいトピックを提案する前に、このファイルで既存トピックとの重複がないか必ず確認してください。ID・タイトル・キーワードのいずれかが類似していれば、そのトピックは既に存在します。
 
-## 国内トピック（91件）
+## 国内トピック（96件）
 
 | ID | タイトル | 主要キーワード |
 |---|---|---|
@@ -25,12 +25,14 @@
 | dementia-basic-act-asset-freeze | 認知症700万人時代と「認知症基本法」 | 認知症, 認知症基本法, 資産凍結, 成年後見制度, 超高齢社会, 共生社会 |
 | digital-government-mynumber | デジタル行政・マイナンバー制度 | デジタル行政, デジタル庁, マイナンバーカード, マイナ保険証, マイナ免許証, 資格確認書 |
 | disaster-prevention-agency | 防災省（防災庁）創設と国の危機管理体制 | 防災庁, 防災庁設置法成立, 2026年11月発足, 防災省, 能登半島地震の教訓, 南海トラフ巨大地震 |
+| elderly-drivers-license-revocation-mobility | 高齢ドライバー事故・免許自主返納と地方の「移動難民」問題 | 高齢ドライバー, 免許返納, 運転技能検査, サポカー限定免許, 認知機能検査, 移動難民 |
 | electoral-system-reform | 選挙制度改革と「一票の格差」・選挙運動のあり方 | 選挙制度改革, 一票の格差, 公職選挙法, アダムズ方式, 10増10減, ポスター掲示場 |
 | fixed-tax-cut-salary-slip-controversy | 岸田政権の「定額減税（4万円）」と給与明細明記義務化の迷走 | 定額減税, 岸田文雄, 給与明細明記, 所得税, 住民税, 調整給付 |
 | food-security-basic-act-reform | 食料安全保障と食料・農業・農村基本法の25年ぶり抜本改正 | 食料安全保障, 食料・農業・農村基本法, 不測時食料安全保障法, 食料自給率, 農業の高齢化, 耕作放棄地 |
 | foreign-drivers-traffic-accidents-insurance-gap | 外国人ドライバーの交通事故と交通安全・無保険問題 | 外国人ドライバー, 交通事故統計, 警察庁公的統計, 免許保有者ベース1.6倍, ITARDA年齢層分析, 重大事故無免許率5.1% |
 | foreign-land-acquisition-regulations | 外国人・外資による土地取得問題と「重要土地等調査法」の限界 | 外国人土地取得, 重要土地等調査法, 水源地買収, 安全保障, 自衛隊基地, ニセコ |
 | foreign-residents-provisional-release-friction | 外国人住民・仮放免者と地域社会の摩擦 | 外国人住民, クルド人, 川口市, 仮放免制度, 医療センター前騒乱, 解体業ヤード |
+| freelance-protection-act-gig-economy | フリーランス保護新法施行とギグワーカーの労働者性論争 | フリーランス保護法, フリーランス新法, 特定受託事業者, ギグワーカー, UberEats, 偽装請負 |
 | gasoline-tax-double-taxation-trigger-clause | ガソリン税の二重課税（Tax on Tax）と「トリガー条項」凍結解除論争 | ガソリン税, トリガー条項, 二重課税, Tax on Tax, 暫定税率, 当分の間税率 |
 | general-election-2024-ruling-coalition-loss | 第50回衆院選（2024年）自公過半数割れと30年ぶりの「少数与党」政権誕生 | 第50回衆院選, 自公過半数割れ, 少数与党, 石破茂, 2000万円問題, 立憲民主党 |
 | generative-ai-copyright-disinformation | 生成AIと著作権・偽情報対策 | 生成AI, 著作権法第30条の4, 文化庁, AI戦略会議, 偽情報対策, ディープフェイク |
@@ -75,6 +77,7 @@
 | osaka-ir-casino-gambling-addiction | 大阪IR（カジノ誘致）とギャンブル等依存症問題 | 大阪IR, カジノ誘致, 夢洲, MGMリゾーツ, オリックス, ギャンブル依存症 |
 | overtourism-inbound-policy | インバウンド急増とオーバーツーリズム（観光公害） | オーバーツーリズム, インバウンド, 観光公害, 富士山規制, 宿泊税, 二重価格 |
 | pension-reform | 年金制度改革と「社会保障の壁」 | 年金制度改革, 財政検証, 社会保障の壁, 106万円の壁, 130万円の壁, 第3号被保険者 |
+| pfas-contamination-forever-chemicals | PFAS（有機フッ素化合物）汚染と飲料水の安全性危機 | PFAS, PFOS, PFOA, 有機フッ素化合物, 飲料水汚染, 米軍基地 |
 | political-funds-reform | 政治資金規正法改正と「政治とカネ」の決着 | 政治資金規正法, 裏金問題, 政策活動費廃止, 政治資金監視委員会, 連座制, 確認書 |
 | regional-revitalization-depopulation | 地方創生と「消滅可能性自治体」 | 地方創生, 消滅可能性自治体, 人口戦略会議, 東京一極集中, 人口減少, 地方創生交付金 |
 | renewable-energy-surcharge-burden | 再エネ賦課金（電気代上乗せ）の高騰と家計・産業負担問題 | 再エネ賦課金, FIT制度, 電気料金, メガソーラー, FIP制度, エネルギー政策 |
@@ -83,10 +86,12 @@
 | ride-sharing-transport | ライドシェア導入と地域交通維持 | ライドシェア, 日本版ライドシェア, 自家用車活用事業, 道路運送法, 国土交通省, 地域交通 |
 | school-truancy-alternative-education | 小中学生の不登校34万人突破と多様な学びの確保 | 不登校, 教育機会確保法, フリースクール, COCOLOプラン, 学びの多様化学校, オルタナティブ教育 |
 | science-council-japan-appointment-refusal | 日本学術会議の「任命拒否」と国からの切り離し・民間法人化への大改組 | 日本学術会議, 任命拒否, 菅義偉, 学問の自由, 憲法23条, 民間法人化 |
+| security-clearance-economic-espionage | セキュリティ・クリアランス制度（重要経済安保情報保護法）と経済スパイ対策 | セキュリティクリアランス, 重要経済安保情報保護法, 経済安全保障, 適性評価, 経済スパイ, 特定秘密保護法 |
 | selective-surname-marriage | 選択的夫婦別姓・同性婚の法制化 | 選択的夫婦別姓, 同性婚, 民法750条, 憲法第14条, 憲法第24条, 法制審議会 |
 | sexy-tanaka-san-author-death-tv-adaptation | 漫画『セクシー田中さん』原作者急死事件とテレビ局の「原作改変」問題 | セクシー田中さん, 芦原妃名子, 日本テレビ, 小学館, 原作改変, 著作者人格権 |
 | shiretoko-tour-boat-sinking-accident | 知床観光船沈没事故（KAZU I）と海運安全行政のずさんさ・形骸化監査 | 知床観光船, カズワン, KAZU I, 桂田精一, 国土交通省, 運輸安全委員会 |
 | sns-investment-scam-platform-liability | SNS投資詐欺・著名人なりすまし広告と巨大ITの責任 | SNS投資詐欺, なりすまし広告, Meta, 前澤友作, 堀江貴文, 情報流通プラットフォーム対処法 |
+| stock-split-market-reform-nikkei | 日経平均史上最高値更新と東証「PBR1倍割れ是正」市場改革 | 日経平均株価, PBR1倍割れ是正, 東京証券取引所, 資本コスト経営, 自社株買い, 増配 |
 | sushiro-nuisance-video-food-terrorism | スシロー「ペロペロ迷惑動画」事件と外食テロ・性善説ビジネスの崩壊 | スシロー, 迷惑動画, バイトテロ, 外食テロ, 損害賠償, 性善説 |
 | takarazuka-harassment-overwork-reforms | 宝塚歌劇団パワハラ・劇団員急死事件と興行界・伝統芸能の労働環境改革 | 宝塚歌劇団, 阪急阪神ホールディングス, パワハラ, 宙組, 長時間労働, ヘアアイロン |
 | teacher-work-style-kyotoku | 教員の働き方改革と給特法見直し | 給特法, 教員の働き方改革, 教職調整額, 中央教育審議会, 教員不足, 過労死ライン |
@@ -99,7 +104,7 @@
 | wildlife-protection-bear-attacks | クマ被害急増と指定管理鳥獣・鳥獣保護管理法改正 | クマ被害, 指定管理鳥獣, 鳥獣保護管理法, ヒグマ, ツキノワグマ, 銃猟規制緩和 |
 | work-style-reform | 働き方改革・2024年問題 | 働き方改革, 2024年問題, 時間外労働上限規制, 過労死防止, 物流効率化法, 日本版ライドシェア |
 
-## 国際トピック（55件）
+## 国際トピック（58件）
 
 | ID | タイトル | 主要キーワード |
 |---|---|---|
@@ -119,6 +124,7 @@
 | de-dollarization-currency-hegemony | 「脱ドル化」の動きと通貨覇権の攻防 | 脱ドル化, 基軸通貨, 米ドル, 人民元, 外貨準備, SWIFT |
 | drone-warfare-laws-autonomous-weapons | ドローン戦・自律型致死兵器（LAWS）の戦場革命 | ドローン戦争, 自律型致死兵器, LAWS, ウクライナ戦争, FPVドローン, AI軍事利用 |
 | economic-security | 経済安全保障・サプライチェーン再編 | 経済安全保障, サプライチェーン, 半導体, TSMC, ラピダス, 重要鉱物 |
+| ethiopia-tigray-horn-of-africa | エチオピア・ソマリランド港湾合意と「アフリカの角」の地政学的危機 | エチオピア, ソマリランド, アフリカの角, ソマリア, 紅海, アビィ首相 |
 | european-far-right | 欧州政治の変動（極右台頭） | 欧州政治, 極右台頭, ポピュリズム, 欧州議会, 移民政策, EU |
 | global-ev-slowdown-hybrid-resurgence | 世界的な「EVシフト急減速」とトヨタ・ハイブリッド復権の自動車覇権戦争 | EVシフト, 電気自動車, ハイブリッド車, HEV, トヨタ自動車, テスラ |
 | global-lgbtq-gender-culture-war | 世界のLGBTQ+・ジェンダー対立（欧米 vs 反ジェンダー同盟） | LGBTQ人権, 同性婚, ウガンダ反同性愛法, ロシア過激派指定, カルチャーウォー, トランスジェンダー |
@@ -146,6 +152,7 @@
 | south-korea-martial-law-yoon-impeachment | 韓国・尹錫悦大統領の「非常戒厳令」宣布と弾劾・職務停止（6時間の電撃戒厳） | 韓国, 尹錫悦, 非常戒厳令, 大統領弾劾, 職務停止, 国会議事堂突入 |
 | space-debris-orbital-sustainability | スペースデブリ（宇宙ゴミ）問題と軌道上の安全 | スペースデブリ, 宇宙ゴミ, ケスラーシンドローム, アストロスケール, スターリンク, メガコンステレーション |
 | space-race-security | 宇宙開発競争と安全保障 | 宇宙開発, アルテミス計画, 宇宙安全保障, 宇宙軍, 嫦娥6号, スペースデブリ |
+| submarine-cable-infrastructure-vulnerability | 海底通信ケーブルの切断・ハイブリッド脅威と国際通信網防衛 | 海底ケーブル, 海底通信インフラ, ハイブリッド戦争, バルト海, グレーゾーン事態, 台湾有事 |
 | sudan-civil-war-humanitarian-crisis | スーダン内戦と世界最悪の人道危機 | スーダン内戦, スーダン国軍, 即応支援部隊（RSF）, ダルフール, 人道危機, 飢饉 |
 | syria-assad-regime-collapse-geopolitics | シリア・アサド独裁政権の電撃崩壊と中東地政学の地殻変動 | シリア内戦, アサド政権崩壊, ダマスカス陥落, HTS, ジュラニ, ロシア亡命 |
 | taiwan-strait | 台湾海峡情勢 | 台湾海峡, 頼清徳, 連合利剣, 台湾有事, TSMC, シリコンシールド |
@@ -154,6 +161,7 @@
 | ukraine-russia-war | ウクライナ戦争の長期化と停戦交渉の現実 | ウクライナ戦争, ロシア侵攻, 停戦交渉, トランプ調停, 現状凍結, NATO加盟 |
 | us-china-relations | 米中関係と対中ハイテク規制 | 米中関係, 半導体規制, ハイテク規制, 追加関税, トランプ関税, 通商摩擦 |
 | us-presidential-election | 米政権交代と通商関税・日米同盟の地政学 | 米大統領選挙, 第2次トランプ政権, アメリカファースト, 相互関税, 普遍的関税, 日米同盟 |
+| us-tariff-war-global-trade-fragmentation | トランプ関税爆弾と世界多角的貿易体制（WTO）の機能不全 | トランプ関税, 相互関税, 一律関税, WTO機能不全, ブロック経済, 報復関税 |
 | us-tiktok-ban-law-digital-cold-war | 米国「TikTok禁止法」成立と米中デジタル冷戦・情報安全保障 | TikTok, TikTok禁止法, バイトダンス, 米中対立, 情報安全保障, 認知戦 |
 | venezuela-crisis-mass-refugee-outflow | ベネズエラ危機と中南米最大の難民流出 | ベネズエラ危機, マドゥロ政権, チャベス, 難民流出, ダリエン地峡, ハイパーインフレ |
 | water-food-security-geopolitics | 世界的な水・食料安全保障と地政学リスク | 食料安全保障, 水安全保障, 大エチオピア・ルネサンスダム, 黒海穀物イニシアティブ, 気候変動, 地政学リスク |
