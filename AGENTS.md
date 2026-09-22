@@ -14,3 +14,4 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 2. **海外比較（international）の網羅**: 政策データを追加・更新する際は、無理のない範囲で海外主要国（米・欧・アジア等2〜3カ国）との制度比較（`international` フィールド）を積極的に含めること。
 3. **データ格納場所**: `badges`, `highlights`, `voices`, `international` は各政策JSON内に直接内包すること。
 4. **トピック重複防止**: 新しいトピックを提案・作成する前に、**必ず `TOPIC_REGISTRY.md` を読んで既存トピックとの重複がないか確認すること**。このファイルは `node scripts/generate-topics.cjs` 実行時に自動生成され、全トピックのID・タイトル・主要キーワードを一覧化している。
+5. **経緯（developments）の最新性担保**: AIモデルの事前学習データ（2024年頃）に引きずられて経緯が過去で止まらないよう、トピック作成・更新時は必ず最新の法改正施行状況、直近の審議会・判決、最新の国際情勢の展開を調査・確認し、最新時点までのタイムラインを漏れなく網羅すること。
