@@ -171,7 +171,7 @@ import whoPandemicTreatyNegotiationsData from "@/data/topics/international/who-p
 export const topics: Topic[] = [
   { ...abandonedGravesTempleCrisisCremationData, createdAt: "2026-09-21T23:10:53+09:00" } as unknown as Topic,
   { ...agingInfrastructureWaterPipesCrisisData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
-  { ...agricultureLivestockLaborShortageSafetyCrisisData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...agricultureLivestockLaborShortageSafetyCrisisData, createdAt: "2026-09-22T12:05:57+09:00" } as unknown as Topic,
   { ...benikojiSupplementHealthDamageFoodLabelingData, createdAt: "2026-09-21T22:00:47+09:00" } as unknown as Topic,
   { ...bigmotorInsuranceFraudStreetTreesData, createdAt: "2026-09-21T22:00:47+09:00" } as unknown as Topic,
   { ...bojMonetaryPolicyNormalizationData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
