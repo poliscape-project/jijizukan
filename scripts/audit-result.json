@@ -213,17 +213,15 @@
       "category": "労働・消費者行政",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-25",
-      "latestDevTitle": "JR東日本・JR西日本が共同でカスハラ対応方針を策定・公表",
-      "devCount": 3,
-      "sim": 13,
-      "ovLen": 635,
-      "bgLen": 652,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "全国初「東京都カスタマー・ハラスメント防止条例」が施行",
+      "devCount": 4,
+      "sim": 11,
+      "ovLen": 354,
+      "bgLen": 356,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "cyberattack-infrastructure-line-kadokawa",
@@ -232,17 +230,15 @@
       "category": "デジタル・安全保障",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-05",
-      "latestDevTitle": "総務省がLINEヤフーに対し行政指導（約51万件の情報漏洩を受け）",
-      "devCount": 6,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-05-16",
+      "latestDevTitle": "政府、能動的サイバー防御（ACD）法案の骨子を取りまとめ（令状主義と第三者機関設置）",
+      "devCount": 7,
       "sim": 11,
-      "ovLen": 688,
+      "ovLen": 476,
       "bgLen": 504,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "dangerous-driving-law-reform",
@@ -255,13 +251,11 @@
       "latestDevDate": "2026-03-15",
       "latestDevTitle": "法制審議会ワーキングチーム、数値基準導入骨子案の中間取りまとめ",
       "devCount": 4,
-      "sim": 19,
-      "ovLen": 696,
-      "bgLen": 590,
-      "issues": [
-        "⚠️ 現状と背景の重複度高 (19%)"
-      ],
-      "needsAudit": true
+      "sim": 7,
+      "ovLen": 294,
+      "bgLen": 306,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "declining-birthrate-measures",
@@ -389,17 +383,15 @@
       "category": "交通安全・警察行政・地域公共交通",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-28",
-      "latestDevTitle": "警察庁が運転技能検査の施行後状況を公表、初回不合格率は約9%",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-05-15",
+      "latestDevTitle": "国連基準に基づくペダル踏み間違い加速抑制装置の義務化が進展",
+      "devCount": 4,
       "sim": 13,
       "ovLen": 683,
       "bgLen": 600,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "electoral-system-reform",
@@ -444,17 +436,15 @@
       "category": "農林水産・食料安保",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-27",
-      "latestDevTitle": "閣議決定、基本法改正案および不測時食料安全保障法案を通常国会に提出",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "改正食料・農業・農村基本法および食料供給困難事態対策法が施行",
+      "devCount": 4,
       "sim": 15,
       "ovLen": 621,
       "bgLen": 540,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "foreign-drivers-traffic-accidents-insurance-gap",
@@ -467,13 +457,11 @@
       "latestDevDate": "2025-10-01",
       "latestDevTitle": "警察庁、外免切替（外国運転免許切替）の全国一斉厳格化を実施",
       "devCount": 3,
-      "sim": 24,
-      "ovLen": 1198,
-      "bgLen": 812,
-      "issues": [
-        "⚠️ 現状と背景の重複度高 (24%)"
-      ],
-      "needsAudit": true
+      "sim": 8,
+      "ovLen": 353,
+      "bgLen": 262,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "foreign-land-acquisition-regulations",
@@ -482,17 +470,15 @@
       "category": "行政・安全保障・国土管理",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-12",
-      "latestDevTitle": "内閣府が重要土地等調査法の「注視区域」を全国第4弾まで拡大指定",
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-05-20",
+      "latestDevTitle": "重要土地等調査法の指定区域が全国1,800カ所以上に拡大・水源地規制の議員立法論議が活発化",
       "devCount": 5,
-      "sim": 13,
-      "ovLen": 609,
-      "bgLen": 887,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "sim": 11,
+      "ovLen": 417,
+      "bgLen": 584,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "foreign-residents-provisional-release-friction",
@@ -501,17 +487,15 @@
       "category": "法務・出入国管理・地域共生",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2026,
-      "latestDevDate": "2026-09-17",
-      "latestDevTitle": "さいたま地裁、川口市赤信号無視死亡事故のクルド人男性に禁錮1年6月の実刑判決",
-      "devCount": 4,
-      "sim": 16,
-      "ovLen": 1028,
-      "bgLen": 693,
-      "issues": [
-        "⚠️ 現状と背景の重複度高 (16%)"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "埼玉県「資材置場（ヤード）設置等規制条例」が施行・警察の合同取締体制強化",
+      "devCount": 5,
+      "sim": 15,
+      "ovLen": 509,
+      "bgLen": 679,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "freelance-protection-act-gig-economy",
@@ -520,17 +504,15 @@
       "category": "労働法制・中小企業行政・新しい働き方",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-05-31",
-      "latestDevTitle": "政府がフリーランス保護法の政令・内閣府令・ガイドラインを公布",
-      "devCount": 3,
-      "sim": 15,
-      "ovLen": 759,
-      "bgLen": 573,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-05-20",
+      "latestDevTitle": "公取委と厚労省が新法施行後初の指導実績を公表、口頭発注や買いたたき是正",
+      "devCount": 4,
+      "sim": 10,
+      "ovLen": 397,
+      "bgLen": 314,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "gasoline-tax-double-taxation-trigger-clause",
@@ -592,17 +574,15 @@
       "category": "交通安全・航空行政・危機管理",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-02",
-      "latestDevTitle": "羽田空港C滑走路で日航機と海保機が衝突炎上、日航機全員生還・海保5人死亡",
-      "devCount": 4,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-16",
+      "latestDevTitle": "運輸安全委員会（JTSB）が事故経過報告を公表、警報システムの課題検証",
+      "devCount": 5,
       "sim": 15,
       "ovLen": 844,
       "bgLen": 1017,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "healthcare-system-reform",
@@ -716,17 +696,15 @@
       "category": "法務・出入国管理",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-06-10",
-      "latestDevTitle": "2023年成立の改正出入国管理法が施行（監理措置制度・送還停止例外の開始）",
-      "devCount": 4,
-      "sim": 10,
-      "ovLen": 595,
-      "bgLen": 514,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-29",
+      "latestDevTitle": "改正入管法の「監理措置」施行1年状況が報告・補完的保護認定が進展",
+      "devCount": 5,
+      "sim": 8,
+      "ovLen": 486,
+      "bgLen": 498,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "imperial-succession",
@@ -864,13 +842,11 @@
       "latestDevDate": "2026-01-22",
       "latestDevTitle": "埼玉県川口市仲町の交差点で赤信号進入によるバイク衝突死亡事故が発生",
       "devCount": 3,
-      "sim": 17,
-      "ovLen": 903,
-      "bgLen": 616,
-      "issues": [
-        "⚠️ 現状と背景の重複度高 (17%)"
-      ],
-      "needsAudit": true
+      "sim": 6,
+      "ovLen": 290,
+      "bgLen": 228,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "linear-chuo-shinkansen",
@@ -879,17 +855,15 @@
       "category": "国土交通・地方政治",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-27",
-      "latestDevTitle": "国土交通省が静岡工区モニタリング会議の初会合を開催",
-      "devCount": 7,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-06-18",
+      "latestDevTitle": "JR東海が山梨・静岡県境付近でのボーリング調査データを公開",
+      "devCount": 8,
       "sim": 14,
       "ovLen": 607,
       "bgLen": 630,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "local-assembly-candidate-shortage",
@@ -951,17 +925,15 @@
       "category": "交通・地域創生",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-21",
-      "latestDevTitle": "JR西日本・芸備線の国主導「再構築協議会」が初会合を開催",
-      "devCount": 6,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-25",
+      "latestDevTitle": "芸備線再構築協議会で地域実証運行計画の中間整理を公表",
+      "devCount": 7,
       "sim": 7,
       "ovLen": 547,
       "bgLen": 452,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "logistics-crisis-modal-shift",
@@ -970,17 +942,15 @@
       "category": "国土交通・物流",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-01",
-      "latestDevTitle": "トラックドライバーの時間外労働年960時間上限規制が正式適用",
-      "devCount": 4,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "改正物流効率化法が全面施行、特定荷主のCLO選任が義務化",
+      "devCount": 5,
       "sim": 13,
       "ovLen": 592,
       "bgLen": 600,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "loneliness-isolation-prevention-act",
@@ -1025,17 +995,15 @@
       "category": "環境・エネルギー",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-01",
-      "latestDevTitle": "宮城県が全国初の「再エネ新税（再生可能エネルギー地域共生促進税）」を施行",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-06-10",
+      "latestDevTitle": "資源エネルギー庁が改正特措法に基づく交付金留保処分を初適用",
+      "devCount": 4,
       "sim": 9,
       "ovLen": 596,
       "bgLen": 473,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "minimum-wage-increase",
@@ -1136,17 +1104,15 @@
       "category": "災害復興・地方インフラ・過疎地行政",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-01",
-      "latestDevTitle": "令和6年能登半島地震が発生（M7.6、最大震度7）",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-01",
+      "latestDevTitle": "能登半島地震から1年、公費解体完了率は約3割・作業員宿泊拠点が本格稼働",
+      "devCount": 6,
       "sim": 12,
       "ovLen": 690,
       "bgLen": 866,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "noto-earthquake-disaster",
@@ -1297,9 +1263,9 @@
       "latestDevDate": "2026-07-01",
       "latestDevTitle": "富士山山梨・静岡両県の夏山登山管理連携が本格化",
       "devCount": 9,
-      "sim": 12,
-      "ovLen": 518,
-      "bgLen": 494,
+      "sim": 10,
+      "ovLen": 408,
+      "bgLen": 487,
       "issues": [],
       "needsAudit": false
     },
@@ -1436,17 +1402,15 @@
       "category": "国土交通・地域交通",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-08",
-      "latestDevTitle": "「日本版ライドシェア（自家用車活用事業）」が東京で運行開始",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-10",
+      "latestDevTitle": "日本版ライドシェア導入1年、全国主要都市・観光地で定着進む",
+      "devCount": 4,
       "sim": 12,
       "ovLen": 571,
       "bgLen": 601,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "school-truancy-alternative-education",
@@ -1546,17 +1510,15 @@
       "category": "海上安全・運輸行政・危機管理",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-01",
-      "latestDevTitle": "改正海上運送法が全面施行、小型旅客船への特定無線義務化と罰則強化",
-      "devCount": 4,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-02-20",
+      "latestDevTitle": "釧路地裁で桂田被告の公判前整理手続が開始、争点整理へ",
+      "devCount": 5,
       "sim": 12,
       "ovLen": 720,
       "bgLen": 849,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "sns-investment-scam-platform-liability",
@@ -1618,17 +1580,15 @@
       "category": "労働環境・ハラスメント・興行界ガバナンス",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-28",
-      "latestDevTitle": "阪急阪神HDと宝塚歌劇団が遺族と合意書締結、14件のパワハラを認め謝罪",
-      "devCount": 4,
-      "sim": 11,
-      "ovLen": 774,
-      "bgLen": 958,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-28",
+      "latestDevTitle": "遺族合意から1年、阪急阪神HD・歌劇団が改革進捗を公表（外部アドバイザリー会議運用）",
+      "devCount": 7,
+      "sim": 8,
+      "ovLen": 358,
+      "bgLen": 379,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "teacher-work-style-kyotoku",
@@ -1815,17 +1775,15 @@
       "category": "行政・内閣",
       "clusterId": "dom-4",
       "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-01",
-      "latestDevTitle": "物流・建設・医師への時間外労働上限規制が全面適用（2024年問題）",
-      "devCount": 7,
-      "sim": 12,
-      "ovLen": 569,
-      "bgLen": 504,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "改正物流効率化法が全面施行、荷主企業のCLO選任が義務化",
+      "devCount": 9,
+      "sim": 7,
+      "ovLen": 363,
+      "bgLen": 364,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "ai-regulation",
@@ -3219,9 +3177,9 @@
     "dom-4": {
       "name": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
       "total": 27,
-      "stopped2024OrEarlier": 17,
-      "current": 10,
-      "highOverlap": 4,
+      "stopped2024OrEarlier": 0,
+      "current": 27,
+      "highOverlap": 0,
       "topics": [
         {
           "id": "aging-infrastructure-water-pipes-crisis",
@@ -3247,17 +3205,15 @@
           "category": "労働・消費者行政",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-25",
-          "latestDevTitle": "JR東日本・JR西日本が共同でカスハラ対応方針を策定・公表",
-          "devCount": 3,
-          "sim": 13,
-          "ovLen": 635,
-          "bgLen": 652,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "全国初「東京都カスタマー・ハラスメント防止条例」が施行",
+          "devCount": 4,
+          "sim": 11,
+          "ovLen": 354,
+          "bgLen": 356,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "cyberattack-infrastructure-line-kadokawa",
@@ -3266,17 +3222,15 @@
           "category": "デジタル・安全保障",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-05",
-          "latestDevTitle": "総務省がLINEヤフーに対し行政指導（約51万件の情報漏洩を受け）",
-          "devCount": 6,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-05-16",
+          "latestDevTitle": "政府、能動的サイバー防御（ACD）法案の骨子を取りまとめ（令状主義と第三者機関設置）",
+          "devCount": 7,
           "sim": 11,
-          "ovLen": 688,
+          "ovLen": 476,
           "bgLen": 504,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "dangerous-driving-law-reform",
@@ -3289,13 +3243,11 @@
           "latestDevDate": "2026-03-15",
           "latestDevTitle": "法制審議会ワーキングチーム、数値基準導入骨子案の中間取りまとめ",
           "devCount": 4,
-          "sim": 19,
-          "ovLen": 696,
-          "bgLen": 590,
-          "issues": [
-            "⚠️ 現状と背景の重複度高 (19%)"
-          ],
-          "needsAudit": true
+          "sim": 7,
+          "ovLen": 294,
+          "bgLen": 306,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "elderly-drivers-license-revocation-mobility",
@@ -3304,17 +3256,15 @@
           "category": "交通安全・警察行政・地域公共交通",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-28",
-          "latestDevTitle": "警察庁が運転技能検査の施行後状況を公表、初回不合格率は約9%",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-05-15",
+          "latestDevTitle": "国連基準に基づくペダル踏み間違い加速抑制装置の義務化が進展",
+          "devCount": 4,
           "sim": 13,
           "ovLen": 683,
           "bgLen": 600,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "food-security-basic-act-reform",
@@ -3323,17 +3273,15 @@
           "category": "農林水産・食料安保",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-27",
-          "latestDevTitle": "閣議決定、基本法改正案および不測時食料安全保障法案を通常国会に提出",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "改正食料・農業・農村基本法および食料供給困難事態対策法が施行",
+          "devCount": 4,
           "sim": 15,
           "ovLen": 621,
           "bgLen": 540,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "foreign-drivers-traffic-accidents-insurance-gap",
@@ -3346,13 +3294,11 @@
           "latestDevDate": "2025-10-01",
           "latestDevTitle": "警察庁、外免切替（外国運転免許切替）の全国一斉厳格化を実施",
           "devCount": 3,
-          "sim": 24,
-          "ovLen": 1198,
-          "bgLen": 812,
-          "issues": [
-            "⚠️ 現状と背景の重複度高 (24%)"
-          ],
-          "needsAudit": true
+          "sim": 8,
+          "ovLen": 353,
+          "bgLen": 262,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "foreign-land-acquisition-regulations",
@@ -3361,17 +3307,15 @@
           "category": "行政・安全保障・国土管理",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-12",
-          "latestDevTitle": "内閣府が重要土地等調査法の「注視区域」を全国第4弾まで拡大指定",
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-05-20",
+          "latestDevTitle": "重要土地等調査法の指定区域が全国1,800カ所以上に拡大・水源地規制の議員立法論議が活発化",
           "devCount": 5,
-          "sim": 13,
-          "ovLen": 609,
-          "bgLen": 887,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "sim": 11,
+          "ovLen": 417,
+          "bgLen": 584,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "foreign-residents-provisional-release-friction",
@@ -3380,17 +3324,15 @@
           "category": "法務・出入国管理・地域共生",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2026,
-          "latestDevDate": "2026-09-17",
-          "latestDevTitle": "さいたま地裁、川口市赤信号無視死亡事故のクルド人男性に禁錮1年6月の実刑判決",
-          "devCount": 4,
-          "sim": 16,
-          "ovLen": 1028,
-          "bgLen": 693,
-          "issues": [
-            "⚠️ 現状と背景の重複度高 (16%)"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "埼玉県「資材置場（ヤード）設置等規制条例」が施行・警察の合同取締体制強化",
+          "devCount": 5,
+          "sim": 15,
+          "ovLen": 509,
+          "bgLen": 679,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "freelance-protection-act-gig-economy",
@@ -3399,17 +3341,15 @@
           "category": "労働法制・中小企業行政・新しい働き方",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-05-31",
-          "latestDevTitle": "政府がフリーランス保護法の政令・内閣府令・ガイドラインを公布",
-          "devCount": 3,
-          "sim": 15,
-          "ovLen": 759,
-          "bgLen": 573,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-05-20",
+          "latestDevTitle": "公取委と厚労省が新法施行後初の指導実績を公表、口頭発注や買いたたき是正",
+          "devCount": 4,
+          "sim": 10,
+          "ovLen": 397,
+          "bgLen": 314,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "haneda-airport-runway-collision-accident",
@@ -3418,17 +3358,15 @@
           "category": "交通安全・航空行政・危機管理",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-02",
-          "latestDevTitle": "羽田空港C滑走路で日航機と海保機が衝突炎上、日航機全員生還・海保5人死亡",
-          "devCount": 4,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-16",
+          "latestDevTitle": "運輸安全委員会（JTSB）が事故経過報告を公表、警報システムの課題検証",
+          "devCount": 5,
           "sim": 15,
           "ovLen": 844,
           "bgLen": 1017,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "immigration-reform",
@@ -3437,17 +3375,15 @@
           "category": "法務・出入国管理",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-06-10",
-          "latestDevTitle": "2023年成立の改正出入国管理法が施行（監理措置制度・送還停止例外の開始）",
-          "devCount": 4,
-          "sim": 10,
-          "ovLen": 595,
-          "bgLen": 514,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-29",
+          "latestDevTitle": "改正入管法の「監理措置」施行1年状況が報告・補完的保護認定が進展",
+          "devCount": 5,
+          "sim": 8,
+          "ovLen": 486,
+          "bgLen": 498,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "kawaguchi-fatal-accident-court-ruling",
@@ -3460,13 +3396,11 @@
           "latestDevDate": "2026-01-22",
           "latestDevTitle": "埼玉県川口市仲町の交差点で赤信号進入によるバイク衝突死亡事故が発生",
           "devCount": 3,
-          "sim": 17,
-          "ovLen": 903,
-          "bgLen": 616,
-          "issues": [
-            "⚠️ 現状と背景の重複度高 (17%)"
-          ],
-          "needsAudit": true
+          "sim": 6,
+          "ovLen": 290,
+          "bgLen": 228,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "linear-chuo-shinkansen",
@@ -3475,17 +3409,15 @@
           "category": "国土交通・地方政治",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-27",
-          "latestDevTitle": "国土交通省が静岡工区モニタリング会議の初会合を開催",
-          "devCount": 7,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-06-18",
+          "latestDevTitle": "JR東海が山梨・静岡県境付近でのボーリング調査データを公開",
+          "devCount": 8,
           "sim": 14,
           "ovLen": 607,
           "bgLen": 630,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "local-railways-bus-restructuring",
@@ -3494,17 +3426,15 @@
           "category": "交通・地域創生",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-21",
-          "latestDevTitle": "JR西日本・芸備線の国主導「再構築協議会」が初会合を開催",
-          "devCount": 6,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-25",
+          "latestDevTitle": "芸備線再構築協議会で地域実証運行計画の中間整理を公表",
+          "devCount": 7,
           "sim": 7,
           "ovLen": 547,
           "bgLen": 452,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "logistics-crisis-modal-shift",
@@ -3513,17 +3443,15 @@
           "category": "国土交通・物流",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-01",
-          "latestDevTitle": "トラックドライバーの時間外労働年960時間上限規制が正式適用",
-          "devCount": 4,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "改正物流効率化法が全面施行、特定荷主のCLO選任が義務化",
+          "devCount": 5,
           "sim": 13,
           "ovLen": 592,
           "bgLen": 600,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "mega-solar-environmental-conflict-levy",
@@ -3532,17 +3460,15 @@
           "category": "環境・エネルギー",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-01",
-          "latestDevTitle": "宮城県が全国初の「再エネ新税（再生可能エネルギー地域共生促進税）」を施行",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-06-10",
+          "latestDevTitle": "資源エネルギー庁が改正特措法に基づく交付金留保処分を初適用",
+          "devCount": 4,
           "sim": 9,
           "ovLen": 596,
           "bgLen": 473,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "minimum-wage-increase",
@@ -3568,17 +3494,15 @@
           "category": "災害復興・地方インフラ・過疎地行政",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-01",
-          "latestDevTitle": "令和6年能登半島地震が発生（M7.6、最大震度7）",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-01",
+          "latestDevTitle": "能登半島地震から1年、公費解体完了率は約3割・作業員宿泊拠点が本格稼働",
+          "devCount": 6,
           "sim": 12,
           "ovLen": 690,
           "bgLen": 866,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "osaka-expo-2025",
@@ -3608,9 +3532,9 @@
           "latestDevDate": "2026-07-01",
           "latestDevTitle": "富士山山梨・静岡両県の夏山登山管理連携が本格化",
           "devCount": 9,
-          "sim": 12,
-          "ovLen": 518,
-          "bgLen": 494,
+          "sim": 10,
+          "ovLen": 408,
+          "bgLen": 487,
           "issues": [],
           "needsAudit": false
         },
@@ -3638,17 +3562,15 @@
           "category": "国土交通・地域交通",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-08",
-          "latestDevTitle": "「日本版ライドシェア（自家用車活用事業）」が東京で運行開始",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-10",
+          "latestDevTitle": "日本版ライドシェア導入1年、全国主要都市・観光地で定着進む",
+          "devCount": 4,
           "sim": 12,
           "ovLen": 571,
           "bgLen": 601,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "shiretoko-tour-boat-sinking-accident",
@@ -3657,17 +3579,15 @@
           "category": "海上安全・運輸行政・危機管理",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-01",
-          "latestDevTitle": "改正海上運送法が全面施行、小型旅客船への特定無線義務化と罰則強化",
-          "devCount": 4,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-02-20",
+          "latestDevTitle": "釧路地裁で桂田被告の公判前整理手続が開始、争点整理へ",
+          "devCount": 5,
           "sim": 12,
           "ovLen": 720,
           "bgLen": 849,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "takarazuka-harassment-overwork-reforms",
@@ -3676,17 +3596,15 @@
           "category": "労働環境・ハラスメント・興行界ガバナンス",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-28",
-          "latestDevTitle": "阪急阪神HDと宝塚歌劇団が遺族と合意書締結、14件のパワハラを認め謝罪",
-          "devCount": 4,
-          "sim": 11,
-          "ovLen": 774,
-          "bgLen": 958,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-28",
+          "latestDevTitle": "遺族合意から1年、阪急阪神HD・歌劇団が改革進捗を公表（外部アドバイザリー会議運用）",
+          "devCount": 7,
+          "sim": 8,
+          "ovLen": 358,
+          "bgLen": 379,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "teacher-work-style-kyotoku",
@@ -3712,17 +3630,15 @@
           "category": "行政・内閣",
           "clusterId": "dom-4",
           "clusterName": "【国内④】労働・働き方・産業・農林水産・インフラ・地方",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-01",
-          "latestDevTitle": "物流・建設・医師への時間外労働上限規制が全面適用（2024年問題）",
-          "devCount": 7,
-          "sim": 12,
-          "ovLen": 569,
-          "bgLen": 504,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "改正物流効率化法が全面施行、荷主企業のCLO選任が義務化",
+          "devCount": 9,
+          "sim": 7,
+          "ovLen": 363,
+          "bgLen": 364,
+          "issues": [],
+          "needsAudit": false
         }
       ]
     },

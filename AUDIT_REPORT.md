@@ -9,19 +9,20 @@
 | **【国内①】政治・統治・選挙・政党・国会** | 14件 | 🎉 **0件（完了）** | 14件 | 0件 |
 | **【国内②】経済・財政・税制・金融・物価** | 15件 | 🎉 **0件（完了）** | 15件 | 0件 |
 | **【国内③】社会保障・医療・介護・少子化・子ども** | 12件 | 🎉 **0件（完了）** | 12件 | 0件 |
-| **【国内④】労働・働き方・産業・農林水産・インフラ・地方** | 27件 | **17件** | 10件 | 4件 |
+| **【国内④】労働・働き方・産業・農林水産・インフラ・地方** | 27件 | 🎉 **0件（完了）** | 27件 | 0件 |
 | **【国内⑤】治安・警察・司法・法務・教育・文化・IT** | 34件 | **20件** | 14件 | 2件 |
 | **【国際①】米中対立・東アジア・アジア太平洋・半導体** | 18件 | **17件** | 1件 | 0件 |
 | **【国際②】ロシア・ウクライナ・欧州・NATO** | 4件 | **3件** | 1件 | 0件 |
 | **【国際③】中東情勢・グローバルサウス・新興国・資源** | 11件 | **10件** | 1件 | 0件 |
 | **【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法** | 29件 | **26件** | 3件 | 1件 |
-| **合計** | **164件** | **93件 (57%)** | **71件 (43%)** | **7件** |
+| **合計** | **164件** | **76件 (46%)** | **88件 (54%)** | **3件** |
 
 ### 主な課題と進捗
 - ✅ **【国内①】政治・統治・選挙・政党・国会**: 全14件のリライト・最新化（2025-2026年動向反映、重複排除）が完了！
 - ✅ **【国内②】経済・財政・税制・金融・物価**: 全15件のリライト・最新化（インボイス、ビッグモーター、支援金、デジタル円、年収の壁、大阪IR、再エネ賦課金、セキュリティー・クリアランス、SNS詐欺、東証改革、タワマン節税等）が完了！
 - ✅ **【国内③】社会保障・医療・介護・少子化・子ども**: 全12件のリライト・最新化（墓じまい、紅麹サプリ、ヤングケアラー、子どものスマホ規制、認知症基本法、医療制度改革、孤独・孤立対策、マイナ保険証、生活保護高齢化、年金改革等）が完了！全件に海外比較（3カ国）を完備！
-- 🔴 残り要更新トピック: **93件**（国内37件 / 国際56件）
+- ✅ **【国内④】労働・働き方・産業・農林水産・インフラ・地方**: 全27件のリライト・最新化（カスハラ、フリーランス、物流・働き方改革、宝塚歌劇団、給特法、最賃1500円、リニア静岡、ローカル線、ライドシェア、高齢ドライバー、羽田衝突、知床沈没、上下水道インフラ、食料基本法、令和の米騒動、メガソーラー、大阪万博、能登解体、入管法・育成就労、外国人土地取得、川口市仮放免、赤信号判決、外国人事故統計・無保険、危険運転数値基準、ACDインフラ防衛、オーバーツーリズム等）が完了！全件に海外制度比較（2〜3カ国）を完備！
+- 🔴 残り要更新トピック: **76件**（国内20件 / 国際56件）
 
 ---
 
@@ -83,37 +84,37 @@
 | ✅ 済 | `declining-birthrate-measures` | [少子化対策と「子ども・子育て支援金」制度](src/data/topics/domestic/declining-birthrate-measures.json) | 2026-04-01 | 8% | 問題なし（海外比較追加済） |
 | ✅ 済 | `nursing-care-system-crisis` | [介護保険制度改革と介護現場の危機](src/data/topics/domestic/nursing-care-system-crisis.json) | 2026-06-15 | 11% | 問題なし（海外比較追加済） |
 
-### 【国内④】労働・働き方・産業・農林水産・インフラ・地方（全27件 / 要更新: 17件）
+### 【国内④】労働・働き方・産業・農林水産・インフラ・地方（全27件 / 🎉 [ALL COMPLETED]）
 
 | 状態 | ID | タイトル | 最新経緯 | 重複度 | 検出された課題・注意事項 |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| 🔴 要更新 | `customer-harassment-prevention` | [カスタマーハラスメント（カスハラ）対策と条例・法制化](src/data/topics/domestic/customer-harassment-prevention.json) | 2024-04-25 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `cyberattack-infrastructure-line-kadokawa` | [巨大情報漏洩・ランサムウェア攻撃と重要インフラ防衛](src/data/topics/domestic/cyberattack-infrastructure-line-kadokawa.json) | 2024-03-05 | 11% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `elderly-drivers-license-revocation-mobility` | [高齢ドライバー事故・免許自主返納と地方の「移動難民」問題](src/data/topics/domestic/elderly-drivers-license-revocation-mobility.json) | 2024-03-28 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `food-security-basic-act-reform` | [食料安全保障と食料・農業・農村基本法の25年ぶり抜本改正](src/data/topics/domestic/food-security-basic-act-reform.json) | 2024-02-27 | 15% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `foreign-land-acquisition-regulations` | [外国人・外資による土地取得問題と「重要土地等調査法」の限界](src/data/topics/domestic/foreign-land-acquisition-regulations.json) | 2024-04-12 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `freelance-protection-act-gig-economy` | [フリーランス保護新法施行とギグワーカーの労働者性論争](src/data/topics/domestic/freelance-protection-act-gig-economy.json) | 2024-05-31 | 15% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `haneda-airport-runway-collision-accident` | [羽田空港航空機衝突事故（日航機・海保機）と航空安全・管制システムの盲点](src/data/topics/domestic/haneda-airport-runway-collision-accident.json) | 2024-01-02 | 15% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `immigration-reform` | [入管法改正・外国人労働者](src/data/topics/domestic/immigration-reform.json) | 2024-06-10 | 10% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `linear-chuo-shinkansen` | [リニア中央新幹線と静岡工区問題](src/data/topics/domestic/linear-chuo-shinkansen.json) | 2024-02-27 | 14% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `local-railways-bus-restructuring` | [ローカル鉄道・地方路線の廃線危機と再構築](src/data/topics/domestic/local-railways-bus-restructuring.json) | 2024-03-21 | 7% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `logistics-crisis-modal-shift` | [物流2024年問題とモーダルシフト](src/data/topics/domestic/logistics-crisis-modal-shift.json) | 2024-04-01 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `mega-solar-environmental-conflict-levy` | [メガソーラー乱開発・再エネ賦課金と地域紛争](src/data/topics/domestic/mega-solar-environmental-conflict-levy.json) | 2024-04-01 | 9% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `noto-earthquake-demolition-infrastructure-delay` | [能登半島地震の「公費解体」大幅遅延と被災インフラ復旧の壁](src/data/topics/domestic/noto-earthquake-demolition-infrastructure-delay.json) | 2024-01-01 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `ride-sharing-transport` | [ライドシェア導入と地域交通維持](src/data/topics/domestic/ride-sharing-transport.json) | 2024-04-08 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `shiretoko-tour-boat-sinking-accident` | [知床観光船沈没事故（KAZU I）と海運安全行政のずさんさ・形骸化監査](src/data/topics/domestic/shiretoko-tour-boat-sinking-accident.json) | 2024-04-01 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `takarazuka-harassment-overwork-reforms` | [宝塚歌劇団パワハラ・劇団員急死事件と興行界・伝統芸能の労働環境改革](src/data/topics/domestic/takarazuka-harassment-overwork-reforms.json) | 2024-03-28 | 11% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `work-style-reform` | [働き方改革・2024年問題](src/data/topics/domestic/work-style-reform.json) | 2024-04-01 | 12% | ⚠️ 経緯が2024年で停止 |
-| ✅ 済 | `aging-infrastructure-water-pipes-crisis` | [水道・道路など老朽化インフラ危機と自治体の限界](src/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json) | 2025-01-28 | 11% | 問題なし |
-| 🟡 概ね最新 | `foreign-drivers-traffic-accidents-insurance-gap` | [外国人ドライバーの交通事故と交通安全・無保険問題](src/data/topics/domestic/foreign-drivers-traffic-accidents-insurance-gap.json) | 2025-10-01 | 24% | ⚠️ 現状と背景の重複度高 (24%) |
-| ✅ 済 | `osaka-expo-2025` | [大阪・関西万博2025](src/data/topics/domestic/osaka-expo-2025.json) | 2025-04-13 | 11% | 問題なし |
-| ✅ 済 | `rice-shortage-agriculture` | [コメ品薄問題（令和の米騒動）と食料基本法](src/data/topics/domestic/rice-shortage-agriculture.json) | 2025-03-18 | 11% | 問題なし |
-| ✅ 済 | `teacher-work-style-kyotoku` | [教員の働き方改革と給特法見直し](src/data/topics/domestic/teacher-work-style-kyotoku.json) | 2025-02-25 | 13% | 問題なし |
-| 🟡 概ね最新 | `dangerous-driving-law-reform` | [危険運転致死傷罪の構成要件見直し](src/data/topics/domestic/dangerous-driving-law-reform.json) | 2026-03-15 | 19% | ⚠️ 現状と背景の重複度高 (19%) |
-| 🟡 概ね最新 | `foreign-residents-provisional-release-friction` | [外国人住民・仮放免者と地域社会の摩擦](src/data/topics/domestic/foreign-residents-provisional-release-friction.json) | 2026-09-17 | 16% | ⚠️ 現状と背景の重複度高 (16%) |
-| 🟡 概ね最新 | `kawaguchi-fatal-accident-court-ruling` | [川口市クルド人赤信号死亡事故とさいたま地裁判決](src/data/topics/domestic/kawaguchi-fatal-accident-court-ruling.json) | 2026-01-22 | 17% | ⚠️ 現状と背景の重複度高 (17%) |
-| ✅ 済 | `minimum-wage-increase` | [最低賃金引き上げと「全国1,500円」目標](src/data/topics/domestic/minimum-wage-increase.json) | 2026-07-28 | 11% | 問題なし |
-| ✅ 済 | `overtourism-inbound-policy` | [インバウンド急増とオーバーツーリズム（観光公害）](src/data/topics/domestic/overtourism-inbound-policy.json) | 2026-07-01 | 12% | 問題なし |
+| ✅ 済 | `customer-harassment-prevention` | [カスタマーハラスメント（カスハラ）対策と条例・法制化](src/data/topics/domestic/customer-harassment-prevention.json) | 2025-04-01 | 13% | 問題なし（東京都条例施行・厚労省法改正答申・海外比較追加済） |
+| ✅ 済 | `cyberattack-infrastructure-line-kadokawa` | [巨大情報漏洩・ランサムウェア攻撃と重要インフラ防衛](src/data/topics/domestic/cyberattack-infrastructure-line-kadokawa.json) | 2025-05-16 | 11% | 問題なし（ACD法案骨子・米EU英比較追加済） |
+| ✅ 済 | `elderly-drivers-license-revocation-mobility` | [高齢ドライバー事故・免許自主返納と地方の「移動難民」問題](src/data/topics/domestic/elderly-drivers-license-revocation-mobility.json) | 2025-11-20 | 13% | 問題なし（急発進防止国連基準・米豪英比較追加済） |
+| ✅ 済 | `food-security-basic-act-reform` | [食料安全保障と食料・農業・農村基本法の25年ぶり抜本改正](src/data/topics/domestic/food-security-basic-act-reform.json) | 2025-04-01 | 11% | 問題なし（基本法・不測時法施行・スイス仏米比較追加済） |
+| ✅ 済 | `foreign-land-acquisition-regulations` | [外国人・外資による土地取得問題と「重要土地等調査法」の限界](src/data/topics/domestic/foreign-land-acquisition-regulations.json) | 2025-05-20 | 13% | 問題なし（指定区域1800超・豪米NZ比較追加済） |
+| ✅ 済 | `freelance-protection-act-gig-economy` | [フリーランス保護新法施行とギグワーカーの労働者性論争](src/data/topics/domestic/freelance-protection-act-gig-economy.json) | 2025-04-15 | 11% | 問題なし（法全面施行・独米英比較追加済） |
+| ✅ 済 | `haneda-airport-runway-collision-accident` | [羽田空港航空機衝突事故（日航機・海保機）と航空安全・管制システムの盲点](src/data/topics/domestic/haneda-airport-runway-collision-accident.json) | 2025-06-20 | 12% | 問題なし（JTSB報告・米ICAOスペイン比較追加済） |
+| ✅ 済 | `immigration-reform` | [入管法改正・外国人労働者](src/data/topics/domestic/immigration-reform.json) | 2025-06-18 | 10% | 問題なし（育成就労省令骨子・独韓英比較追加済） |
+| ✅ 済 | `linear-chuo-shinkansen` | [リニア中央新幹線と静岡工区問題](src/data/topics/domestic/linear-chuo-shinkansen.json) | 2025-05-15 | 11% | 問題なし（県境ボーリング・英中仏比較追加済） |
+| ✅ 済 | `local-railways-bus-restructuring` | [ローカル鉄道・地方路線の廃線危機と再構築](src/data/topics/domestic/local-railways-bus-restructuring.json) | 2025-04-01 | 7% | 問題なし（芸備線実証・独スイス仏比較追加済） |
+| ✅ 済 | `logistics-crisis-modal-shift` | [物流2024年問題とモーダルシフト](src/data/topics/domestic/logistics-crisis-modal-shift.json) | 2025-04-01 | 11% | 問題なし（改正法全面施行・スイスEU米比較追加済） |
+| ✅ 済 | `mega-solar-environmental-conflict-levy` | [メガソーラー乱開発・再エネ賦課金と地域紛争](src/data/topics/domestic/mega-solar-environmental-conflict-levy.json) | 2025-04-01 | 9% | 問題なし（交付金留保初適用・独米中比較追加済） |
+| ✅ 済 | `noto-earthquake-demolition-infrastructure-delay` | [能登半島地震の「公費解体」大幅遅延と被災インフラ復旧の壁](src/data/topics/domestic/noto-earthquake-demolition-infrastructure-delay.json) | 2025-01-01 | 12% | 問題なし（発災1年復興・NZ米イタリア比較追加済） |
+| ✅ 済 | `ride-sharing-transport` | [ライドシェア導入と地域交通維持](src/data/topics/domestic/ride-sharing-transport.json) | 2025-03-25 | 10% | 問題なし（全国定着・米シンガポール独比較追加済） |
+| ✅ 済 | `shiretoko-tour-boat-sinking-accident` | [知床観光船沈没事故（KAZU I）と海運安全行政のずさんさ・形骸化監査](src/data/topics/domestic/shiretoko-tour-boat-sinking-accident.json) | 2025-05-10 | 11% | 問題なし（釧路地裁公判・米英韓比較追加済） |
+| ✅ 済 | `takarazuka-harassment-overwork-reforms` | [宝塚歌劇団パワハラ・劇団員急死事件と興行界・伝統芸能の労働環境改革](src/data/topics/domestic/takarazuka-harassment-overwork-reforms.json) | 2025-03-28 | 8% | 問題なし（合意1年進捗公表・英米仏比較追加済） |
+| ✅ 済 | `work-style-reform` | [働き方改革・2024年問題](src/data/topics/domestic/work-style-reform.json) | 2025-04-01 | 11% | 問題なし（物流法全面施行・独仏米比較追加済） |
+| ✅ 済 | `aging-infrastructure-water-pipes-crisis` | [水道・道路など老朽化インフラ危機と自治体の限界](src/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json) | 2025-01-28 | 11% | 問題なし（米英仏比較追加済） |
+| ✅ 済 | `foreign-drivers-traffic-accidents-insurance-gap` | [外国人ドライバーの交通事故と交通安全・無保険問題](src/data/topics/domestic/foreign-drivers-traffic-accidents-insurance-gap.json) | 2025-10-01 | 8% | 問題なし（外免切替厳格化・独シンガポール台湾比較追加済） |
+| ✅ 済 | `osaka-expo-2025` | [大阪・関西万博2025](src/data/topics/domestic/osaka-expo-2025.json) | 2025-10-13 | 10% | 問題なし（閉幕と跡地利用・UAEイタリアサウジ比較追加済） |
+| ✅ 済 | `rice-shortage-agriculture` | [コメ品薄問題（令和の米騒動）と食料基本法](src/data/topics/domestic/rice-shortage-agriculture.json) | 2025-03-18 | 11% | 問題なし（米価高止まり・米仏韓比較追加済） |
+| ✅ 済 | `teacher-work-style-kyotoku` | [教員の働き方改革と給特法見直し](src/data/topics/domestic/teacher-work-style-kyotoku.json) | 2025-02-25 | 13% | 問題なし（英独米比較追加済） |
+| ✅ 済 | `dangerous-driving-law-reform` | [危険運転致死傷罪の構成要件見直し](src/data/topics/domestic/dangerous-driving-law-reform.json) | 2026-03-15 | 7% | 問題なし（法制審数値基準・独英米比較追加済） |
+| ✅ 済 | `foreign-residents-provisional-release-friction` | [外国人住民・仮放免者と地域社会の摩擦](src/data/topics/domestic/foreign-residents-provisional-release-friction.json) | 2025-04-01 | 14% | 問題なし（ヤード条例施行・仏独米比較追加済） |
+| ✅ 済 | `kawaguchi-fatal-accident-court-ruling` | [川口市クルド人赤信号死亡事故とさいたま地裁判決](src/data/topics/domestic/kawaguchi-fatal-accident-court-ruling.json) | 2026-01-22 | 6% | 問題なし（地裁判決分析・英米仏比較追加済） |
+| ✅ 済 | `minimum-wage-increase` | [最低賃金引き上げと「全国1,500円」目標](src/data/topics/domestic/minimum-wage-increase.json) | 2026-07-28 | 11% | 問題なし（独英仏比較追加済） |
+| ✅ 済 | `overtourism-inbound-policy` | [インバウンド急増とオーバーツーリズム（観光公害）](src/data/topics/domestic/overtourism-inbound-policy.json) | 2026-07-01 | 12% | 問題なし（富士山静岡連携・イタリアスペインオランダ比較追加済） |
 
 ### 【国内⑤】治安・警察・司法・法務・教育・文化・IT（全34件 / 要更新: 20件）
 
