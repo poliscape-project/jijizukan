@@ -117,6 +117,45 @@
   ],
   "developments": [
     {
+      "date": "2025-01-10",
+      "title": "マイクロソフトがWindows新アーキテクチャロードマップを発表",
+      "content": "セキュリティベンダーによるカーネル（Ring 0）アクセス依存を脱却し、ユーザーモードで安全にエンドポイント監視を行える新プラットフォーム機能のプレビュー提供を開始した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Microsoft Security Blog: Windows Resiliency Initiative Updates",
+          "url": "https://blogs.windows.com/",
+          "organization": "マイクロソフト"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-25",
+      "title": "米デルタ航空がクラウドストライクを相手取り5億ドル超の損害賠償訴訟を提起",
+      "content": "5,000便以上の欠航と数万人の足止めによる逸失利益や補償費用をめぐり、重大な過失と契約違反を理由にジョージア州地裁に正式提訴した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Delta Air Lines Files Lawsuit Against CrowdStrike Over Mass Flight Cancellations",
+          "url": "https://www.reuters.com/",
+          "organization": "ロイター通信"
+        }
+      ]
+    },
+    {
+      "date": "2024-09-24",
+      "title": "米下院小委員会でクラウドストライク幹部が証言・陳謝",
+      "content": "米下院国土安全保障小委員会においてシニアバイスプレジデントが証言し、テストプロセスの盲点を認め、段階的展開（カナリアリリース）手順の導入を陳謝とともに誓約した。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "US House Homeland Security Subcommittee Hearing on CrowdStrike Outage",
+          "url": "https://homeland.house.gov/",
+          "organization": "米連邦議会下院"
+        }
+      ]
+    },
+    {
       "date": "2024-09-12",
       "title": "マイクロソフトがWindowsエンドポイント・セキュリティサミットを開催",
       "content": "クラウドストライク等のセキュリティ企業を本社に集め、カーネルモード外でのセキュリティ機能動作や耐障害性向上に向けた新アーキテクチャの協議を開始した。",
@@ -154,6 +193,23 @@
           "organization": "クラウドストライク"
         }
       ]
+    }
+  ],
+  "international": [
+    {
+      "country": "アメリカ",
+      "flag": "🇺🇸",
+      "summary": "サイバーセキュリティ・インフラセキュリティ庁（CISA）が重要インフラの単一障害点（SPOF）排除とレジリエンス確保の指針を策定。CIRCIA（重要インフラサイバーインシデント報告法）の適用指針において、サプライチェーン起因の大規模障害に対する報告・監視基準を厳格化している。"
+    },
+    {
+      "country": "欧州連合（EU）",
+      "flag": "🇪🇺",
+      "summary": "2025年1月に金融セクターを対象とするDORA（デジタル運用レジリエンス法）が全面適用され、重要ICTサードパーティ事業者への直接監督と事業継続テストを義務化。NIS2指令と併せて、クラウドやセキュリティSaaSの単一ベンダー依存リスクに対する構造的規制を世界に先駆けて推進している。"
+    },
+    {
+      "country": "日本",
+      "flag": "🇯🇵",
+      "summary": "金融庁やNISC（内閣サイバーセキュリティセンター）が金融・航空・医療等の基幹インフラ事業者に対し、サードパーティ製セキュリティソフトの自動更新設定見直しやオフライン復旧手順の事前整備を指導。重要基盤の過度な外資依存リスクを踏まえた能動的防衛基盤の検討を進めている。"
     }
   ],
   "relatedPolicies": [],

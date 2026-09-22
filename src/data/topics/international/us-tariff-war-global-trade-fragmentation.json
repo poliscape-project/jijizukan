@@ -129,6 +129,45 @@
   ],
   "developments": [
     {
+      "date": "2025-02-01",
+      "title": "トランプ大統領、カナダ・メキシコへの25%関税・対中追加関税の大統領令に署名",
+      "content": "就任直後に国境警備やフェンタニル密輸阻止を名目とし、メキシコ・カナダからの全輸入品に25%、中国製品に追加10%を課す大統領令に署名。報復措置やサプライチェーン混乱をめぐり世界市場が激震した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "White House Issues Executive Order on Trade Tariffs",
+          "url": "https://www.whitehouse.gov/",
+          "organization": "米ホワイトハウス"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-20",
+      "title": "トランプ大統領が就任、「相互関税法」の法制化と普遍的一律関税を表明",
+      "content": "第47代大統領就任演説で『アメリカの富を世界から取り戻す』と宣言。相手国の関税と同率を課す相互関税制度の導入と国内製造業回帰に向けた大統領通商権限の全面行使に着手した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "President Donald J. Trump Inaugural Address on Trade Policy",
+          "url": "https://www.whitehouse.gov/",
+          "organization": "米ホワイトハウス"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-16",
+      "title": "WTO一般理事会で保護主義と関税引き上げをめぐる大国間の応酬が激化",
+      "content": "ジュネーブで開催されたWTO会合で、米国の包括関税構想に対しEU、中国、日本などが多角的貿易体制のルール順守を強く要求。上級委員会機能停止と相まって機能不全が一層深刻化した。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "WTO General Council Meeting on Global Trade Concerns",
+          "url": "https://www.wto.org/",
+          "organization": "世界貿易機関（WTO）"
+        }
+      ]
+    },
+    {
       "date": "2024-11-25",
       "title": "トランプ次期大統領がカナダ・メキシコへ25%、中国へ追加10%関税を予告",
       "content": "就任初日に大統領令でメキシコとカナダからの全輸入品に25%、中国からの輸入品に追加10%の関税を課すと表明。世界市場と為替が急激に動揺した。",
@@ -153,6 +192,23 @@
           "organization": "Associated Press"
         }
       ]
+    }
+  ],
+  "international": [
+    {
+      "country": "アメリカ",
+      "flag": "🇺🇸",
+      "summary": "トランプ第2次政権が『アメリカ第一主義通商政策』を全面展開。普遍的一律関税（10〜20%）、相互関税法、通商拡大法232条（安全保障関税）および301条の全面活用により、貿易赤字削減と国内製造業回帰を強行している。"
+    },
+    {
+      "country": "欧州連合（EU）",
+      "flag": "🇪🇺",
+      "summary": "多角的多国間主義の擁護を掲げつつ、一方的な経済威圧に対抗する『反強要手段（ACI）』を整備。米国激戦州の特産品を標的とした報復関税リストを策定するとともに、炭素国境調整措置（CBAM）等を通じた欧州市場の防衛を強化している。"
+    },
+    {
+      "country": "中国",
+      "flag": "🇨🇳",
+      "summary": "米国の対中60%超関税構想に対し、ガリウム・ゲルマニウム・アンチモン・グラファイト等のハイテク・軍需重要鉱物の対米輸出規制を発動。ASEANやBRICS、グローバルサウス諸国への輸出迂回・多角化を加速させて対抗している。"
     }
   ],
   "relatedPolicies": [],

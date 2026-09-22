@@ -48,6 +48,45 @@
   ],
   "developments": [
     {
+      "date": "2025-01-20",
+      "title": "米新政権発足でパンデミック条約不参加が確定的に、WHO資金拠出も不透明化",
+      "content": "トランプ大統領の就任に伴い、米国がWHOパンデミック条約に署名しない方針が確定。米連邦予算によるWHO拠出金の凍結検討も浮上し、5月の第78回世界保健総会に向けた条約交渉は米国不参加を前提とした枠組み調整を迫られた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "ロイター通信：Trump administration signals refusal to sign WHO pandemic accord",
+          "url": "https://www.reuters.com/",
+          "organization": "Reuters"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-15",
+      "title": "WHO政府間交渉機関（INB）第12回会合が開催、2025年採択へ調整継続",
+      "content": "ジュネーブで開催されたINB12において、病原体アクセスと利益配分（PABS）システムにおけるワクチン・治療薬の供与割合や、途上国向け資金メカニズムに関する条文化作業が続行された。2025年5月の第78回WHAでの最終採択を目指す。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "WHO: Twelfth meeting of the Intergovernmental Negotiating Body (INB)",
+          "url": "https://www.who.int/",
+          "organization": "世界保健機関（WHO）"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-06",
+      "title": "米大統領選でトランプ氏勝利、パンデミック条約批准拒否とWHO再脱退懸念が急浮上",
+      "content": "第1次政権でWHO脱退を表明したトランプ氏の再選により、米国がパンデミック条約に署名・批准しない公算が濃厚となった。米国からの巨額拠出金停止懸念を含め、国際公衆衛生秩序が大きな分岐点を迎えた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "ロイター通信：Trump presidency poses fresh threat to WHO pandemic treaty",
+          "url": "https://www.reuters.com/",
+          "organization": "Reuters"
+        }
+      ]
+    },
+    {
       "date": "2024-06-01",
       "title": "第77回世界保健総会でIHR改正案を採択、パンデミック条約は期限延長",
       "content": "WHO総会において、パンデミック緊急事態の定義などを明確化した国際保健規則（IHR）の改正案が採択された一方、パンデミック条約本体は合意を持ち越し、2025年総会までの交渉継続が決まった。",
@@ -76,6 +115,23 @@
       "title": "WHOが新型コロナウイルスの「パンデミック」を公式表明",
       "content": "テドロス事務局長が感染拡大の速度と重篤さに深い懸念を表明し、パンデミックとみなせると宣言。世界規模の都市封鎖と経済混乱の起点となった。",
       "significance": "high"
+    }
+  ],
+  "international": [
+    {
+      "country": "途上国・アフリカ連合（アフリカCDC・南ア・ブラジル等）",
+      "relationship": "公平性（Equity）とワクチン配分義務化・技術移転を要求",
+      "description": "病原体サンプルだけ採取され完成薬を買い占められたコロナ禍の教訓から、PABS（病原体アクセスと利益配分）を通じたワクチン生産量20%のWHOへの無償・安価供与や、緊急時の特許強制実施権・技術移転の義務化を強硬に要求している。"
+    },
+    {
+      "country": "先進国（欧州連合・スイス・英国・日本）",
+      "relationship": "製薬産業の知的財産権保護と市場インセンティブの死守",
+      "description": "メガファーマを抱える先進諸国は、特許の強制譲渡が創薬研究開発への巨額投資意欲を失わせると反発。任意のライセンス供与や途上国現地での生産拠点支援（mRNAハブ）を軸とする妥協案を提示している。"
+    },
+    {
+      "country": "アメリカ合衆国（政権移行と保守派世論）",
+      "relationship": "国家主権侵害懸念とトランプ第2次政権による条約離脱リスク",
+      "description": "共和党保守派を中心に「WHOが国民の自由や国家主権を侵害する」との激しい反発が根強く、トランプ大統領の再選により条約署名拒否やWHOからの再離脱・拠出金凍結が現実味を帯び、国際保健協調の最大の破綻要因となっている。"
     }
   ],
   "relatedPolicies": [],

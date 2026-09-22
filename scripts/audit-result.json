@@ -1749,17 +1749,15 @@
       "category": "多国間",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-14",
-      "latestDevTitle": "日本政府、情報処理推進機構（IPA）に「AIセーフティ・インスティテュート」を設立",
-      "devCount": 11,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "米トランプ政権発足、バイデンAI大統領令の撤廃と規制緩和・開発推進を表明",
+      "devCount": 14,
       "sim": 11,
       "ovLen": 590,
       "bgLen": 501,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "arctic-sea-route-geopolitics",
@@ -1802,17 +1800,15 @@
       "category": "国際デジタル法制・巨大IT規制・人権福祉",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-09-10",
-      "latestDevTitle": "アルバニージー首相が16歳未満のSNS利用禁止法案の年内成立を表明",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-15",
+      "latestDevTitle": "豪州政府が年齢確認技術（Age Assurance）の実証トライアルを正式開始",
+      "devCount": 5,
       "sim": 12,
       "ovLen": 705,
       "bgLen": 556,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "bangladesh-revolution-hasina-yunus-transition",
@@ -1838,17 +1834,15 @@
       "category": "国際経済・規制",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-21",
-      "latestDevTitle": "米司法省および16州・地域の司法長官、Appleを反トラスト法違反で提訴",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "第2期トランプ政権発足、対巨大IT反トラスト政策の再編・政権移行が本格化",
+      "devCount": 8,
       "sim": 14,
       "ovLen": 777,
       "bgLen": 737,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "boeing-quality-crisis-737max-safety",
@@ -1857,17 +1851,15 @@
       "category": "航空宇宙・製造業ガバナンス・国際安全基準",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-05",
-      "latestDevTitle": "アラスカ航空1282便（737 MAX 9）のドアプラグが飛行中に吹き飛ぶ大事故が発生",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-15",
+      "latestDevTitle": "ボーイング、新CEO主導の品質改善進捗をFAAに提出・監査継続",
+      "devCount": 8,
       "sim": 10,
       "ovLen": 768,
       "bgLen": 936,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "brexit-fallout-uk-labour-government",
@@ -1876,17 +1868,15 @@
       "category": "ヨーロッパ・EU",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-07-05",
-      "latestDevTitle": "英国総選挙で労働党が411議席を獲得し歴史的圧勝、スターマー政権発足",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-15",
+      "latestDevTitle": "スターマー英首相が対EU協定再構築のロードマップ発表、春の首脳協議へ",
+      "devCount": 9,
       "sim": 9,
       "ovLen": 601,
       "bgLen": 470,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "central-asia-c5-geopolitics",
@@ -1946,17 +1936,15 @@
       "category": "多国間",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-14",
-      "latestDevTitle": "日本政府、世界初となる「GX経済移行債」の入札・発行を開始",
-      "devCount": 12,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "米トランプ大統領が就任、パリ協定からの2度目の離脱大統領令に即時署名",
+      "devCount": 15,
       "sim": 13,
       "ovLen": 600,
       "bgLen": 471,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "critical-minerals-resource-nationalism",
@@ -1965,17 +1953,15 @@
       "category": "経済安全保障",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-03",
-      "latestDevTitle": "鉱物安全保障パートナーシップ（MSP）参加国、産出国連携「MSPフォーラム」設立を発表",
-      "devCount": 11,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-08",
+      "latestDevTitle": "中国商務部、軍民両用品目リスト改訂でタングステン等の輸出管理を厳格化",
+      "devCount": 14,
       "sim": 11,
       "ovLen": 690,
       "bgLen": 618,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "crowdstrike-global-it-outage-spof",
@@ -1984,17 +1970,15 @@
       "category": "サイバーセキュリティ・世界経済・ITインフラ",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-07-19",
-      "latestDevTitle": "クラウドストライクの更新ミスで世界中のWindows 850万台が一斉停止",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-10",
+      "latestDevTitle": "マイクロソフトがWindows新アーキテクチャロードマップを発表",
+      "devCount": 6,
       "sim": 12,
       "ovLen": 815,
       "bgLen": 1010,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "cyber-security-threats",
@@ -2003,17 +1987,15 @@
       "category": "紛争・安全保障",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-07",
-      "latestDevTitle": "日米豪英加NZ、中国系ハッカー集団「ボルト・タイフーン」による重要インフラ侵入の共同警告を発出",
-      "devCount": 10,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-02-14",
+      "latestDevTitle": "日本政府、能動的サイバー防御（ACD）導入法案の国会提出方針を決定",
+      "devCount": 13,
       "sim": 13,
       "ovLen": 742,
       "bgLen": 675,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "de-dollarization-currency-hegemony",
@@ -2022,18 +2004,15 @@
       "category": "国際金融・通貨",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-30",
-      "latestDevTitle": "ワールド・ゴールド・カウンシル、中銀の金購入量が第1四半期として過去最高と公表",
-      "devCount": 9,
-      "sim": 16,
-      "ovLen": 663,
-      "bgLen": 708,
-      "issues": [
-        "⚠️ 経緯が2024年で停止",
-        "⚠️ 現状と背景の重複度高 (16%)"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-31",
+      "latestDevTitle": "トランプ米大統領、脱ドル化を図るBRICS諸国へ100%関税を警告",
+      "devCount": 11,
+      "sim": 8,
+      "ovLen": 422,
+      "bgLen": 370,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "drone-warfare-laws-autonomous-weapons",
@@ -2042,17 +2021,15 @@
       "category": "安全保障・軍事",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-30",
-      "latestDevTitle": "ウィーンで自律型致死兵器（LAWS）に関する国際会議が開催",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-28",
+      "latestDevTitle": "ジュネーブで自律型致死兵器（LAWS）に関するCCW専門家会合が再開",
+      "devCount": 9,
       "sim": 9,
       "ovLen": 677,
       "bgLen": 502,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "economic-security",
@@ -2061,18 +2038,15 @@
       "category": "経済安全保障",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-24",
-      "latestDevTitle": "台湾TSMCの日本初となる熊本第1工場が開所",
-      "devCount": 8,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-02-18",
+      "latestDevTitle": "日本政府、次世代半導体「ラピダス」支援に向けた出資・政府保証法案を閣議決定",
+      "devCount": 11,
       "sim": 11,
       "ovLen": 511,
       "bgLen": 460,
-      "issues": [
-        "⚠️ 経緯が2024年で停止",
-        "⚠️ バイデン政権表記(1箇所)"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "ethiopia-tigray-horn-of-africa",
@@ -2115,18 +2089,15 @@
       "category": "国際通商・自動車産業・脱炭素地政学",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-05-08",
-      "latestDevTitle": "トヨタ自動車が日本企業初の営業利益5兆円超え（過去最高益）を発表",
-      "devCount": 4,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "トランプ米政権発足、EV優遇策見直しと内燃機関規制緩和へ舵",
+      "devCount": 5,
       "sim": 10,
       "ovLen": 780,
-      "bgLen": 1079,
-      "issues": [
-        "⚠️ 経緯が2024年で停止",
-        "⚠️ バイデン政権表記(1箇所)"
-      ],
-      "needsAudit": true
+      "bgLen": 1075,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "global-lgbtq-gender-culture-war",
@@ -2135,17 +2106,15 @@
       "category": "人権・社会",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-12",
-      "latestDevTitle": "ドイツ連邦議会が「自己決定法（セルフID法）」を可決",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-22",
+      "latestDevTitle": "タイで「婚姻平等法」が正式施行、東南アジア初の同性婚が解禁",
+      "devCount": 8,
       "sim": 11,
       "ovLen": 645,
       "bgLen": 531,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "global-migration-refugee-crisis",
@@ -2154,15 +2123,14 @@
       "category": "多国間",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-05-14",
-      "latestDevTitle": "EU理事会が新移民・難民協定（Pact on Migration and Asylum）を最終承認",
-      "devCount": 10,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "米トランプ大統領が就任、南部国境での国家緊急事態宣言と強制送還令に署名",
+      "devCount": 13,
       "sim": 13,
       "ovLen": 651,
       "bgLen": 669,
       "issues": [
-        "⚠️ 経緯が2024年で停止",
         "⚠️ バイデン政権表記(2箇所)"
       ],
       "needsAudit": true
@@ -2208,17 +2176,15 @@
       "category": "外交・二国間関係",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-06-09",
-      "latestDevTitle": "モディ首相が3期目の内閣を発足、「近隣第一」外交と多極化連携を表明",
-      "devCount": 10,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-23",
+      "latestDevTitle": "モディ首相がトランプ米大統領と電話会談、防衛・ハイテク連携の継続を確認",
+      "devCount": 12,
       "sim": 12,
       "ovLen": 691,
       "bgLen": 720,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "indo-pacific-quad",
@@ -2397,17 +2363,15 @@
       "category": "多国間",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-07-28",
-      "latestDevTitle": "日米両政府が東京で「拡大抑止に関する閣僚会合」を初開催",
-      "devCount": 10,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "米政権交代に伴い核戦力近代化を加速、2026年新START失効後の秩序模索へ",
+      "devCount": 14,
       "sim": 14,
       "ovLen": 643,
       "bgLen": 577,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "ocean-plastics-treaty",
@@ -2416,17 +2380,15 @@
       "category": "多国間・環境",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-29",
-      "latestDevTitle": "カナダ・オタワで第4回政府間交渉委員会（INC-4）が閉幕、会期間作業を決定",
-      "devCount": 9,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-02-05",
+      "latestDevTitle": "UNEP、プラスチック条約再開会合（INC-5.2）の年内開催日程を発表",
+      "devCount": 11,
       "sim": 10,
       "ovLen": 701,
       "bgLen": 725,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "pacific-island-nations-climate-geopolitics",
@@ -2469,17 +2431,15 @@
       "category": "国際スポーツ・社会的分断・ジェンダー論争",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-07-26",
-      "latestDevTitle": "セーヌ川での史上初の船上開会式が開催、ドラァグクイーン演出が物議",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "IOCと国際競技連盟、2028年ロス五輪女性枠の統一基準草案を協議",
+      "devCount": 7,
       "sim": 10,
       "ovLen": 708,
       "bgLen": 1128,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "russia-north-korea-alliance",
@@ -2573,17 +2533,15 @@
       "category": "宇宙・科学技術",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-12",
-      "latestDevTitle": "アストロスケールの商業デブリ除去実証衛星（ADRAS-J）がロケット残骸への近接撮影に成功",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-15",
+      "latestDevTitle": "JAXAとアストロスケール、大型デブリ捕獲・除去衛星「ADRAS-J2」の開発を本格化",
+      "devCount": 9,
       "sim": 11,
       "ovLen": 683,
       "bgLen": 482,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "space-race-security",
@@ -2592,17 +2550,15 @@
       "category": "地政学・勢力均衡",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-20",
-      "latestDevTitle": "JAXAの小型月着陸実証機「SLIM」が日本初の月面高精度着陸に成功",
-      "devCount": 11,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-16",
+      "latestDevTitle": "NASAとSpaceX、有人月着陸機（HLS）に向け軌道上推進剤移送試験を準備",
+      "devCount": 15,
       "sim": 10,
       "ovLen": 777,
       "bgLen": 668,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "submarine-cable-infrastructure-vulnerability",
@@ -2611,17 +2567,15 @@
       "category": "海洋安全保障・重要インフラ・ハイブリッド戦",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-11-18",
-      "latestDevTitle": "バルト海でフィンランド〜ドイツ間など主要2本の海底ケーブルが切断",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-14",
+      "latestDevTitle": "NATO、バルト海の重要海底インフラ防衛哨戒「バルト・センチネル」を始動",
+      "devCount": 6,
       "sim": 13,
       "ovLen": 708,
       "bgLen": 616,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "sudan-civil-war-humanitarian-crisis",
@@ -2681,15 +2635,14 @@
       "category": "米国政治・安全保障・国際秩序",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-07-13",
-      "latestDevTitle": "ペンシルベニア州バトラーでトランプ氏暗殺未遂事件が発生、右耳を被弾",
-      "devCount": 4,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "トランプ新大統領が就任、USSS抜本改革と暗殺未遂調査資料の全面公開を指示",
+      "devCount": 7,
       "sim": 11,
       "ovLen": 774,
       "bgLen": 974,
       "issues": [
-        "⚠️ 経緯が2024年で停止",
         "⚠️ バイデン政権表記(1箇所)"
       ],
       "needsAudit": true
@@ -2769,17 +2722,15 @@
       "category": "国際通商・世界経済・保護主義",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-11-06",
-      "latestDevTitle": "米大統領選でドナルド・トランプ氏が勝利、普遍的一律関税の導入へ",
-      "devCount": 2,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "トランプ大統領が就任、「相互関税法」の法制化と普遍的一律関税を表明",
+      "devCount": 5,
       "sim": 9,
       "ovLen": 686,
       "bgLen": 545,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "us-tiktok-ban-law-digital-cold-war",
@@ -2824,17 +2775,15 @@
       "category": "多国間",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-24",
-      "latestDevTitle": "国連機関等が「食料危機に関するグローバル報告書2024」を発表",
-      "devCount": 9,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-10",
+      "latestDevTitle": "FAO、2025年食料展望で異常気象と地政学リスクによる供給網脆弱性を警告",
+      "devCount": 12,
       "sim": 14,
       "ovLen": 594,
       "bgLen": 574,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "who-pandemic-treaty-negotiations",
@@ -2843,17 +2792,15 @@
       "category": "国際保健・国際機関",
       "clusterId": "intl-4",
       "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-28",
-      "latestDevTitle": "政府間交渉機関（INB）第9回会合、合意に至らず期限切れへ",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "米新政権発足でパンデミック条約不参加が確定的に、WHO資金拠出も不透明化",
+      "devCount": 8,
       "sim": 10,
       "ovLen": 670,
       "bgLen": 494,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     }
   ],
   "clusters": {
@@ -4647,9 +4594,9 @@
     "intl-4": {
       "name": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
       "total": 29,
-      "stopped2024OrEarlier": 26,
-      "current": 3,
-      "highOverlap": 1,
+      "stopped2024OrEarlier": 0,
+      "current": 29,
+      "highOverlap": 0,
       "topics": [
         {
           "id": "ai-regulation",
@@ -4658,17 +4605,15 @@
           "category": "多国間",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-14",
-          "latestDevTitle": "日本政府、情報処理推進機構（IPA）に「AIセーフティ・インスティテュート」を設立",
-          "devCount": 11,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "米トランプ政権発足、バイデンAI大統領令の撤廃と規制緩和・開発推進を表明",
+          "devCount": 14,
           "sim": 11,
           "ovLen": 590,
           "bgLen": 501,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "australia-under-16-social-media-ban",
@@ -4677,17 +4622,15 @@
           "category": "国際デジタル法制・巨大IT規制・人権福祉",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-09-10",
-          "latestDevTitle": "アルバニージー首相が16歳未満のSNS利用禁止法案の年内成立を表明",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-15",
+          "latestDevTitle": "豪州政府が年齢確認技術（Age Assurance）の実証トライアルを正式開始",
+          "devCount": 5,
           "sim": 12,
           "ovLen": 705,
           "bgLen": 556,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "big-tech-antitrust-regulations",
@@ -4696,17 +4639,15 @@
           "category": "国際経済・規制",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-21",
-          "latestDevTitle": "米司法省および16州・地域の司法長官、Appleを反トラスト法違反で提訴",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "第2期トランプ政権発足、対巨大IT反トラスト政策の再編・政権移行が本格化",
+          "devCount": 8,
           "sim": 14,
           "ovLen": 777,
           "bgLen": 737,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "boeing-quality-crisis-737max-safety",
@@ -4715,17 +4656,15 @@
           "category": "航空宇宙・製造業ガバナンス・国際安全基準",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-05",
-          "latestDevTitle": "アラスカ航空1282便（737 MAX 9）のドアプラグが飛行中に吹き飛ぶ大事故が発生",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-15",
+          "latestDevTitle": "ボーイング、新CEO主導の品質改善進捗をFAAに提出・監査継続",
+          "devCount": 8,
           "sim": 10,
           "ovLen": 768,
           "bgLen": 936,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "brexit-fallout-uk-labour-government",
@@ -4734,17 +4673,15 @@
           "category": "ヨーロッパ・EU",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-07-05",
-          "latestDevTitle": "英国総選挙で労働党が411議席を獲得し歴史的圧勝、スターマー政権発足",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-15",
+          "latestDevTitle": "スターマー英首相が対EU協定再構築のロードマップ発表、春の首脳協議へ",
+          "devCount": 9,
           "sim": 9,
           "ovLen": 601,
           "bgLen": 470,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "climate-change",
@@ -4753,17 +4690,15 @@
           "category": "多国間",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-14",
-          "latestDevTitle": "日本政府、世界初となる「GX経済移行債」の入札・発行を開始",
-          "devCount": 12,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "米トランプ大統領が就任、パリ協定からの2度目の離脱大統領令に即時署名",
+          "devCount": 15,
           "sim": 13,
           "ovLen": 600,
           "bgLen": 471,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "critical-minerals-resource-nationalism",
@@ -4772,17 +4707,15 @@
           "category": "経済安全保障",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-03",
-          "latestDevTitle": "鉱物安全保障パートナーシップ（MSP）参加国、産出国連携「MSPフォーラム」設立を発表",
-          "devCount": 11,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-08",
+          "latestDevTitle": "中国商務部、軍民両用品目リスト改訂でタングステン等の輸出管理を厳格化",
+          "devCount": 14,
           "sim": 11,
           "ovLen": 690,
           "bgLen": 618,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "crowdstrike-global-it-outage-spof",
@@ -4791,17 +4724,15 @@
           "category": "サイバーセキュリティ・世界経済・ITインフラ",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-07-19",
-          "latestDevTitle": "クラウドストライクの更新ミスで世界中のWindows 850万台が一斉停止",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-10",
+          "latestDevTitle": "マイクロソフトがWindows新アーキテクチャロードマップを発表",
+          "devCount": 6,
           "sim": 12,
           "ovLen": 815,
           "bgLen": 1010,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "cyber-security-threats",
@@ -4810,17 +4741,15 @@
           "category": "紛争・安全保障",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-07",
-          "latestDevTitle": "日米豪英加NZ、中国系ハッカー集団「ボルト・タイフーン」による重要インフラ侵入の共同警告を発出",
-          "devCount": 10,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-02-14",
+          "latestDevTitle": "日本政府、能動的サイバー防御（ACD）導入法案の国会提出方針を決定",
+          "devCount": 13,
           "sim": 13,
           "ovLen": 742,
           "bgLen": 675,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "de-dollarization-currency-hegemony",
@@ -4829,18 +4758,15 @@
           "category": "国際金融・通貨",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-30",
-          "latestDevTitle": "ワールド・ゴールド・カウンシル、中銀の金購入量が第1四半期として過去最高と公表",
-          "devCount": 9,
-          "sim": 16,
-          "ovLen": 663,
-          "bgLen": 708,
-          "issues": [
-            "⚠️ 経緯が2024年で停止",
-            "⚠️ 現状と背景の重複度高 (16%)"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-31",
+          "latestDevTitle": "トランプ米大統領、脱ドル化を図るBRICS諸国へ100%関税を警告",
+          "devCount": 11,
+          "sim": 8,
+          "ovLen": 422,
+          "bgLen": 370,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "drone-warfare-laws-autonomous-weapons",
@@ -4849,17 +4775,15 @@
           "category": "安全保障・軍事",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-30",
-          "latestDevTitle": "ウィーンで自律型致死兵器（LAWS）に関する国際会議が開催",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-28",
+          "latestDevTitle": "ジュネーブで自律型致死兵器（LAWS）に関するCCW専門家会合が再開",
+          "devCount": 9,
           "sim": 9,
           "ovLen": 677,
           "bgLen": 502,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "economic-security",
@@ -4868,18 +4792,15 @@
           "category": "経済安全保障",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-24",
-          "latestDevTitle": "台湾TSMCの日本初となる熊本第1工場が開所",
-          "devCount": 8,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-02-18",
+          "latestDevTitle": "日本政府、次世代半導体「ラピダス」支援に向けた出資・政府保証法案を閣議決定",
+          "devCount": 11,
           "sim": 11,
           "ovLen": 511,
           "bgLen": 460,
-          "issues": [
-            "⚠️ 経緯が2024年で停止",
-            "⚠️ バイデン政権表記(1箇所)"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "global-ev-slowdown-hybrid-resurgence",
@@ -4888,18 +4809,15 @@
           "category": "国際通商・自動車産業・脱炭素地政学",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-05-08",
-          "latestDevTitle": "トヨタ自動車が日本企業初の営業利益5兆円超え（過去最高益）を発表",
-          "devCount": 4,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "トランプ米政権発足、EV優遇策見直しと内燃機関規制緩和へ舵",
+          "devCount": 5,
           "sim": 10,
           "ovLen": 780,
-          "bgLen": 1079,
-          "issues": [
-            "⚠️ 経緯が2024年で停止",
-            "⚠️ バイデン政権表記(1箇所)"
-          ],
-          "needsAudit": true
+          "bgLen": 1075,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "global-lgbtq-gender-culture-war",
@@ -4908,17 +4826,15 @@
           "category": "人権・社会",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-12",
-          "latestDevTitle": "ドイツ連邦議会が「自己決定法（セルフID法）」を可決",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-22",
+          "latestDevTitle": "タイで「婚姻平等法」が正式施行、東南アジア初の同性婚が解禁",
+          "devCount": 8,
           "sim": 11,
           "ovLen": 645,
           "bgLen": 531,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "global-migration-refugee-crisis",
@@ -4927,15 +4843,14 @@
           "category": "多国間",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-05-14",
-          "latestDevTitle": "EU理事会が新移民・難民協定（Pact on Migration and Asylum）を最終承認",
-          "devCount": 10,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "米トランプ大統領が就任、南部国境での国家緊急事態宣言と強制送還令に署名",
+          "devCount": 13,
           "sim": 13,
           "ovLen": 651,
           "bgLen": 669,
           "issues": [
-            "⚠️ 経緯が2024年で停止",
             "⚠️ バイデン政権表記(2箇所)"
           ],
           "needsAudit": true
@@ -4964,17 +4879,15 @@
           "category": "外交・二国間関係",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-06-09",
-          "latestDevTitle": "モディ首相が3期目の内閣を発足、「近隣第一」外交と多極化連携を表明",
-          "devCount": 10,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-23",
+          "latestDevTitle": "モディ首相がトランプ米大統領と電話会談、防衛・ハイテク連携の継続を確認",
+          "devCount": 12,
           "sim": 12,
           "ovLen": 691,
           "bgLen": 720,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "nuclear-disarmament-npt",
@@ -4983,17 +4896,15 @@
           "category": "多国間",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-07-28",
-          "latestDevTitle": "日米両政府が東京で「拡大抑止に関する閣僚会合」を初開催",
-          "devCount": 10,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "米政権交代に伴い核戦力近代化を加速、2026年新START失効後の秩序模索へ",
+          "devCount": 14,
           "sim": 14,
           "ovLen": 643,
           "bgLen": 577,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "ocean-plastics-treaty",
@@ -5002,17 +4913,15 @@
           "category": "多国間・環境",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-29",
-          "latestDevTitle": "カナダ・オタワで第4回政府間交渉委員会（INC-4）が閉幕、会期間作業を決定",
-          "devCount": 9,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-02-05",
+          "latestDevTitle": "UNEP、プラスチック条約再開会合（INC-5.2）の年内開催日程を発表",
+          "devCount": 11,
           "sim": 10,
           "ovLen": 701,
           "bgLen": 725,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "paris-2024-olympics-controversies-polarization",
@@ -5021,17 +4930,15 @@
           "category": "国際スポーツ・社会的分断・ジェンダー論争",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-07-26",
-          "latestDevTitle": "セーヌ川での史上初の船上開会式が開催、ドラァグクイーン演出が物議",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "IOCと国際競技連盟、2028年ロス五輪女性枠の統一基準草案を協議",
+          "devCount": 7,
           "sim": 10,
           "ovLen": 708,
           "bgLen": 1128,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "space-debris-orbital-sustainability",
@@ -5040,17 +4947,15 @@
           "category": "宇宙・科学技術",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-12",
-          "latestDevTitle": "アストロスケールの商業デブリ除去実証衛星（ADRAS-J）がロケット残骸への近接撮影に成功",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-15",
+          "latestDevTitle": "JAXAとアストロスケール、大型デブリ捕獲・除去衛星「ADRAS-J2」の開発を本格化",
+          "devCount": 9,
           "sim": 11,
           "ovLen": 683,
           "bgLen": 482,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "space-race-security",
@@ -5059,17 +4964,15 @@
           "category": "地政学・勢力均衡",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-20",
-          "latestDevTitle": "JAXAの小型月着陸実証機「SLIM」が日本初の月面高精度着陸に成功",
-          "devCount": 11,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-16",
+          "latestDevTitle": "NASAとSpaceX、有人月着陸機（HLS）に向け軌道上推進剤移送試験を準備",
+          "devCount": 15,
           "sim": 10,
           "ovLen": 777,
           "bgLen": 668,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "submarine-cable-infrastructure-vulnerability",
@@ -5078,17 +4981,15 @@
           "category": "海洋安全保障・重要インフラ・ハイブリッド戦",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-11-18",
-          "latestDevTitle": "バルト海でフィンランド〜ドイツ間など主要2本の海底ケーブルが切断",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-14",
+          "latestDevTitle": "NATO、バルト海の重要海底インフラ防衛哨戒「バルト・センチネル」を始動",
+          "devCount": 6,
           "sim": 13,
           "ovLen": 708,
           "bgLen": 616,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "trump-assassination-attempt-butler",
@@ -5097,15 +4998,14 @@
           "category": "米国政治・安全保障・国際秩序",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-07-13",
-          "latestDevTitle": "ペンシルベニア州バトラーでトランプ氏暗殺未遂事件が発生、右耳を被弾",
-          "devCount": 4,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "トランプ新大統領が就任、USSS抜本改革と暗殺未遂調査資料の全面公開を指示",
+          "devCount": 7,
           "sim": 11,
           "ovLen": 774,
           "bgLen": 974,
           "issues": [
-            "⚠️ 経緯が2024年で停止",
             "⚠️ バイデン政権表記(1箇所)"
           ],
           "needsAudit": true
@@ -5151,17 +5051,15 @@
           "category": "国際通商・世界経済・保護主義",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-11-06",
-          "latestDevTitle": "米大統領選でドナルド・トランプ氏が勝利、普遍的一律関税の導入へ",
-          "devCount": 2,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "トランプ大統領が就任、「相互関税法」の法制化と普遍的一律関税を表明",
+          "devCount": 5,
           "sim": 9,
           "ovLen": 686,
           "bgLen": 545,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "water-food-security-geopolitics",
@@ -5170,17 +5068,15 @@
           "category": "多国間",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-24",
-          "latestDevTitle": "国連機関等が「食料危機に関するグローバル報告書2024」を発表",
-          "devCount": 9,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-10",
+          "latestDevTitle": "FAO、2025年食料展望で異常気象と地政学リスクによる供給網脆弱性を警告",
+          "devCount": 12,
           "sim": 14,
           "ovLen": 594,
           "bgLen": 574,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "who-pandemic-treaty-negotiations",
@@ -5189,17 +5085,15 @@
           "category": "国際保健・国際機関",
           "clusterId": "intl-4",
           "clusterName": "【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-28",
-          "latestDevTitle": "政府間交渉機関（INB）第9回会合、合意に至らず期限切れへ",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "米新政権発足でパンデミック条約不参加が確定的に、WHO資金拠出も不透明化",
+          "devCount": 8,
           "sim": 10,
           "ovLen": 670,
           "bgLen": 494,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         }
       ]
     },

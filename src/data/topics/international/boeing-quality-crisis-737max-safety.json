@@ -128,6 +128,45 @@
   ],
   "developments": [
     {
+      "date": "2025-01-15",
+      "title": "ボーイング、新CEO主導の品質改善進捗をFAAに提出・監査継続",
+      "content": "オルトバーグCEOのもとで製造プロセスの簡素化と現場技術者の権限強化策を盛り込んだ安全性向上ロードマップをFAAに提出。生産制限解除に向けた協議を継続した。",
+      "significance": "medium",
+      "sources": [
+        {
+          "title": "Boeing Safety and Quality Plan Progress Report",
+          "url": "https://www.boeing.com/",
+          "organization": "ボーイング社"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-05",
+      "title": "ボーイング機械工労組が7週間の大規模ストライキ終結で合意",
+      "content": "約3万3,000人の従業員が4年で38%の賃上げを含む新協約を可決。長期操業停止により悪化した財務危機に歯止めをかけ、シアトル近郊工場の生産を再開した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Boeing Machinists Ratify New Contract Ending Strike",
+          "url": "https://www.reuters.com/",
+          "organization": "ロイター通信"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-11",
+      "title": "ボーイングが全従業員の10%（約1.7万人）削減と777X納入延期を発表",
+      "content": "ストライキと品質危機の長期化により巨額の営業赤字に陥り、全世界で約1万7,000人の人員削減を断行。新型大型機777Xの初納入を2026年へ再延期した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Boeing CEO Message on Workforce Reductions",
+          "url": "https://www.boeing.com/",
+          "organization": "ボーイング社"
+        }
+      ]
+    },
+    {
       "date": "2024-07-24",
       "title": "ボーイング社が司法省との間で詐欺罪の有罪答弁に原則合意",
       "content": "737 MAX墜落事故に関する起訴猶予合意違反をめぐり、有罪を認め約2億4,360万ドルの追加罰金と独立監視員の受け入れに合意した。",
@@ -191,6 +230,23 @@
           "organization": "FAA"
         }
       ]
+    }
+  ],
+  "international": [
+    {
+      "country": "アメリカ",
+      "flag": "🇺🇸",
+      "summary": "米連邦航空局（FAA）がボーイングへの委任認証（ODA制度）を見直し、製造ライン常駐検査員の増員と月産38機の増産制限措置を継続。米司法省による詐欺罪の有罪答弁承認と独立監視員の配置により、株主至上主義からの安全文化再生を強制している。"
+    },
+    {
+      "country": "欧州（EU）",
+      "flag": "🇪🇺",
+      "summary": "欧州航空安全庁（EASA）がボーイング機に対し独自の追加認証審査を厳格化。一方、欧州多国籍のエアバス社は設計・製造の一体管理と技術重視のガバナンスを維持し、737 MAXの納機遅延に乗じて単通路機市場（A320neo等）で世界シェア6割超を確立した。"
+    },
+    {
+      "country": "中国",
+      "flag": "🇨🇳",
+      "summary": "中国民用航空局（CAAC）がボーイング機の型式承認・納入再開を厳格に管理する一方、国産大型旅客機『C919』（中国商用飛機・COMAC製）の商業運航を本格化。西側複占体制の揺らぎを好機と捉え、東南アジアや新興国への認証取得・輸出攻勢を進めている。"
     }
   ],
   "relatedPolicies": [],
