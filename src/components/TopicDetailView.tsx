@@ -352,6 +352,39 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
         ));
         })()}
 
+        {/* 海外主要国の制度比較・国際動向 */}
+        {topic.international && topic.international.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
+              <Globe className="w-5 h-5 text-indigo-600" />
+              海外主要国の制度比較・国際動向
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+              {topic.international.map((item, idx) => (
+                <div
+                  key={idx}
+                  className="bg-white rounded-xl border border-slate-200 p-4 shadow-2xs hover:border-slate-300 transition-all"
+                >
+                  <div className="flex items-center gap-2 mb-2">
+                    {item.flag && <span className="text-base">{item.flag}</span>}
+                    <h3 className="font-bold text-sm text-slate-900">
+                      {item.country}
+                    </h3>
+                  </div>
+                  {(item.system || item.title) && (
+                    <div className="text-xs font-semibold text-indigo-700 bg-indigo-50/80 border border-indigo-100 rounded-md px-2.5 py-1 mb-2">
+                      {item.system || item.title}
+                    </div>
+                  )}
+                  <p className="text-xs text-slate-600 leading-relaxed whitespace-pre-line">
+                    {item.description || item.detail}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* 主な関係者 */}
         {topic.keyActors.length > 0 && (
           <section className="mb-8">

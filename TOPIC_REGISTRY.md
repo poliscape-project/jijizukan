@@ -1,9 +1,9 @@
 <!-- このファイルは generate-topics.cjs により自動生成されます。手動編集しないでください。 -->
-# TOPIC_REGISTRY — 全164件のトピック一覧
+# TOPIC_REGISTRY — 全168件のトピック一覧
 
 > **AIエージェントへ**: 新しいトピックを提案する前に、このファイルで既存トピックとの重複がないか必ず確認してください。ID・タイトル・キーワードのいずれかが類似していれば、そのトピックは既に存在します。
 
-## 国内トピック（102件）
+## 国内トピック（105件）
 
 | ID | タイトル | 主要キーワード |
 |---|---|---|
@@ -29,6 +29,7 @@
 | digital-government-mynumber | デジタル行政・マイナンバー制度 | デジタル行政, デジタル庁, マイナンバーカード, マイナ保険証, マイナ免許証, 資格確認書 |
 | digital-yen-cbdc-bank-branch-consolidation | 「デジタル円（CBDC）」実証実験と地方銀行ATM・店舗大削減 | デジタル円, CBDC, 日本銀行, キャッシュレス, 地方銀行, ATM削減 |
 | disaster-prevention-agency | 防災省（防災庁）創設と国の危機管理体制 | 防災庁, 防災庁設置法成立, 2026年11月発足, 防災省, 能登半島地震の教訓, 南海トラフ巨大地震 |
+| doctor-maldistribution-regional-healthcare-crisis | 医師偏在是正と地方医療・救急崩壊の危機 | 医師偏在, 地域医療崩壊, 厚生労働省, 専攻医シーリング, 新医師臨床研修制度, 救急搬送困難 |
 | elderly-drivers-license-revocation-mobility | 高齢ドライバー事故・免許自主返納と地方の「移動難民」問題 | 高齢ドライバー, 免許返納, 運転技能検査, サポカー限定免許, 認知機能検査, 移動難民 |
 | electoral-system-reform | 選挙制度改革と「一票の格差」・選挙運動のあり方 | 選挙制度改革, 一票の格差, 公職選挙法, アダムズ方式, 10増10減, ポスター掲示場 |
 | fixed-tax-cut-salary-slip-controversy | 岸田政権の「定額減税（4万円）」と給与明細明記義務化の迷走 | 定額減税, 岸田文雄, 給与明細明記, 所得税, 住民税, 調整給付 |
@@ -37,6 +38,7 @@
 | foreign-land-acquisition-regulations | 外国人・外資による土地取得問題と「重要土地等調査法」の限界 | 外国人土地取得, 重要土地等調査法, 水源地買収, 安全保障, 自衛隊基地, ニセコ |
 | foreign-residents-provisional-release-friction | 外国人住民・仮放免者と地域社会の摩擦 | 外国人住民, クルド人, 川口市, 仮放免制度, 医療センター前騒乱, 解体業ヤード |
 | freelance-protection-act-gig-economy | フリーランス保護新法施行とギグワーカーの労働者性論争 | フリーランス保護法, フリーランス新法, 特定受託事業者, ギグワーカー, UberEats, 偽装請負 |
+| furusato-tax-point-ban-competition | ふるさと納税のポイント付与禁止と返礼品競争 | ふるさと納税, ポイント付与禁止, 楽天, 総務省, 地方自治, 住民税流出 |
 | gasoline-tax-double-taxation-trigger-clause | ガソリン税の二重課税（Tax on Tax）と「トリガー条項」凍結解除論争 | ガソリン税, トリガー条項, 二重課税, Tax on Tax, 暫定税率, 当分の間税率 |
 | general-election-2024-ruling-coalition-loss | 第50回衆院選（2024年）自公過半数割れと30年ぶりの「少数与党」政権誕生 | 第50回衆院選, 自公過半数割れ, 少数与党, 石破茂, 2000万円問題, 立憲民主党 |
 | generative-ai-copyright-disinformation | 生成AIと著作権・偽情報対策 | 生成AI, 著作権法第30条の4, 文化庁, AI戦略会議, 偽情報対策, ディープフェイク |
@@ -83,6 +85,7 @@
 | pension-reform | 年金制度改革と「社会保障の壁」 | 年金制度改革, 財政検証, 社会保障の壁, 106万円の壁, 130万円の壁, 第3号被保険者 |
 | pfas-contamination-forever-chemicals | PFAS（有機フッ素化合物）汚染と飲料水の安全性危機 | PFAS, PFOS, PFOA, 有機フッ素化合物, 飲料水汚染, 米軍基地 |
 | political-funds-reform | 政治資金規正法改正と「政治とカネ」の決着 | 政治資金規正法, 裏金問題, 政策活動費廃止, 政治資金監視委員会, 連座制, 確認書 |
+| postal-rate-hike-universal-service-crisis | 郵便料金30年ぶり大幅値上げ（110円化）と全国物流網の危機 | 郵便料金値上げ, 日本郵便, 日本郵政, 定形郵便110円, ユニバーサルサービス, ペーパーレス |
 | regional-revitalization-depopulation | 地方創生と「消滅可能性自治体」 | 地方創生, 消滅可能性自治体, 人口戦略会議, 東京一極集中, 人口減少, 地方創生交付金 |
 | renewable-energy-surcharge-burden | 再エネ賦課金（電気代上乗せ）の高騰と家計・産業負担問題 | 再エネ賦課金, FIT制度, 電気料金, メガソーラー, FIP制度, エネルギー政策 |
 | retrial-law-reform-hakamada | 再審法改正と冤罪・刑事司法改革 | 再審法改正, 袴田事件, 袴田巌, 冤罪, 刑事訴訟法, 証拠開示義務 |
@@ -110,7 +113,7 @@
 | wildlife-protection-bear-attacks | クマ被害急増と指定管理鳥獣・鳥獣保護管理法改正 | クマ被害, 指定管理鳥獣, 鳥獣保護管理法, ヒグマ, ツキノワグマ, 銃猟規制緩和 |
 | work-style-reform | 働き方改革・2024年問題 | 働き方改革, 2024年問題, 時間外労働上限規制, 過労死防止, 物流効率化法, 日本版ライドシェア |
 
-## 国際トピック（62件）
+## 国際トピック（63件）
 
 | ID | タイトル | 主要キーワード |
 |---|---|---|
@@ -170,6 +173,7 @@
 | trump-second-term-america-first | トランプ第2次政権と米国第一主義の衝撃 | トランプ政権, アメリカ第一主義, 一律関税, 保護主義, 米中対立, NATO |
 | ukraine-russia-war | ウクライナ戦争の長期化と停戦交渉の現実 | ウクライナ戦争, ロシア侵攻, 停戦交渉, トランプ調停, 現状凍結, NATO加盟 |
 | us-china-relations | 米中関係と対中ハイテク規制 | 米中関係, 半導体規制, ハイテク規制, 追加関税, トランプ関税, 通商摩擦 |
+| us-doge-government-efficiency-musk | 米国のDOGE（政府効率化省）と連邦公務員・歳出大幅削減構想 | DOGE, 政府効率化省, イーロン・マスク, トランプ第2次政権, 連邦公務員削減, 2兆ドル削減 |
 | us-presidential-election | 米政権交代と通商関税・日米同盟の地政学 | 米大統領選挙, 第2次トランプ政権, アメリカファースト, 相互関税, 普遍的関税, 日米同盟 |
 | us-tariff-war-global-trade-fragmentation | トランプ関税爆弾と世界多角的貿易体制（WTO）の機能不全 | トランプ関税, 相互関税, 一律関税, WTO機能不全, ブロック経済, 報復関税 |
 | us-tiktok-ban-law-digital-cold-war | 米国「TikTok禁止法」成立と米中デジタル冷戦・情報安全保障 | TikTok, TikTok禁止法, バイトダンス, 米中対立, 情報安全保障, 認知戦 |

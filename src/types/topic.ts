@@ -68,6 +68,17 @@ export interface RelatedTopic {
   relationship: string;
 }
 
+// === 海外制度比較 ===
+export interface InternationalComparison {
+  country: string;
+  flag?: string;
+  system?: string;
+  title?: string;
+  detail?: string;
+  description?: string;
+  relationship?: string;
+}
+
 // === トピック（メインデータ型） ===
 export interface Topic {
   id: string;
@@ -90,6 +101,9 @@ export interface Topic {
 
   // 記事ごとの特別セクション（表、比較カード、詳細解説等）
   customSections?: CustomSection[];
+
+  // 海外主要国制度比較
+  international?: InternationalComparison[];
 
   // ルート直下スタックカードデータ（フォールバック用）
   statCardsData?: CustomSection["statCardsData"];
