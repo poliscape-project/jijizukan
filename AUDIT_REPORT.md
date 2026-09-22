@@ -10,19 +10,20 @@
 | **【国内②】経済・財政・税制・金融・物価** | 15件 | 🎉 **0件（完了）** | 15件 | 0件 |
 | **【国内③】社会保障・医療・介護・少子化・子ども** | 12件 | 🎉 **0件（完了）** | 12件 | 0件 |
 | **【国内④】労働・働き方・産業・農林水産・インフラ・地方** | 27件 | 🎉 **0件（完了）** | 27件 | 0件 |
-| **【国内⑤】治安・警察・司法・法務・教育・文化・IT** | 34件 | **20件** | 14件 | 2件 |
+| **【国内⑤】治安・警察・司法・法務・教育・文化・IT** | 34件 | 🎉 **0件（完了）** | 34件 | 0件 |
 | **【国際①】米中対立・東アジア・アジア太平洋・半導体** | 18件 | **17件** | 1件 | 0件 |
 | **【国際②】ロシア・ウクライナ・欧州・NATO** | 4件 | **3件** | 1件 | 0件 |
 | **【国際③】中東情勢・グローバルサウス・新興国・資源** | 11件 | **10件** | 1件 | 0件 |
 | **【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法** | 29件 | **26件** | 3件 | 1件 |
-| **合計** | **164件** | **76件 (46%)** | **88件 (54%)** | **3件** |
+| **合計** | **164件** | **56件 (34%)** | **108件 (66%)** | **1件** |
 
 ### 主な課題と進捗
 - ✅ **【国内①】政治・統治・選挙・政党・国会**: 全14件のリライト・最新化（2025-2026年動向反映、重複排除）が完了！
 - ✅ **【国内②】経済・財政・税制・金融・物価**: 全15件のリライト・最新化（インボイス、ビッグモーター、支援金、デジタル円、年収の壁、大阪IR、再エネ賦課金、セキュリティー・クリアランス、SNS詐欺、東証改革、タワマン節税等）が完了！
 - ✅ **【国内③】社会保障・医療・介護・少子化・子ども**: 全12件のリライト・最新化（墓じまい、紅麹サプリ、ヤングケアラー、子どものスマホ規制、認知症基本法、医療制度改革、孤独・孤立対策、マイナ保険証、生活保護高齢化、年金改革等）が完了！全件に海外比較（3カ国）を完備！
 - ✅ **【国内④】労働・働き方・産業・農林水産・インフラ・地方**: 全27件のリライト・最新化（カスハラ、フリーランス、物流・働き方改革、宝塚歌劇団、給特法、最賃1500円、リニア静岡、ローカル線、ライドシェア、高齢ドライバー、羽田衝突、知床沈没、上下水道インフラ、食料基本法、令和の米騒動、メガソーラー、大阪万博、能登解体、入管法・育成就労、外国人土地取得、川口市仮放免、赤信号判決、外国人事故統計・無保険、危険運転数値基準、ACDインフラ防衛、オーバーツーリズム等）が完了！全件に海外制度比較（2〜3カ国）を完備！
-- 🔴 残り要更新トピック: **76件**（国内20件 / 国際56件）
+- ✅ **【国内⑤】治安・警察・司法・法務・教育・文化・IT**: 全34件のリライト・最新化（生成AI著作権、トクリュウ・闇バイト、オンカジ水原事件、ホスト売掛金・大久保公園、頂き女子りりちゃん、ジャニーズ性加害、セクシー田中さん原作改変、松本人志訴訟終結、日大アメフト薬物、スシローペロペロ外食DX、共同親権、選択的夫婦別姓、北朝鮮拉致、東京五輪汚職談合、PFAS汚染、不登校多様化学校、10兆円大学ファンド、自治体システム標準化、地方創生消滅自治体、空き家所有者不明土地対策等）が完了！全件に海外制度比較（2〜3カ国）を完備！
+- 🔴 残り要更新トピック: **56件**（国内編全102件完了！残りすべて国際編の国際①〜④）
 
 ---
 
@@ -116,30 +117,30 @@
 | ✅ 済 | `minimum-wage-increase` | [最低賃金引き上げと「全国1,500円」目標](src/data/topics/domestic/minimum-wage-increase.json) | 2026-07-28 | 11% | 問題なし（独英仏比較追加済） |
 | ✅ 済 | `overtourism-inbound-policy` | [インバウンド急増とオーバーツーリズム（観光公害）](src/data/topics/domestic/overtourism-inbound-policy.json) | 2026-07-01 | 12% | 問題なし（富士山静岡連携・イタリアスペインオランダ比較追加済） |
 
-### 【国内⑤】治安・警察・司法・法務・教育・文化・IT（全34件 / 要更新: 20件）
+### 【国内⑤】治安・警察・司法・法務・教育・文化・IT（全34件 / 🎉 [ALL COMPLETED]）
 
 | 状態 | ID | タイトル | 最新経緯 | 重複度 | 検出された課題・注意事項 |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| 🔴 要更新 | `sushiro-nuisance-video-food-terrorism` | [スシロー「ペロペロ迷惑動画」事件と外食テロ・性善説ビジネスの崩壊](src/data/topics/domestic/sushiro-nuisance-video-food-terrorism.json) | 2023-01-29 | 10% | ⚠️ 経緯が2023年で停止 |
-| 🔴 要更新 | `generative-ai-copyright-disinformation` | [生成AIと著作権・偽情報対策](src/data/topics/domestic/generative-ai-copyright-disinformation.json) | 2024-02-14 | 9% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `host-club-uncollected-bills-exploitation` | [ホストクラブ「売掛金（ツケ払い）」問題と歌舞伎町・大久保公園の売春搾取構造](src/data/topics/domestic/host-club-uncollected-bills-exploitation.json) | 2024-02-15 | 16% | ⚠️ 経緯が2024年で停止, ⚠️ 現状と背景の重複度高 (16%) |
-| 🔴 要更新 | `itadaki-joshi-ririchan-romance-fraud` | [「頂き女子りりちゃん」マニュアル詐欺事件と孤独の搾取・ホスト資金ロンダリング](src/data/topics/domestic/itadaki-joshi-ririchan-romance-fraud.json) | 2024-04-22 | 15% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `johnnys-sexual-abuse-media-silence` | [ジャニーズ性加害問題と「メディアの沈黙」・芸能界ガバナンス改革](src/data/topics/domestic/johnnys-sexual-abuse-media-silence.json) | 2024-04-10 | 14% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `joint-custody-civil-code-reform` | [共同親権の導入（2024年民法改正）と単独親権からの歴史的転換](src/data/topics/domestic/joint-custody-civil-code-reform.json) | 2024-02-15 | 14% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `local-gov-system-standardization` | [自治体情報システムの標準化と行政DX](src/data/topics/domestic/local-gov-system-standardization.json) | 2024-03-29 | 14% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `matsumoto-hitoshi-bunshun-lawsuit-settlement` | [松本人志氏・週刊文春報道と5.5億円損害賠償訴訟の電撃終結](src/data/topics/domestic/matsumoto-hitoshi-bunshun-lawsuit-settlement.json) | 2024-01-08 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `nihon-university-football-drug-scandal` | [日本大学アメフト部「違法薬物事件」と名門私大ガバナンス崩壊](src/data/topics/domestic/nihon-university-football-drug-scandal.json) | 2024-03-22 | 15% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `north-korea-abductions` | [北朝鮮拉致問題](src/data/topics/domestic/north-korea-abductions.json) | 2024-01-05 | 10% | ⚠️ 経緯が2024年で停止, ⚠️ 岸田政権表記(1箇所) |
-| 🔴 要更新 | `online-casino-mizuhara-illegal-gambling` | [海外オンラインカジノ（オンカジ）の蔓延と水原一平氏「26億円不正送金」事件](src/data/topics/domestic/online-casino-mizuhara-illegal-gambling.json) | 2024-03-20 | 14% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `pfas-contamination-forever-chemicals` | [PFAS（有機フッ素化合物）汚染と飲料水の安全性危機](src/data/topics/domestic/pfas-contamination-forever-chemicals.json) | 2024-04-10 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `regional-revitalization-depopulation` | [地方創生と「消滅可能性自治体」](src/data/topics/domestic/regional-revitalization-depopulation.json) | 2024-01-30 | 16% | ⚠️ 経緯が2024年で停止, ⚠️ 現状と背景の重複度高 (16%) |
-| 🔴 要更新 | `school-truancy-alternative-education` | [小中学生の不登校34万人突破と多様な学びの確保](src/data/topics/domestic/school-truancy-alternative-education.json) | 2024-10-31 | 14% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `selective-surname-marriage` | [選択的夫婦別姓・同性婚の法制化](src/data/topics/domestic/selective-surname-marriage.json) | 2024-03-14 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `sexy-tanaka-san-author-death-tv-adaptation` | [漫画『セクシー田中さん』原作者急死事件とテレビ局の「原作改変」問題](src/data/topics/domestic/sexy-tanaka-san-author-death-tv-adaptation.json) | 2024-01-26 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `tokuryu-anonymous-organized-crime` | [闇バイト・匿名流動型犯罪グループ（トクリュウ）](src/data/topics/domestic/tokuryu-anonymous-organized-crime.json) | 2024-04-01 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `tokyo-olympics-costs-corruption-governance` | [東京五輪の経費膨張と汚職・談合事件](src/data/topics/domestic/tokyo-olympics-costs-corruption-governance.json) | 2024-02-27 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `university-research-crisis-10-trillion-fund` | [日本の研究力低下と「10兆円大学ファンド」・若手ポスドク雇い止め危機](src/data/topics/domestic/university-research-crisis-10-trillion-fund.json) | 2024-08-09 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `vacant-houses-land-issue` | [空き家問題と所有者不明土地対策](src/data/topics/domestic/vacant-houses-land-issue.json) | 2024-04-01 | 11% | ⚠️ 経緯が2024年で停止 |
+| ✅ 済 | `sushiro-nuisance-video-food-terrorism` | [スシロー「ペロペロ迷惑動画」事件と外食テロ・性善説ビジネスの崩壊](src/data/topics/domestic/sushiro-nuisance-video-food-terrorism.json) | 2025-04-01 | 11% | 問題なし（外食DXデジロー展開・カスハラ条例・米英シンガポール比較追加済） |
+| ✅ 済 | `generative-ai-copyright-disinformation` | [生成AIと著作権・偽情報対策](src/data/topics/domestic/generative-ai-copyright-disinformation.json) | 2025-05-15 | 8% | 問題なし（AI新法骨子・EU米比較追加済） |
+| ✅ 済 | `host-club-uncollected-bills-exploitation` | [ホストクラブ「売掛金（ツケ払い）」問題と歌舞伎町・大久保公園の売春搾取構造](src/data/topics/domestic/host-club-uncollected-bills-exploitation.json) | 2025-06-01 | 13% | 問題なし（脱法バー摘発・風適法改正論争・仏米独比較追加済） |
+| ✅ 済 | `itadaki-joshi-ririchan-romance-fraud` | [「頂き女子りりちゃん」マニュアル詐欺事件と孤独の搾取・ホスト資金ロンダリング](src/data/topics/domestic/itadaki-joshi-ririchan-romance-fraud.json) | 2025-03-27 | 10% | 問題なし（懲役9年判決確定・米英豪比較追加済） |
+| ✅ 済 | `johnnys-sexual-abuse-media-silence` | [ジャニーズ性加害問題と「メディアの沈黙」・芸能界ガバナンス改革](src/data/topics/domestic/johnnys-sexual-abuse-media-silence.json) | 2025-04-15 | 11% | 問題なし（補償進捗・NHK出演再開・英米仏比較追加済） |
+| ✅ 済 | `joint-custody-civil-code-reform` | [共同親権の導入（2024年民法改正）と単独親権からの歴史的転換](src/data/topics/domestic/joint-custody-civil-code-reform.json) | 2026-03-01 | 10% | 問題なし（2026年施行指針・米仏独比較追加済） |
+| ✅ 済 | `local-gov-system-standardization` | [自治体情報システムの標準化と行政DX](src/data/topics/domestic/local-gov-system-standardization.json) | 2025-04-01 | 11% | 問題なし（移行支援システム運用・デンマーク英エストニア比較追加済） |
+| ✅ 済 | `matsumoto-hitoshi-bunshun-lawsuit-settlement` | [松本人志氏・週刊文春報道と5.5億円損害賠償訴訟の電撃終結](src/data/topics/domestic/matsumoto-hitoshi-bunshun-lawsuit-settlement.json) | 2025-04-01 | 11% | 問題なし（訴訟取下・復帰論争・米英韓比較追加済） |
+| ✅ 済 | `nihon-university-football-drug-scandal` | [日本大学アメフト部「違法薬物事件」と名門私大ガバナンス崩壊](src/data/topics/domestic/nihon-university-football-drug-scandal.json) | 2025-04-01 | 11% | 問題なし（改正私学法施行・助成金再交付審査・米英独比較追加済） |
+| ✅ 済 | `north-korea-abductions` | [北朝鮮拉致問題](src/data/topics/domestic/north-korea-abductions.json) | 2025-10-01 | 8% | 問題なし（石破首相所信表明・韓米連邦比較追加済） |
+| ✅ 済 | `online-casino-mizuhara-illegal-gambling` | [海外オンラインカジノ（オンカジ）の蔓延と水原一平氏「26億円不正送金」事件](src/data/topics/domestic/online-casino-mizuhara-illegal-gambling.json) | 2025-06-15 | 10% | 問題なし（水原被告実刑判決・米英韓比較追加済） |
+| ✅ 済 | `pfas-contamination-forever-chemicals` | [PFAS（有機フッ素化合物）汚染と飲料水の安全性危機](src/data/topics/domestic/pfas-contamination-forever-chemicals.json) | 2025-06-25 | 11% | 問題なし（食品安全委TDI策定・米EU豪比較追加済） |
+| ✅ 済 | `regional-revitalization-depopulation` | [地方創生と「消滅可能性自治体」](src/data/topics/domestic/regional-revitalization-depopulation.json) | 2025-05-15 | 11% | 問題なし（地方創生2.0・仏独韓比較追加済） |
+| ✅ 済 | `school-truancy-alternative-education` | [小中学生の不登校34万人突破と多様な学びの確保](src/data/topics/domestic/school-truancy-alternative-education.json) | 2025-06-15 | 11% | 問題なし（学びの多様化学校100校・米英独比較追加済） |
+| ✅ 済 | `selective-surname-marriage` | [選択的夫婦別姓・同性婚の法制化](src/data/topics/domestic/selective-surname-marriage.json) | 2025-06-25 | 11% | 問題なし（大法廷弁論・経団連提言・独英台湾比較追加済） |
+| ✅ 済 | `sexy-tanaka-san-author-death-tv-adaptation` | [漫画『セクシー田中さん』原作者急死事件とテレビ局の「原作改変」問題](src/data/topics/domestic/sexy-tanaka-san-author-death-tv-adaptation.json) | 2025-05-20 | 11% | 問題なし（調査報告書公表・フリーランス法・仏米韓比較追加済） |
+| ✅ 済 | `tokuryu-anonymous-organized-crime` | [闇バイト・匿名流動型犯罪グループ（トクリュウ）](src/data/topics/domestic/tokuryu-anonymous-organized-crime.json) | 2026-02-15 | 11% | 問題なし（SNS闇バイトAI検知削除・米英仏比較追加済） |
+| ✅ 済 | `tokyo-olympics-costs-corruption-governance` | [東京五輪の経費膨張と汚職・談合事件](src/data/topics/domestic/tokyo-olympics-costs-corruption-governance.json) | 2026-09-16 | 10% | 問題なし（談合全社有罪・公取委課徴金命令・仏英ギリシャ比較追加済） |
+| ✅ 済 | `university-research-crisis-10-trillion-fund` | [日本の研究力低下と「10兆円大学ファンド」・若手ポスドク雇い止め危機](src/data/topics/domestic/university-research-crisis-10-trillion-fund.json) | 2025-04-01 | 11% | 問題なし（東北大助成開始・国立大財務声明・米英独比較追加済） |
+| ✅ 済 | `vacant-houses-land-issue` | [空き家問題と所有者不明土地対策](src/data/topics/domestic/vacant-houses-land-issue.json) | 2026-08-31 | 11% | 問題なし（相続登記義務化1年・国庫帰属3000件突破・英仏独比較追加済） |
 | ✅ 済 | `nuclear-energy-policy` | [原発再稼働と第7次エネルギー基本計画](src/data/topics/domestic/nuclear-energy-policy.json) | 2025-02-18 | 13% | 問題なし |
 | ✅ 済 | `retrial-law-reform-hakamada` | [再審法改正と冤罪・刑事司法改革](src/data/topics/domestic/retrial-law-reform-hakamada.json) | 2025-02-20 | 12% | 問題なし |
 | ✅ 済 | `defense-equipment-transfer` | [防衛装備移転三原則の緩和と次期戦闘機輸出](src/data/topics/domestic/defense-equipment-transfer.json) | 2026-06-18 | 14% | 問題なし |

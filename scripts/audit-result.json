@@ -555,17 +555,15 @@
       "category": "行政・内閣",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-14",
-      "latestDevTitle": "IPA内に「AIセーフティ・エージェンシー（AI安全研究所）」を設立",
-      "devCount": 11,
-      "sim": 9,
-      "ovLen": 562,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "「情報流通プラットフォーム対処法」が施行、偽情報・ディープフェイク削除を迅速化",
+      "devCount": 13,
+      "sim": 11,
+      "ovLen": 452,
       "bgLen": 626,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "haneda-airport-runway-collision-accident",
@@ -659,18 +657,15 @@
       "category": "治安維持・青少年保護・消費者行政",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-15",
-      "latestDevTitle": "警視庁が売掛金回収目的で女性に風俗店勤務を強要したホストを逮捕",
-      "devCount": 4,
-      "sim": 16,
-      "ovLen": 770,
-      "bgLen": 997,
-      "issues": [
-        "⚠️ 経緯が2024年で停止",
-        "⚠️ 現状と背景の重複度高 (16%)"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2026,
+      "latestDevDate": "2026-02-10",
+      "latestDevTitle": "警視庁、売掛金禁止逃れの脱法アフターバー・無許可営業を一斉摘発",
+      "devCount": 6,
+      "sim": 11,
+      "ovLen": 484,
+      "bgLen": 464,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "hyogo-gubernatorial-election-2024",
@@ -764,17 +759,15 @@
       "category": "刑事司法・ネット詐欺・現代社会病理",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-22",
-      "latestDevTitle": "名古屋地裁が「頂き女子りりちゃん」に懲役9年・罰金800万円の実刑判決",
-      "devCount": 3,
-      "sim": 15,
-      "ovLen": 719,
-      "bgLen": 842,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-07-16",
+      "latestDevTitle": "担当ホストに対する組織犯罪処罰法違反（犯罪収益収受）有罪判決が確定",
+      "devCount": 5,
+      "sim": 11,
+      "ovLen": 448,
+      "bgLen": 424,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "japan-dbs-child-sexual-abuse-prevention",
@@ -800,17 +793,15 @@
       "category": "社会・人権・メディア行政",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-10",
-      "latestDevTitle": "STARTO ENTERTAINMENTが本格始動、タレントマネジメントを新体制へ移行",
-      "devCount": 9,
-      "sim": 14,
-      "ovLen": 829,
-      "bgLen": 1059,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-31",
+      "latestDevTitle": "SMILE-UP.、被害補償金支払いが600人超に到達・当事者の会が活動終了",
+      "devCount": 10,
+      "sim": 11,
+      "ovLen": 654,
+      "bgLen": 544,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "joint-custody-civil-code-reform",
@@ -819,17 +810,15 @@
       "category": "司法・法制度・家族法",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-15",
-      "latestDevTitle": "法制審議会が法相に共同親権導入の要綱案を答申",
-      "devCount": 5,
-      "sim": 14,
-      "ovLen": 667,
-      "bgLen": 801,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-10",
+      "latestDevTitle": "最高裁判所、家庭裁判所調査官の増員とDVスクリーニングツールの開発を発表",
+      "devCount": 6,
+      "sim": 9,
+      "ovLen": 501,
+      "bgLen": 455,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "kawaguchi-fatal-accident-court-ruling",
@@ -903,20 +892,18 @@
       "id": "local-gov-system-standardization",
       "title": "自治体情報システムの標準化と行政DX",
       "scope": "domestic",
-      "category": "行政・内閣",
+      "category": "行政・内閣・デジタル政策",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-29",
-      "latestDevTitle": "総務省が標準化移行に向けた地方財政措置および補助金を拡充",
-      "devCount": 11,
-      "sim": 14,
-      "ovLen": 600,
-      "bgLen": 661,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-06-15",
+      "latestDevTitle": "デジタル庁、先行移行自治体の運用実績と移行状況調査を公表",
+      "devCount": 6,
+      "sim": 13,
+      "ovLen": 503,
+      "bgLen": 616,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "local-railways-bus-restructuring",
@@ -976,17 +963,15 @@
       "category": "司法・メディア・芸能界ガバナンス",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-08",
-      "latestDevTitle": "松本人志氏が「裁判に専念するため」無期限の芸能活動休止を発表",
-      "devCount": 5,
-      "sim": 12,
-      "ovLen": 798,
-      "bgLen": 934,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-02-25",
+      "latestDevTitle": "民放キー局・吉本興業、松本人志氏の復帰を巡り協議継続も地上波起用は見送り",
+      "devCount": 6,
+      "sim": 8,
+      "ovLen": 498,
+      "bgLen": 563,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "mega-solar-environmental-conflict-levy",
@@ -1065,37 +1050,32 @@
       "category": "教育行政・大学改革・組織ガバナンス",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-22",
-      "latestDevTitle": "文科省、日本大学への私学助成金を3年連続で全額不交付と決定",
-      "devCount": 5,
-      "sim": 15,
-      "ovLen": 726,
-      "bgLen": 829,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-21",
+      "latestDevTitle": "私学事業団、日大の改善計画を評価し助成金再交付に向けた審査へ移行",
+      "devCount": 7,
+      "sim": 6,
+      "ovLen": 537,
+      "bgLen": 496,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "north-korea-abductions",
       "title": "北朝鮮拉致問題",
       "scope": "domestic",
-      "category": "行政・内閣",
+      "category": "行政・内閣・外交人権",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-05",
-      "latestDevTitle": "岸田首相が能登半島地震に関する金正恩総書記からの見舞い電に謝意表明",
-      "devCount": 12,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-05-18",
+      "latestDevTitle": "拉致被害者救出国民大集会が開催、全被害者の即時一括帰国を再確認",
+      "devCount": 14,
       "sim": 10,
-      "ovLen": 474,
-      "bgLen": 503,
-      "issues": [
-        "⚠️ 経緯が2024年で停止",
-        "⚠️ 岸田政権表記(1箇所)"
-      ],
-      "needsAudit": true
+      "ovLen": 509,
+      "bgLen": 499,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "noto-earthquake-demolition-infrastructure-delay",
@@ -1206,17 +1186,15 @@
       "category": "治安維持・刑事司法・ギャンブル依存症対策",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-20",
-      "latestDevTitle": "ドジャースが水原一平通訳を解雇、開幕戦ソウルで巨額違法賭博が発覚",
-      "devCount": 4,
-      "sim": 14,
-      "ovLen": 712,
-      "bgLen": 943,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2026,
+      "latestDevDate": "2026-01-20",
+      "latestDevTitle": "警察庁、オンカジ宣伝インフルエンサー・アフィリエイターを一斉摘発",
+      "devCount": 7,
+      "sim": 11,
+      "ovLen": 558,
+      "bgLen": 660,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "osaka-expo-2025",
@@ -1293,17 +1271,15 @@
       "category": "環境行政・公衆衛生・安全保障",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-10",
-      "latestDevTitle": "米EPAがPFASに関する世界で最も厳格な飲料水基準（4ng/L）を公表",
-      "devCount": 4,
-      "sim": 13,
-      "ovLen": 690,
-      "bgLen": 586,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-06-25",
+      "latestDevTitle": "環境省、全国水質調査結果を公表・暫定目標値見直しの専門委員会が本格化",
+      "devCount": 6,
+      "sim": 12,
+      "ovLen": 624,
+      "bgLen": 583,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "political-funds-reform",
@@ -1331,18 +1307,15 @@
       "category": "地方政治・人口問題",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-30",
-      "latestDevTitle": "総務省が2023年人口移動報告を公表、東京圏の転入超過が再び拡大",
-      "devCount": 3,
-      "sim": 16,
-      "ovLen": 586,
-      "bgLen": 599,
-      "issues": [
-        "⚠️ 経緯が2024年で停止",
-        "⚠️ 現状と背景の重複度高 (16%)"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-24",
+      "latestDevTitle": "政府、地方創生交付金の倍増を盛り込んだ新基本方針を閣議決定",
+      "devCount": 4,
+      "sim": 9,
+      "ovLen": 531,
+      "bgLen": 389,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "renewable-energy-surcharge-burden",
@@ -1419,17 +1392,15 @@
       "category": "文教・教育・子ども支援",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-10-31",
-      "latestDevTitle": "文科省、2023年度の小中学校不登校児童生徒数が過去最多の約34万6千人と公表",
-      "devCount": 3,
-      "sim": 14,
-      "ovLen": 607,
-      "bgLen": 524,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "文科省、「学びの多様化学校」が全国100校規模へ拡大・特例措置拡充",
+      "devCount": 4,
+      "sim": 11,
+      "ovLen": 483,
+      "bgLen": 463,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "science-council-japan-appointment-refusal",
@@ -1472,17 +1443,15 @@
       "category": "司法・社会",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-14",
-      "latestDevTitle": "札幌高裁が高裁として初めて同性婚不認定を「違憲」と判断",
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-05-15",
+      "latestDevTitle": "最高裁判所大法廷、同性婚訴訟の上告審において口頭弁論期日を指定",
       "devCount": 7,
-      "sim": 12,
-      "ovLen": 545,
-      "bgLen": 750,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "sim": 9,
+      "ovLen": 541,
+      "bgLen": 504,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "sexy-tanaka-san-author-death-tv-adaptation",
@@ -1491,17 +1460,15 @@
       "category": "文化政策・著作権・放送メディア行政",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-26",
-      "latestDevTitle": "芦原妃名子氏がブログでドラマ化の改変トラブルと自ら脚本執筆した経緯を公表",
-      "devCount": 4,
-      "sim": 12,
-      "ovLen": 746,
-      "bgLen": 932,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "民放連・クリエイター団体、映像化における標準契約モデルを運用開始",
+      "devCount": 7,
+      "sim": 10,
+      "ovLen": 515,
+      "bgLen": 547,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "shiretoko-tour-boat-sinking-accident",
@@ -1561,17 +1528,15 @@
       "category": "企業法務・消費者行政・ネット社会",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2023,
-      "latestDevDate": "2023-01-29",
-      "latestDevTitle": "スシロー店舗での醤油差し舐め回し動画がSNSで大炎上、株価急落",
-      "devCount": 4,
-      "sim": 10,
-      "ovLen": 798,
-      "bgLen": 978,
-      "issues": [
-        "⚠️ 経緯が2023年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "東京都「カスタマーハラスメント防止条例」が施行、外食産業の防衛体制強化",
+      "devCount": 6,
+      "sim": 8,
+      "ovLen": 587,
+      "bgLen": 492,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "takarazuka-harassment-overwork-reforms",
@@ -1614,17 +1579,15 @@
       "category": "治安・警察・サイバー犯罪",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-01",
-      "latestDevTitle": "警察庁に「特別捜査部（特捜部）」が新設、トクリュウ対策に特化",
-      "devCount": 3,
-      "sim": 12,
-      "ovLen": 678,
-      "bgLen": 593,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2026,
+      "latestDevDate": "2026-02-18",
+      "latestDevTitle": "警察庁、SNS大手各社へ闇バイト募集AI検知・即時削除の義務化要請",
+      "devCount": 6,
+      "sim": 7,
+      "ovLen": 554,
+      "bgLen": 492,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "tokyo-gubernatorial-election-2024-poster-hijack",
@@ -1650,17 +1613,15 @@
       "category": "行政・国家プロジェクト",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-27",
-      "latestDevTitle": "東京地裁が五輪テスト大会談合事件で電通グループ元幹部に執行猶予付き有罪判決",
-      "devCount": 8,
-      "sim": 12,
-      "ovLen": 803,
-      "bgLen": 1116,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2026,
+      "latestDevDate": "2026-09-16",
+      "latestDevTitle": "五輪テスト大会談合事件で起訴された全法人・関係者の一審有罪判決が出揃う",
+      "devCount": 11,
+      "sim": 10,
+      "ovLen": 587,
+      "bgLen": 572,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "tower-mansion-inheritance-tax-reform",
@@ -1703,17 +1664,15 @@
       "category": "科学技術政策・高等教育・イノベーション",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-08-09",
-      "latestDevTitle": "文科省NISTEP「科学技術指標2024」で注目論文ランク世界13位と発表",
-      "devCount": 3,
-      "sim": 12,
-      "ovLen": 740,
-      "bgLen": 609,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "東北大学で国際卓越研究大学としての第1期事業が始動、助成金執行開始",
+      "devCount": 4,
+      "sim": 11,
+      "ovLen": 573,
+      "bgLen": 594,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "vacant-houses-land-issue",
@@ -1722,17 +1681,15 @@
       "category": "行政・内閣",
       "clusterId": "dom-5",
       "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-01",
-      "latestDevTitle": "「相続登記の申請義務化」がスタート",
-      "devCount": 11,
-      "sim": 11,
-      "ovLen": 552,
-      "bgLen": 568,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2026,
+      "latestDevDate": "2026-08-31",
+      "latestDevTitle": "相続土地国庫帰属制度の累計申請が5,900件超、承認が3,100件を突破",
+      "devCount": 14,
+      "sim": 8,
+      "ovLen": 591,
+      "bgLen": 658,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "welfare-assistance-system-elderly-poverty",
@@ -4162,9 +4119,9 @@
     "dom-5": {
       "name": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
       "total": 34,
-      "stopped2024OrEarlier": 20,
-      "current": 14,
-      "highOverlap": 2,
+      "stopped2024OrEarlier": 0,
+      "current": 34,
+      "highOverlap": 0,
       "topics": [
         {
           "id": "defense-equipment-transfer",
@@ -4241,17 +4198,15 @@
           "category": "行政・内閣",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-14",
-          "latestDevTitle": "IPA内に「AIセーフティ・エージェンシー（AI安全研究所）」を設立",
-          "devCount": 11,
-          "sim": 9,
-          "ovLen": 562,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "「情報流通プラットフォーム対処法」が施行、偽情報・ディープフェイク削除を迅速化",
+          "devCount": 13,
+          "sim": 11,
+          "ovLen": 452,
           "bgLen": 626,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "henoko-boat-capsize-accident",
@@ -4311,18 +4266,15 @@
           "category": "治安維持・青少年保護・消費者行政",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-15",
-          "latestDevTitle": "警視庁が売掛金回収目的で女性に風俗店勤務を強要したホストを逮捕",
-          "devCount": 4,
-          "sim": 16,
-          "ovLen": 770,
-          "bgLen": 997,
-          "issues": [
-            "⚠️ 経緯が2024年で停止",
-            "⚠️ 現状と背景の重複度高 (16%)"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2026,
+          "latestDevDate": "2026-02-10",
+          "latestDevTitle": "警視庁、売掛金禁止逃れの脱法アフターバー・無許可営業を一斉摘発",
+          "devCount": 6,
+          "sim": 11,
+          "ovLen": 484,
+          "bgLen": 464,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "itadaki-joshi-ririchan-romance-fraud",
@@ -4331,17 +4283,15 @@
           "category": "刑事司法・ネット詐欺・現代社会病理",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-22",
-          "latestDevTitle": "名古屋地裁が「頂き女子りりちゃん」に懲役9年・罰金800万円の実刑判決",
-          "devCount": 3,
-          "sim": 15,
-          "ovLen": 719,
-          "bgLen": 842,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-07-16",
+          "latestDevTitle": "担当ホストに対する組織犯罪処罰法違反（犯罪収益収受）有罪判決が確定",
+          "devCount": 5,
+          "sim": 11,
+          "ovLen": 448,
+          "bgLen": 424,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "johnnys-sexual-abuse-media-silence",
@@ -4350,17 +4300,15 @@
           "category": "社会・人権・メディア行政",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-10",
-          "latestDevTitle": "STARTO ENTERTAINMENTが本格始動、タレントマネジメントを新体制へ移行",
-          "devCount": 9,
-          "sim": 14,
-          "ovLen": 829,
-          "bgLen": 1059,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-31",
+          "latestDevTitle": "SMILE-UP.、被害補償金支払いが600人超に到達・当事者の会が活動終了",
+          "devCount": 10,
+          "sim": 11,
+          "ovLen": 654,
+          "bgLen": 544,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "joint-custody-civil-code-reform",
@@ -4369,17 +4317,15 @@
           "category": "司法・法制度・家族法",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-15",
-          "latestDevTitle": "法制審議会が法相に共同親権導入の要綱案を答申",
-          "devCount": 5,
-          "sim": 14,
-          "ovLen": 667,
-          "bgLen": 801,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-10",
+          "latestDevTitle": "最高裁判所、家庭裁判所調査官の増員とDVスクリーニングツールの開発を発表",
+          "devCount": 6,
+          "sim": 9,
+          "ovLen": 501,
+          "bgLen": 455,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "local-assembly-corruption-governance",
@@ -4402,20 +4348,18 @@
           "id": "local-gov-system-standardization",
           "title": "自治体情報システムの標準化と行政DX",
           "scope": "domestic",
-          "category": "行政・内閣",
+          "category": "行政・内閣・デジタル政策",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-29",
-          "latestDevTitle": "総務省が標準化移行に向けた地方財政措置および補助金を拡充",
-          "devCount": 11,
-          "sim": 14,
-          "ovLen": 600,
-          "bgLen": 661,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-06-15",
+          "latestDevTitle": "デジタル庁、先行移行自治体の運用実績と移行状況調査を公表",
+          "devCount": 6,
+          "sim": 13,
+          "ovLen": 503,
+          "bgLen": 616,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "matsumoto-hitoshi-bunshun-lawsuit-settlement",
@@ -4424,17 +4368,15 @@
           "category": "司法・メディア・芸能界ガバナンス",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-08",
-          "latestDevTitle": "松本人志氏が「裁判に専念するため」無期限の芸能活動休止を発表",
-          "devCount": 5,
-          "sim": 12,
-          "ovLen": 798,
-          "bgLen": 934,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-02-25",
+          "latestDevTitle": "民放キー局・吉本興業、松本人志氏の復帰を巡り協議継続も地上波起用は見送り",
+          "devCount": 6,
+          "sim": 8,
+          "ovLen": 498,
+          "bgLen": 563,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "nihon-university-football-drug-scandal",
@@ -4443,37 +4385,32 @@
           "category": "教育行政・大学改革・組織ガバナンス",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-22",
-          "latestDevTitle": "文科省、日本大学への私学助成金を3年連続で全額不交付と決定",
-          "devCount": 5,
-          "sim": 15,
-          "ovLen": 726,
-          "bgLen": 829,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-21",
+          "latestDevTitle": "私学事業団、日大の改善計画を評価し助成金再交付に向けた審査へ移行",
+          "devCount": 7,
+          "sim": 6,
+          "ovLen": 537,
+          "bgLen": 496,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "north-korea-abductions",
           "title": "北朝鮮拉致問題",
           "scope": "domestic",
-          "category": "行政・内閣",
+          "category": "行政・内閣・外交人権",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-05",
-          "latestDevTitle": "岸田首相が能登半島地震に関する金正恩総書記からの見舞い電に謝意表明",
-          "devCount": 12,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-05-18",
+          "latestDevTitle": "拉致被害者救出国民大集会が開催、全被害者の即時一括帰国を再確認",
+          "devCount": 14,
           "sim": 10,
-          "ovLen": 474,
-          "bgLen": 503,
-          "issues": [
-            "⚠️ 経緯が2024年で停止",
-            "⚠️ 岸田政権表記(1箇所)"
-          ],
-          "needsAudit": true
+          "ovLen": 509,
+          "bgLen": 499,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "noto-earthquake-disaster",
@@ -4533,17 +4470,15 @@
           "category": "治安維持・刑事司法・ギャンブル依存症対策",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-20",
-          "latestDevTitle": "ドジャースが水原一平通訳を解雇、開幕戦ソウルで巨額違法賭博が発覚",
-          "devCount": 4,
-          "sim": 14,
-          "ovLen": 712,
-          "bgLen": 943,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2026,
+          "latestDevDate": "2026-01-20",
+          "latestDevTitle": "警察庁、オンカジ宣伝インフルエンサー・アフィリエイターを一斉摘発",
+          "devCount": 7,
+          "sim": 11,
+          "ovLen": 558,
+          "bgLen": 660,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "pfas-contamination-forever-chemicals",
@@ -4552,17 +4487,15 @@
           "category": "環境行政・公衆衛生・安全保障",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-10",
-          "latestDevTitle": "米EPAがPFASに関する世界で最も厳格な飲料水基準（4ng/L）を公表",
-          "devCount": 4,
-          "sim": 13,
-          "ovLen": 690,
-          "bgLen": 586,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-06-25",
+          "latestDevTitle": "環境省、全国水質調査結果を公表・暫定目標値見直しの専門委員会が本格化",
+          "devCount": 6,
+          "sim": 12,
+          "ovLen": 624,
+          "bgLen": 583,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "regional-revitalization-depopulation",
@@ -4571,18 +4504,15 @@
           "category": "地方政治・人口問題",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-30",
-          "latestDevTitle": "総務省が2023年人口移動報告を公表、東京圏の転入超過が再び拡大",
-          "devCount": 3,
-          "sim": 16,
-          "ovLen": 586,
-          "bgLen": 599,
-          "issues": [
-            "⚠️ 経緯が2024年で停止",
-            "⚠️ 現状と背景の重複度高 (16%)"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-24",
+          "latestDevTitle": "政府、地方創生交付金の倍増を盛り込んだ新基本方針を閣議決定",
+          "devCount": 4,
+          "sim": 9,
+          "ovLen": 531,
+          "bgLen": 389,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "retrial-law-reform-hakamada",
@@ -4608,17 +4538,15 @@
           "category": "文教・教育・子ども支援",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-10-31",
-          "latestDevTitle": "文科省、2023年度の小中学校不登校児童生徒数が過去最多の約34万6千人と公表",
-          "devCount": 3,
-          "sim": 14,
-          "ovLen": 607,
-          "bgLen": 524,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "文科省、「学びの多様化学校」が全国100校規模へ拡大・特例措置拡充",
+          "devCount": 4,
+          "sim": 11,
+          "ovLen": 483,
+          "bgLen": 463,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "selective-surname-marriage",
@@ -4627,17 +4555,15 @@
           "category": "司法・社会",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-14",
-          "latestDevTitle": "札幌高裁が高裁として初めて同性婚不認定を「違憲」と判断",
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-05-15",
+          "latestDevTitle": "最高裁判所大法廷、同性婚訴訟の上告審において口頭弁論期日を指定",
           "devCount": 7,
-          "sim": 12,
-          "ovLen": 545,
-          "bgLen": 750,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "sim": 9,
+          "ovLen": 541,
+          "bgLen": 504,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "sexy-tanaka-san-author-death-tv-adaptation",
@@ -4646,17 +4572,15 @@
           "category": "文化政策・著作権・放送メディア行政",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-26",
-          "latestDevTitle": "芦原妃名子氏がブログでドラマ化の改変トラブルと自ら脚本執筆した経緯を公表",
-          "devCount": 4,
-          "sim": 12,
-          "ovLen": 746,
-          "bgLen": 932,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "民放連・クリエイター団体、映像化における標準契約モデルを運用開始",
+          "devCount": 7,
+          "sim": 10,
+          "ovLen": 515,
+          "bgLen": 547,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "sushiro-nuisance-video-food-terrorism",
@@ -4665,17 +4589,15 @@
           "category": "企業法務・消費者行政・ネット社会",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2023,
-          "latestDevDate": "2023-01-29",
-          "latestDevTitle": "スシロー店舗での醤油差し舐め回し動画がSNSで大炎上、株価急落",
-          "devCount": 4,
-          "sim": 10,
-          "ovLen": 798,
-          "bgLen": 978,
-          "issues": [
-            "⚠️ 経緯が2023年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "東京都「カスタマーハラスメント防止条例」が施行、外食産業の防衛体制強化",
+          "devCount": 6,
+          "sim": 8,
+          "ovLen": 587,
+          "bgLen": 492,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "tokuryu-anonymous-organized-crime",
@@ -4684,17 +4606,15 @@
           "category": "治安・警察・サイバー犯罪",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-01",
-          "latestDevTitle": "警察庁に「特別捜査部（特捜部）」が新設、トクリュウ対策に特化",
-          "devCount": 3,
-          "sim": 12,
-          "ovLen": 678,
-          "bgLen": 593,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2026,
+          "latestDevDate": "2026-02-18",
+          "latestDevTitle": "警察庁、SNS大手各社へ闇バイト募集AI検知・即時削除の義務化要請",
+          "devCount": 6,
+          "sim": 7,
+          "ovLen": 554,
+          "bgLen": 492,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "tokyo-olympics-costs-corruption-governance",
@@ -4703,17 +4623,15 @@
           "category": "行政・国家プロジェクト",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-27",
-          "latestDevTitle": "東京地裁が五輪テスト大会談合事件で電通グループ元幹部に執行猶予付き有罪判決",
-          "devCount": 8,
-          "sim": 12,
-          "ovLen": 803,
-          "bgLen": 1116,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2026,
+          "latestDevDate": "2026-09-16",
+          "latestDevTitle": "五輪テスト大会談合事件で起訴された全法人・関係者の一審有罪判決が出揃う",
+          "devCount": 11,
+          "sim": 10,
+          "ovLen": 587,
+          "bgLen": 572,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "unification-church-issue",
@@ -4739,17 +4657,15 @@
           "category": "科学技術政策・高等教育・イノベーション",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-08-09",
-          "latestDevTitle": "文科省NISTEP「科学技術指標2024」で注目論文ランク世界13位と発表",
-          "devCount": 3,
-          "sim": 12,
-          "ovLen": 740,
-          "bgLen": 609,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "東北大学で国際卓越研究大学としての第1期事業が始動、助成金執行開始",
+          "devCount": 4,
+          "sim": 11,
+          "ovLen": 573,
+          "bgLen": 594,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "vacant-houses-land-issue",
@@ -4758,17 +4674,15 @@
           "category": "行政・内閣",
           "clusterId": "dom-5",
           "clusterName": "【国内⑤】治安・警察・司法・法務・教育・文化・IT",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-01",
-          "latestDevTitle": "「相続登記の申請義務化」がスタート",
-          "devCount": 11,
-          "sim": 11,
-          "ovLen": 552,
-          "bgLen": 568,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2026,
+          "latestDevDate": "2026-08-31",
+          "latestDevTitle": "相続土地国庫帰属制度の累計申請が5,900件超、承認が3,100件を突破",
+          "devCount": 14,
+          "sim": 8,
+          "ovLen": 591,
+          "bgLen": 658,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "wildlife-protection-bear-attacks",
