@@ -13,9 +13,9 @@
 | **【国内⑤】治安・警察・司法・法務・教育・文化・IT** | 34件 | 🎉 **0件（完了）** | 34件 | 0件 |
 | **【国際①】米中対立・東アジア・アジア太平洋・半導体** | 18件 | 🎉 **0件（完了）** | 18件 | 0件 |
 | **【国際②】ロシア・ウクライナ・欧州・NATO** | 4件 | 🎉 **0件（完了）** | 4件 | 0件 |
-| **【国際③】中東情勢・グローバルサウス・新興国・資源** | 11件 | **10件** | 1件 | 0件 |
+| **【国際③】中東情勢・グローバルサウス・新興国・資源** | 11件 | 🎉 **0件（完了）** | 11件 | 0件 |
 | **【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法** | 29件 | **26件** | 3件 | 1件 |
-| **合計** | **164件** | **36件 (22%)** | **128件 (78%)** | **1件** |
+| **合計** | **164件** | **26件 (16%)** | **138件 (84%)** | **1件** |
 
 ### 主な課題と進捗
 - ✅ **【国内①】政治・統治・選挙・政党・国会**: 全14件のリライト・最新化（2025-2026年動向反映、重複排除）が完了！
@@ -25,7 +25,8 @@
 - ✅ **【国内⑤】治安・警察・司法・法務・教育・文化・IT**: 全34件のリライト・最新化（生成AI著作権、トクリュウ・闇バイト、オンカジ水原事件、ホスト売掛金・大久保公園、頂き女子りりちゃん、ジャニーズ性加害、セクシー田中さん原作改変、松本人志訴訟終結、日大アメフト薬物、スシローペロペロ外食DX、共同親権、選択的夫婦別姓、北朝鮮拉致、東京五輪汚職談合、PFAS汚染、不登校多様化学校、10兆円大学ファンド、自治体システム標準化、地方創生消滅自治体、空き家所有者不明土地対策等）が完了！全件に海外制度比較（2〜3カ国）を完備！
 - ✅ **【国際①】米中対立・東アジア・アジア太平洋・半導体**: 全18件のリライト・最新化が完了！全18件に海外制度比較（2〜3カ国）を完備！
 - ✅ **【国際②】ロシア・ウクライナ・欧州・NATO**: 全4件のリライト・最新化（ウクライナ戦争、北極海航路、欧州極右台頭、NATO拡大と防衛費2-3%）が完了！全4件に海外制度比較（2〜3カ国）を完備！
-- 🔴 残り要更新トピック: **36件**（国際③〜④の2クラスタ）
+- ✅ **【国際③】中東情勢・グローバルサウス・新興国・資源**: 全11件のリライト・最新化（ガザ紛争、アサド政権崩壊、イラン核問題、ヒズボラ・フーシ派紅海危機、BRICSカザンサミット、パナマ運河渇水、エチオピア・ソマリランド、サヘルAES政変、スーダン内戦、中南米政治、ベネズエラ危機）が完了！全11件に海外制度比較（2〜3カ国）を完備！
+- 🔴 残り要更新トピック: **26件**（国際④の1クラスタのみ）
 
 ---
 
@@ -190,21 +191,21 @@
 | ✅ 済 | `nato-expansion-defense-burden` | [NATOの拡大と防衛費負担増（東方防衛強化）](src/data/topics/international/nato-expansion-defense-burden.json) | 2025-01-20 | 10% | 問題なし（NSATU運用・トランプ防衛費3%要求・海外比較追加済） |
 | ✅ 済 | `ukraine-russia-war` | [ウクライナ戦争の長期化と停戦交渉の現実](src/data/topics/international/ukraine-russia-war.json) | 2026-09-08 | 9% | 問題なし（朝鮮戦争・冬戦争・デイトン合意海外比較追加済） |
 
-### 【国際③】中東情勢・グローバルサウス・新興国・資源（全11件 / 要更新: 10件）
+### 【国際③】中東情勢・グローバルサウス・新興国・資源（全11件 / 🎉 [ALL COMPLETED]）
 
 | 状態 | ID | タイトル | 最新経緯 | 重複度 | 検出された課題・注意事項 |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| 🔴 要更新 | `ethiopia-tigray-horn-of-africa` | [エチオピア・ソマリランド港湾合意と「アフリカの角」の地政学的危機](src/data/topics/international/ethiopia-tigray-horn-of-africa.json) | 2024-01-01 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `global-south-brics` | [グローバルサウスの台頭](src/data/topics/international/global-south-brics.json) | 2024-01-01 | 11% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `iran-nuclear` | [イラン核問題](src/data/topics/international/iran-nuclear.json) | 2024-04-13 | 7% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `latin-america-politics` | [中南米政治の流動化と大国関係](src/data/topics/international/latin-america-politics.json) | 2024-06-02 | 10% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `middle-east-proxy-conflicts` | [中東の代理戦争と紅海危機（ヒズボラ・フーシ派）](src/data/topics/international/middle-east-proxy-conflicts.json) | 2024-01-10 | 11% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `panama-canal-drought-global-shipping-chokepoint` | [パナマ運河の歴史的渇水・通航制限と世界海上物流の麻痺](src/data/topics/international/panama-canal-drought-global-shipping-chokepoint.json) | 2024-05-15 | 10% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `sahel-africa-coups` | [アフリカ・サヘル地域の政変と国際秩序](src/data/topics/international/sahel-africa-coups.json) | 2024-01-28 | 14% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `sudan-civil-war-humanitarian-crisis` | [スーダン内戦と世界最悪の人道危機](src/data/topics/international/sudan-civil-war-humanitarian-crisis.json) | 2024-03-08 | 11% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `syria-assad-regime-collapse-geopolitics` | [シリア・アサド独裁政権の電撃崩壊と中東地政学の地殻変動](src/data/topics/international/syria-assad-regime-collapse-geopolitics.json) | 2024-11-27 | 15% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `venezuela-crisis-mass-refugee-outflow` | [ベネズエラ危機と中南米最大の難民流出](src/data/topics/international/venezuela-crisis-mass-refugee-outflow.json) | 2024-07-28 | 6% | ⚠️ 経緯が2024年で停止 |
-| ✅ 済 | `middle-east-gaza-conflict` | [中東情勢（イスラエル・ガザ・イラン）の激化と地域戦争危機](src/data/topics/international/middle-east-gaza-conflict.json) | 2026-09-15 | 8% | 問題なし |
+| ✅ 済 | `ethiopia-tigray-horn-of-africa` | [エチオピア・ソマリランド港湾合意と「アフリカの角」の地政学的危機](src/data/topics/international/ethiopia-tigray-horn-of-africa.json) | 2025-01-01 | 13% | 問題なし（AU新ミッション・ソマリランド選挙・海外比較追加済） |
+| ✅ 済 | `global-south-brics` | [グローバルサウスの台頭](src/data/topics/international/global-south-brics.json) | 2025-01-20 | 11% | 問題なし（トランプ100%関税威嚇・ブラジル議長国・海外比較追加済） |
+| ✅ 済 | `iran-nuclear` | [イラン核問題](src/data/topics/international/iran-nuclear.json) | 2025-01-22 | 7% | 問題なし（最大圧力2.0・新型遠心分離機・海外比較追加済） |
+| ✅ 済 | `latin-america-politics` | [中南米政治の流動化と大国関係](src/data/topics/international/latin-america-politics.json) | 2025-01-20 | 10% | 問題なし（対墨関税警告・チャンカイ港開港・海外比較追加済） |
+| ✅ 済 | `middle-east-proxy-conflicts` | [中東の代理戦争と紅海危機（ヒズボラ・フーシ派）](src/data/topics/international/middle-east-proxy-conflicts.json) | 2025-01-22 | 11% | 問題なし（フーシFTO再指定・アサド崩壊・レバノン停戦・海外比較追加済） |
+| ✅ 済 | `panama-canal-drought-global-shipping-chokepoint` | [パナマ運河の歴史的渇水・通航制限と世界海上物流の麻痺](src/data/topics/international/panama-canal-drought-global-shipping-chokepoint.json) | 2025-01-10 | 10% | 問題なし（新貯水池着工・平時枠完全復帰・海外比較追加済） |
+| ✅ 済 | `sahel-africa-coups` | [アフリカ・サヘル地域の政変と国際秩序](src/data/topics/international/sahel-africa-coups.json) | 2025-01-29 | 14% | 問題なし（AESのECOWAS完全離脱・ウラン権益接収・海外比較追加済） |
+| ✅ 済 | `sudan-civil-war-humanitarian-crisis` | [スーダン内戦と世界最悪の人道危機](src/data/topics/international/sudan-civil-war-humanitarian-crisis.json) | 2025-01-18 | 11% | 問題なし（首都反攻・安保理ロシア拒否権・海外比較追加済） |
+| ✅ 済 | `syria-assad-regime-collapse-geopolitics` | [シリア・アサド独裁政権の電撃崩壊と中東地政学の地殻変動](src/data/topics/international/syria-assad-regime-collapse-geopolitics.json) | 2025-01-15 | 8% | 問題なし（国民対話会議・新憲法・海外比較追加済） |
+| ✅ 済 | `venezuela-crisis-mass-refugee-outflow` | [ベネズエラ危機と中南米最大の難民流出](src/data/topics/international/venezuela-crisis-mass-refugee-outflow.json) | 2025-01-10 | 6% | 問題なし（マドゥロ3期目強行・米認定・海外比較追加済） |
+| ✅ 済 | `middle-east-gaza-conflict` | [中東情勢（イスラエル・ガザ・イラン）の激化と地域戦争危機](src/data/topics/international/middle-east-gaza-conflict.json) | 2026-09-15 | 8% | 問題なし（海外比較追加済） |
 
 ### 【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法（全29件 / 要更新: 26件）
 

@@ -2081,17 +2081,15 @@
       "category": "アフリカ情勢・海洋アクセス・地域紛争",
       "clusterId": "intl-3",
       "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-01",
-      "latestDevTitle": "エチオピアとソマリランドが歴史的な港湾アクセス覚書（MoU）に署名",
-      "devCount": 2,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-01",
+      "latestDevTitle": "AUソマリア新ミッション（AUSSOM）が発足、エジプト軍がPKO部隊として展開開始",
+      "devCount": 6,
       "sim": 13,
       "ovLen": 751,
       "bgLen": 633,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "european-far-right",
@@ -2176,17 +2174,15 @@
       "category": "多国間・新興国",
       "clusterId": "intl-3",
       "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-01",
-      "latestDevTitle": "エジプト、エチオピア、イラン、UAEがBRICSに正式加盟",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-01",
+      "latestDevTitle": "ブラジルが2025年BRICS議長国に就任、気候資金と不平等是正を重点提示",
+      "devCount": 6,
       "sim": 11,
       "ovLen": 693,
       "bgLen": 529,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "icc-president-akane-sanctions-international-law",
@@ -2248,17 +2244,15 @@
       "category": "紛争・安全保障",
       "clusterId": "intl-3",
       "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-13",
-      "latestDevTitle": "イランがイスラエル本土に対し初の直接軍事攻撃を実施",
-      "devCount": 9,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-22",
+      "latestDevTitle": "第2期トランプ米政権が発足、対イラン「最大圧力2.0」と石油全面遮断を表明",
+      "devCount": 12,
       "sim": 7,
       "ovLen": 442,
       "bgLen": 380,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "japan-china-relations",
@@ -2301,17 +2295,15 @@
       "category": "地政学・勢力均衡",
       "clusterId": "intl-3",
       "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-06-02",
-      "latestDevTitle": "メキシコ大統領選挙で与党左派のクラウディア・シェインバウム氏が圧勝",
-      "devCount": 10,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "第2期トランプ米政権発足、対メキシコ25%関税警告と不法移民強制送還を宣言",
+      "devCount": 13,
       "sim": 10,
       "ovLen": 625,
       "bgLen": 652,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "middle-east-gaza-conflict",
@@ -2337,17 +2329,15 @@
       "category": "紛争・安全保障",
       "clusterId": "intl-3",
       "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-10",
-      "latestDevTitle": "国連安全保障理事会、フーシ派による紅海での商船攻撃即時停止を求める決議2722号を採択",
-      "devCount": 11,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-22",
+      "latestDevTitle": "第2期トランプ米政権、フーシ派を外国テロ組織（FTO）に再指定・紅海防衛作戦を強化",
+      "devCount": 15,
       "sim": 11,
       "ovLen": 628,
       "bgLen": 616,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "myanmar-crisis",
@@ -2462,17 +2452,15 @@
       "category": "国際通商・海上輸送・気候変動リスク",
       "clusterId": "intl-3",
       "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-05-15",
-      "latestDevTitle": "雨季の到来によりパナマ運河が通航枠を段階的に30隻超へ緩和",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-10",
+      "latestDevTitle": "パナマ最高裁が法定制限を解除、ACPが16億ドルの新貯水池（リオ・インディオ）着工へ",
+      "devCount": 6,
       "sim": 10,
       "ovLen": 749,
       "bgLen": 609,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "paris-2024-olympics-controversies-polarization",
@@ -2517,17 +2505,15 @@
       "category": "紛争・安全保障",
       "clusterId": "intl-3",
       "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-28",
-      "latestDevTitle": "マリ、ブルキナファソ、ニジェールがECOWASからの即時脱退を共同宣言",
-      "devCount": 12,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-29",
+      "latestDevTitle": "サヘル諸国連合（AES）3カ国がECOWASから正式に完全離脱",
+      "devCount": 15,
       "sim": 14,
       "ovLen": 759,
       "bgLen": 753,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "semiconductor-supply-chain",
@@ -2644,17 +2630,15 @@
       "category": "紛争・人道危機",
       "clusterId": "intl-3",
       "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-08",
-      "latestDevTitle": "国連安保理、ラマダン期間中のスーダン敵対行為停止を求める決議2724を採択",
-      "devCount": 10,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-18",
+      "latestDevTitle": "スーダン国軍が首都ハルツーム中枢で大規模反攻作戦を開始、市街戦激化",
+      "devCount": 13,
       "sim": 11,
       "ovLen": 701,
       "bgLen": 725,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "syria-assad-regime-collapse-geopolitics",
@@ -2663,17 +2647,15 @@
       "category": "中東情勢・内戦終結・地政学的地殻変動",
       "clusterId": "intl-3",
       "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-11-27",
-      "latestDevTitle": "イドリブの反体制派HTSが大規模反攻「侵略抑止作戦」を開始",
-      "devCount": 3,
-      "sim": 15,
-      "ovLen": 769,
-      "bgLen": 955,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-15",
+      "latestDevTitle": "シリア暫定政府が国民対話会議の開催を発表、新憲法草案の作成へ",
+      "devCount": 4,
+      "sim": 8,
+      "ovLen": 530,
+      "bgLen": 370,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "taiwan-strait",
@@ -2825,17 +2807,15 @@
       "category": "中南米",
       "clusterId": "intl-3",
       "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-07-28",
-      "latestDevTitle": "ベネズエラ大統領選挙で選挙管理委員会がマドゥロ氏の当選を強行宣言",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-10",
+      "latestDevTitle": "マドゥロ大統領が国際非難を無視し3期目の就任式を強行、二重政府危機が再燃",
+      "devCount": 8,
       "sim": 6,
       "ovLen": 707,
       "bgLen": 436,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "water-food-security-geopolitics",
@@ -5620,8 +5600,8 @@
     "intl-3": {
       "name": "【国際③】中東情勢・グローバルサウス・新興国・資源",
       "total": 11,
-      "stopped2024OrEarlier": 10,
-      "current": 1,
+      "stopped2024OrEarlier": 0,
+      "current": 11,
       "highOverlap": 0,
       "topics": [
         {
@@ -5631,17 +5611,15 @@
           "category": "アフリカ情勢・海洋アクセス・地域紛争",
           "clusterId": "intl-3",
           "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-01",
-          "latestDevTitle": "エチオピアとソマリランドが歴史的な港湾アクセス覚書（MoU）に署名",
-          "devCount": 2,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-01",
+          "latestDevTitle": "AUソマリア新ミッション（AUSSOM）が発足、エジプト軍がPKO部隊として展開開始",
+          "devCount": 6,
           "sim": 13,
           "ovLen": 751,
           "bgLen": 633,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "global-south-brics",
@@ -5650,17 +5628,15 @@
           "category": "多国間・新興国",
           "clusterId": "intl-3",
           "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-01",
-          "latestDevTitle": "エジプト、エチオピア、イラン、UAEがBRICSに正式加盟",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-01",
+          "latestDevTitle": "ブラジルが2025年BRICS議長国に就任、気候資金と不平等是正を重点提示",
+          "devCount": 6,
           "sim": 11,
           "ovLen": 693,
           "bgLen": 529,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "iran-nuclear",
@@ -5669,17 +5645,15 @@
           "category": "紛争・安全保障",
           "clusterId": "intl-3",
           "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-13",
-          "latestDevTitle": "イランがイスラエル本土に対し初の直接軍事攻撃を実施",
-          "devCount": 9,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-22",
+          "latestDevTitle": "第2期トランプ米政権が発足、対イラン「最大圧力2.0」と石油全面遮断を表明",
+          "devCount": 12,
           "sim": 7,
           "ovLen": 442,
           "bgLen": 380,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "latin-america-politics",
@@ -5688,17 +5662,15 @@
           "category": "地政学・勢力均衡",
           "clusterId": "intl-3",
           "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-06-02",
-          "latestDevTitle": "メキシコ大統領選挙で与党左派のクラウディア・シェインバウム氏が圧勝",
-          "devCount": 10,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "第2期トランプ米政権発足、対メキシコ25%関税警告と不法移民強制送還を宣言",
+          "devCount": 13,
           "sim": 10,
           "ovLen": 625,
           "bgLen": 652,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "middle-east-gaza-conflict",
@@ -5724,17 +5696,15 @@
           "category": "紛争・安全保障",
           "clusterId": "intl-3",
           "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-10",
-          "latestDevTitle": "国連安全保障理事会、フーシ派による紅海での商船攻撃即時停止を求める決議2722号を採択",
-          "devCount": 11,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-22",
+          "latestDevTitle": "第2期トランプ米政権、フーシ派を外国テロ組織（FTO）に再指定・紅海防衛作戦を強化",
+          "devCount": 15,
           "sim": 11,
           "ovLen": 628,
           "bgLen": 616,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "panama-canal-drought-global-shipping-chokepoint",
@@ -5743,17 +5713,15 @@
           "category": "国際通商・海上輸送・気候変動リスク",
           "clusterId": "intl-3",
           "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-05-15",
-          "latestDevTitle": "雨季の到来によりパナマ運河が通航枠を段階的に30隻超へ緩和",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-10",
+          "latestDevTitle": "パナマ最高裁が法定制限を解除、ACPが16億ドルの新貯水池（リオ・インディオ）着工へ",
+          "devCount": 6,
           "sim": 10,
           "ovLen": 749,
           "bgLen": 609,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "sahel-africa-coups",
@@ -5762,17 +5730,15 @@
           "category": "紛争・安全保障",
           "clusterId": "intl-3",
           "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-28",
-          "latestDevTitle": "マリ、ブルキナファソ、ニジェールがECOWASからの即時脱退を共同宣言",
-          "devCount": 12,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-29",
+          "latestDevTitle": "サヘル諸国連合（AES）3カ国がECOWASから正式に完全離脱",
+          "devCount": 15,
           "sim": 14,
           "ovLen": 759,
           "bgLen": 753,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "sudan-civil-war-humanitarian-crisis",
@@ -5781,17 +5747,15 @@
           "category": "紛争・人道危機",
           "clusterId": "intl-3",
           "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-08",
-          "latestDevTitle": "国連安保理、ラマダン期間中のスーダン敵対行為停止を求める決議2724を採択",
-          "devCount": 10,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-18",
+          "latestDevTitle": "スーダン国軍が首都ハルツーム中枢で大規模反攻作戦を開始、市街戦激化",
+          "devCount": 13,
           "sim": 11,
           "ovLen": 701,
           "bgLen": 725,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "syria-assad-regime-collapse-geopolitics",
@@ -5800,17 +5764,15 @@
           "category": "中東情勢・内戦終結・地政学的地殻変動",
           "clusterId": "intl-3",
           "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-11-27",
-          "latestDevTitle": "イドリブの反体制派HTSが大規模反攻「侵略抑止作戦」を開始",
-          "devCount": 3,
-          "sim": 15,
-          "ovLen": 769,
-          "bgLen": 955,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-15",
+          "latestDevTitle": "シリア暫定政府が国民対話会議の開催を発表、新憲法草案の作成へ",
+          "devCount": 4,
+          "sim": 8,
+          "ovLen": 530,
+          "bgLen": 370,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "venezuela-crisis-mass-refugee-outflow",
@@ -5819,17 +5781,15 @@
           "category": "中南米",
           "clusterId": "intl-3",
           "clusterName": "【国際③】中東情勢・グローバルサウス・新興国・資源",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-07-28",
-          "latestDevTitle": "ベネズエラ大統領選挙で選挙管理委員会がマドゥロ氏の当選を強行宣言",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-10",
+          "latestDevTitle": "マドゥロ大統領が国際非難を無視し3期目の就任式を強行、二重政府危機が再燃",
+          "devCount": 8,
           "sim": 6,
           "ovLen": 707,
           "bgLen": 436,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         }
       ]
     }
