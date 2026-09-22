@@ -1768,17 +1768,15 @@
       "category": "地政学・勢力均衡",
       "clusterId": "intl-2",
       "clusterName": "【国際②】ロシア・ウクライナ・欧州・NATO",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-07-11",
-      "latestDevTitle": "米・加・フィンランド首脳、極地砕氷船の共同建造協定「ICE Pact」の締結を発表",
-      "devCount": 10,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-22",
+      "latestDevTitle": "ICE Pact（米・加・フィンランド砕氷船同盟）の仕様統一と共同調達ロードマップが合意",
+      "devCount": 12,
       "sim": 11,
       "ovLen": 721,
       "bgLen": 733,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "asean-unity-crisis-superpowers-rivalry",
@@ -2102,17 +2100,15 @@
       "category": "多国間",
       "clusterId": "intl-2",
       "clusterName": "【国際②】ロシア・ウクライナ・欧州・NATO",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-05-14",
-      "latestDevTitle": "EU理事会が「新移民・難民協定」を最終承認",
-      "devCount": 9,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-02-23",
+      "latestDevTitle": "ドイツ連邦議会選挙（前倒し総選挙）実施、CDU/CSUが第1党・AfDが大幅躍進",
+      "devCount": 12,
       "sim": 6,
       "ovLen": 438,
       "bgLen": 397,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "global-ev-slowdown-hybrid-resurgence",
@@ -2377,17 +2373,15 @@
       "category": "同盟・国際安全保障",
       "clusterId": "intl-2",
       "clusterName": "【国際②】ロシア・ウクライナ・欧州・NATO",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-07",
-      "latestDevTitle": "スウェーデンが正式にNATOに加盟、第32番目の加盟国に",
-      "devCount": 3,
-      "sim": 15,
-      "ovLen": 718,
-      "bgLen": 645,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "トランプ米政権発足に伴い、NATO加盟国への「防衛費GDP比3%以上」要求が本格化",
+      "devCount": 5,
+      "sim": 12,
+      "ovLen": 533,
+      "bgLen": 337,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "north-korea-nuclear-missile",
@@ -5232,8 +5226,8 @@
     "intl-2": {
       "name": "【国際②】ロシア・ウクライナ・欧州・NATO",
       "total": 4,
-      "stopped2024OrEarlier": 3,
-      "current": 1,
+      "stopped2024OrEarlier": 0,
+      "current": 4,
       "highOverlap": 0,
       "topics": [
         {
@@ -5243,17 +5237,15 @@
           "category": "地政学・勢力均衡",
           "clusterId": "intl-2",
           "clusterName": "【国際②】ロシア・ウクライナ・欧州・NATO",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-07-11",
-          "latestDevTitle": "米・加・フィンランド首脳、極地砕氷船の共同建造協定「ICE Pact」の締結を発表",
-          "devCount": 10,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-22",
+          "latestDevTitle": "ICE Pact（米・加・フィンランド砕氷船同盟）の仕様統一と共同調達ロードマップが合意",
+          "devCount": 12,
           "sim": 11,
           "ovLen": 721,
           "bgLen": 733,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "european-far-right",
@@ -5262,17 +5254,15 @@
           "category": "多国間",
           "clusterId": "intl-2",
           "clusterName": "【国際②】ロシア・ウクライナ・欧州・NATO",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-05-14",
-          "latestDevTitle": "EU理事会が「新移民・難民協定」を最終承認",
-          "devCount": 9,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-02-23",
+          "latestDevTitle": "ドイツ連邦議会選挙（前倒し総選挙）実施、CDU/CSUが第1党・AfDが大幅躍進",
+          "devCount": 12,
           "sim": 6,
           "ovLen": 438,
           "bgLen": 397,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "nato-expansion-defense-burden",
@@ -5281,17 +5271,15 @@
           "category": "同盟・国際安全保障",
           "clusterId": "intl-2",
           "clusterName": "【国際②】ロシア・ウクライナ・欧州・NATO",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-07",
-          "latestDevTitle": "スウェーデンが正式にNATOに加盟、第32番目の加盟国に",
-          "devCount": 3,
-          "sim": 15,
-          "ovLen": 718,
-          "bgLen": 645,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "トランプ米政権発足に伴い、NATO加盟国への「防衛費GDP比3%以上」要求が本格化",
+          "devCount": 5,
+          "sim": 12,
+          "ovLen": 533,
+          "bgLen": 337,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "ukraine-russia-war",
