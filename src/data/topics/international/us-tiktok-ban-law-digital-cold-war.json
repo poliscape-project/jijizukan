@@ -126,7 +126,63 @@
     "デジタル冷戦",
     "国際地政学"
   ],
+  "international": [
+    {
+      "country": "インド",
+      "title": "2020年国境衝突を契機とした世界初のTikTok等中国製アプリ「全面永久禁止」",
+      "detail": "2020年のガルワン渓谷での中印国境衝突直後、国家主権・領土保全およびサイバー防衛を理由にTikTokを含む数百の中国製アプリを即時禁止。代替としてInstagram ReelsやYouTubeショート、国産アプリが台頭し、西側諸国がアプリ遮断の実行可能性を検証するモデルケースとなった。"
+    },
+    {
+      "country": "欧州連合（EU）・英仏",
+      "title": "公用端末での利用禁止とデジタルサービス法（DSA）によるアルゴリズム徹底監査",
+      "detail": "欧州委員会、欧州議会、英国、フランス等は情報漏洩リスクから公務員の公用端末でのTikTok使用を一律禁止。さらにEUはデジタルサービス法（DSA）に基づき、中毒性を生むアルゴリズム設計や若年層の精神衛生・選挙干渉リスクに関する正式な違法性調査を実施している。"
+    },
+    {
+      "country": "日本",
+      "title": "公用端末での機密情報取り扱い制限と民間利用の慎重な見守り",
+      "detail": "日本政府は機密性のある情報を扱う公用端末においてTikTok等の利用を禁止するセキュリティ指針を適用。一方で民間や一般国民の利用に関しては、憲法第21条（通信の秘密・表現の自由）の観点から法的な一律禁止には踏み込まず、プラットフォーム事業者への透明性要請にとどめている。"
+    }
+  ],
   "developments": [
+    {
+      "date": "2025-01-20",
+      "title": "トランプ米大統領が就任、TikTok禁止法の執行猶予大統領令を発令し売却交渉主導",
+      "content": "ドナルド・トランプ大統領は就任直後、TikTok禁止法の施行期限を延長する大統領令を発令。オラクルや米投資ファンドを中心とする企業連合への米国事業売却・ガバナンス分離交渉を主導し、全米での即時アプリ配信停止を回避した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Executive Order on TikTok Enforcement Delay and National Security Review",
+          "url": "https://www.whitehouse.gov/briefing-room/",
+          "organization": "ホワイトハウス"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-17",
+      "title": "米連邦最高裁がTikTok側の上訴を退け、禁止法の合憲判断を支持",
+      "content": "米国最高裁判所は、TikTok社およびクリエイター側の緊急申し立てを退け、外国敵対勢力管理下アプリ保護法（TikTok禁止法）の合憲性を認める判断を下した。法的な売却義務が最高裁で確定した。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "Supreme Court of the United States Order List",
+          "url": "https://www.supremecourt.gov/orders/",
+          "organization": "米国連邦最高裁判所"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-06",
+      "title": "ワシントンDC連邦控訴裁が「TikTok禁止法は合憲」と判決、訴えを棄却",
+      "content": "コロンビア特別区連邦控訴裁判所は、中国共産党へのデータ流出や世論誘導に対する政府の国家安全保障上の懸念は極めて正当であると認定。表現の自由を上回る公益があるとしてTikTok側の請求を全面的に退けた。",
+      "significance": "high",
+      "sources": [
+        {
+          "title": "U.S. Court of Appeals for the D.C. Circuit Ruling on TikTok v. Garland",
+          "url": "https://www.cadc.uscourts.gov/",
+          "organization": "ワシントンDC連邦控訴裁判所"
+        }
+      ]
+    },
     {
       "date": "2024-05-07",
       "title": "TikTok社と親会社バイトダンスが米連邦控訴裁に法律の無効を求め提訴",

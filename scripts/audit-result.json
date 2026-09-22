@@ -1787,17 +1787,15 @@
       "category": "アジア・太平洋",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-06-17",
-      "latestDevTitle": "セカンド・トーマス礁付近で中国海警船が比補給船に衝突、比兵士が重傷",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-01",
+      "latestDevTitle": "マレーシアがASEAN議長国に就任、米中対立緩和と地域経済統合を最優先課題に設定",
+      "devCount": 7,
       "sim": 11,
       "ovLen": 641,
       "bgLen": 536,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "australia-under-16-social-media-ban",
@@ -1825,17 +1823,15 @@
       "category": "南アジア情勢・体制転換・地政学変動",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-07-18",
-      "latestDevTitle": "政府が全国でインターネットを完全遮断し外出禁止令、衝突激化",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-15",
+      "latestDevTitle": "ユヌス暫定政権が国家改革委員会の答申を受理、総選挙ロードマップの協議を開始",
+      "devCount": 5,
       "sim": 11,
       "ovLen": 716,
       "bgLen": 581,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "big-tech-antitrust-regulations",
@@ -1901,17 +1897,15 @@
       "category": "ロシア・CIS・中央アジア",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-08-09",
-      "latestDevTitle": "日本・中央アジア5カ国首脳会合（首脳サミット）が初開催推進",
-      "devCount": 5,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-20",
+      "latestDevTitle": "中央回廊（カスピ海横断ルート）の近代化合弁事業が本格化、中欧直結輸送が拡大",
+      "devCount": 6,
       "sim": 13,
       "ovLen": 632,
       "bgLen": 501,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "china-japan-seafood-ban-alps-water",
@@ -1920,17 +1914,15 @@
       "category": "日中関係・通商摩擦・海洋安全保障",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-09-20",
-      "latestDevTitle": "日中両政府が日本産水産物の輸入段階的再開で歴史的合意を発表",
-      "devCount": 4,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-05-15",
+      "latestDevTitle": "IAEA、中国専門家参加による福島沖サンプリング分析で異常なしと報告",
+      "devCount": 6,
       "sim": 13,
       "ovLen": 781,
       "bgLen": 1056,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "china-real-estate-economic-slowdown",
@@ -1939,17 +1931,15 @@
       "category": "国際経済・金融",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-29",
-      "latestDevTitle": "香港高等法院が中国恒大集団に対し清算命令を発出",
-      "devCount": 3,
+      "latestDevYear": 2026,
+      "latestDevDate": "2026-03-15",
+      "latestDevTitle": "中国全人代が成長率目標「5%前後」を掲げ、超長期特別国債と在庫買い取りを継続",
+      "devCount": 5,
       "sim": 13,
       "ovLen": 687,
       "bgLen": 627,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "climate-change",
@@ -2245,17 +2235,15 @@
       "category": "同盟・連携枠組み",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-09-21",
-      "latestDevTitle": "米ウィルミントンで第6回日米豪印（Quad）首脳会合を開催",
-      "devCount": 9,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-10",
+      "latestDevTitle": "Quad海上保安機関が初の共同ミッション「Quad-at-Sea」を実施",
+      "devCount": 10,
       "sim": 11,
       "ovLen": 458,
       "bgLen": 458,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "iran-nuclear",
@@ -2283,17 +2271,15 @@
       "category": "外交・二国間関係",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-08-26",
-      "latestDevTitle": "中国軍のY-9情報収集機が男女群島沖で日本領空を侵犯",
-      "devCount": 6,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-25",
+      "latestDevTitle": "尖閣諸島周辺で中国海警船の領海侵入が年間最多ペースで継続",
+      "devCount": 8,
       "sim": 10,
       "ovLen": 708,
       "bgLen": 526,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "japan-south-korea-relations",
@@ -2302,17 +2288,15 @@
       "category": "二国間・東アジア外交",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-05-26",
-      "latestDevTitle": "ソウルで日韓首脳会談および約4年半ぶりの日中韓サミットを開催",
-      "devCount": 4,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-15",
+      "latestDevTitle": "国交正常化60周年を迎えた日韓両国、内政変動下での実務協力維持を確認",
+      "devCount": 7,
       "sim": 10,
       "ovLen": 617,
       "bgLen": 522,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "latin-america-politics",
@@ -2376,17 +2360,15 @@
       "category": "紛争・安全保障",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-10",
-      "latestDevTitle": "ミャンマー軍政が「国民兵役法」の即時適用を発表",
-      "devCount": 9,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-31",
+      "latestDevTitle": "軍事政権が非常事態宣言をさらに半年延長、支配地域喪失で総選挙実施が事実上困難に",
+      "devCount": 12,
       "sim": 9,
       "ovLen": 496,
       "bgLen": 460,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "nato-expansion-defense-burden",
@@ -2414,17 +2396,15 @@
       "category": "紛争・安全保障",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-28",
-      "latestDevTitle": "国連安保理、ロシアの拒否権行使により北朝鮮制裁専門家パネルの任期延長が否決",
-      "devCount": 12,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-20",
+      "latestDevTitle": "北朝鮮が中距離極超音速滑空ミサイルを発射、日米韓が迎撃回避能力を警戒",
+      "devCount": 15,
       "sim": 12,
       "ovLen": 533,
       "bgLen": 521,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "nuclear-disarmament-npt",
@@ -2471,17 +2451,15 @@
       "category": "多国間・安全保障",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-15",
-      "latestDevTitle": "ナウル共和国、台湾との断交を発表し中国との国交回復を表明",
-      "devCount": 10,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-25",
+      "latestDevTitle": "豪・ツバル「ファレピリ連合条約」の発効手続き完了、気候移住査証の運用開始へ",
+      "devCount": 12,
       "sim": 15,
       "ovLen": 648,
       "bgLen": 728,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "panama-canal-drought-global-shipping-chokepoint",
@@ -2528,17 +2506,15 @@
       "category": "同盟・安全保障",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-28",
-      "latestDevTitle": "国連安保理、ロシアの拒否権行使で北朝鮮制裁専門家パネルが解体",
-      "devCount": 6,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-02-10",
+      "latestDevTitle": "多国間制裁監視チーム（MSMT）が露朝違法武器取引に関する初の合同詳細報告を公表",
+      "devCount": 8,
       "sim": 15,
       "ovLen": 657,
       "bgLen": 606,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "sahel-africa-coups",
@@ -2583,17 +2559,15 @@
       "category": "国際安全保障・海洋",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-11",
-      "latestDevTitle": "ワシントンで史上初の日米比首脳会談を開催、共同声明を発出",
-      "devCount": 4,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-15",
+      "latestDevTitle": "日米比豪が南シナ海で定期海上協調活動（MMCA）を展開、比軍への防衛協力拡大",
+      "devCount": 7,
       "sim": 8,
       "ovLen": 591,
       "bgLen": 600,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "south-korea-martial-law-yoon-impeachment",
@@ -2602,17 +2576,15 @@
       "category": "東アジア情勢・民主主義の危機・韓国政治",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-12-03",
-      "latestDevTitle": "尹錫悦大統領が夜間に45年ぶりとなる「非常戒厳令」を電撃宣布",
-      "devCount": 3,
-      "sim": 12,
-      "ovLen": 738,
-      "bgLen": 1035,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-10",
+      "latestDevTitle": "尹大統領の身柄拘束・出国禁止と金龍顕前国防相の起訴、政権代行体制の長期化",
+      "devCount": 5,
+      "sim": 9,
+      "ovLen": 563,
+      "bgLen": 425,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "space-debris-orbital-sustainability",
@@ -2716,17 +2688,15 @@
       "category": "紛争・安全保障",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-13",
-      "latestDevTitle": "台湾総統選挙で民進党の頼清徳副総統が当選",
-      "devCount": 5,
+      "latestDevYear": 2026,
+      "latestDevDate": "2026-09-20",
+      "latestDevTitle": "日米韓外相会談で「台湾海峡の平和と安定」の重要性を共同声明に明記",
+      "devCount": 7,
       "sim": 8,
       "ovLen": 649,
       "bgLen": 455,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "trump-assassination-attempt-butler",
@@ -2789,17 +2759,15 @@
       "category": "二国間関係",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-05-14",
-      "latestDevTitle": "米国、中国製EVや半導体などに対する通商法301条の追加関税引き上げを発表",
-      "devCount": 5,
+      "latestDevYear": 2026,
+      "latestDevDate": "2026-06-18",
+      "latestDevTitle": "米政府、対中対外直接投資規制（アウトバウンド規制）の対象を量子・先端AIへ全面適用",
+      "devCount": 7,
       "sim": 8,
       "ovLen": 577,
       "bgLen": 552,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "us-presidential-election",
@@ -2844,15 +2812,14 @@
       "category": "米中対立・情報安全保障・デジタル覇権",
       "clusterId": "intl-1",
       "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-13",
-      "latestDevTitle": "米連邦議会下院が352対65の圧倒的賛成多数でTikTok禁止法案をスピード可決",
-      "devCount": 4,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-01-17",
+      "latestDevTitle": "米連邦最高裁がTikTok側の上訴を退け、禁止法の合憲判断を支持",
+      "devCount": 7,
       "sim": 11,
       "ovLen": 814,
       "bgLen": 1035,
       "issues": [
-        "⚠️ 経緯が2024年で停止",
         "⚠️ バイデン政権表記(1箇所)"
       ],
       "needsAudit": true
@@ -5348,8 +5315,8 @@
     "intl-1": {
       "name": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
       "total": 18,
-      "stopped2024OrEarlier": 17,
-      "current": 1,
+      "stopped2024OrEarlier": 0,
+      "current": 18,
       "highOverlap": 0,
       "topics": [
         {
@@ -5359,17 +5326,15 @@
           "category": "アジア・太平洋",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-06-17",
-          "latestDevTitle": "セカンド・トーマス礁付近で中国海警船が比補給船に衝突、比兵士が重傷",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-01",
+          "latestDevTitle": "マレーシアがASEAN議長国に就任、米中対立緩和と地域経済統合を最優先課題に設定",
+          "devCount": 7,
           "sim": 11,
           "ovLen": 641,
           "bgLen": 536,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "bangladesh-revolution-hasina-yunus-transition",
@@ -5378,17 +5343,15 @@
           "category": "南アジア情勢・体制転換・地政学変動",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-07-18",
-          "latestDevTitle": "政府が全国でインターネットを完全遮断し外出禁止令、衝突激化",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-15",
+          "latestDevTitle": "ユヌス暫定政権が国家改革委員会の答申を受理、総選挙ロードマップの協議を開始",
+          "devCount": 5,
           "sim": 11,
           "ovLen": 716,
           "bgLen": 581,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "central-asia-c5-geopolitics",
@@ -5397,17 +5360,15 @@
           "category": "ロシア・CIS・中央アジア",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-08-09",
-          "latestDevTitle": "日本・中央アジア5カ国首脳会合（首脳サミット）が初開催推進",
-          "devCount": 5,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-20",
+          "latestDevTitle": "中央回廊（カスピ海横断ルート）の近代化合弁事業が本格化、中欧直結輸送が拡大",
+          "devCount": 6,
           "sim": 13,
           "ovLen": 632,
           "bgLen": 501,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "china-japan-seafood-ban-alps-water",
@@ -5416,17 +5377,15 @@
           "category": "日中関係・通商摩擦・海洋安全保障",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-09-20",
-          "latestDevTitle": "日中両政府が日本産水産物の輸入段階的再開で歴史的合意を発表",
-          "devCount": 4,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-05-15",
+          "latestDevTitle": "IAEA、中国専門家参加による福島沖サンプリング分析で異常なしと報告",
+          "devCount": 6,
           "sim": 13,
           "ovLen": 781,
           "bgLen": 1056,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "china-real-estate-economic-slowdown",
@@ -5435,17 +5394,15 @@
           "category": "国際経済・金融",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-29",
-          "latestDevTitle": "香港高等法院が中国恒大集団に対し清算命令を発出",
-          "devCount": 3,
+          "latestDevYear": 2026,
+          "latestDevDate": "2026-03-15",
+          "latestDevTitle": "中国全人代が成長率目標「5%前後」を掲げ、超長期特別国債と在庫買い取りを継続",
+          "devCount": 5,
           "sim": 13,
           "ovLen": 687,
           "bgLen": 627,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "indo-pacific-quad",
@@ -5454,17 +5411,15 @@
           "category": "同盟・連携枠組み",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-09-21",
-          "latestDevTitle": "米ウィルミントンで第6回日米豪印（Quad）首脳会合を開催",
-          "devCount": 9,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-10",
+          "latestDevTitle": "Quad海上保安機関が初の共同ミッション「Quad-at-Sea」を実施",
+          "devCount": 10,
           "sim": 11,
           "ovLen": 458,
           "bgLen": 458,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "japan-china-relations",
@@ -5473,17 +5428,15 @@
           "category": "外交・二国間関係",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-08-26",
-          "latestDevTitle": "中国軍のY-9情報収集機が男女群島沖で日本領空を侵犯",
-          "devCount": 6,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-25",
+          "latestDevTitle": "尖閣諸島周辺で中国海警船の領海侵入が年間最多ペースで継続",
+          "devCount": 8,
           "sim": 10,
           "ovLen": 708,
           "bgLen": 526,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "japan-south-korea-relations",
@@ -5492,17 +5445,15 @@
           "category": "二国間・東アジア外交",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-05-26",
-          "latestDevTitle": "ソウルで日韓首脳会談および約4年半ぶりの日中韓サミットを開催",
-          "devCount": 4,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-15",
+          "latestDevTitle": "国交正常化60周年を迎えた日韓両国、内政変動下での実務協力維持を確認",
+          "devCount": 7,
           "sim": 10,
           "ovLen": 617,
           "bgLen": 522,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "myanmar-crisis",
@@ -5511,17 +5462,15 @@
           "category": "紛争・安全保障",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-10",
-          "latestDevTitle": "ミャンマー軍政が「国民兵役法」の即時適用を発表",
-          "devCount": 9,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-31",
+          "latestDevTitle": "軍事政権が非常事態宣言をさらに半年延長、支配地域喪失で総選挙実施が事実上困難に",
+          "devCount": 12,
           "sim": 9,
           "ovLen": 496,
           "bgLen": 460,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "north-korea-nuclear-missile",
@@ -5530,17 +5479,15 @@
           "category": "紛争・安全保障",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-28",
-          "latestDevTitle": "国連安保理、ロシアの拒否権行使により北朝鮮制裁専門家パネルの任期延長が否決",
-          "devCount": 12,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-20",
+          "latestDevTitle": "北朝鮮が中距離極超音速滑空ミサイルを発射、日米韓が迎撃回避能力を警戒",
+          "devCount": 15,
           "sim": 12,
           "ovLen": 533,
           "bgLen": 521,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "pacific-island-nations-climate-geopolitics",
@@ -5549,17 +5496,15 @@
           "category": "多国間・安全保障",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-15",
-          "latestDevTitle": "ナウル共和国、台湾との断交を発表し中国との国交回復を表明",
-          "devCount": 10,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-25",
+          "latestDevTitle": "豪・ツバル「ファレピリ連合条約」の発効手続き完了、気候移住査証の運用開始へ",
+          "devCount": 12,
           "sim": 15,
           "ovLen": 648,
           "bgLen": 728,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "russia-north-korea-alliance",
@@ -5568,17 +5513,15 @@
           "category": "同盟・安全保障",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-28",
-          "latestDevTitle": "国連安保理、ロシアの拒否権行使で北朝鮮制裁専門家パネルが解体",
-          "devCount": 6,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-02-10",
+          "latestDevTitle": "多国間制裁監視チーム（MSMT）が露朝違法武器取引に関する初の合同詳細報告を公表",
+          "devCount": 8,
           "sim": 15,
           "ovLen": 657,
           "bgLen": 606,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "semiconductor-supply-chain",
@@ -5604,17 +5547,15 @@
           "category": "国際安全保障・海洋",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-11",
-          "latestDevTitle": "ワシントンで史上初の日米比首脳会談を開催、共同声明を発出",
-          "devCount": 4,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-15",
+          "latestDevTitle": "日米比豪が南シナ海で定期海上協調活動（MMCA）を展開、比軍への防衛協力拡大",
+          "devCount": 7,
           "sim": 8,
           "ovLen": 591,
           "bgLen": 600,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "south-korea-martial-law-yoon-impeachment",
@@ -5623,17 +5564,15 @@
           "category": "東アジア情勢・民主主義の危機・韓国政治",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-12-03",
-          "latestDevTitle": "尹錫悦大統領が夜間に45年ぶりとなる「非常戒厳令」を電撃宣布",
-          "devCount": 3,
-          "sim": 12,
-          "ovLen": 738,
-          "bgLen": 1035,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-10",
+          "latestDevTitle": "尹大統領の身柄拘束・出国禁止と金龍顕前国防相の起訴、政権代行体制の長期化",
+          "devCount": 5,
+          "sim": 9,
+          "ovLen": 563,
+          "bgLen": 425,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "taiwan-strait",
@@ -5642,17 +5581,15 @@
           "category": "紛争・安全保障",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-13",
-          "latestDevTitle": "台湾総統選挙で民進党の頼清徳副総統が当選",
-          "devCount": 5,
+          "latestDevYear": 2026,
+          "latestDevDate": "2026-09-20",
+          "latestDevTitle": "日米韓外相会談で「台湾海峡の平和と安定」の重要性を共同声明に明記",
+          "devCount": 7,
           "sim": 8,
           "ovLen": 649,
           "bgLen": 455,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "us-china-relations",
@@ -5661,17 +5598,15 @@
           "category": "二国間関係",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-05-14",
-          "latestDevTitle": "米国、中国製EVや半導体などに対する通商法301条の追加関税引き上げを発表",
-          "devCount": 5,
+          "latestDevYear": 2026,
+          "latestDevDate": "2026-06-18",
+          "latestDevTitle": "米政府、対中対外直接投資規制（アウトバウンド規制）の対象を量子・先端AIへ全面適用",
+          "devCount": 7,
           "sim": 8,
           "ovLen": 577,
           "bgLen": 552,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "us-tiktok-ban-law-digital-cold-war",
@@ -5680,15 +5615,14 @@
           "category": "米中対立・情報安全保障・デジタル覇権",
           "clusterId": "intl-1",
           "clusterName": "【国際①】米中対立・東アジア・アジア太平洋・半導体",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-13",
-          "latestDevTitle": "米連邦議会下院が352対65の圧倒的賛成多数でTikTok禁止法案をスピード可決",
-          "devCount": 4,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-01-17",
+          "latestDevTitle": "米連邦最高裁がTikTok側の上訴を退け、禁止法の合憲判断を支持",
+          "devCount": 7,
           "sim": 11,
           "ovLen": 814,
           "bgLen": 1035,
           "issues": [
-            "⚠️ 経緯が2024年で停止",
             "⚠️ バイデン政権表記(1箇所)"
           ],
           "needsAudit": true

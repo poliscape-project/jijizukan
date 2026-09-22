@@ -11,11 +11,11 @@
 | **【国内③】社会保障・医療・介護・少子化・子ども** | 12件 | 🎉 **0件（完了）** | 12件 | 0件 |
 | **【国内④】労働・働き方・産業・農林水産・インフラ・地方** | 27件 | 🎉 **0件（完了）** | 27件 | 0件 |
 | **【国内⑤】治安・警察・司法・法務・教育・文化・IT** | 34件 | 🎉 **0件（完了）** | 34件 | 0件 |
-| **【国際①】米中対立・東アジア・アジア太平洋・半導体** | 18件 | **17件** | 1件 | 0件 |
+| **【国際①】米中対立・東アジア・アジア太平洋・半導体** | 18件 | 🎉 **0件（完了）** | 18件 | 0件 |
 | **【国際②】ロシア・ウクライナ・欧州・NATO** | 4件 | **3件** | 1件 | 0件 |
 | **【国際③】中東情勢・グローバルサウス・新興国・資源** | 11件 | **10件** | 1件 | 0件 |
 | **【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法** | 29件 | **26件** | 3件 | 1件 |
-| **合計** | **164件** | **56件 (34%)** | **108件 (66%)** | **1件** |
+| **合計** | **164件** | **39件 (24%)** | **125件 (76%)** | **1件** |
 
 ### 主な課題と進捗
 - ✅ **【国内①】政治・統治・選挙・政党・国会**: 全14件のリライト・最新化（2025-2026年動向反映、重複排除）が完了！
@@ -23,7 +23,8 @@
 - ✅ **【国内③】社会保障・医療・介護・少子化・子ども**: 全12件のリライト・最新化（墓じまい、紅麹サプリ、ヤングケアラー、子どものスマホ規制、認知症基本法、医療制度改革、孤独・孤立対策、マイナ保険証、生活保護高齢化、年金改革等）が完了！全件に海外比較（3カ国）を完備！
 - ✅ **【国内④】労働・働き方・産業・農林水産・インフラ・地方**: 全27件のリライト・最新化（カスハラ、フリーランス、物流・働き方改革、宝塚歌劇団、給特法、最賃1500円、リニア静岡、ローカル線、ライドシェア、高齢ドライバー、羽田衝突、知床沈没、上下水道インフラ、食料基本法、令和の米騒動、メガソーラー、大阪万博、能登解体、入管法・育成就労、外国人土地取得、川口市仮放免、赤信号判決、外国人事故統計・無保険、危険運転数値基準、ACDインフラ防衛、オーバーツーリズム等）が完了！全件に海外制度比較（2〜3カ国）を完備！
 - ✅ **【国内⑤】治安・警察・司法・法務・教育・文化・IT**: 全34件のリライト・最新化（生成AI著作権、トクリュウ・闇バイト、オンカジ水原事件、ホスト売掛金・大久保公園、頂き女子りりちゃん、ジャニーズ性加害、セクシー田中さん原作改変、松本人志訴訟終結、日大アメフト薬物、スシローペロペロ外食DX、共同親権、選択的夫婦別姓、北朝鮮拉致、東京五輪汚職談合、PFAS汚染、不登校多様化学校、10兆円大学ファンド、自治体システム標準化、地方創生消滅自治体、空き家所有者不明土地対策等）が完了！全件に海外制度比較（2〜3カ国）を完備！
-- 🔴 残り要更新トピック: **56件**（国内編全102件完了！残りすべて国際編の国際①〜④）
+- ✅ **【国際①】米中対立・東アジア・アジア太平洋・半導体**: 全18件のリライト・最新化（台湾海峡、米中関係、TikTok禁止法、中国不動産バブル、日中関係、処理水禁輸、南シナ海、Quad、北朝鮮核ミサイル、露朝軍事同盟、日韓関係、尹錫悦弾劾・戒厳令、ASEAN分断、バングラデシュ学生革命、ミャンマー危機、中央アジアC5、太平洋島嶼国、半導体サプライチェーン）が完了！全18件に海外制度比較（2〜3カ国）を完備！
+- 🔴 残り要更新トピック: **39件**（国際②〜④の3クラスタ）
 
 ---
 
@@ -156,28 +157,28 @@
 | ✅ 済 | `unification-church-issue` | [旧統一教会問題と被害者救済・政界との関係](src/data/topics/domestic/unification-church-issue.json) | 2026-01-21 | 11% | 問題なし |
 | ✅ 済 | `wildlife-protection-bear-attacks` | [クマ被害急増と指定管理鳥獣・鳥獣保護管理法改正](src/data/topics/domestic/wildlife-protection-bear-attacks.json) | 2026-05-15 | 11% | 問題なし |
 
-### 【国際①】米中対立・東アジア・アジア太平洋・半導体（全18件 / 要更新: 17件）
+### 【国際①】米中対立・東アジア・アジア太平洋・半導体（全18件 / 🎉 [ALL COMPLETED]）
 
 | 状態 | ID | タイトル | 最新経緯 | 重複度 | 検出された課題・注意事項 |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| 🔴 要更新 | `asean-unity-crisis-superpowers-rivalry` | [東南アジア（ASEAN）の分断と大国間パワーゲーム](src/data/topics/international/asean-unity-crisis-superpowers-rivalry.json) | 2024-06-17 | 11% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `bangladesh-revolution-hasina-yunus-transition` | [バングラデシュ「学生革命」とハシナ政権崩壊・ユヌス暫定政権発足](src/data/topics/international/bangladesh-revolution-hasina-yunus-transition.json) | 2024-07-18 | 11% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `central-asia-c5-geopolitics` | [中央アジア「C5+1」と大国（中米露）の争奪戦](src/data/topics/international/central-asia-c5-geopolitics.json) | 2024-08-09 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `china-japan-seafood-ban-alps-water` | [中国による日本産水産物の全面禁輸（ALPS処理水放出）と日中外交・水産サバイバル](src/data/topics/international/china-japan-seafood-ban-alps-water.json) | 2024-09-20 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `china-real-estate-economic-slowdown` | [中国の不動産バブル崩壊と経済減速](src/data/topics/international/china-real-estate-economic-slowdown.json) | 2024-01-29 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `indo-pacific-quad` | [インド太平洋戦略・Quad](src/data/topics/international/indo-pacific-quad.json) | 2024-09-21 | 11% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `japan-china-relations` | [日中関係の雪解けと摩擦](src/data/topics/international/japan-china-relations.json) | 2024-08-26 | 10% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `japan-south-korea-relations` | [日韓関係](src/data/topics/international/japan-south-korea-relations.json) | 2024-05-26 | 10% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `myanmar-crisis` | [ミャンマー軍事クーデター](src/data/topics/international/myanmar-crisis.json) | 2024-02-10 | 9% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `north-korea-nuclear-missile` | [北朝鮮の核・ミサイル問題](src/data/topics/international/north-korea-nuclear-missile.json) | 2024-03-28 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `pacific-island-nations-climate-geopolitics` | [太平洋島嶼国と気候危機・大国間安全保障競争](src/data/topics/international/pacific-island-nations-climate-geopolitics.json) | 2024-01-15 | 15% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `russia-north-korea-alliance` | [ロシア・北朝鮮軍事同盟と核・ミサイル](src/data/topics/international/russia-north-korea-alliance.json) | 2024-03-28 | 15% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `south-china-sea-conflict` | [南シナ海領有権問題と周辺国の対立](src/data/topics/international/south-china-sea-conflict.json) | 2024-04-11 | 8% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `south-korea-martial-law-yoon-impeachment` | [韓国・尹錫悦大統領の「非常戒厳令」宣布と弾劾・職務停止（6時間の電撃戒厳）](src/data/topics/international/south-korea-martial-law-yoon-impeachment.json) | 2024-12-03 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `taiwan-strait` | [台湾海峡情勢](src/data/topics/international/taiwan-strait.json) | 2024-01-13 | 8% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `us-china-relations` | [米中関係と対中ハイテク規制](src/data/topics/international/us-china-relations.json) | 2024-05-14 | 8% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `us-tiktok-ban-law-digital-cold-war` | [米国「TikTok禁止法」成立と米中デジタル冷戦・情報安全保障](src/data/topics/international/us-tiktok-ban-law-digital-cold-war.json) | 2024-03-13 | 11% | ⚠️ 経緯が2024年で停止, ⚠️ バイデン政権表記(1箇所) |
-| ✅ 済 | `semiconductor-supply-chain` | [半導体サプライチェーン覇権](src/data/topics/international/semiconductor-supply-chain.json) | 2025-04-01 | 11% | 問題なし |
+| ✅ 済 | `asean-unity-crisis-superpowers-rivalry` | [東南アジア（ASEAN）の分断と大国間パワーゲーム](src/data/topics/international/asean-unity-crisis-superpowers-rivalry.json) | 2025-01-01 | 11% | 問題なし（マレーシア議長国・海外比較追加済） |
+| ✅ 済 | `bangladesh-revolution-hasina-yunus-transition` | [バングラデシュ「学生革命」とハシナ政権崩壊・ユヌス暫定政権発足](src/data/topics/international/bangladesh-revolution-hasina-yunus-transition.json) | 2025-01-15 | 11% | 問題なし（国家改革委答申・海外比較追加済） |
+| ✅ 済 | `central-asia-c5-geopolitics` | [中央アジア「C5+1」と大国（中米露）の争奪戦](src/data/topics/international/central-asia-c5-geopolitics.json) | 2025-01-20 | 12% | 問題なし（中央回廊・首脳サミット・海外比較追加済） |
+| ✅ 済 | `china-japan-seafood-ban-alps-water` | [中国による日本産水産物の全面禁輸（ALPS処理水放出）と日中外交・水産サバイバル](src/data/topics/international/china-japan-seafood-ban-alps-water.json) | 2025-03-20 | 11% | 問題なし（IAEAサンプリング・輸入段階的再開・海外比較追加済） |
+| ✅ 済 | `china-real-estate-economic-slowdown` | [中国の不動産バブル崩壊と経済減速](src/data/topics/international/china-real-estate-economic-slowdown.json) | 2025-03-05 | 12% | 問題なし（全人代5%成長・白名単4兆元・海外比較追加済） |
+| ✅ 済 | `indo-pacific-quad` | [日米豪印クアッド（Quad）とインド太平洋構想](src/data/topics/international/indo-pacific-quad.json) | 2025-03-01 | 10% | 問題なし（Quad-at-Sea洋上共同研修・ウィルミントン宣言・海外比較追加済） |
+| ✅ 済 | `japan-china-relations` | [日中関係の雪解けと摩擦](src/data/topics/international/japan-china-relations.json) | 2025-03-15 | 10% | 問題なし（深圳事件外務次官協議・首脳戦略的互恵・海外比較追加済） |
+| ✅ 済 | `japan-south-korea-relations` | [日韓関係の歴史的改善と残された火種（シャトル外交復活と政権基盤の揺らぎ）](src/data/topics/international/japan-south-korea-relations.json) | 2025-01-13 | 11% | 問題なし（国交正常化60周年・事務局創設・海外比較追加済） |
+| ✅ 済 | `myanmar-crisis` | [ミャンマー軍事クーデター](src/data/topics/international/myanmar-crisis.json) | 2025-01-31 | 12% | 問題なし（ラシオ司令部陥落・非常事態延長・海外比較追加済） |
+| ✅ 済 | `north-korea-nuclear-missile` | [北朝鮮の核・ミサイル問題](src/data/topics/international/north-korea-nuclear-missile.json) | 2025-01-06 | 12% | 問題なし（極超音速・火星19・ロシア技術供与・海外比較追加済） |
+| ✅ 済 | `pacific-island-nations-climate-geopolitics` | [太平洋島嶼国と気候危機・大国間安全保障競争](src/data/topics/international/pacific-island-nations-climate-geopolitics.json) | 2025-01-25 | 13% | 問題なし（ファレピリ条約発効・COP29・海外比較追加済） |
+| ✅ 済 | `russia-north-korea-alliance` | [ロシア・北朝鮮軍事同盟と核・ミサイル](src/data/topics/international/russia-north-korea-alliance.json) | 2025-01-15 | 11% | 問題なし（クルスク州直接交戦・MSMT報告・海外比較追加済） |
+| ✅ 済 | `semiconductor-supply-chain` | [半導体サプライチェーン覇権](src/data/topics/international/semiconductor-supply-chain.json) | 2025-04-01 | 11% | 問題なし（ラピダス2nm試作・CHIPS法・海外比較追加済） |
+| ✅ 済 | `south-china-sea-conflict` | [南シナ海領有権問題と周辺国の対立](src/data/topics/international/south-china-sea-conflict.json) | 2025-02-10 | 9% | 問題なし（MMCA定期化・フィリピン海洋領域法・海外比較追加済） |
+| ✅ 済 | `south-korea-martial-law-yoon-impeachment` | [韓国・尹錫悦大統領の「非常戒厳令」宣布と弾劾・職務停止（6時間の電撃戒厳）](src/data/topics/international/south-korea-martial-law-yoon-impeachment.json) | 2025-02-15 | 12% | 問題なし（憲法裁弾劾弁論・内乱罪捜査・海外比較追加済） |
+| ✅ 済 | `taiwan-strait` | [台湾海峡情勢](src/data/topics/international/taiwan-strait.json) | 2026-08-20 | 8% | 問題なし（頼総統防衛費増額・連合利剣演習・海外比較追加済） |
+| ✅ 済 | `us-china-relations` | [米中関係と対中ハイテク規制](src/data/topics/international/us-china-relations.json) | 2026-06-18 | 8% | 問題なし（トランプ関税・アウトバウンド規制・海外比較追加済） |
+| ✅ 済 | `us-tiktok-ban-law-digital-cold-war` | [米国「TikTok禁止法」成立と米中デジタル冷戦・情報安全保障](src/data/topics/international/us-tiktok-ban-law-digital-cold-war.json) | 2025-01-20 | 11% | 問題なし（最高裁合憲判断・トランプ売却延期・海外比較追加済） |
 
 ### 【国際②】ロシア・ウクライナ・欧州・NATO（全4件 / 要更新: 3件）
 
