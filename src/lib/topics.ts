@@ -1,8 +1,9 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (101件)
+// 国内トピック (102件)
 import abandonedGravesTempleCrisisCremationData from "@/data/topics/domestic/abandoned-graves-temple-crisis-cremation.json";
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
+import agricultureLivestockLaborShortageSafetyCrisisData from "@/data/topics/domestic/agriculture-livestock-labor-shortage-safety-crisis.json";
 import benikojiSupplementHealthDamageFoodLabelingData from "@/data/topics/domestic/benikoji-supplement-health-damage-food-labeling.json";
 import bigmotorInsuranceFraudStreetTreesData from "@/data/topics/domestic/bigmotor-insurance-fraud-street-trees.json";
 import bojMonetaryPolicyNormalizationData from "@/data/topics/domestic/boj-monetary-policy-normalization.json";
@@ -170,6 +171,7 @@ import whoPandemicTreatyNegotiationsData from "@/data/topics/international/who-p
 export const topics: Topic[] = [
   { ...abandonedGravesTempleCrisisCremationData, createdAt: "2026-09-21T23:10:53+09:00" } as unknown as Topic,
   { ...agingInfrastructureWaterPipesCrisisData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
+  { ...agricultureLivestockLaborShortageSafetyCrisisData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...benikojiSupplementHealthDamageFoodLabelingData, createdAt: "2026-09-21T22:00:47+09:00" } as unknown as Topic,
   { ...bigmotorInsuranceFraudStreetTreesData, createdAt: "2026-09-21T22:00:47+09:00" } as unknown as Topic,
   { ...bojMonetaryPolicyNormalizationData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
@@ -293,7 +295,7 @@ export const topics: Topic[] = [
   { ...globalLgbtqGenderCultureWarData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
   { ...globalMigrationRefugeeCrisisData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...globalSouthBricsData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
-  { ...iccPresidentAkaneSanctionsInternationalLawData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...iccPresidentAkaneSanctionsInternationalLawData, createdAt: "2026-09-22T11:11:36+09:00" } as unknown as Topic,
   { ...indiaStrategicAutonomyDiplomacyData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...indoPacificQuadData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...iranNuclearData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,

@@ -1,14 +1,15 @@
 <!-- このファイルは generate-topics.cjs により自動生成されます。手動編集しないでください。 -->
-# TOPIC_REGISTRY — 全163件のトピック一覧
+# TOPIC_REGISTRY — 全164件のトピック一覧
 
 > **AIエージェントへ**: 新しいトピックを提案する前に、このファイルで既存トピックとの重複がないか必ず確認してください。ID・タイトル・キーワードのいずれかが類似していれば、そのトピックは既に存在します。
 
-## 国内トピック（101件）
+## 国内トピック（102件）
 
 | ID | タイトル | 主要キーワード |
 |---|---|---|
 | abandoned-graves-temple-crisis-cremation | 「墓じまい」急増・無縁墓問題と地方寺院の消滅危機 | 墓じまい, 改葬, 無縁墓, 檀家制度崩壊, 地方寺院消滅, 樹木葬 |
 | aging-infrastructure-water-pipes-crisis | 水道・道路など老朽化インフラ危機と自治体の限界 | 道路陥没, 水道管老朽化, 下水道管破損, インフラ維持更新費, 予防保全, 国土強靱化 |
+| agriculture-livestock-labor-shortage-safety-crisis | 農業・畜産現場の深刻な人手不足と労働安全危機 | 農業労働安全, 畜産労災, 人手不足, ワンオペ作業, 養豚場事故, 成豚体重 |
 | benikoji-supplement-health-damage-food-labeling | 小林製薬「紅麹サプリ」健康被害事件と機能性表示食品制度の抜本見直し | 紅麹, 小林製薬, 機能性表示食品, プベルル酸, 健康被害, アベノミクス規制緩和 |
 | bigmotor-insurance-fraud-street-trees | ビッグモーター不正請求・街路樹除草剤事件と損害保険業界の構造的癒着 | ビッグモーター, 損保ジャパン, 保険金不正請求, 街路樹, 除草剤, 兼重宏行 |
 | boj-monetary-policy-normalization | 日銀の金融政策正常化と「金利のある世界」 | 日本銀行, 金融政策正常化, 政策金利1.25パーセント, 国債金利4パーセント, 超長期国債利回り, アメリカ利上げ |
@@ -137,7 +138,7 @@
 | global-lgbtq-gender-culture-war | 世界のLGBTQ+・ジェンダー対立（欧米 vs 反ジェンダー同盟） | LGBTQ人権, 同性婚, ウガンダ反同性愛法, ロシア過激派指定, カルチャーウォー, トランスジェンダー |
 | global-migration-refugee-crisis | 世界の難民・移民危機と国境管理をめぐる対立 | 難民危機, 移民問題, UNHCR, 国境管理, シェンゲン協定, EU移民協定 |
 | global-south-brics | グローバルサウスの台頭 | グローバルサウス, BRICS, 拡大BRICS, カザン首脳会議, 脱ドル化, 自国通貨決済 |
-| icc-president-akane-sanctions-international-law | ICC赤根智子所長と大国の圧力（プーチン指名手配・米制裁論） | 国際刑事裁判所, ICC, 赤根智子, プーチン逮捕状, ネタニヤフ, ガザ戦争犯罪 |
+| icc-president-akane-sanctions-international-law | ICC赤根智子所長と大国の圧力（プーチン指名手配・米制裁論） | 国際刑事裁判所, ICC, 赤根智子, プーチン逮捕状, ネタニヤフ逮捕状, ガザ戦争犯罪 |
 | india-strategic-autonomy-diplomacy | インドの世界外交と「戦略的自律」 | インド, モディ政権, 戦略的自律, Quad, グローバルサウス, ロシア産原油 |
 | indo-pacific-quad | インド太平洋戦略・Quad | インド太平洋, Quad, 日米豪印, FOIP, 海洋安全保障, 航行の自由 |
 | iran-nuclear | イラン核問題 | イラン, 核開発, JCPOA, IAEA, ウラン濃縮, 経済制裁 |
