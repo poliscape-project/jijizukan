@@ -79,17 +79,15 @@
       "category": "企業統治・金融行政・消費者保護",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-26",
-      "latestDevTitle": "金融庁が損保ジャパンとSOMPOホールディングスに業務改善命令を発出",
-      "devCount": 6,
-      "sim": 13,
-      "ovLen": 726,
-      "bgLen": 1034,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2026,
+      "latestDevDate": "2026-06-01",
+      "latestDevTitle": "改正保険業法が施行、大型保険代理店と修理業の兼業・便宜供与への規制強化",
+      "devCount": 8,
+      "sim": 7,
+      "ovLen": 510,
+      "bgLen": 382,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "boj-monetary-policy-normalization",
@@ -134,15 +132,14 @@
       "category": "社会保障・税制・少子化対策",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-16",
-      "latestDevTitle": "子ども・子育て支援金制度を盛り込んだ改正法案を閣議決定",
-      "devCount": 4,
-      "sim": 12,
-      "ovLen": 710,
-      "bgLen": 865,
+      "latestDevYear": 2026,
+      "latestDevDate": "2026-04-01",
+      "latestDevTitle": "子ども・子育て支援金の徴収が全国で一斉開始、初年度年6,000億円規模",
+      "devCount": 7,
+      "sim": 9,
+      "ovLen": 590,
+      "bgLen": 286,
       "issues": [
-        "⚠️ 経緯が2024年で停止",
         "⚠️ 岸田政権表記(1箇所)"
       ],
       "needsAudit": true
@@ -369,17 +366,15 @@
       "category": "金融行政・通貨主権・地域経済",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-22",
-      "latestDevTitle": "日本銀行が「CBDCフォーラム」の進捗状況を公表、実務検討進む",
-      "devCount": 3,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-11-20",
+      "latestDevTitle": "日銀・財務省がデジタル円の制度設計報告書を公表、保有上限と付利なし方針を提示",
+      "devCount": 5,
       "sim": 12,
-      "ovLen": 765,
-      "bgLen": 597,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "ovLen": 623,
+      "bgLen": 330,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "disaster-prevention-agency",
@@ -771,18 +766,15 @@
       "category": "行政・内閣・税制",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-10-27",
-      "latestDevTitle": "第50回衆院選で「手取りを増やす」国民民主党が28議席へ4倍増",
-      "devCount": 5,
-      "sim": 18,
-      "ovLen": 702,
-      "bgLen": 923,
-      "issues": [
-        "⚠️ 経緯が2024年で停止",
-        "⚠️ 現状と背景の重複度高 (18%)"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-28",
+      "latestDevTitle": "令和7年度税制改正関連法が成立、学生アルバイト特例の創設と基礎控除見直し",
+      "devCount": 7,
+      "sim": 11,
+      "ovLen": 652,
+      "bgLen": 337,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "invoice-system-freelance-controversy",
@@ -791,17 +783,15 @@
       "category": "税制・中小企業・フリーランス行政",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2023,
-      "latestDevDate": "2023-09-29",
-      "latestDevTitle": "「STOP! インボイス」が54万筆超の反対署名を総理官邸・財務省に提出",
-      "devCount": 4,
-      "sim": 13,
-      "ovLen": 718,
-      "bgLen": 1001,
-      "issues": [
-        "⚠️ 経緯が2023年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-12-19",
+      "latestDevTitle": "与党税制改正大綱で2割特例終了後の個人向け「3割特例」新設が決定",
+      "devCount": 6,
+      "sim": 11,
+      "ovLen": 517,
+      "bgLen": 398,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "itadaki-joshi-ririchan-romance-fraud",
@@ -1303,17 +1293,15 @@
       "category": "経済・観光",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-09-10",
-      "latestDevTitle": "大阪IRが夢洲の液状化対策工事を本格化、開業目標を2030年秋に設定",
-      "devCount": 6,
-      "sim": 10,
-      "ovLen": 663,
-      "bgLen": 508,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-12",
+      "latestDevTitle": "警察庁が違法オンラインカジノ決済代行業者を一斉摘発、治安対策を強化",
+      "devCount": 8,
+      "sim": 6,
+      "ovLen": 662,
+      "bgLen": 350,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "overtourism-inbound-policy",
@@ -1416,17 +1404,15 @@
       "category": "行政・エネルギー・経済",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-22",
-      "latestDevTitle": "経産省が2024年度の再エネ賦課金を過去最高水準の「3.49円/kWh」に決定",
-      "devCount": 5,
-      "sim": 12,
-      "ovLen": 787,
-      "bgLen": 841,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-21",
+      "latestDevTitle": "経産省が2025年度再エネ賦課金を決定、年間2.5兆円超の重い負担が継続",
+      "devCount": 6,
+      "sim": 6,
+      "ovLen": 688,
+      "bgLen": 357,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "retrial-law-reform-hakamada",
@@ -1524,17 +1510,15 @@
       "category": "安全保障・法制度・経済政策",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-27",
-      "latestDevTitle": "政府が重要経済安保情報保護活用法案を閣議決定",
-      "devCount": 3,
-      "sim": 15,
-      "ovLen": 665,
-      "bgLen": 515,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-05-09",
+      "latestDevTitle": "「重要経済安保情報保護活用法」が全面施行、適性評価の運用を開始",
+      "devCount": 4,
+      "sim": 12,
+      "ovLen": 624,
+      "bgLen": 366,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "selective-surname-marriage",
@@ -1600,17 +1584,15 @@
       "category": "経済・IT・消費者保護",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-29",
-      "latestDevTitle": "警察庁、2023年のSNS型投資・ロマンス詐欺の被害総額が約455億円と公表",
-      "devCount": 3,
-      "sim": 14,
-      "ovLen": 721,
-      "bgLen": 516,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-05-23",
+      "latestDevTitle": "「情報流通プラットフォーム対処法」が施行、MetaやLINEヤフー等を大規模指定",
+      "devCount": 4,
+      "sim": 10,
+      "ovLen": 701,
+      "bgLen": 365,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "stock-split-market-reform-nikkei",
@@ -1619,17 +1601,15 @@
       "category": "金融市場・産業政策・企業統治改革",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-02-22",
-      "latestDevTitle": "日経平均が34年2カ月ぶりにバブル最高値（38,915円）を更新",
-      "devCount": 4,
-      "sim": 14,
-      "ovLen": 716,
-      "bgLen": 644,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "東証プライム市場で「決算情報の英文同時開示」が義務化",
+      "devCount": 5,
+      "sim": 10,
+      "ovLen": 711,
+      "bgLen": 351,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "sushiro-nuisance-video-food-terrorism",
@@ -1748,18 +1728,15 @@
       "category": "税制改革・不動産・資産課税行政",
       "clusterId": "dom-2",
       "clusterName": "【国内②】経済・財政・税制・金融・物価",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-01",
-      "latestDevTitle": "新マンション相続税評価ルールが施行、最低6割ルールが全面適用",
-      "devCount": 3,
-      "sim": 16,
-      "ovLen": 751,
-      "bgLen": 1047,
-      "issues": [
-        "⚠️ 経緯が2024年で停止",
-        "⚠️ 現状と背景の重複度高 (16%)"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-10-15",
+      "latestDevTitle": "国税庁が新算定ルールの運用状況を公表、租税回避購入の沈静化を確認",
+      "devCount": 4,
+      "sim": 9,
+      "ovLen": 585,
+      "bgLen": 378,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "unification-church-issue",
@@ -3794,9 +3771,9 @@
     "dom-2": {
       "name": "【国内②】経済・財政・税制・金融・物価",
       "total": 15,
-      "stopped2024OrEarlier": 11,
-      "current": 4,
-      "highOverlap": 2,
+      "stopped2024OrEarlier": 0,
+      "current": 15,
+      "highOverlap": 0,
       "topics": [
         {
           "id": "agriculture-livestock-labor-shortage-safety-crisis",
@@ -3822,17 +3799,15 @@
           "category": "企業統治・金融行政・消費者保護",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-26",
-          "latestDevTitle": "金融庁が損保ジャパンとSOMPOホールディングスに業務改善命令を発出",
-          "devCount": 6,
-          "sim": 13,
-          "ovLen": 726,
-          "bgLen": 1034,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2026,
+          "latestDevDate": "2026-06-01",
+          "latestDevTitle": "改正保険業法が施行、大型保険代理店と修理業の兼業・便宜供与への規制強化",
+          "devCount": 8,
+          "sim": 7,
+          "ovLen": 510,
+          "bgLen": 382,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "boj-monetary-policy-normalization",
@@ -3858,15 +3833,14 @@
           "category": "社会保障・税制・少子化対策",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-16",
-          "latestDevTitle": "子ども・子育て支援金制度を盛り込んだ改正法案を閣議決定",
-          "devCount": 4,
-          "sim": 12,
-          "ovLen": 710,
-          "bgLen": 865,
+          "latestDevYear": 2026,
+          "latestDevDate": "2026-04-01",
+          "latestDevTitle": "子ども・子育て支援金の徴収が全国で一斉開始、初年度年6,000億円規模",
+          "devCount": 7,
+          "sim": 9,
+          "ovLen": 590,
+          "bgLen": 286,
           "issues": [
-            "⚠️ 経緯が2024年で停止",
             "⚠️ 岸田政権表記(1箇所)"
           ],
           "needsAudit": true
@@ -3895,17 +3869,15 @@
           "category": "金融行政・通貨主権・地域経済",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-22",
-          "latestDevTitle": "日本銀行が「CBDCフォーラム」の進捗状況を公表、実務検討進む",
-          "devCount": 3,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-11-20",
+          "latestDevTitle": "日銀・財務省がデジタル円の制度設計報告書を公表、保有上限と付利なし方針を提示",
+          "devCount": 5,
           "sim": 12,
-          "ovLen": 765,
-          "bgLen": 597,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "ovLen": 623,
+          "bgLen": 330,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "income-barrier-tax-reform",
@@ -3914,18 +3886,15 @@
           "category": "行政・内閣・税制",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-10-27",
-          "latestDevTitle": "第50回衆院選で「手取りを増やす」国民民主党が28議席へ4倍増",
-          "devCount": 5,
-          "sim": 18,
-          "ovLen": 702,
-          "bgLen": 923,
-          "issues": [
-            "⚠️ 経緯が2024年で停止",
-            "⚠️ 現状と背景の重複度高 (18%)"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-28",
+          "latestDevTitle": "令和7年度税制改正関連法が成立、学生アルバイト特例の創設と基礎控除見直し",
+          "devCount": 7,
+          "sim": 11,
+          "ovLen": 652,
+          "bgLen": 337,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "invoice-system-freelance-controversy",
@@ -3934,17 +3903,15 @@
           "category": "税制・中小企業・フリーランス行政",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2023,
-          "latestDevDate": "2023-09-29",
-          "latestDevTitle": "「STOP! インボイス」が54万筆超の反対署名を総理官邸・財務省に提出",
-          "devCount": 4,
-          "sim": 13,
-          "ovLen": 718,
-          "bgLen": 1001,
-          "issues": [
-            "⚠️ 経緯が2023年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-12-19",
+          "latestDevTitle": "与党税制改正大綱で2割特例終了後の個人向け「3割特例」新設が決定",
+          "devCount": 6,
+          "sim": 11,
+          "ovLen": 517,
+          "bgLen": 398,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "new-nisa-financial-income-tax-debate",
@@ -3970,17 +3937,15 @@
           "category": "経済・観光",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-09-10",
-          "latestDevTitle": "大阪IRが夢洲の液状化対策工事を本格化、開業目標を2030年秋に設定",
-          "devCount": 6,
-          "sim": 10,
-          "ovLen": 663,
-          "bgLen": 508,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-12",
+          "latestDevTitle": "警察庁が違法オンラインカジノ決済代行業者を一斉摘発、治安対策を強化",
+          "devCount": 8,
+          "sim": 6,
+          "ovLen": 662,
+          "bgLen": 350,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "renewable-energy-surcharge-burden",
@@ -3989,17 +3954,15 @@
           "category": "行政・エネルギー・経済",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-22",
-          "latestDevTitle": "経産省が2024年度の再エネ賦課金を過去最高水準の「3.49円/kWh」に決定",
-          "devCount": 5,
-          "sim": 12,
-          "ovLen": 787,
-          "bgLen": 841,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-21",
+          "latestDevTitle": "経産省が2025年度再エネ賦課金を決定、年間2.5兆円超の重い負担が継続",
+          "devCount": 6,
+          "sim": 6,
+          "ovLen": 688,
+          "bgLen": 357,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "security-clearance-economic-espionage",
@@ -4008,17 +3971,15 @@
           "category": "安全保障・法制度・経済政策",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-27",
-          "latestDevTitle": "政府が重要経済安保情報保護活用法案を閣議決定",
-          "devCount": 3,
-          "sim": 15,
-          "ovLen": 665,
-          "bgLen": 515,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-05-09",
+          "latestDevTitle": "「重要経済安保情報保護活用法」が全面施行、適性評価の運用を開始",
+          "devCount": 4,
+          "sim": 12,
+          "ovLen": 624,
+          "bgLen": 366,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "sns-investment-scam-platform-liability",
@@ -4027,17 +3988,15 @@
           "category": "経済・IT・消費者保護",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-29",
-          "latestDevTitle": "警察庁、2023年のSNS型投資・ロマンス詐欺の被害総額が約455億円と公表",
-          "devCount": 3,
-          "sim": 14,
-          "ovLen": 721,
-          "bgLen": 516,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-05-23",
+          "latestDevTitle": "「情報流通プラットフォーム対処法」が施行、MetaやLINEヤフー等を大規模指定",
+          "devCount": 4,
+          "sim": 10,
+          "ovLen": 701,
+          "bgLen": 365,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "stock-split-market-reform-nikkei",
@@ -4046,17 +4005,15 @@
           "category": "金融市場・産業政策・企業統治改革",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-02-22",
-          "latestDevTitle": "日経平均が34年2カ月ぶりにバブル最高値（38,915円）を更新",
-          "devCount": 4,
-          "sim": 14,
-          "ovLen": 716,
-          "bgLen": 644,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "東証プライム市場で「決算情報の英文同時開示」が義務化",
+          "devCount": 5,
+          "sim": 10,
+          "ovLen": 711,
+          "bgLen": 351,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "tower-mansion-inheritance-tax-reform",
@@ -4065,18 +4022,15 @@
           "category": "税制改革・不動産・資産課税行政",
           "clusterId": "dom-2",
           "clusterName": "【国内②】経済・財政・税制・金融・物価",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-01",
-          "latestDevTitle": "新マンション相続税評価ルールが施行、最低6割ルールが全面適用",
-          "devCount": 3,
-          "sim": 16,
-          "ovLen": 751,
-          "bgLen": 1047,
-          "issues": [
-            "⚠️ 経緯が2024年で停止",
-            "⚠️ 現状と背景の重複度高 (16%)"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-10-15",
+          "latestDevTitle": "国税庁が新算定ルールの運用状況を公表、租税回避購入の沈静化を確認",
+          "devCount": 4,
+          "sim": 9,
+          "ovLen": 585,
+          "bgLen": 378,
+          "issues": [],
+          "needsAudit": false
         }
       ]
     },

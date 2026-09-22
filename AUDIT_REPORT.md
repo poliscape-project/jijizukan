@@ -7,7 +7,7 @@
 | クラスタ名 | 全トピック数 | 要最新化（<=2024年停止） | 最新化済（2025-2026年） | 現状/背景 重複要注意 |
 | :--- | :---: | :---: | :---: | :---: |
 | **【国内①】政治・統治・選挙・政党・国会** | 14件 | 🎉 **0件（完了）** | 14件 | 0件 |
-| **【国内②】経済・財政・税制・金融・物価** | 15件 | **11件** | 4件 | 2件 |
+| **【国内②】経済・財政・税制・金融・物価** | 15件 | 🎉 **0件（完了）** | 15件 | 0件 |
 | **【国内③】社会保障・医療・介護・少子化・子ども** | 12件 | **9件** | 3件 | 3件 |
 | **【国内④】労働・働き方・産業・農林水産・インフラ・地方** | 27件 | **17件** | 10件 | 4件 |
 | **【国内⑤】治安・警察・司法・法務・教育・文化・IT** | 34件 | **20件** | 14件 | 2件 |
@@ -15,11 +15,12 @@
 | **【国際②】ロシア・ウクライナ・欧州・NATO** | 4件 | **3件** | 1件 | 0件 |
 | **【国際③】中東情勢・グローバルサウス・新興国・資源** | 11件 | **10件** | 1件 | 0件 |
 | **【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法** | 29件 | **26件** | 3件 | 1件 |
-| **合計** | **164件** | **113件 (69%)** | **51件 (31%)** | **12件** |
+| **合計** | **164件** | **102件 (62%)** | **62件 (38%)** | **10件** |
 
 ### 主な課題と進捗
 - ✅ **【国内①】政治・統治・選挙・政党・国会**: 全14件のリライト・最新化（2025-2026年動向反映、重複排除）が完了！
-- 🔴 残り要更新トピック: **113件**（国内57件 / 国際56件）
+- ✅ **【国内②】経済・財政・税制・金融・物価**: 全15件のリライト・最新化（インボイス、ビッグモーター、支援金、デジタル円、年収の壁、大阪IR、再エネ賦課金、セキュリティー・クリアランス、SNS詐欺、東証改革、タワマン節税等）が完了！
+- 🔴 残り要更新トピック: **102件**（国内46件 / 国際56件）
 
 ---
 
@@ -44,21 +45,21 @@
 | ✅ 済 | `okinawa-gubernatorial-election-2026` | [2026年沖縄県知事選挙（12年ぶり保守県政交代とオール沖縄の終焉）](src/data/topics/domestic/okinawa-gubernatorial-election-2026.json) | 2026-03-16 | 10% | 問題なし |
 | 🟡 概ね最新 | `political-funds-reform` | [政治資金規正法改正と「政治とカネ」の決着](src/data/topics/domestic/political-funds-reform.json) | 2026-01-01 | 13% | ⚠️ 岸田政権表記(1箇所) |
 
-### 【国内②】経済・財政・税制・金融・物価（全15件 / 要更新: 11件）
+### 【国内②】経済・財政・税制・金融・物価（全15件 / 要更新: 0件）🎉 全件改定完了！
 
 | 状態 | ID | タイトル | 最新経緯 | 重複度 | 検出された課題・注意事項 |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| 🔴 要更新 | `invoice-system-freelance-controversy` | [インボイス制度（適格請求書）の導入とフリーランス・零細事業者の大混乱](src/data/topics/domestic/invoice-system-freelance-controversy.json) | 2023-09-29 | 13% | ⚠️ 経緯が2023年で停止 |
-| 🔴 要更新 | `bigmotor-insurance-fraud-street-trees` | [ビッグモーター不正請求・街路樹除草剤事件と損害保険業界の構造的癒着](src/data/topics/domestic/bigmotor-insurance-fraud-street-trees.json) | 2024-01-26 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `childcare-support-contribution-stealth-tax` | [「子ども・子育て支援金」制度と社会保険料上乗せの「実質負担ゼロ」詭弁論争](src/data/topics/domestic/childcare-support-contribution-stealth-tax.json) | 2024-02-16 | 12% | ⚠️ 経緯が2024年で停止, ⚠️ 岸田政権表記(1箇所) |
-| 🔴 要更新 | `digital-yen-cbdc-bank-branch-consolidation` | [「デジタル円（CBDC）」実証実験と地方銀行ATM・店舗大削減](src/data/topics/domestic/digital-yen-cbdc-bank-branch-consolidation.json) | 2024-03-22 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `income-barrier-tax-reform` | [「年収の壁」（103万・106万・130万円）と基礎控除引き上げ・手取り増論争](src/data/topics/domestic/income-barrier-tax-reform.json) | 2024-10-27 | 18% | ⚠️ 経緯が2024年で停止, ⚠️ 現状と背景の重複度高 (18%) |
-| 🔴 要更新 | `osaka-ir-casino-gambling-addiction` | [大阪IR（カジノ誘致）とギャンブル等依存症問題](src/data/topics/domestic/osaka-ir-casino-gambling-addiction.json) | 2024-09-10 | 10% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `renewable-energy-surcharge-burden` | [再エネ賦課金（電気代上乗せ）の高騰と家計・産業負担問題](src/data/topics/domestic/renewable-energy-surcharge-burden.json) | 2024-03-22 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `security-clearance-economic-espionage` | [セキュリティ・クリアランス制度（重要経済安保情報保護法）と経済スパイ対策](src/data/topics/domestic/security-clearance-economic-espionage.json) | 2024-02-27 | 15% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `sns-investment-scam-platform-liability` | [SNS投資詐欺・著名人なりすまし広告と巨大ITの責任](src/data/topics/domestic/sns-investment-scam-platform-liability.json) | 2024-03-29 | 14% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `stock-split-market-reform-nikkei` | [日経平均史上最高値更新と東証「PBR1倍割れ是正」市場改革](src/data/topics/domestic/stock-split-market-reform-nikkei.json) | 2024-02-22 | 14% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `tower-mansion-inheritance-tax-reform` | [「タワマン節税」規制と相続税算定ルール激変（富裕層 vs 税務当局の攻防）](src/data/topics/domestic/tower-mansion-inheritance-tax-reform.json) | 2024-01-01 | 16% | ⚠️ 経緯が2024年で停止, ⚠️ 現状と背景の重複度高 (16%) |
+| ✅ 済 | `invoice-system-freelance-controversy` | [インボイス制度（適格請求書）の導入とフリーランス・零細事業者の大混乱](src/data/topics/domestic/invoice-system-freelance-controversy.json) | 2026-09-20 | 11% | 問題なし（3割特例新設を反映・最新化済） |
+| ✅ 済 | `bigmotor-insurance-fraud-street-trees` | [ビッグモーター不正請求・街路樹除草剤事件と損害保険業界の構造的癒着](src/data/topics/domestic/bigmotor-insurance-fraud-street-trees.json) | 2026-06-01 | 12% | 問題なし（改正保険業法施行・書類送検を反映済） |
+| ✅ 済 | `childcare-support-contribution-stealth-tax` | [「子ども・子育て支援金」制度と社会保険料上乗せの「実質負担ゼロ」詭弁論争](src/data/topics/domestic/childcare-support-contribution-stealth-tax.json) | 2026-04-01 | 10% | 問題なし（2026年4月徴収開始・海外比較追加済） |
+| ✅ 済 | `digital-yen-cbdc-bank-branch-consolidation` | [「デジタル円（CBDC）」実証実験と地方銀行ATM・店舗大削減](src/data/topics/domestic/digital-yen-cbdc-bank-branch-consolidation.json) | 2025-11-20 | 11% | 問題なし（新紙幣発行・制度設計報告書・海外比較追加済） |
+| ✅ 済 | `income-barrier-tax-reform` | [「年収の壁」（103万・106万・130万円）と基礎控除引き上げ・手取り増論争](src/data/topics/domestic/income-barrier-tax-reform.json) | 2025-06-20 | 12% | 問題なし（学生特例・基礎控除・社保適用拡大・海外比較追加済） |
+| ✅ 済 | `osaka-ir-casino-gambling-addiction` | [大阪IR（カジノ誘致）とギャンブル等依存症問題](src/data/topics/domestic/osaka-ir-casino-gambling-addiction.json) | 2025-11-15 | 9% | 問題なし（万博後本体着工・オンカジ対策・海外比較追加済） |
+| ✅ 済 | `renewable-energy-surcharge-burden` | [再エネ賦課金（電気代上乗せ）の高騰と家計・産業負担問題](src/data/topics/domestic/renewable-energy-surcharge-burden.json) | 2025-03-21 | 11% | 問題なし（2025年度単価・エネ基・海外比較追加済） |
+| ✅ 済 | `security-clearance-economic-espionage` | [セキュリティ・クリアランス制度（重要経済安保情報保護法）と経済スパイ対策](src/data/topics/domestic/security-clearance-economic-espionage.json) | 2025-05-09 | 12% | 問題なし（法全面施行・GCAP参入・海外比較追加済） |
+| ✅ 済 | `sns-investment-scam-platform-liability` | [SNS投資詐欺・著名人なりすまし広告と巨大ITの責任](src/data/topics/domestic/sns-investment-scam-platform-liability.json) | 2025-05-23 | 11% | 問題なし（情報流通プラットフォーム対処法施行・海外比較追加済） |
+| ✅ 済 | `stock-split-market-reform-nikkei` | [日経平均史上最高値更新と東証「PBR1倍割れ是正」市場改革](src/data/topics/domestic/stock-split-market-reform-nikkei.json) | 2025-04-01 | 11% | 問題なし（英文同時開示義務化・海外比較追加済） |
+| ✅ 済 | `tower-mansion-inheritance-tax-reform` | [「タワマン節税」規制と相続税算定ルール激変（富裕層 vs 税務当局の攻防）](src/data/topics/domestic/tower-mansion-inheritance-tax-reform.json) | 2025-10-15 | 11% | 問題なし（新算定ルール定着・海外比較追加済） |
 | ✅ 済 | `agriculture-livestock-labor-shortage-safety-crisis` | [農業・畜産現場の深刻な人手不足と労働安全危機](src/data/topics/domestic/agriculture-livestock-labor-shortage-safety-crisis.json) | 2025-04-01 | 11% | 問題なし |
 | ✅ 済 | `new-nisa-financial-income-tax-debate` | [新NISAの爆発的普及と「金融所得課税強化」論争](src/data/topics/domestic/new-nisa-financial-income-tax-debate.json) | 2025-01-01 | 11% | 問題なし |
 | ✅ 済 | `boj-monetary-policy-normalization` | [日銀の金融政策正常化と「金利のある世界」](src/data/topics/domestic/boj-monetary-policy-normalization.json) | 2026-09-16 | 10% | 問題なし |
