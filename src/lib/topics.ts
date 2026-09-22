@@ -103,7 +103,7 @@ import welfareAssistanceSystemElderlyPovertyData from "@/data/topics/domestic/we
 import wildlifeProtectionBearAttacksData from "@/data/topics/domestic/wildlife-protection-bear-attacks.json";
 import workStyleReformData from "@/data/topics/domestic/work-style-reform.json";
 
-// 国際トピック (61件)
+// 国際トピック (62件)
 import aiRegulationData from "@/data/topics/international/ai-regulation.json";
 import arcticSeaRouteGeopoliticsData from "@/data/topics/international/arctic-sea-route-geopolitics.json";
 import aseanUnityCrisisSuperpowersRivalryData from "@/data/topics/international/asean-unity-crisis-superpowers-rivalry.json";
@@ -128,6 +128,7 @@ import globalEvSlowdownHybridResurgenceData from "@/data/topics/international/gl
 import globalLgbtqGenderCultureWarData from "@/data/topics/international/global-lgbtq-gender-culture-war.json";
 import globalMigrationRefugeeCrisisData from "@/data/topics/international/global-migration-refugee-crisis.json";
 import globalSouthBricsData from "@/data/topics/international/global-south-brics.json";
+import iccPresidentAkaneSanctionsInternationalLawData from "@/data/topics/international/icc-president-akane-sanctions-international-law.json";
 import indiaStrategicAutonomyDiplomacyData from "@/data/topics/international/india-strategic-autonomy-diplomacy.json";
 import indoPacificQuadData from "@/data/topics/international/indo-pacific-quad.json";
 import iranNuclearData from "@/data/topics/international/iran-nuclear.json";
@@ -292,6 +293,7 @@ export const topics: Topic[] = [
   { ...globalLgbtqGenderCultureWarData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
   { ...globalMigrationRefugeeCrisisData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...globalSouthBricsData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
+  { ...iccPresidentAkaneSanctionsInternationalLawData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...indiaStrategicAutonomyDiplomacyData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...indoPacificQuadData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...iranNuclearData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
