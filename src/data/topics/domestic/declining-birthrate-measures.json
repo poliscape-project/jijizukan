@@ -207,6 +207,47 @@
       "relationship": "高校生までの対象拡大、所得制限撤廃、第3子加算などの直接給付拡充"
     }
   ],
+  "international": [
+    {
+      "country": "フランス",
+      "countryCode": "FR",
+      "flag": "🇫🇷",
+      "systemName": "家族給付制度およびN分N乗（世帯所得比例減税）税制",
+      "statusOrLevel": "欧州トップ水準の出生率（約1.7〜1.8）維持モデル",
+      "keyFeature": "子どもの数が多いほど課税所得を大きく分割して税負担を大幅に減免する「N分N乗税制（商数割方式）」が強力に機能。保育ママ（アシスタント・マテルネル）やコレクティフ保育園など多様な公的保育網が整備され、共働きと子育ての両立が定着。",
+      "source": {
+        "organization": "フランス家族手当金庫（CAF） / INSEE",
+        "title": "Prestations familiales et quotient familial",
+        "url": "https://www.caf.fr"
+      }
+    },
+    {
+      "country": "スウェーデン",
+      "countryCode": "SE",
+      "flag": "🇸🇪",
+      "systemName": "両親保険制度（Föräldrapenning）およびパパ・クオータ制",
+      "statusOrLevel": "男性育休取得率約9割・待機児童ゼロ保障",
+      "keyFeature": "両親合わせて480日間の有給育児休業が付与され、うち90日間は父親専用枠（パパ・クオータ）として譲渡不能。1歳以降の全児童に保育所枠が法的に保証されており、女性の就労率（8割超）と出生率の維持を両立。",
+      "source": {
+        "organization": "スウェーデン社会保険庁（Försäkringskassan）",
+        "title": "Föräldrapenning - Parental benefit in Sweden",
+        "url": "https://www.forsakringskassan.se"
+      }
+    },
+    {
+      "country": "韓国",
+      "countryCode": "KR",
+      "flag": "🇰🇷",
+      "systemName": "父母給与（月100万ウォン給付）および少子高齢社会基本計画",
+      "statusOrLevel": "世界最低の出生率（0.7台）直面・国家非常事態宣言",
+      "keyFeature": "急速な少子化を受け大統領直属委員会が主導。0歳児の親に月100万ウォン（約11万円）を直接給付する「父母給与」や新婚世帯向け特別住宅供給を実施するも、過酷な学歴社会・住宅高騰・長時間労働が壁となり出生率低迷が深刻化。",
+      "source": {
+        "organization": "大韓民国 少子高齢社会委員会 / 保健福祉部",
+        "title": "저출산·고령사회 정책과 부모급여 제도",
+        "url": "https://www.betterfuture.go.kr"
+      }
+    }
+  ],
   "sources": [
     {
       "title": "子ども・子育て支援金制度の概要・試算（2026年徴収開始）",

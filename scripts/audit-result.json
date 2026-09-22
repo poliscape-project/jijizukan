@@ -7,17 +7,15 @@
       "category": "地方自治・社会保障・伝統文化・宗教行政",
       "clusterId": "dom-3",
       "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-15",
-      "latestDevTitle": "厚生労働省が衛生行政報告例を公表、改葬件数が年間15万件を突破",
-      "devCount": 2,
-      "sim": 13,
-      "ovLen": 748,
-      "bgLen": 563,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-11-28",
+      "latestDevTitle": "改葬件数が年間16万件超へ拡大、厚労省が無縁墳墓改葬手続きの簡素化指針を検討",
+      "devCount": 3,
+      "sim": 6,
+      "ovLen": 723,
+      "bgLen": 320,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "aging-infrastructure-water-pipes-crisis",
@@ -60,17 +58,15 @@
       "category": "食品安全・消費者保護・健康医療行政",
       "clusterId": "dom-3",
       "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-22",
-      "latestDevTitle": "小林製薬が紅麹サプリの自主回収を発表、健康被害を初めて公表",
-      "devCount": 6,
-      "sim": 14,
-      "ovLen": 769,
-      "bgLen": 1076,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "改正食品表示基準が本格運用開始、サプリメントのGMP完全義務化と被害補償の進展",
+      "devCount": 7,
+      "sim": 13,
+      "ovLen": 685,
+      "bgLen": 376,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "bigmotor-insurance-fraud-street-trees",
@@ -113,17 +109,15 @@
       "category": "行政・内閣",
       "clusterId": "dom-3",
       "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-01",
-      "latestDevTitle": "児童扶養手当法等の改正により所得制限緩和と加算額増額が決定",
-      "devCount": 10,
-      "sim": 11,
-      "ovLen": 571,
-      "bgLen": 573,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "ヤングケアラー・コーディネーターの全自治体配置推進と学校連携指針の本格稼働",
+      "devCount": 12,
+      "sim": 7,
+      "ovLen": 402,
+      "bgLen": 434,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "childcare-support-contribution-stealth-tax",
@@ -151,17 +145,15 @@
       "category": "教育行政・こども政策・デジタル福祉",
       "clusterId": "dom-3",
       "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-03-15",
-      "latestDevTitle": "内閣府が青少年のインターネット利用環境実態調査結果を公表",
-      "devCount": 3,
-      "sim": 12,
-      "ovLen": 800,
-      "bgLen": 555,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-02-14",
+      "latestDevTitle": "こども家庭庁・総務省が青少年のSNS利用規制と年齢確認技術の検討会を設置",
+      "devCount": 5,
+      "sim": 10,
+      "ovLen": 435,
+      "bgLen": 413,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "constitutional-amendment-debate",
@@ -329,18 +321,15 @@
       "category": "厚生労働・社会保障・医療福祉",
       "clusterId": "dom-3",
       "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-01-01",
-      "latestDevTitle": "「共生社会の実現を推進するための認知症基本法」が施行",
-      "devCount": 3,
-      "sim": 16,
-      "ovLen": 665,
-      "bgLen": 582,
-      "issues": [
-        "⚠️ 経緯が2024年で停止",
-        "⚠️ 現状と背景の重複度高 (16%)"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "全銀協が「認知症顧客との取引に関する指針」を改定、代理引き出しを弾力化",
+      "devCount": 5,
+      "sim": 9,
+      "ovLen": 398,
+      "bgLen": 474,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "digital-government-mynumber",
@@ -622,18 +611,15 @@
       "category": "行政・社会保障",
       "clusterId": "dom-3",
       "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-01",
-      "latestDevTitle": "後期高齢者医療制度による出産育児一時金支援が施行",
-      "devCount": 5,
-      "sim": 17,
-      "ovLen": 521,
-      "bgLen": 635,
-      "issues": [
-        "⚠️ 経緯が2024年で停止",
-        "⚠️ 現状と背景の重複度高 (17%)"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-31",
+      "latestDevTitle": "マイナ保険証の利用率向上策と資格確認書の一括交付体制が定着",
+      "devCount": 7,
+      "sim": 11,
+      "ovLen": 419,
+      "bgLen": 355,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "henoko-boat-capsize-accident",
@@ -1003,17 +989,15 @@
       "category": "福祉・共生社会",
       "clusterId": "dom-3",
       "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-01",
-      "latestDevTitle": "「孤独・孤立対策推進法」が施行、推進本部が発足",
-      "devCount": 5,
-      "sim": 7,
-      "ovLen": 611,
-      "bgLen": 428,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-05-15",
+      "latestDevTitle": "警察庁が「一人暮らしの自宅死（年間推計約6.8万人）」実態を初公表",
+      "devCount": 7,
+      "sim": 8,
+      "ovLen": 447,
+      "bgLen": 334,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "matsumoto-hitoshi-bunshun-lawsuit-settlement",
@@ -1077,15 +1061,14 @@
       "category": "行政DX・医療・個人情報保護",
       "clusterId": "dom-3",
       "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-09-01",
-      "latestDevTitle": "マイナ保険証の利用率が依然10%台前半にとどまり、政府が利用促進金拡充",
-      "devCount": 6,
-      "sim": 13,
-      "ovLen": 736,
-      "bgLen": 1030,
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-03-28",
+      "latestDevTitle": "厚労省が保険証新規発行停止後の「資格確認書」交付状況を公表",
+      "devCount": 8,
+      "sim": 9,
+      "ovLen": 365,
+      "bgLen": 534,
       "issues": [
-        "⚠️ 経緯が2024年で停止",
         "⚠️ 岸田政権表記(2箇所)"
       ],
       "needsAudit": true
@@ -1331,13 +1314,11 @@
       "latestDevDate": "2025-06-12",
       "latestDevTitle": "次期年金制度改革関連法案の国会審議と大綱策定",
       "devCount": 6,
-      "sim": 19,
-      "ovLen": 654,
-      "bgLen": 752,
-      "issues": [
-        "⚠️ 現状と背景の重複度高 (19%)"
-      ],
-      "needsAudit": true
+      "sim": 10,
+      "ovLen": 463,
+      "bgLen": 390,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "pfas-contamination-forever-chemicals",
@@ -1800,17 +1781,15 @@
       "category": "社会保障・貧困問題・セーフティネット",
       "clusterId": "dom-3",
       "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-      "latestDevYear": 2024,
-      "latestDevDate": "2024-04-19",
-      "latestDevTitle": "東京高裁が生活保護基準引き下げを「違法」と判断、国側の控訴棄却",
-      "devCount": 3,
-      "sim": 11,
-      "ovLen": 779,
-      "bgLen": 599,
-      "issues": [
-        "⚠️ 経緯が2024年で停止"
-      ],
-      "needsAudit": true
+      "latestDevYear": 2025,
+      "latestDevDate": "2025-04-01",
+      "latestDevTitle": "改正生活困窮者自立支援法が施行、扶養照会の本人の意向尊重が強化",
+      "devCount": 5,
+      "sim": 6,
+      "ovLen": 360,
+      "bgLen": 377,
+      "issues": [],
+      "needsAudit": false
     },
     {
       "id": "wildlife-protection-bear-attacks",
@@ -3025,9 +3004,9 @@
     "dom-3": {
       "name": "【国内③】社会保障・医療・介護・少子化・子ども",
       "total": 12,
-      "stopped2024OrEarlier": 9,
-      "current": 3,
-      "highOverlap": 3,
+      "stopped2024OrEarlier": 0,
+      "current": 12,
+      "highOverlap": 0,
       "topics": [
         {
           "id": "abandoned-graves-temple-crisis-cremation",
@@ -3036,17 +3015,15 @@
           "category": "地方自治・社会保障・伝統文化・宗教行政",
           "clusterId": "dom-3",
           "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-15",
-          "latestDevTitle": "厚生労働省が衛生行政報告例を公表、改葬件数が年間15万件を突破",
-          "devCount": 2,
-          "sim": 13,
-          "ovLen": 748,
-          "bgLen": 563,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-11-28",
+          "latestDevTitle": "改葬件数が年間16万件超へ拡大、厚労省が無縁墳墓改葬手続きの簡素化指針を検討",
+          "devCount": 3,
+          "sim": 6,
+          "ovLen": 723,
+          "bgLen": 320,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "benikoji-supplement-health-damage-food-labeling",
@@ -3055,17 +3032,15 @@
           "category": "食品安全・消費者保護・健康医療行政",
           "clusterId": "dom-3",
           "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-22",
-          "latestDevTitle": "小林製薬が紅麹サプリの自主回収を発表、健康被害を初めて公表",
-          "devCount": 6,
-          "sim": 14,
-          "ovLen": 769,
-          "bgLen": 1076,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "改正食品表示基準が本格運用開始、サプリメントのGMP完全義務化と被害補償の進展",
+          "devCount": 7,
+          "sim": 13,
+          "ovLen": 685,
+          "bgLen": 376,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "child-poverty-young-carer",
@@ -3074,17 +3049,15 @@
           "category": "行政・内閣",
           "clusterId": "dom-3",
           "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-01",
-          "latestDevTitle": "児童扶養手当法等の改正により所得制限緩和と加算額増額が決定",
-          "devCount": 10,
-          "sim": 11,
-          "ovLen": 571,
-          "bgLen": 573,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "ヤングケアラー・コーディネーターの全自治体配置推進と学校連携指針の本格稼働",
+          "devCount": 12,
+          "sim": 7,
+          "ovLen": 402,
+          "bgLen": 434,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "children-smartphone-sns-addiction-regulation",
@@ -3093,17 +3066,15 @@
           "category": "教育行政・こども政策・デジタル福祉",
           "clusterId": "dom-3",
           "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-03-15",
-          "latestDevTitle": "内閣府が青少年のインターネット利用環境実態調査結果を公表",
-          "devCount": 3,
-          "sim": 12,
-          "ovLen": 800,
-          "bgLen": 555,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-02-14",
+          "latestDevTitle": "こども家庭庁・総務省が青少年のSNS利用規制と年齢確認技術の検討会を設置",
+          "devCount": 5,
+          "sim": 10,
+          "ovLen": 435,
+          "bgLen": 413,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "declining-birthrate-measures",
@@ -3129,18 +3100,15 @@
           "category": "厚生労働・社会保障・医療福祉",
           "clusterId": "dom-3",
           "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-01-01",
-          "latestDevTitle": "「共生社会の実現を推進するための認知症基本法」が施行",
-          "devCount": 3,
-          "sim": 16,
-          "ovLen": 665,
-          "bgLen": 582,
-          "issues": [
-            "⚠️ 経緯が2024年で停止",
-            "⚠️ 現状と背景の重複度高 (16%)"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "全銀協が「認知症顧客との取引に関する指針」を改定、代理引き出しを弾力化",
+          "devCount": 5,
+          "sim": 9,
+          "ovLen": 398,
+          "bgLen": 474,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "healthcare-system-reform",
@@ -3149,18 +3117,15 @@
           "category": "行政・社会保障",
           "clusterId": "dom-3",
           "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-01",
-          "latestDevTitle": "後期高齢者医療制度による出産育児一時金支援が施行",
-          "devCount": 5,
-          "sim": 17,
-          "ovLen": 521,
-          "bgLen": 635,
-          "issues": [
-            "⚠️ 経緯が2024年で停止",
-            "⚠️ 現状と背景の重複度高 (17%)"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-31",
+          "latestDevTitle": "マイナ保険証の利用率向上策と資格確認書の一括交付体制が定着",
+          "devCount": 7,
+          "sim": 11,
+          "ovLen": 419,
+          "bgLen": 355,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "loneliness-isolation-prevention-act",
@@ -3169,17 +3134,15 @@
           "category": "福祉・共生社会",
           "clusterId": "dom-3",
           "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-01",
-          "latestDevTitle": "「孤独・孤立対策推進法」が施行、推進本部が発足",
-          "devCount": 5,
-          "sim": 7,
-          "ovLen": 611,
-          "bgLen": 428,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-05-15",
+          "latestDevTitle": "警察庁が「一人暮らしの自宅死（年間推計約6.8万人）」実態を初公表",
+          "devCount": 7,
+          "sim": 8,
+          "ovLen": 447,
+          "bgLen": 334,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "myna-health-insurance-card-abolition",
@@ -3188,15 +3151,14 @@
           "category": "行政DX・医療・個人情報保護",
           "clusterId": "dom-3",
           "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-09-01",
-          "latestDevTitle": "マイナ保険証の利用率が依然10%台前半にとどまり、政府が利用促進金拡充",
-          "devCount": 6,
-          "sim": 13,
-          "ovLen": 736,
-          "bgLen": 1030,
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-03-28",
+          "latestDevTitle": "厚労省が保険証新規発行停止後の「資格確認書」交付状況を公表",
+          "devCount": 8,
+          "sim": 9,
+          "ovLen": 365,
+          "bgLen": 534,
           "issues": [
-            "⚠️ 経緯が2024年で停止",
             "⚠️ 岸田政権表記(2箇所)"
           ],
           "needsAudit": true
@@ -3229,13 +3191,11 @@
           "latestDevDate": "2025-06-12",
           "latestDevTitle": "次期年金制度改革関連法案の国会審議と大綱策定",
           "devCount": 6,
-          "sim": 19,
-          "ovLen": 654,
-          "bgLen": 752,
-          "issues": [
-            "⚠️ 現状と背景の重複度高 (19%)"
-          ],
-          "needsAudit": true
+          "sim": 10,
+          "ovLen": 463,
+          "bgLen": 390,
+          "issues": [],
+          "needsAudit": false
         },
         {
           "id": "welfare-assistance-system-elderly-poverty",
@@ -3244,17 +3204,15 @@
           "category": "社会保障・貧困問題・セーフティネット",
           "clusterId": "dom-3",
           "clusterName": "【国内③】社会保障・医療・介護・少子化・子ども",
-          "latestDevYear": 2024,
-          "latestDevDate": "2024-04-19",
-          "latestDevTitle": "東京高裁が生活保護基準引き下げを「違法」と判断、国側の控訴棄却",
-          "devCount": 3,
-          "sim": 11,
-          "ovLen": 779,
-          "bgLen": 599,
-          "issues": [
-            "⚠️ 経緯が2024年で停止"
-          ],
-          "needsAudit": true
+          "latestDevYear": 2025,
+          "latestDevDate": "2025-04-01",
+          "latestDevTitle": "改正生活困窮者自立支援法が施行、扶養照会の本人の意向尊重が強化",
+          "devCount": 5,
+          "sim": 6,
+          "ovLen": 360,
+          "bgLen": 377,
+          "issues": [],
+          "needsAudit": false
         }
       ]
     },

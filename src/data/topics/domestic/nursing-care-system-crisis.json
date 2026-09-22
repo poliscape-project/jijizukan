@@ -246,6 +246,47 @@
     }
   ],
   "relatedPolicies": [],
+  "international": [
+    {
+      "country": "ドイツ",
+      "countryCode": "DE",
+      "flag": "🇩🇪",
+      "systemName": "公的介護保険制度（Soziale Pflegeversicherung 1995年導入）",
+      "statusOrLevel": "社会保険方式・「現金給付（家族介護手当）」との選択制",
+      "keyFeature": "日本の介護保険のモデルとなった世界初の全国公的介護保険。現物サービス利用に加え、家族介護者に直接支払われる現金給付（Pflegegeld）を選択できる点が特徴。少子高齢化に伴う財源確保のため、子どものいない被保険者の保険料率を上乗せする制度を導入。",
+      "source": {
+        "organization": "ドイツ連邦保健省（BMG）",
+        "title": "Die Pflegeversicherung - Leistungen und Beiträge",
+        "url": "https://www.bundesgesundheitsministerium.de"
+      }
+    },
+    {
+      "country": "オランダ",
+      "countryCode": "NL",
+      "flag": "🇳🇱",
+      "systemName": "長期介護法（Wlz）および自律分散型訪問ケア「ビュートゾルフ」",
+      "statusOrLevel": "税・保険料統合型・先進的在宅自立ケアモデル",
+      "keyFeature": "重度ケアを長期介護法（Wlz）、軽度・在宅ケアを自治体社会支援法（Wmo）が分担。看護師が10〜12人の自律チームを作り、近隣住民やボランティアと連携して包括的ケアを提供する「ビュートゾルフ（Buurtzorg）」が世界的な成功モデルとして定着。",
+      "source": {
+        "organization": "オランダ保健・福祉・スポーツ省（VWS）",
+        "title": "Wet langdurige zorg (Wlz) / Buurtzorg Nederland",
+        "url": "https://www.rijksoverheid.nl"
+      }
+    },
+    {
+      "country": "韓国",
+      "countryCode": "KR",
+      "flag": "🇰🇷",
+      "systemName": "老人長期療養保険制度（2008年施行）",
+      "statusOrLevel": "国民健康保険公団による一元運営・超高齢化対応",
+      "keyFeature": "日本の介護保険法を参考に創設。健康保険料と一体徴収され、国民健康保険公団が単一保険者として全国均一に運営。急激な少子高齢化の中で要介護認定者の急増と施設整備の民間依存が課題となり、公的療養施設の拡充を急いでいる。",
+      "source": {
+        "organization": "大韓民国 国民健康保険公団（NHIS）",
+        "title": "노인장기요양보험제도 안내",
+        "url": "https://www.longtermcare.or.kr"
+      }
+    }
+  ],
   "sources": [
     {
       "title": "令和6年度介護報酬改定について",

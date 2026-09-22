@@ -8,19 +8,20 @@
 | :--- | :---: | :---: | :---: | :---: |
 | **【国内①】政治・統治・選挙・政党・国会** | 14件 | 🎉 **0件（完了）** | 14件 | 0件 |
 | **【国内②】経済・財政・税制・金融・物価** | 15件 | 🎉 **0件（完了）** | 15件 | 0件 |
-| **【国内③】社会保障・医療・介護・少子化・子ども** | 12件 | **9件** | 3件 | 3件 |
+| **【国内③】社会保障・医療・介護・少子化・子ども** | 12件 | 🎉 **0件（完了）** | 12件 | 0件 |
 | **【国内④】労働・働き方・産業・農林水産・インフラ・地方** | 27件 | **17件** | 10件 | 4件 |
 | **【国内⑤】治安・警察・司法・法務・教育・文化・IT** | 34件 | **20件** | 14件 | 2件 |
 | **【国際①】米中対立・東アジア・アジア太平洋・半導体** | 18件 | **17件** | 1件 | 0件 |
 | **【国際②】ロシア・ウクライナ・欧州・NATO** | 4件 | **3件** | 1件 | 0件 |
 | **【国際③】中東情勢・グローバルサウス・新興国・資源** | 11件 | **10件** | 1件 | 0件 |
 | **【国際④】米国政治・国際秩序・軍縮・巨大IT・気候・国際法** | 29件 | **26件** | 3件 | 1件 |
-| **合計** | **164件** | **102件 (62%)** | **62件 (38%)** | **10件** |
+| **合計** | **164件** | **93件 (57%)** | **71件 (43%)** | **7件** |
 
 ### 主な課題と進捗
 - ✅ **【国内①】政治・統治・選挙・政党・国会**: 全14件のリライト・最新化（2025-2026年動向反映、重複排除）が完了！
 - ✅ **【国内②】経済・財政・税制・金融・物価**: 全15件のリライト・最新化（インボイス、ビッグモーター、支援金、デジタル円、年収の壁、大阪IR、再エネ賦課金、セキュリティー・クリアランス、SNS詐欺、東証改革、タワマン節税等）が完了！
-- 🔴 残り要更新トピック: **102件**（国内46件 / 国際56件）
+- ✅ **【国内③】社会保障・医療・介護・少子化・子ども**: 全12件のリライト・最新化（墓じまい、紅麹サプリ、ヤングケアラー、子どものスマホ規制、認知症基本法、医療制度改革、孤独・孤立対策、マイナ保険証、生活保護高齢化、年金改革等）が完了！全件に海外比較（3カ国）を完備！
+- 🔴 残り要更新トピック: **93件**（国内37件 / 国際56件）
 
 ---
 
@@ -45,7 +46,7 @@
 | ✅ 済 | `okinawa-gubernatorial-election-2026` | [2026年沖縄県知事選挙（12年ぶり保守県政交代とオール沖縄の終焉）](src/data/topics/domestic/okinawa-gubernatorial-election-2026.json) | 2026-03-16 | 10% | 問題なし |
 | 🟡 概ね最新 | `political-funds-reform` | [政治資金規正法改正と「政治とカネ」の決着](src/data/topics/domestic/political-funds-reform.json) | 2026-01-01 | 13% | ⚠️ 岸田政権表記(1箇所) |
 
-### 【国内②】経済・財政・税制・金融・物価（全15件 / 要更新: 0件）🎉 全件改定完了！
+### 【国内②】経済・財政・税制・金融・物価（全15件 / 🎉 [ALL COMPLETED]）
 
 | 状態 | ID | タイトル | 最新経緯 | 重複度 | 検出された課題・注意事項 |
 | :---: | :--- | :--- | :---: | :---: | :--- |
@@ -65,22 +66,22 @@
 | ✅ 済 | `boj-monetary-policy-normalization` | [日銀の金融政策正常化と「金利のある世界」](src/data/topics/domestic/boj-monetary-policy-normalization.json) | 2026-09-16 | 10% | 問題なし |
 | ✅ 済 | `cost-of-living-economy` | [物価高・円安と「103万円の壁」論争](src/data/topics/domestic/cost-of-living-economy.json) | 2026-04-01 | 8% | 問題なし |
 
-### 【国内③】社会保障・医療・介護・少子化・子ども（全12件 / 要更新: 9件）
+### 【国内③】社会保障・医療・介護・少子化・子ども（全12件 / 🎉 [ALL COMPLETED]）
 
 | 状態 | ID | タイトル | 最新経緯 | 重複度 | 検出された課題・注意事項 |
 | :---: | :--- | :--- | :---: | :---: | :--- |
-| 🔴 要更新 | `abandoned-graves-temple-crisis-cremation` | [「墓じまい」急増・無縁墓問題と地方寺院の消滅危機](src/data/topics/domestic/abandoned-graves-temple-crisis-cremation.json) | 2024-01-15 | 13% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `benikoji-supplement-health-damage-food-labeling` | [小林製薬「紅麹サプリ」健康被害事件と機能性表示食品制度の抜本見直し](src/data/topics/domestic/benikoji-supplement-health-damage-food-labeling.json) | 2024-03-22 | 14% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `child-poverty-young-carer` | [子どもの貧困とヤングケアラー支援](src/data/topics/domestic/child-poverty-young-carer.json) | 2024-04-01 | 11% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `children-smartphone-sns-addiction-regulation` | [子どものスマホ・SNS依存と学校持ち込み・利用制限論争](src/data/topics/domestic/children-smartphone-sns-addiction-regulation.json) | 2024-03-15 | 12% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `dementia-basic-act-asset-freeze` | [認知症700万人時代と「認知症基本法」](src/data/topics/domestic/dementia-basic-act-asset-freeze.json) | 2024-01-01 | 16% | ⚠️ 経緯が2024年で停止, ⚠️ 現状と背景の重複度高 (16%) |
-| 🔴 要更新 | `healthcare-system-reform` | [医療制度改革と現役世代の負担増](src/data/topics/domestic/healthcare-system-reform.json) | 2024-04-01 | 17% | ⚠️ 経緯が2024年で停止, ⚠️ 現状と背景の重複度高 (17%) |
-| 🔴 要更新 | `loneliness-isolation-prevention-act` | [孤独・孤立対策と「孤独・孤立対策推進法」](src/data/topics/domestic/loneliness-isolation-prevention-act.json) | 2024-04-01 | 7% | ⚠️ 経緯が2024年で停止 |
-| 🔴 要更新 | `myna-health-insurance-card-abolition` | [マイナ保険証一本化（健康保険証廃止）と相次ぐ医療・情報トラブル](src/data/topics/domestic/myna-health-insurance-card-abolition.json) | 2024-09-01 | 13% | ⚠️ 経緯が2024年で停止, ⚠️ 岸田政権表記(2箇所) |
-| 🔴 要更新 | `welfare-assistance-system-elderly-poverty` | [生活保護の受給者半数が高齢者化・「扶養照会」の壁と捕捉率の低さ](src/data/topics/domestic/welfare-assistance-system-elderly-poverty.json) | 2024-04-19 | 11% | ⚠️ 経緯が2024年で停止 |
-| 🟡 概ね最新 | `pension-reform` | [年金制度改革と「社会保障の壁」](src/data/topics/domestic/pension-reform.json) | 2025-06-12 | 19% | ⚠️ 現状と背景の重複度高 (19%) |
-| ✅ 済 | `declining-birthrate-measures` | [少子化対策と「子ども・子育て支援金」制度](src/data/topics/domestic/declining-birthrate-measures.json) | 2026-04-01 | 8% | 問題なし |
-| ✅ 済 | `nursing-care-system-crisis` | [介護保険制度改革と介護現場の危機](src/data/topics/domestic/nursing-care-system-crisis.json) | 2026-06-15 | 11% | 問題なし |
+| ✅ 済 | `abandoned-graves-temple-crisis-cremation` | [「墓じまい」急増・無縁墓問題と地方寺院の消滅危機](src/data/topics/domestic/abandoned-graves-temple-crisis-cremation.json) | 2025-11-28 | 6% | 問題なし（改葬16万件超・無縁墓手続き簡素化・海外比較追加済） |
+| ✅ 済 | `benikoji-supplement-health-damage-food-labeling` | [小林製薬「紅麹サプリ」健康被害事件と機能性表示食品制度の抜本見直し](src/data/topics/domestic/benikoji-supplement-health-damage-food-labeling.json) | 2025-04-01 | 13% | 問題なし（新食品表示基準本格運用・GMP義務化・海外比較追加済） |
+| ✅ 済 | `child-poverty-young-carer` | [子どもの貧困とヤングケアラー支援](src/data/topics/domestic/child-poverty-young-carer.json) | 2025-04-01 | 7% | 問題なし（コーディネーター配置・児童扶養手当拡充・海外比較追加済） |
+| ✅ 済 | `children-smartphone-sns-addiction-regulation` | [子どものスマホ・SNS依存と学校持ち込み・利用制限論争](src/data/topics/domestic/children-smartphone-sns-addiction-regulation.json) | 2025-06-20 | 10% | 問題なし（学校管理ルール再通知・豪英仏比較追加済） |
+| ✅ 済 | `dementia-basic-act-asset-freeze` | [認知症700万人時代と「認知症基本法」](src/data/topics/domestic/dementia-basic-act-asset-freeze.json) | 2025-06-18 | 9% | 問題なし（成年後見見直し中間試案・全銀協指針改定・海外比較追加済） |
+| ✅ 済 | `healthcare-system-reform` | [医療制度改革と現役世代の負担増](src/data/topics/domestic/healthcare-system-reform.json) | 2025-06-25 | 11% | 問題なし（高額療養費上限見直し・重複排除・海外比較追加済） |
+| ✅ 済 | `loneliness-isolation-prevention-act` | [孤独・孤立対策と「孤独・孤立対策推進法」](src/data/topics/domestic/loneliness-isolation-prevention-act.json) | 2025-05-15 | 8% | 問題なし（孤立死年間6.8万人初公表・地域協議会・海外比較追加済） |
+| ✅ 済 | `myna-health-insurance-card-abolition` | [マイナ保険証一本化（健康保険証廃止）と相次ぐ医療・情報トラブル](src/data/topics/domestic/myna-health-insurance-card-abolition.json) | 2025-06-24 | 9% | 問題なし（iPhone搭載・資格確認書運用・海外比較追加済） |
+| ✅ 済 | `welfare-assistance-system-elderly-poverty` | [生活保護の受給者半数が高齢者化・「扶養照会」の壁と捕捉率の低さ](src/data/topics/domestic/welfare-assistance-system-elderly-poverty.json) | 2025-06-12 | 6% | 問題なし（いのちのとりで裁判最高裁弁論・扶養照会緩和・海外比較追加済） |
+| ✅ 済 | `pension-reform` | [年金制度改革と「社会保障の壁」](src/data/topics/domestic/pension-reform.json) | 2025-06-12 | 10% | 問題なし（次期年金法案・重複排除・海外比較追加済） |
+| ✅ 済 | `declining-birthrate-measures` | [少子化対策と「子ども・子育て支援金」制度](src/data/topics/domestic/declining-birthrate-measures.json) | 2026-04-01 | 8% | 問題なし（海外比較追加済） |
+| ✅ 済 | `nursing-care-system-crisis` | [介護保険制度改革と介護現場の危機](src/data/topics/domestic/nursing-care-system-crisis.json) | 2026-06-15 | 11% | 問題なし（海外比較追加済） |
 
 ### 【国内④】労働・働き方・産業・農林水産・インフラ・地方（全27件 / 要更新: 17件）
 
