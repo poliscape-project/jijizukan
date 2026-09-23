@@ -310,7 +310,7 @@ export const ChildcareSupportFundSimulator: React.FC = () => {
             <div className="flex items-center justify-between">
               <h4 className="font-bold text-xs sm:text-sm text-slate-900 flex items-center gap-1.5">
                 <Users className="w-4 h-4 text-indigo-600" />
-                <span>世帯のネット年間収支（手取り影響）</span>
+                <span>手取りの実質的な増減額（年間）</span>
               </h4>
               <span
                 className={`text-xs font-black px-2 py-0.5 rounded-md ${
