@@ -13,6 +13,7 @@ import { RelatedPolicies } from "./RelatedPolicies";
 import { RelatedTopics } from "./RelatedTopics";
 import { TopicDiscussion } from "./TopicDiscussion";
 import { ViewCounter } from "./ViewCounter";
+import { ChildcareSupportFundSimulator } from "./ChildcareSupportFundSimulator";
 import {
   ArrowLeft,
   Calendar,
@@ -132,6 +133,13 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
                 {topic.simpleSummary}
               </p>
             </div>
+          </section>
+        )}
+
+        {/* トピック別インタラクティブ・シミュレーター */}
+        {topic.id === "childcare-support-contribution-stealth-tax" && (
+          <section className="mb-8">
+            <ChildcareSupportFundSimulator />
           </section>
         )}
 
