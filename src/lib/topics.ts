@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (108件)
+// 国内トピック (109件)
 import abandonedGravesTempleCrisisCremationData from "@/data/topics/domestic/abandoned-graves-temple-crisis-cremation.json";
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import agricultureLivestockLaborShortageSafetyCrisisData from "@/data/topics/domestic/agriculture-livestock-labor-shortage-safety-crisis.json";
@@ -14,6 +14,7 @@ import childrenSmartphoneSnsAddictionRegulationData from "@/data/topics/domestic
 import constitutionalAmendmentDebateData from "@/data/topics/domestic/constitutional-amendment-debate.json";
 import consumptionTaxFiscalConsolidationData from "@/data/topics/domestic/consumption-tax-fiscal-consolidation.json";
 import costOfLivingEconomyData from "@/data/topics/domestic/cost-of-living-economy.json";
+import curriculumReformClassHoursReductionInformaticsData from "@/data/topics/domestic/curriculum-reform-class-hours-reduction-informatics.json";
 import customerHarassmentPreventionData from "@/data/topics/domestic/customer-harassment-prevention.json";
 import cyberattackInfrastructureLineKadokawaData from "@/data/topics/domestic/cyberattack-infrastructure-line-kadokawa.json";
 import dangerousDrivingLawReformData from "@/data/topics/domestic/dangerous-driving-law-reform.json";
@@ -189,6 +190,7 @@ export const topics: Topic[] = [
   { ...constitutionalAmendmentDebateData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...consumptionTaxFiscalConsolidationData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...costOfLivingEconomyData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
+  { ...curriculumReformClassHoursReductionInformaticsData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...customerHarassmentPreventionData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...cyberattackInfrastructureLineKadokawaData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
   { ...dangerousDrivingLawReformData, createdAt: "2026-09-19T17:17:14+09:00" } as unknown as Topic,
@@ -254,7 +256,7 @@ export const topics: Topic[] = [
   { ...overtourismInboundPolicyData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...pensionReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...pfasContaminationForeverChemicalsData, createdAt: "2026-09-21T22:54:22+09:00" } as unknown as Topic,
-  { ...plantVarietyProtectionActReformOverseasLeakageData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...plantVarietyProtectionActReformOverseasLeakageData, createdAt: "2026-09-28T13:14:12+09:00" } as unknown as Topic,
   { ...politicalFundsReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...postalRateHikeUniversalServiceCrisisData, createdAt: "2026-09-22T14:55:22+09:00" } as unknown as Topic,
   { ...regionalRevitalizationDepopulationData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
