@@ -225,7 +225,18 @@
       ]
     }
   ],
-  "relatedPolicies": [],
+  "relatedPolicies": [
+    {
+      "id": "permanent-residency-revocation-and-screening-tightening",
+      "title": "永住許可取消制度の創設と取得審査の厳格化（改正入管法・適正化）",
+      "reason": "故意の税金・社会保険料未納に対する永住許可取消制度の新設や審査ガイドラインの厳格化に関する政策であり、入管法改正・外国人共生政策の核心的な法的規律として直結します。"
+    },
+    {
+      "id": "foreign-ikusei-shuro-training-employment-system-reform",
+      "title": "外国人技能実習制度の発展的解消と「育成就労制度」の創設・転籍制限緩和",
+      "reason": "技能実習を廃止し育成就労へ移行する同一の改正入管法パッケージであり、将来の永住ルート拡大の前提となる制度です。"
+    }
+  ],
   "relatedTopics": [
     {
       "id": "global-migration-refugee-crisis",
