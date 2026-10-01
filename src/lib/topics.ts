@@ -112,7 +112,7 @@ import welfareAssistanceSystemElderlyPovertyData from "@/data/topics/domestic/we
 import wildlifeProtectionBearAttacksData from "@/data/topics/domestic/wildlife-protection-bear-attacks.json";
 import workStyleReformData from "@/data/topics/domestic/work-style-reform.json";
 
-// 国際トピック (63件)
+// 国際トピック (64件)
 import aiRegulationData from "@/data/topics/international/ai-regulation.json";
 import arcticSeaRouteGeopoliticsData from "@/data/topics/international/arctic-sea-route-geopolitics.json";
 import aseanUnityCrisisSuperpowersRivalryData from "@/data/topics/international/asean-unity-crisis-superpowers-rivalry.json";
@@ -134,6 +134,7 @@ import economicSecurityData from "@/data/topics/international/economic-security.
 import ethiopiaTigrayHornOfAfricaData from "@/data/topics/international/ethiopia-tigray-horn-of-africa.json";
 import europeanFarRightData from "@/data/topics/international/european-far-right.json";
 import globalEvSlowdownHybridResurgenceData from "@/data/topics/international/global-ev-slowdown-hybrid-resurgence.json";
+import globalGlaciersMeltingCrisisAlpsHimalayasData from "@/data/topics/international/global-glaciers-melting-crisis-alps-himalayas.json";
 import globalLgbtqGenderCultureWarData from "@/data/topics/international/global-lgbtq-gender-culture-war.json";
 import globalMigrationRefugeeCrisisData from "@/data/topics/international/global-migration-refugee-crisis.json";
 import globalSouthBricsData from "@/data/topics/international/global-south-brics.json";
@@ -260,7 +261,7 @@ export const topics: Topic[] = [
   { ...plantVarietyProtectionActReformOverseasLeakageData, createdAt: "2026-09-28T13:14:12+09:00" } as unknown as Topic,
   { ...politicalFundsReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...postalRateHikeUniversalServiceCrisisData, createdAt: "2026-09-22T14:55:22+09:00" } as unknown as Topic,
-  { ...redFeatherFundraisingControversiesGovernanceData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...redFeatherFundraisingControversiesGovernanceData, createdAt: "2026-10-01T21:53:01+09:00" } as unknown as Topic,
   { ...regionalRevitalizationDepopulationData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...renewableEnergySurchargeBurdenData, createdAt: "2026-09-20T22:21:57+09:00" } as unknown as Topic,
   { ...retrialLawReformHakamadaData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
@@ -309,6 +310,7 @@ export const topics: Topic[] = [
   { ...ethiopiaTigrayHornOfAfricaData, createdAt: "2026-09-21T22:54:22+09:00" } as unknown as Topic,
   { ...europeanFarRightData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...globalEvSlowdownHybridResurgenceData, createdAt: "2026-09-21T22:22:11+09:00" } as unknown as Topic,
+  { ...globalGlaciersMeltingCrisisAlpsHimalayasData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...globalLgbtqGenderCultureWarData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
   { ...globalMigrationRefugeeCrisisData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...globalSouthBricsData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
