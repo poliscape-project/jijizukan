@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (109件)
+// 国内トピック (110件)
 import abandonedGravesTempleCrisisCremationData from "@/data/topics/domestic/abandoned-graves-temple-crisis-cremation.json";
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import agricultureLivestockLaborShortageSafetyCrisisData from "@/data/topics/domestic/agriculture-livestock-labor-shortage-safety-crisis.json";
@@ -83,6 +83,7 @@ import pfasContaminationForeverChemicalsData from "@/data/topics/domestic/pfas-c
 import plantVarietyProtectionActReformOverseasLeakageData from "@/data/topics/domestic/plant-variety-protection-act-reform-overseas-leakage.json";
 import politicalFundsReformData from "@/data/topics/domestic/political-funds-reform.json";
 import postalRateHikeUniversalServiceCrisisData from "@/data/topics/domestic/postal-rate-hike-universal-service-crisis.json";
+import redFeatherFundraisingControversiesGovernanceData from "@/data/topics/domestic/red-feather-fundraising-controversies-governance.json";
 import regionalRevitalizationDepopulationData from "@/data/topics/domestic/regional-revitalization-depopulation.json";
 import renewableEnergySurchargeBurdenData from "@/data/topics/domestic/renewable-energy-surcharge-burden.json";
 import retrialLawReformHakamadaData from "@/data/topics/domestic/retrial-law-reform-hakamada.json";
@@ -259,6 +260,7 @@ export const topics: Topic[] = [
   { ...plantVarietyProtectionActReformOverseasLeakageData, createdAt: "2026-09-28T13:14:12+09:00" } as unknown as Topic,
   { ...politicalFundsReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...postalRateHikeUniversalServiceCrisisData, createdAt: "2026-09-22T14:55:22+09:00" } as unknown as Topic,
+  { ...redFeatherFundraisingControversiesGovernanceData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...regionalRevitalizationDepopulationData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...renewableEnergySurchargeBurdenData, createdAt: "2026-09-20T22:21:57+09:00" } as unknown as Topic,
   { ...retrialLawReformHakamadaData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
