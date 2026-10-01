@@ -190,7 +190,7 @@ export const topics: Topic[] = [
   { ...constitutionalAmendmentDebateData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...consumptionTaxFiscalConsolidationData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...costOfLivingEconomyData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
-  { ...curriculumReformClassHoursReductionInformaticsData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...curriculumReformClassHoursReductionInformaticsData, createdAt: "2026-09-29T09:54:11+09:00" } as unknown as Topic,
   { ...customerHarassmentPreventionData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...cyberattackInfrastructureLineKadokawaData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
   { ...dangerousDrivingLawReformData, createdAt: "2026-09-19T17:17:14+09:00" } as unknown as Topic,
