@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (110件)
+// 国内トピック (111件)
 import abandonedGravesTempleCrisisCremationData from "@/data/topics/domestic/abandoned-graves-temple-crisis-cremation.json";
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import agricultureLivestockLaborShortageSafetyCrisisData from "@/data/topics/domestic/agriculture-livestock-labor-shortage-safety-crisis.json";
@@ -106,6 +106,7 @@ import tokyoOlympicsCostsCorruptionGovernanceData from "@/data/topics/domestic/t
 import towerMansionInheritanceTaxReformData from "@/data/topics/domestic/tower-mansion-inheritance-tax-reform.json";
 import unificationChurchIssueData from "@/data/topics/domestic/unification-church-issue.json";
 import universityResearchCrisis10TrillionFundData from "@/data/topics/domestic/university-research-crisis-10-trillion-fund.json";
+import usMilitaryCrimesSofaJurisdictionControversyData from "@/data/topics/domestic/us-military-crimes-sofa-jurisdiction-controversy.json";
 import usedBooksAiScanningCulturalCrisisData from "@/data/topics/domestic/used-books-ai-scanning-cultural-crisis.json";
 import vacantHousesLandIssueData from "@/data/topics/domestic/vacant-houses-land-issue.json";
 import welfareAssistanceSystemElderlyPovertyData from "@/data/topics/domestic/welfare-assistance-system-elderly-poverty.json";
@@ -284,6 +285,7 @@ export const topics: Topic[] = [
   { ...towerMansionInheritanceTaxReformData, createdAt: "2026-09-21T22:22:11+09:00" } as unknown as Topic,
   { ...unificationChurchIssueData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...universityResearchCrisis10TrillionFundData, createdAt: "2026-09-21T23:10:53+09:00" } as unknown as Topic,
+  { ...usMilitaryCrimesSofaJurisdictionControversyData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...usedBooksAiScanningCulturalCrisisData, createdAt: "2026-09-23T11:53:24+09:00" } as unknown as Topic,
   { ...vacantHousesLandIssueData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...welfareAssistanceSystemElderlyPovertyData, createdAt: "2026-09-21T23:10:53+09:00" } as unknown as Topic,
@@ -310,7 +312,7 @@ export const topics: Topic[] = [
   { ...ethiopiaTigrayHornOfAfricaData, createdAt: "2026-09-21T22:54:22+09:00" } as unknown as Topic,
   { ...europeanFarRightData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...globalEvSlowdownHybridResurgenceData, createdAt: "2026-09-21T22:22:11+09:00" } as unknown as Topic,
-  { ...globalGlaciersMeltingCrisisAlpsHimalayasData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...globalGlaciersMeltingCrisisAlpsHimalayasData, createdAt: "2026-10-02T00:04:19+09:00" } as unknown as Topic,
   { ...globalLgbtqGenderCultureWarData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
   { ...globalMigrationRefugeeCrisisData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...globalSouthBricsData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
