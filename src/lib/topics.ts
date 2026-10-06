@@ -285,7 +285,7 @@ export const topics: Topic[] = [
   { ...towerMansionInheritanceTaxReformData, createdAt: "2026-09-21T22:22:11+09:00" } as unknown as Topic,
   { ...unificationChurchIssueData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...universityResearchCrisis10TrillionFundData, createdAt: "2026-09-21T23:10:53+09:00" } as unknown as Topic,
-  { ...usMilitaryCrimesSofaJurisdictionControversyData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
+  { ...usMilitaryCrimesSofaJurisdictionControversyData, createdAt: "2026-10-06T14:27:27+09:00" } as unknown as Topic,
   { ...usedBooksAiScanningCulturalCrisisData, createdAt: "2026-09-23T11:53:24+09:00" } as unknown as Topic,
   { ...vacantHousesLandIssueData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...welfareAssistanceSystemElderlyPovertyData, createdAt: "2026-09-21T23:10:53+09:00" } as unknown as Topic,
