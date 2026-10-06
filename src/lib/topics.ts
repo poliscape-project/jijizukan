@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (111件)
+// 国内トピック (112件)
 import abandonedGravesTempleCrisisCremationData from "@/data/topics/domestic/abandoned-graves-temple-crisis-cremation.json";
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import agricultureLivestockLaborShortageSafetyCrisisData from "@/data/topics/domestic/agriculture-livestock-labor-shortage-safety-crisis.json";
@@ -112,6 +112,7 @@ import vacantHousesLandIssueData from "@/data/topics/domestic/vacant-houses-land
 import welfareAssistanceSystemElderlyPovertyData from "@/data/topics/domestic/welfare-assistance-system-elderly-poverty.json";
 import wildlifeProtectionBearAttacksData from "@/data/topics/domestic/wildlife-protection-bear-attacks.json";
 import workStyleReformData from "@/data/topics/domestic/work-style-reform.json";
+import yanaMinisterRoadBudgetRetaliationControversyData from "@/data/topics/domestic/yana-minister-road-budget-retaliation-controversy.json";
 
 // 国際トピック (64件)
 import aiRegulationData from "@/data/topics/international/ai-regulation.json";
@@ -291,6 +292,7 @@ export const topics: Topic[] = [
   { ...welfareAssistanceSystemElderlyPovertyData, createdAt: "2026-09-21T23:10:53+09:00" } as unknown as Topic,
   { ...wildlifeProtectionBearAttacksData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...workStyleReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
+  { ...yanaMinisterRoadBudgetRetaliationControversyData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...aiRegulationData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...arcticSeaRouteGeopoliticsData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...aseanUnityCrisisSuperpowersRivalryData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
