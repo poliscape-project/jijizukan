@@ -36,12 +36,13 @@ export default function PieChartBreakdown({ title, subtitle, data, unit = '千�
     };
   });
 
-  // Helper for SVG donut path
+  // Helper for SVG donut path: 0度＝真上（12時位置）から時計回りに描画
   const radius = 80;
   const innerRadius = 52;
   const center = 100;
 
   const getCoordinatesForPercent = (deg: number, r: number) => {
+    // 0度 = 12時方向（標準数学座標の-90度オフセット）
     const rad = ((deg - 90) * Math.PI) / 180.0;
     return {
       x: center + r * Math.cos(rad),
@@ -61,7 +62,7 @@ export default function PieChartBreakdown({ title, subtitle, data, unit = '千�
       <div className="flex flex-col sm:flex-row items-center gap-6 my-auto">
         {/* SVG Donut */}
         <div className="relative w-48 h-48 shrink-0">
-          <svg viewBox="0 0 200 200" className="w-full h-full transform -rotate-90">
+          <svg viewBox="0 0 200 200" className="w-full h-full">
             {slices.map((slice, idx) => {
               if (slice.value <= 0) return null;
               const isLargeArc = slice.angle > 180 ? 1 : 0;
