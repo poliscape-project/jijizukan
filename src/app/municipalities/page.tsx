@@ -9,8 +9,7 @@ import {
 import { getMunicipalitySummaries } from '@/lib/municipalities';
 import MunicipalitySearchFilter from '@/components/municipality/MunicipalitySearchFilter';
 import RankingTabs from '@/components/municipality/RankingTabs';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
+import MunicipalityFooter from '@/components/municipality/MunicipalityFooter';
 
 export const metadata: Metadata = {
   title: '全国自治体カルテ | 全47都道府県・1,700自治体の決算と税金の使い道を完全可視化',
@@ -99,7 +98,6 @@ export default function MunicipalitiesPage() {
 
   return (
     <>
-      <Header />
       <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
         {/* ヒーローセクション：すっきりとした知的なヘッダー */}
         <div className="rounded-2xl bg-slate-900 text-white p-6 md:p-8 border border-slate-800 shadow-sm">
@@ -210,7 +208,7 @@ export default function MunicipalitiesPage() {
           </div>
         </div>
       </main>
-      <Footer />
+      <MunicipalityFooter />
     </>
   );
 }

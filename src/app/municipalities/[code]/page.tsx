@@ -9,8 +9,7 @@ import {
 } from 'lucide-react';
 import { getMunicipalityByCode, getSimilarMunicipalities, getAllMunicipalities } from '@/lib/municipalities';
 import { getTopicsByMunicipality } from '@/lib/topics';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
+import MunicipalityFooter from '@/components/municipality/MunicipalityFooter';
 import MunicipalityDetailTabs from '@/components/municipality/MunicipalityDetailTabs';
 
 interface Props {
@@ -95,17 +94,42 @@ export default async function MunicipalityDetailPage({ params }: Props) {
 
   return (
     <>
-      <Header />
-      <main className="max-w-6xl mx-auto px-4 py-8 space-y-6">
+      <main className="max-w-6xl mx-auto px-4 py-6 space-y-6">
+        {/* 全国自治体カルテ 独立トップナビゲーション */}
+        <div className="flex items-center justify-between pb-3 border-b border-slate-200">
+          <Link
+            href="/municipalities"
+            className="flex items-center gap-2.5 group"
+          >
+            <div className="w-8 h-8 rounded-lg bg-indigo-600 text-white flex items-center justify-center shadow-xs group-hover:bg-indigo-700 transition">
+              <Building2 className="w-4 h-4" />
+            </div>
+            <div>
+              <span className="font-black text-sm text-slate-900 group-hover:text-indigo-600 transition">
+                全国自治体カルテ
+              </span>
+              <span className="text-[10px] text-slate-400 block -mt-0.5">
+                47都道府県・1,700自治体オープンデータ
+              </span>
+            </div>
+          </Link>
+
+          <Link
+            href="/municipalities"
+            className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-indigo-600 transition px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" />
+            <span>自治体一覧へ戻る</span>
+          </Link>
+        </div>
+
         {/* ナビゲーション・パンくず */}
-        <div className="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
-          <Link href="/" className="hover:text-indigo-600 dark:hover:text-indigo-400">トップ</Link>
-          <span>/</span>
-          <Link href="/municipalities" className="hover:text-indigo-600 dark:hover:text-indigo-400">全国自治体カルテ</Link>
+        <div className="flex items-center gap-2 text-xs text-slate-500">
+          <Link href="/municipalities" className="hover:text-indigo-600">全国自治体カルテ</Link>
           <span>/</span>
           <span>{m.prefName}</span>
           <span>/</span>
-          <span className="font-bold text-slate-900 dark:text-white">{m.name}</span>
+          <span className="font-bold text-slate-900">{m.name}</span>
         </div>
 
         {/* 自治体ヘッダー（端正でスッキリしたデザイン） */}
@@ -266,7 +290,7 @@ export default async function MunicipalityDetailPage({ params }: Props) {
           pwPerCapita={pwPerCapita}
         />
       </main>
-      <Footer />
+      <MunicipalityFooter />
     </>
   );
 }
