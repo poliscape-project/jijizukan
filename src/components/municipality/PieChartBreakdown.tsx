@@ -13,16 +13,35 @@ interface Props {
   subtitle?: string;
   data: SliceItem[];
   unit?: string;
+  sortByValue?: boolean;
 }
 
-export default function PieChartBreakdown({ title, subtitle, data, unit = '千円' }: Props) {
+export default function PieChartBreakdown({
+  title,
+  subtitle,
+  data,
+  unit = '千円',
+  sortByValue = true
+}: Props) {
   const [hoveredIdx, setHoveredIdx] = useState<number | null>(null);
 
-  const total = data.reduce((sum, item) => sum + item.value, 0) || 1;
+  // 金額が大きい順（降順）にソート。「その他」を含む項目は金額に関わらず末尾へ
+  const sortedData = React.useMemo(() => {
+    if (!sortByValue) return data;
+    return [...data].sort((a, b) => {
+      const aIsOther = a.name.includes('その他');
+      const bIsOther = b.name.includes('その他');
+      if (aIsOther && !bIsOther) return 1;
+      if (!aIsOther && bIsOther) return -1;
+      return b.value - a.value;
+    });
+  }, [data, sortByValue]);
+
+  const total = sortedData.reduce((sum, item) => sum + item.value, 0) || 1;
 
   // Calculate angles
   let cumulativeAngle = 0;
-  const slices = data.map((item) => {
+  const slices = sortedData.map((item) => {
     const ratio = item.value / total;
     const angle = ratio * 360;
     const startAngle = cumulativeAngle;
