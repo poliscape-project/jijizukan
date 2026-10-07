@@ -1,0 +1,8 @@
+# Scraping & Raw Data Caches (Build server does not need these)
+scripts/cache_kessan
+scripts/*.xlsx
+scripts/audit-result.json
+
+# Documentation & Reports
+*.md
+!README.md
