@@ -11,6 +11,8 @@ import { getMunicipalityByCode, getSimilarMunicipalities, getAllMunicipalities }
 import PieChartBreakdown from '@/components/municipality/PieChartBreakdown';
 import TaxSimulator from '@/components/municipality/TaxSimulator';
 import SimilarComparisonCard from '@/components/municipality/SimilarComparisonCard';
+import DebtFundBalanceCard from '@/components/municipality/DebtFundBalanceCard';
+import CouncilCostCard from '@/components/municipality/CouncilCostCard';
 
 interface Props {
   params: Promise<{ code: string }>;
@@ -235,6 +237,9 @@ export default async function MunicipalityDetailPage({ params }: Props) {
         </div>
       </div>
 
+      {/* 街の貯金 vs 借金バランス（実質純資産） */}
+      <DebtFundBalanceCard municipality={m} />
+
       {/* 歳入・歳出の内訳グラフ */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <PieChartBreakdown
@@ -317,6 +322,9 @@ export default async function MunicipalityDetailPage({ params }: Props) {
           </div>
         </div>
       </div>
+
+      {/* 市町村議会コスト & 住民負担（議会通信簿） */}
+      <CouncilCostCard municipality={m} />
 
       {/* 類似自治体とのベンチマーク比較 */}
       <SimilarComparisonCard municipality={m} similarMunicipalities={similar} />

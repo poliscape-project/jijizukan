@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { 
   Building2, Search, TrendingUp, AlertTriangle, ShieldCheck, 
-  MapPin, Sparkles, HelpCircle, ArrowRight, Coins, Scale, FileText
+  MapPin, Sparkles, HelpCircle, ArrowRight, Coins, Scale, FileText, PiggyBank
 } from 'lucide-react';
 import { getMunicipalitySummaries } from '@/lib/municipalities';
 import MunicipalitySearchFilter from '@/components/municipality/MunicipalitySearchFilter';
@@ -56,6 +56,11 @@ export default function MunicipalitiesPage() {
   // 住民1人あたり土木費トップ3
   const topPublicWorks = [...summaries]
     .sort((a, b) => b.publicWorksPerCapita - a.publicWorksPerCapita)
+    .slice(0, 3);
+
+  // 実質純資産（住民1人あたり貯金超過）トップ3
+  const topNetReserve = [...summaries]
+    .sort((a, b) => (b.netPerCapita ?? 0) - (a.netPerCapita ?? 0))
     .slice(0, 3);
 
   return (
@@ -133,87 +138,131 @@ export default function MunicipalitiesPage() {
         </div>
       </div>
 
-      {/* 特異点ランキング（財政力 & 土木費） */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {/* 特異点ランキング（財政力 & 純資産 & 土木費） */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {/* 財政力指数トップ */}
-        <div className="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-          <h3 className="font-bold text-base text-slate-900 dark:text-white mb-1 flex items-center gap-2">
-            <Coins className="w-4 h-4 text-emerald-500" />
-            財政力指数 全国トップ（不交付団体）
-          </h3>
-          <p className="text-xs text-slate-500 dark:text-slate-400 mb-4">
-            国からの普通交付税に頼らず自主財源で運営できる自治体
-          </p>
+        <div className="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-1 flex items-center gap-1.5">
+              <Coins className="w-4 h-4 text-emerald-500" />
+              財政力指数 全国トップ（不交付）
+            </h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+              自主財源で自立運営する自治体
+            </p>
 
-          <div className="space-y-2.5">
-            {topFinancial.map((m, idx) => (
-              <Link
-                key={m.code}
-                href={`/municipalities/${m.code}`}
-                className="flex items-center justify-between p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-slate-100 dark:border-slate-800 transition"
-              >
-                <div className="flex items-center gap-3">
-                  <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-black ${
-                    idx === 0 ? 'bg-amber-400 text-slate-900' : idx === 1 ? 'bg-slate-300 text-slate-900' : 'bg-amber-700 text-white'
-                  }`}>
-                    {idx + 1}
-                  </span>
-                  <div>
-                    <div className="font-bold text-sm text-slate-900 dark:text-white">
-                      {m.prefName} {m.name}
+            <div className="space-y-2">
+              {topFinancial.map((m, idx) => (
+                <Link
+                  key={m.code}
+                  href={`/municipalities/${m.code}`}
+                  className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-slate-100 dark:border-slate-800 transition text-xs"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${
+                      idx === 0 ? 'bg-amber-400 text-slate-900' : idx === 1 ? 'bg-slate-300 text-slate-900' : 'bg-amber-700 text-white'
+                    }`}>
+                      {idx + 1}
+                    </span>
+                    <div>
+                      <div className="font-bold text-slate-900 dark:text-white truncate max-w-[110px]">
+                        {m.prefName} {m.name}
+                      </div>
+                      <div className="text-[10px] text-slate-400">人口: {(m.population / 10000 >= 1) ? `${(m.population / 10000).toFixed(1)}万人` : `${m.population.toLocaleString()}人`}</div>
                     </div>
-                    <div className="text-[10px] text-slate-500">人口: {m.population.toLocaleString()}人</div>
                   </div>
-                </div>
-                <div className="text-right">
-                  <div className="font-black text-emerald-600 dark:text-emerald-400 text-base">
-                    {m.financialStrength.toFixed(2)}
+                  <div className="text-right">
+                    <div className="font-black text-emerald-600 dark:text-emerald-400 text-sm">
+                      {m.financialStrength.toFixed(2)}
+                    </div>
                   </div>
-                  <div className="text-[10px] text-slate-400">財政力指数</div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* 実質純資産（貯金超過）トップ */}
+        <div className="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-1 flex items-center gap-1.5">
+              <PiggyBank className="w-4 h-4 text-indigo-500" />
+              実質純資産（1人あたり貯金超過）
+            </h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+              借金を全額返済しても貯金が残る健全財政
+            </p>
+
+            <div className="space-y-2">
+              {topNetReserve.map((m, idx) => (
+                <Link
+                  key={m.code}
+                  href={`/municipalities/${m.code}`}
+                  className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-slate-100 dark:border-slate-800 transition text-xs"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${
+                      idx === 0 ? 'bg-amber-400 text-slate-900' : idx === 1 ? 'bg-slate-300 text-slate-900' : 'bg-amber-700 text-white'
+                    }`}>
+                      {idx + 1}
+                    </span>
+                    <div>
+                      <div className="font-bold text-slate-900 dark:text-white truncate max-w-[110px]">
+                        {m.prefName} {m.name}
+                      </div>
+                      <div className="text-[10px] text-slate-400">人口: {(m.population / 10000 >= 1) ? `${(m.population / 10000).toFixed(1)}万人` : `${m.population.toLocaleString()}人`}</div>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <div className="font-black text-indigo-600 dark:text-indigo-400 text-sm">
+                      +{(Math.round((m.netPerCapita || 0) / 10000)).toLocaleString()}万円
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
 
         {/* 住民1人あたり土木費トップ */}
-        <div className="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
-          <h3 className="font-bold text-base text-slate-900 dark:text-white mb-1 flex items-center gap-2">
-            <Scale className="w-4 h-4 text-amber-500" />
-            住民1人あたり土木費 全国トップ
-          </h3>
-          <p className="text-xs text-slate-500 dark:text-slate-400 mb-4">
-            離島航路・急傾斜地治山・港湾等で突出した土木投資を行う自治体
-          </p>
+        <div className="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-1 flex items-center gap-1.5">
+              <Scale className="w-4 h-4 text-amber-500" />
+              住民1人あたり土木費 全国トップ
+            </h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+              離島航路・急傾斜地治山等で突出した投資
+            </p>
 
-          <div className="space-y-2.5">
-            {topPublicWorks.map((m, idx) => (
-              <Link
-                key={m.code}
-                href={`/municipalities/${m.code}`}
-                className="flex items-center justify-between p-3 rounded-xl bg-slate-50 dark:bg-slate-800/60 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-slate-100 dark:border-slate-800 transition"
-              >
-                <div className="flex items-center gap-3">
-                  <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-black ${
-                    idx === 0 ? 'bg-amber-400 text-slate-900' : idx === 1 ? 'bg-slate-300 text-slate-900' : 'bg-amber-700 text-white'
-                  }`}>
-                    {idx + 1}
-                  </span>
-                  <div>
-                    <div className="font-bold text-sm text-slate-900 dark:text-white">
-                      {m.prefName} {m.name}
+            <div className="space-y-2">
+              {topPublicWorks.map((m, idx) => (
+                <Link
+                  key={m.code}
+                  href={`/municipalities/${m.code}`}
+                  className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-slate-100 dark:border-slate-800 transition text-xs"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${
+                      idx === 0 ? 'bg-amber-400 text-slate-900' : idx === 1 ? 'bg-slate-300 text-slate-900' : 'bg-amber-700 text-white'
+                    }`}>
+                      {idx + 1}
+                    </span>
+                    <div>
+                      <div className="font-bold text-slate-900 dark:text-white truncate max-w-[110px]">
+                        {m.prefName} {m.name}
+                      </div>
+                      <div className="text-[10px] text-slate-400">人口: {(m.population / 10000 >= 1) ? `${(m.population / 10000).toFixed(1)}万人` : `${m.population.toLocaleString()}人`}</div>
                     </div>
-                    <div className="text-[10px] text-slate-500">人口: {m.population.toLocaleString()}人</div>
                   </div>
-                </div>
-                <div className="text-right">
-                  <div className="font-black text-amber-600 dark:text-amber-400 text-base">
-                    {m.publicWorksPerCapita.toLocaleString()}円
+                  <div className="text-right">
+                    <div className="font-black text-amber-600 dark:text-amber-400 text-sm">
+                      {(m.publicWorksPerCapita || 0).toLocaleString()}円
+                    </div>
                   </div>
-                  <div className="text-[10px] text-slate-400">1人あたり年間土木費</div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </div>

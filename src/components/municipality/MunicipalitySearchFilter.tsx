@@ -21,7 +21,15 @@ const PREFECTURES = [
   '福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県'
 ];
 
-type SortKey = 'default' | 'financialDesc' | 'financialAsc' | 'publicWorksDesc' | 'populationDesc' | 'alertsOnly';
+type SortKey = 
+  | 'default' 
+  | 'financialDesc' 
+  | 'financialAsc' 
+  | 'publicWorksDesc' 
+  | 'populationDesc' 
+  | 'netPerCapitaDesc'
+  | 'assemblyCostDesc'
+  | 'alertsOnly';
 
 export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
   const [query, setQuery] = useState('');
@@ -59,6 +67,12 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
         break;
       case 'publicWorksDesc':
         sorted.sort((a, b) => b.publicWorksPerCapita - a.publicWorksPerCapita);
+        break;
+      case 'netPerCapitaDesc':
+        sorted.sort((a, b) => (b.netPerCapita ?? 0) - (a.netPerCapita ?? 0));
+        break;
+      case 'assemblyCostDesc':
+        sorted.sort((a, b) => (b.assemblyCostPerCapita ?? 0) - (a.assemblyCostPerCapita ?? 0));
         break;
       case 'populationDesc':
         sorted.sort((a, b) => b.population - a.population);
@@ -132,7 +146,9 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
               <option value="default">全国コード順</option>
               <option value="financialDesc">財政力指数（高い順）</option>
               <option value="financialAsc">財政力指数（低い順）</option>
+              <option value="netPerCapitaDesc">実質純資産（貯金超過順）</option>
               <option value="publicWorksDesc">1人あたり土木費（高い順）</option>
+              <option value="assemblyCostDesc">1人あたり議会費（高い順）</option>
               <option value="populationDesc">人口規模（多い順）</option>
               <option value="alertsOnly">特異点・アラート自治体優先</option>
             </select>
@@ -225,6 +241,19 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
                     </div>
                   </div>
                 </div>
+
+                {m.netPerCapita !== undefined && (
+                  <div className="flex items-center justify-between text-[11px] px-2 py-1 rounded-lg bg-slate-50 dark:bg-slate-850 border border-slate-100 dark:border-slate-800 mb-2">
+                    <span className="text-slate-500">実質純資産（貯金−借金）:</span>
+                    <span className={`font-bold ${
+                      m.netPerCapita >= 0
+                        ? 'text-emerald-600 dark:text-emerald-400'
+                        : 'text-amber-600 dark:text-amber-400'
+                    }`}>
+                      {m.netPerCapita >= 0 ? `+${m.netPerCapita.toLocaleString()}` : m.netPerCapita.toLocaleString()}円/人
+                    </span>
+                  </div>
+                )}
               </div>
 
               <div className="flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-100 dark:border-slate-800">

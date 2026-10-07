@@ -121,5 +121,9 @@ export interface MunicipalitySummary {
   publicWorks: number;
   welfare: number;
   publicWorksPerCapita: number;
+  reserveTotal?: number;
+  debtTotal?: number;
+  netPerCapita?: number;
+  assemblyCostPerCapita?: number;
   hasAlerts: boolean;
 }

@@ -20,11 +20,12 @@ export function getAllMunicipalities(): MunicipalityData[] {
 
 export function getMunicipalitySummaries(): MunicipalitySummary[] {
   if (cachedSummaries) return cachedSummaries;
-  const filePath = getDataFilePath('municipalities_summary.json');
-  if (!fs.existsSync(filePath)) {
-    // Fallback: derive from full data
-    const full = getAllMunicipalities();
-    cachedSummaries = full.map(m => ({
+  const full = getAllMunicipalities();
+  cachedSummaries = full.map(m => {
+    const pop = m.population || 1;
+    const reserveTotal = m.financial.reserveFundTotal * 1000;
+    const debtTotal = m.financial.debtOutstanding * 1000;
+    return {
       code: m.code,
       prefCode: m.prefCode,
       prefName: m.prefName,
@@ -39,14 +40,15 @@ export function getMunicipalitySummaries(): MunicipalitySummary[] {
       expTotal: m.expensesByPurpose.total,
       publicWorks: m.expensesByPurpose.publicWorks,
       welfare: m.expensesByPurpose.welfare,
-      publicWorksPerCapita: Math.round((m.expensesByPurpose.publicWorks * 1000) / (m.population || 1)),
+      publicWorksPerCapita: Math.round((m.expensesByPurpose.publicWorks * 1000) / pop),
+      reserveTotal,
+      debtTotal,
+      netPerCapita: Math.round((reserveTotal - debtTotal) / pop),
+      assemblyCostPerCapita: Math.round((m.expensesByPurpose.assembly * 1000) / pop),
       hasAlerts: Boolean(m.alerts && m.alerts.length > 0)
-    }));
-    return cachedSummaries;
-  }
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  cachedSummaries = JSON.parse(raw);
-  return cachedSummaries || [];
+    };
+  });
+  return cachedSummaries;
 }
 
 export function getMunicipalityByCode(code: string): MunicipalityData | null {
