@@ -14,22 +14,20 @@ export default function IndustryProfileCard({ municipality }: Props) {
 
   // Determine industry classification label
   let profileTag = 'バランス型経済';
-  let profileColor = 'bg-blue-100 text-blue-800 dark:bg-blue-950/70 dark:text-blue-300';
   let profileDesc = '第1次〜第3次産業がバランスよく配分された地域構造です。';
 
   if (ind.primary >= 10) {
     profileTag = '農林水産業拠点型';
-    profileColor = 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/70 dark:text-emerald-300';
     profileDesc = '全国平均（約3%）を大きく超える第1次産業就業率を誇り、農作物・林業・水産資源が地域経済と食料供給の基盤となっています。';
   } else if (ind.secondary >= 30) {
     profileTag = 'ものづくり・工業都市型';
-    profileColor = 'bg-amber-100 text-amber-800 dark:bg-amber-950/70 dark:text-amber-300';
     profileDesc = '製造業や建設業などの第2次産業が集積しており、企業立地に伴う法人市民税や固定資産税が財政基盤を支える工業集積地です。';
   } else if (ind.tertiary >= 78) {
     profileTag = '商業・サービス・都市型';
-    profileColor = 'bg-purple-100 text-purple-800 dark:bg-purple-950/70 dark:text-purple-300';
     profileDesc = '小売・飲食・IT・医療福祉などの第3次産業が8割近くを占め、都市機能や観光・サービス消費が経済活動の中心となっています。';
   }
+
+  const profileBadgeStyle = 'bg-slate-100 text-slate-800 dark:bg-slate-800 dark:text-slate-200 border-slate-200 dark:border-slate-700';
 
   return (
     <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
@@ -50,7 +48,7 @@ export default function IndustryProfileCard({ municipality }: Props) {
         </div>
 
         <div>
-          <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold ${profileColor}`}>
+          <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold ${profileBadgeStyle}`}>
             <Building2 className="w-3.5 h-3.5" />
             {profileTag}
           </span>
@@ -58,63 +56,63 @@ export default function IndustryProfileCard({ municipality }: Props) {
       </div>
 
       {/* 3 Industry Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-6">
         {/* 第1次産業 */}
-        <div className="p-4 rounded-xl bg-emerald-50/50 dark:bg-emerald-950/20 border border-emerald-200/60 dark:border-emerald-900/50">
-          <div className="flex items-center justify-between text-xs text-emerald-800 dark:text-emerald-300 font-semibold mb-1">
+        <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/70 dark:border-slate-700/60">
+          <div className="flex items-center justify-between text-xs text-slate-700 dark:text-slate-300 font-semibold mb-1">
             <span className="flex items-center gap-1.5">
-              <Wheat className="w-4 h-4 text-emerald-600" />
+              <Wheat className="w-3.5 h-3.5 text-slate-500" />
               第1次産業（農林水産）
             </span>
-            <span className="text-[10px] bg-emerald-200/60 dark:bg-emerald-900/60 px-1.5 py-0.5 rounded">
-              農業・林業・漁業
+            <span className="text-[10px] bg-slate-200/70 dark:bg-slate-700 px-1.5 py-0.5 rounded text-slate-600 dark:text-slate-300">
+              農林水産
             </span>
           </div>
-          <div className="text-2xl font-black text-emerald-700 dark:text-emerald-400 tracking-tight">
+          <div className="text-2xl font-black text-slate-900 dark:text-white tracking-tight">
             {ind.primary}
-            <span className="text-sm font-normal text-emerald-800 dark:text-emerald-300 ml-1">%</span>
+            <span className="text-xs font-normal text-slate-500 ml-1">%</span>
           </div>
-          <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-1">
+          <p className="text-[11px] text-slate-400 mt-0.5">
             全国平均: 約 3.2%
           </p>
         </div>
 
         {/* 第2次産業 */}
-        <div className="p-4 rounded-xl bg-amber-50/50 dark:bg-amber-950/20 border border-amber-200/60 dark:border-amber-900/50">
-          <div className="flex items-center justify-between text-xs text-amber-800 dark:text-amber-300 font-semibold mb-1">
+        <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/70 dark:border-slate-700/60">
+          <div className="flex items-center justify-between text-xs text-slate-700 dark:text-slate-300 font-semibold mb-1">
             <span className="flex items-center gap-1.5">
-              <Factory className="w-4 h-4 text-amber-600" />
-              第2次産業（鉱工業・建設）
+              <Factory className="w-3.5 h-3.5 text-slate-500" />
+              第2次産業（鉱工・建設）
             </span>
-            <span className="text-[10px] bg-amber-200/60 dark:bg-amber-900/60 px-1.5 py-0.5 rounded">
-              製造業・建設業
+            <span className="text-[10px] bg-slate-200/70 dark:bg-slate-700 px-1.5 py-0.5 rounded text-slate-600 dark:text-slate-300">
+              製造・建設
             </span>
           </div>
-          <div className="text-2xl font-black text-amber-700 dark:text-amber-400 tracking-tight">
+          <div className="text-2xl font-black text-slate-900 dark:text-white tracking-tight">
             {ind.secondary}
-            <span className="text-sm font-normal text-amber-800 dark:text-amber-300 ml-1">%</span>
+            <span className="text-xs font-normal text-slate-500 ml-1">%</span>
           </div>
-          <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-1">
+          <p className="text-[11px] text-slate-400 mt-0.5">
             全国平均: 約 23.5%
           </p>
         </div>
 
         {/* 第3次産業 */}
-        <div className="p-4 rounded-xl bg-purple-50/50 dark:bg-purple-950/20 border border-purple-200/60 dark:border-purple-900/50">
-          <div className="flex items-center justify-between text-xs text-purple-800 dark:text-purple-300 font-semibold mb-1">
+        <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/70 dark:border-slate-700/60">
+          <div className="flex items-center justify-between text-xs text-slate-700 dark:text-slate-300 font-semibold mb-1">
             <span className="flex items-center gap-1.5">
-              <Store className="w-4 h-4 text-purple-600" />
-              第3次産業（サービス・商業）
+              <Store className="w-3.5 h-3.5 text-slate-500" />
+              第3次産業（サービス）
             </span>
-            <span className="text-[10px] bg-purple-200/60 dark:bg-purple-900/60 px-1.5 py-0.5 rounded">
-              小売・観光・IT・福祉
+            <span className="text-[10px] bg-slate-200/70 dark:bg-slate-700 px-1.5 py-0.5 rounded text-slate-600 dark:text-slate-300">
+              商業・IT・福祉
             </span>
           </div>
-          <div className="text-2xl font-black text-purple-700 dark:text-purple-400 tracking-tight">
+          <div className="text-2xl font-black text-slate-900 dark:text-white tracking-tight">
             {ind.tertiary}
-            <span className="text-sm font-normal text-purple-800 dark:text-purple-300 ml-1">%</span>
+            <span className="text-xs font-normal text-slate-500 ml-1">%</span>
           </div>
-          <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-1">
+          <p className="text-[11px] text-slate-400 mt-0.5">
             全国平均: 約 73.3%
           </p>
         </div>

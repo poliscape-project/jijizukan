@@ -17,15 +17,7 @@ export default function SustainabilityCard({ municipality }: Props) {
   const isBlackhole = sus.categoryType === 'blackhole';
 
   return (
-    <div className={`rounded-2xl p-6 border shadow-sm ${
-      isVanishing
-        ? 'bg-rose-50/30 dark:bg-rose-950/10 border-rose-200 dark:border-rose-900/60'
-        : isSelfReliant
-        ? 'bg-emerald-50/30 dark:bg-emerald-950/10 border-emerald-200 dark:border-emerald-900/60'
-        : isBlackhole
-        ? 'bg-purple-50/30 dark:bg-purple-950/10 border-purple-200 dark:border-purple-900/60'
-        : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800'
-    }`}>
+    <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm">
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
         <div>
