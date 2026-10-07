@@ -114,6 +114,7 @@ export interface Topic {
   developments: Development[];
   relatedTopics?: RelatedTopic[];
   relatedPolicies?: RelatedPolicy[];
+  relatedMunicipalities?: { code: string; name: string; note?: string }[];
   sources: TopicSource[];
 }
 

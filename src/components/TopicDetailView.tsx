@@ -23,6 +23,8 @@ import {
   Globe,
   Tag,
   Check,
+  Building2,
+  ArrowRight,
 } from "lucide-react";
 
 interface TopicDetailViewProps {
@@ -426,6 +428,45 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
         {topic.relatedPolicies && topic.relatedPolicies.length > 0 && (
           <section className="mb-8">
             <RelatedPolicies policies={topic.relatedPolicies} />
+          </section>
+        )}
+
+        {/* 関連する自治体カルテ（全国自治体カルテ連携） */}
+        {topic.relatedMunicipalities && topic.relatedMunicipalities.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
+              <Building2 className="w-5 h-5 text-indigo-600" />
+              🏛️ 関連する自治体カルテ（全国自治体カルテ）
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {topic.relatedMunicipalities.map((m) => (
+                <Link
+                  key={m.code}
+                  href={`/municipalities/${m.code}`}
+                  className="group p-4 rounded-xl border border-slate-200 bg-white hover:border-indigo-400 hover:shadow-sm transition flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="flex items-center justify-between text-xs text-slate-500 mb-1">
+                      <span className="font-semibold text-indigo-600">全国自治体カルテ</span>
+                      <span className="font-mono text-[10px] bg-slate-100 px-1.5 py-0.5 rounded">コード {m.code}</span>
+                    </div>
+                    <div className="font-bold text-base text-slate-900 group-hover:text-indigo-600 transition flex items-center justify-between">
+                      <span>{m.name}</span>
+                      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition transform text-indigo-600" />
+                    </div>
+                    {m.note && (
+                      <p className="text-xs text-slate-600 mt-1.5 leading-snug">
+                        {m.note}
+                      </p>
+                    )}
+                  </div>
+                  <div className="mt-3 pt-2 border-t border-slate-100 text-xs font-bold text-indigo-600 group-hover:underline flex items-center gap-1">
+                    <span>決算カード・税金の使い道を見る</span>
+                    <span>→</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </section>
         )}
 

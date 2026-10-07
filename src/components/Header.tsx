@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Newspaper, BookMarked, Globe, Landmark, CheckCircle2 } from "lucide-react";
+import { Newspaper, BookMarked, Globe, Landmark, CheckCircle2, Building2 } from "lucide-react";
 import { getAllTopics } from "@/lib/topics";
 import { useCheckedTopics } from "@/lib/checkHistory";
 
@@ -76,6 +76,14 @@ export const Header: React.FC = () => {
             >
               <Globe className="w-3.5 h-3.5 text-sky-600" />
               <span>国際関係</span>
+            </Link>
+            <Link
+              href="/municipalities"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-800 hover:bg-indigo-100 border border-indigo-200/70 transition-all shadow-2xs cursor-pointer"
+              title="全国自治体カルテ（決算・税金の使い道）"
+            >
+              <Building2 className="w-3.5 h-3.5 text-indigo-600" />
+              <span>自治体カルテ</span>
             </Link>
             <a
               href="https://poliscape.vercel.app"

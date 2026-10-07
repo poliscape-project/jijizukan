@@ -1,13 +1,14 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
+import Link from "next/link";
 import { getAllTopics } from "@/lib/topics";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { TopicCard } from "@/components/TopicCard";
 import { useCheckedTopics } from "@/lib/checkHistory";
 import { sortTopics, SORT_OPTIONS, type SortOption } from "@/lib/sortTopics";
-import { Search, X, Landmark, Globe, Filter, CheckCircle2, ArrowUpDown } from "lucide-react";
+import { Search, X, Landmark, Globe, Filter, CheckCircle2, ArrowUpDown, Building2, ArrowRight } from "lucide-react";
 import type { TopicStatus } from "@/types/topic";
 
 const allTopics = getAllTopics();
@@ -102,6 +103,37 @@ export default function HomePage() {
               <X className="w-4 h-4" />
             </button>
           )}
+        </div>
+
+        {/* 全国自治体カルテ PRバナー */}
+        <div className="max-w-xl mx-auto mb-6">
+          <Link
+            href="/municipalities"
+            className="group flex items-center justify-between p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-indigo-900 via-indigo-950 to-slate-900 text-white shadow-md hover:shadow-lg transition-all border border-indigo-700/50"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-indigo-600/30 flex items-center justify-center text-indigo-300 border border-indigo-400/30 shrink-0">
+                <Building2 className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="flex items-center gap-2">
+                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/40">
+                    新機能
+                  </span>
+                  <span className="font-black text-sm text-white group-hover:text-indigo-200 transition">
+                    全国自治体カルテ 公開
+                  </span>
+                </div>
+                <p className="text-xs text-indigo-200/80 mt-0.5">
+                  全1,700自治体の決算・税金の使い道を完全可視化
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-1 text-xs font-bold text-indigo-300 group-hover:text-white shrink-0 pl-2">
+              <span className="hidden sm:inline">カルテを見る</span>
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition transform" />
+            </div>
+          </Link>
         </div>
 
         {/* フィルタ */}

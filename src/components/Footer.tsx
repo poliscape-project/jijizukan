@@ -13,7 +13,14 @@ export const Footer: React.FC = () => {
             本サイトは事実関係のみを記載し、特定の立場を支持するものではありません。
           </p>
           <p className="mt-1 text-slate-400">
-            姉妹サイト:{" "}
+            プロジェクト:{" "}
+            <a
+              href="/municipalities"
+              className="text-indigo-600 hover:text-indigo-800 underline underline-offset-2"
+            >
+              全国自治体カルテ
+            </a>
+            {" "}（全1,700自治体の決算・税金の使い道） | 姉妹サイト:{" "}
             <a
               href="https://poliscape.vercel.app"
               target="_blank"
