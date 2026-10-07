@@ -42,7 +42,7 @@ export default function MunicipalityDetailTabs({
 
   const tabs = [
     { id: 'finance', label: '財政健全度・税金の使い道', icon: Coins, count: '指標・シミュレーター' },
-    { id: 'population', label: '人口・持続可能性・産業', icon: Users, count: '消滅判定・主要企業' },
+    { id: 'population', label: '人口ピラミッド・持続性・産業', icon: Users, count: '年齢構成・消滅判定・企業' },
     { id: 'governance', label: 'ふるさと納税・議会・比較', icon: Gift, count: '収支・議員コスト' }
   ] as const;
 
@@ -161,14 +161,14 @@ export default function MunicipalityDetailTabs({
         </div>
       )}
 
-      {/* タブ②：人口・持続可能性・産業 */}
+      {/* タブ②：人口ピラミッド・持続可能性・産業 */}
       {activeTab === 'population' && (
         <div className="space-y-6">
-          {/* 自治体持続可能性判定（人口戦略会議2024） */}
-          {m.sustainability && <SustainabilityCard municipality={m} />}
-
           {/* 年齢3区分ピラミッド & 高齢化率・少子化率 */}
           {m.demographics && <DemographicsCard municipality={m} />}
+
+          {/* 自治体持続可能性判定（人口戦略会議2024） */}
+          {m.sustainability && <SustainabilityCard municipality={m} />}
 
           {/* 産業構造 & 街を支える主要企業・看板特産品 */}
           {m.industryRatio && <IndustryProfileCard municipality={m} />}
