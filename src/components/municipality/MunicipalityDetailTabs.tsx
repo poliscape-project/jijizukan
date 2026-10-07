@@ -48,28 +48,55 @@ export default function MunicipalityDetailTabs({
 
   return (
     <div className="space-y-6">
-      {/* タブナビゲーション */}
-      <div className="border-b border-slate-200 dark:border-slate-800">
-        <nav className="flex space-x-2 sm:space-x-4 overflow-x-auto scrollbar-none pb-px" aria-label="自治体カルテ カテゴリ">
+      {/* タブナビゲーション（直感的なセグメントボタン） */}
+      <div className="bg-slate-100/90 dark:bg-slate-800/80 p-1.5 rounded-2xl border border-slate-200/90 dark:border-slate-700/80">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-1.5" role="tablist" aria-label="自治体カルテ カテゴリ切り替え">
           {tabs.map((tab) => {
             const Icon = tab.icon;
             const isActive = activeTab === tab.id;
             return (
               <button
                 key={tab.id}
+                role="tab"
+                aria-selected={isActive}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center gap-2 py-3 px-3 sm:px-4 text-xs sm:text-sm font-bold border-b-2 transition whitespace-nowrap ${
+                className={`flex items-center justify-between sm:justify-center gap-2.5 px-4 py-3 rounded-xl transition-all text-left sm:text-center cursor-pointer ${
                   isActive
-                    ? 'border-indigo-600 text-indigo-600 dark:border-indigo-400 dark:text-indigo-400'
-                    : 'border-transparent text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white'
+                    ? 'bg-white dark:bg-slate-900 text-indigo-700 dark:text-indigo-300 shadow-sm border border-slate-200/80 dark:border-slate-700 font-bold ring-2 ring-indigo-500/20'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-white/60 dark:hover:bg-slate-700/50 font-medium'
                 }`}
               >
-                <Icon className={`w-4 h-4 ${isActive ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-400'}`} />
-                <span>{tab.label}</span>
+                <div className="flex items-center gap-2.5 min-w-0">
+                  <div className={`p-1.5 rounded-lg shrink-0 ${
+                    isActive
+                      ? 'bg-indigo-100 text-indigo-700 dark:bg-indigo-950/80 dark:text-indigo-300'
+                      : 'bg-slate-200/60 dark:bg-slate-700/60 text-slate-500'
+                  }`}>
+                    <Icon className="w-4 h-4" />
+                  </div>
+                  <div className="truncate">
+                    <div className="text-xs sm:text-sm font-bold tracking-tight">
+                      {tab.label}
+                    </div>
+                    <div className="text-[10px] text-slate-400 font-normal hidden sm:block truncate mt-0.5">
+                      {tab.count}
+                    </div>
+                  </div>
+                </div>
+
+                {isActive ? (
+                  <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 dark:bg-indigo-950/60 dark:text-indigo-300 border border-indigo-200/50 shrink-0">
+                    表示中
+                  </span>
+                ) : (
+                  <span className="text-[10px] text-slate-400 sm:hidden">
+                    開く →
+                  </span>
+                )}
               </button>
             );
           })}
-        </nav>
+        </div>
       </div>
 
       {/* タブ①：財政健全度・税金 */}
