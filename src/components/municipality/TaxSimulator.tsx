@@ -83,14 +83,14 @@ export default function TaxSimulator({ municipality }: Props) {
       description: '消防署・消防団・救急搬送・防災行政無線など'
     },
     {
-      name: '過去の借金返済（公債費）',
+      name: 'インフラ将来負担の償還（公債費）',
       amount: calcShare(debtService),
       ratio: ((debtService / totalExp) * 100).toFixed(1),
       icon: Landmark,
       color: 'bg-slate-500 text-slate-500',
       bgColor: 'bg-slate-50 dark:bg-slate-950/30',
       borderColor: 'border-slate-200 dark:border-slate-800',
-      description: '過去に建設したインフラ等の地方債（借金）元利償還'
+      description: '学校・道路・公共インフラ整備で発行した地方債の元利償還'
     },
     {
       name: '役所運営・窓口（総務費・その他）',

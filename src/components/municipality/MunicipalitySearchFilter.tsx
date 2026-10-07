@@ -186,7 +186,7 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
               <option value="childRateDesc">子ども比率（高い順）</option>
               <option value="financialDesc">財政力指数（高い順）</option>
               <option value="financialAsc">財政力指数（低い順）</option>
-              <option value="netPerCapitaDesc">実質純資産（貯金超過順）</option>
+              <option value="netPerCapitaDesc">実質純資産（基金超過順）</option>
               <option value="publicWorksDesc">1人あたり土木費（高い順）</option>
               <option value="assemblyCostDesc">1人あたり議会費（高い順）</option>
               <option value="populationDesc">人口規模（多い順）</option>
@@ -297,7 +297,7 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
                 {/* 実質純資産 */}
                 {m.netPerCapita !== undefined && (
                   <div className="flex items-center justify-between text-[11px] px-2.5 py-1 rounded-lg bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 mb-1.5">
-                    <span className="text-slate-500">純資産（貯金−借金）:</span>
+                    <span className="text-slate-500">実質純資産（基金−債務）:</span>
                     <span className={`font-bold ${
                       m.netPerCapita >= 0
                         ? 'text-emerald-600 dark:text-emerald-400'

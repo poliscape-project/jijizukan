@@ -118,12 +118,12 @@ export default function MunicipalityRankingTabs({
               <div className="flex items-center justify-between mb-1">
                 <span className="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
                   <PiggyBank className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
-                  実質純資産（貯金超過）
+                  実質純資産（基金超過）
                 </span>
                 <span className="text-[10px] text-slate-400">1人あたり</span>
               </div>
               <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3">
-                借金を即全額返済しても手元に残る基金
+                地方債を即全額償還しても手元に残る積立基金
               </p>
               <div className="space-y-1.5">
                 {topNetReserve.map((m, idx) => (

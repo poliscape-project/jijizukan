@@ -109,7 +109,7 @@ export default function MunicipalitiesPage() {
           </h1>
           <p className="text-sm md:text-base text-slate-300 leading-relaxed">
             総務省「地方財政状況調査（決算カード）」の全自治体データを集約。
-            あなたの街の<strong>貯金・借金・ふるさと納税収支・住民税の使い道</strong>を客観的な事実データから可視化します。
+            あなたの街の<strong>積立基金・地方債残高・ふるさと納税収支・住民税の使い道</strong>を客観的な事実データから可視化します。
           </p>
         </div>
       </div>

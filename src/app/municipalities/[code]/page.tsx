@@ -56,7 +56,7 @@ export default async function MunicipalityDetailPage({ params }: Props) {
   const expPurposeSlices = [
     { name: '民生費（福祉・子育て）', value: m.expensesByPurpose.welfare, color: '#f43f5e' },
     { name: '総務費（庁舎・行政運営）', value: m.expensesByPurpose.generalAdmin, color: '#3b82f6' },
-    { name: '公債費（借金返済）', value: m.expensesByPurpose.debtService, color: '#64748b' },
+    { name: '公債費（地方債償還）', value: m.expensesByPurpose.debtService, color: '#64748b' },
     { name: '土木費（道路・公園等）', value: m.expensesByPurpose.publicWorks, color: '#f59e0b' },
     { name: '衛生費（保健・清掃）', value: m.expensesByPurpose.healthSanitation, color: '#10b981' },
     { name: '教育費（学校・社会教育）', value: m.expensesByPurpose.education, color: '#6366f1' },
@@ -169,7 +169,7 @@ export default async function MunicipalityDetailPage({ params }: Props) {
               1人あたり純資産:
             </span>
             <span className={`font-bold ${netPerCapita >= 0 ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'}`}>
-              {netPerCapita >= 0 ? `+${(Math.round(netPerCapita / 10000)).toLocaleString()}万円 (貯金超)` : `${(Math.round(netPerCapita / 10000)).toLocaleString()}万円 (借金超)`}
+              {netPerCapita >= 0 ? `+${(Math.round(netPerCapita / 10000)).toLocaleString()}万円 (基金超過)` : `${(Math.round(netPerCapita / 10000)).toLocaleString()}万円 (地方債超過)`}
             </span>
           </div>
 

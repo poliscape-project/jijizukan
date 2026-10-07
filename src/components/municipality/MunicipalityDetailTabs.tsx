@@ -157,7 +157,7 @@ export default function MunicipalityDetailTabs({
             </div>
           </div>
 
-          {/* 街の貯金 vs 借金バランス */}
+          {/* 街の実質純資産：積立基金 vs 地方債残高 */}
           <DebtFundBalanceCard municipality={m} />
 
           {/* 歳入・目的別歳出 内訳グラフ */}
