@@ -124,9 +124,52 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
           </div>
         </div>
 
+        {/* クイック目次ナビゲーション */}
+        {(() => {
+          const tocItems = [
+            topic.simpleSummary && { id: 'sec-summary', label: '要約', icon: '💬' },
+            topic.id === "childcare-support-contribution-stealth-tax" && { id: 'sec-simulator', label: '試算ツール', icon: '🧮' },
+            topic.background && { id: 'sec-background', label: '背景', icon: '📖' },
+            topic.overview && { id: 'sec-overview', label: '現状', icon: '📄' },
+            ((topic.customSections && topic.customSections.length > 0) || (topic.statCardsData && topic.statCardsData.length > 0) || (topic.cardsData && topic.cardsData.length > 0)) && { id: 'sec-analysis', label: '指標・論点', icon: '📊' },
+            topic.international && topic.international.length > 0 && { id: 'sec-international', label: '海外比較', icon: '🌍' },
+            topic.keyActors && topic.keyActors.length > 0 && { id: 'sec-actors', label: '関係者', icon: '👥' },
+            topic.developments && topic.developments.length > 0 && { id: 'sec-timeline', label: '経緯', icon: '📅' },
+            topic.relatedMunicipalities && topic.relatedMunicipalities.length > 0 && { id: 'sec-municipalities', label: '自治体', icon: '🏛️' },
+            topic.sources && topic.sources.length > 0 && { id: 'sec-sources', label: '出典', icon: '📎' },
+            { id: 'sec-discussion', label: '議論', icon: '💬' }
+          ].filter(Boolean) as { id: string; label: string; icon: string }[];
+
+          if (tocItems.length <= 2) return null;
+
+          return (
+            <nav aria-label="ページ内目次" className="mb-8 p-3 rounded-2xl bg-slate-100/90 border border-slate-200/80 shadow-2xs">
+              <div className="flex items-center gap-1.5 overflow-x-auto pb-0.5 scrollbar-none text-xs">
+                <span className="text-[11px] font-bold text-slate-500 px-1.5 shrink-0 flex items-center gap-1">
+                  <span>📑</span> 目次:
+                </span>
+                {tocItems.map(item => (
+                  <a
+                    key={item.id}
+                    href={`#${item.id}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className="px-2.5 py-1 rounded-lg bg-white text-slate-700 font-semibold border border-slate-200 hover:border-blue-400 hover:text-blue-600 whitespace-nowrap transition shadow-2xs cursor-pointer flex items-center gap-1 shrink-0"
+                  >
+                    <span>{item.icon}</span>
+                    <span>{item.label}</span>
+                  </a>
+                ))}
+              </div>
+            </nav>
+          );
+        })()}
+
         {/* ざっくり言うと */}
         {topic.simpleSummary && (
-          <section className="mb-8">
+          <section id="sec-summary" className="mb-8 scroll-mt-20">
             <div className="bg-blue-50 rounded-xl border border-blue-200/60 p-5">
               <h2 className="text-sm font-bold text-blue-800 mb-2 flex items-center gap-1.5">
                 💬 ざっくり言うと
@@ -140,14 +183,14 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
 
         {/* トピック別インタラクティブ・シミュレーター */}
         {topic.id === "childcare-support-contribution-stealth-tax" && (
-          <section className="mb-8">
+          <section id="sec-simulator" className="mb-8 scroll-mt-20">
             <ChildcareSupportFundSimulator />
           </section>
         )}
 
         {/* 背景 */}
         {topic.background && (
-          <section className="mb-8">
+          <section id="sec-background" className="mb-8 scroll-mt-20">
             <h2 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
               📖 背景
             </h2>
@@ -160,7 +203,7 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
         )}
 
         {/* 現在の状況 */}
-        <section className="mb-8">
+        <section id="sec-overview" className="mb-8 scroll-mt-20">
           <h2 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
             <FileText className="w-5 h-5 text-blue-600" />
             現在の状況
@@ -193,7 +236,7 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
           }
 
           return sections.map((section, sIdx) => (
-          <section key={sIdx} className="mb-8">
+          <section key={sIdx} id={sIdx === 0 ? "sec-analysis" : undefined} className="mb-8 scroll-mt-20">
             <h2 className="text-lg font-bold text-slate-900 mb-2 flex items-center gap-2">
               {section.icon ? <span>{section.icon}</span> : <FileText className="w-5 h-5 text-blue-600" />}
               {section.title}
@@ -364,7 +407,7 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
 
         {/* 海外主要国の制度比較・国際動向 */}
         {topic.international && topic.international.length > 0 && (
-          <section className="mb-8">
+          <section id="sec-international" className="mb-8 scroll-mt-20">
             <h2 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
               <Globe className="w-5 h-5 text-indigo-600" />
               海外主要国の制度比較・国際動向
@@ -397,7 +440,7 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
 
         {/* 主な関係者 */}
         {topic.keyActors.length > 0 && (
-          <section className="mb-8">
+          <section id="sec-actors" className="mb-8 scroll-mt-20">
             <h2 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
               👥 主な関係者
             </h2>
@@ -407,7 +450,7 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
 
         {/* 経緯 */}
         {topic.developments.length > 0 && (
-          <section className="mb-8">
+          <section id="sec-timeline" className="mb-8 scroll-mt-20">
             <h2 className="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
               📅 経緯
             </h2>
@@ -433,7 +476,7 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
 
         {/* 関連する自治体カルテ（全国自治体カルテ連携） */}
         {topic.relatedMunicipalities && topic.relatedMunicipalities.length > 0 && (
-          <section className="mb-8">
+          <section id="sec-municipalities" className="mb-8 scroll-mt-20">
             <h2 className="text-lg font-bold text-slate-900 mb-3 flex items-center gap-2">
               <Building2 className="w-5 h-5 text-indigo-600" />
               🏛️ 関連する自治体カルテ（全国自治体カルテ）
@@ -492,7 +535,7 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
 
         {/* 情報ソース */}
         {topic.sources.length > 0 && (
-          <section className="mb-8">
+          <section id="sec-sources" className="mb-8 scroll-mt-20">
             <h2 className="text-sm font-bold text-slate-800 mb-3 flex items-center gap-2">
               📎 情報ソース
             </h2>
@@ -555,7 +598,9 @@ export const TopicDetailView: React.FC<TopicDetailViewProps> = ({ topic }) => {
         )}
 
         {/* 💬 議論・専門知識・補足情報スレッド（Giscus & GitHub連携） */}
-        <TopicDiscussion topic={topic} />
+        <section id="sec-discussion" className="scroll-mt-20">
+          <TopicDiscussion topic={topic} />
+        </section>
 
         {/* 戻るリンク */}
         <div className="pt-6 border-t border-slate-200">

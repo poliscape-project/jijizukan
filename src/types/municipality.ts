@@ -158,6 +158,8 @@ export interface MunicipalityData {
   sustainability?: MunicipalitySustainability;
   economy?: MunicipalityEconomy;
   alerts?: MunicipalityAlert[];
+  kana?: string;
+  prefKana?: string;
 }
 
 export interface MunicipalitySummary {
@@ -190,4 +192,6 @@ export interface MunicipalitySummary {
   youngFemaleChangeRate?: number;
   industryType?: string;
   hasAlerts: boolean;
+  kana?: string;
+  prefKana?: string;
 }

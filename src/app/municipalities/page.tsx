@@ -9,6 +9,8 @@ import {
 import { getMunicipalitySummaries } from '@/lib/municipalities';
 import MunicipalitySearchFilter from '@/components/municipality/MunicipalitySearchFilter';
 import RankingTabs from '@/components/municipality/RankingTabs';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: '全国自治体カルテ | 全47都道府県・1,700自治体の決算と税金の使い道を完全可視化',
@@ -96,115 +98,119 @@ export default function MunicipalitiesPage() {
     .slice(0, 3);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-6 space-y-8">
-      {/* ヒーローセクション：すっきりとした知的なヘッダー */}
-      <div className="rounded-2xl bg-slate-900 text-white p-6 md:p-8 border border-slate-800 shadow-sm">
-        <div className="max-w-3xl">
-          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-semibold mb-3 border border-indigo-500/30">
-            <Building2 className="w-3.5 h-3.5" />
-            自治体決算・税金の使い道オープンデータ
+    <>
+      <Header />
+      <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
+        {/* ヒーローセクション：すっきりとした知的なヘッダー */}
+        <div className="rounded-2xl bg-slate-900 text-white p-6 md:p-8 border border-slate-800 shadow-sm">
+          <div className="max-w-3xl">
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-indigo-500/20 text-indigo-300 text-xs font-semibold mb-3 border border-indigo-500/30">
+              <Building2 className="w-3.5 h-3.5" />
+              自治体決算・税金の使い道オープンデータ
+            </div>
+            <h1 className="text-2xl md:text-4xl font-black tracking-tight leading-tight mb-2">
+              全国自治体カルテ
+            </h1>
+            <p className="text-sm md:text-base text-slate-300 leading-relaxed">
+              総務省「地方財政状況調査（決算カード）」の全自治体データを集約。
+              あなたの街の<strong>積立基金・地方債残高・ふるさと納税収支・住民税の使い道</strong>を客観的な事実データから可視化します。
+            </p>
           </div>
-          <h1 className="text-2xl md:text-4xl font-black tracking-tight leading-tight mb-2">
-            全国自治体カルテ
-          </h1>
-          <p className="text-sm md:text-base text-slate-300 leading-relaxed">
-            総務省「地方財政状況調査（決算カード）」の全自治体データを集約。
-            あなたの街の<strong>積立基金・地方債残高・ふるさと納税収支・住民税の使い道</strong>を客観的な事実データから可視化します。
-          </p>
-        </div>
-      </div>
-
-      {/* 【最優先配置】全国自治体検索・データベース */}
-      <div className="space-y-3">
-        <div className="flex items-center justify-between">
-          <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
-            <Search className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
-            自治体を探す・比較する
-          </h2>
-          <span className="text-xs text-slate-500 dark:text-slate-400">
-            全国 <strong>{summaries.length}</strong> 市区町村
-          </span>
         </div>
 
-        <MunicipalitySearchFilter initialSummaries={summaries} />
-      </div>
+        {/* 【最優先配置】全国自治体検索・データベース */}
+        <div className="space-y-3">
+          <div className="flex items-center justify-between">
+            <h2 className="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+              <Search className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
+              自治体を探す・比較する
+            </h2>
+            <span className="text-xs text-slate-500 dark:text-slate-400">
+              全国 <strong>{summaries.length}</strong> 市区町村
+            </span>
+          </div>
 
-      {/* 注目自治体ピックアップ（コンパクト・低彩度） */}
-      <div className="space-y-3">
-        <div>
-          <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
-            <Sparkles className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
-            注目の自治体ピックアップ
+          <MunicipalitySearchFilter initialSummaries={summaries} />
+        </div>
+
+        {/* 注目自治体ピックアップ（コンパクト・低彩度） */}
+        <div className="space-y-3">
+          <div>
+            <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+              <Sparkles className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
+              注目の自治体ピックアップ
+            </h3>
+            <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+              ニュース報道や突出した財政構造で注目される自治体
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            {featured.map((item) => (
+              <Link
+                key={item.code}
+                href={`/municipalities/${item.code}`}
+                className="group bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-indigo-500 dark:hover:border-indigo-500 transition shadow-2xs flex flex-col justify-between"
+              >
+                <div>
+                  <span className={`inline-block px-2 py-0.5 rounded text-[11px] font-semibold mb-2 border ${item.badgeStyle}`}>
+                    {item.badge}
+                  </span>
+                  <h4 className="font-bold text-sm text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition mb-1">
+                    {item.name}
+                  </h4>
+                  <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed line-clamp-2">
+                    {item.description}
+                  </p>
+                </div>
+                <div className="flex items-center justify-between text-xs font-semibold text-indigo-600 dark:text-indigo-400 pt-3 mt-3 border-t border-slate-100 dark:border-slate-800">
+                  <span>カルテを見る</span>
+                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition transform" />
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* 特異点ランキング（3大タブに集約） */}
+        <RankingTabs
+          topFinancial={topFinancial}
+          topNetReserve={topNetReserve}
+          topPublicWorks={topPublicWorks}
+          topFurusatoSurplus={topFurusatoSurplus}
+          topFurusatoDeficit={topFurusatoDeficit}
+          topAging={topAging}
+          topVanishing={topVanishing}
+          topSelfReliant={topSelfReliant}
+        />
+
+        {/* PoliScape × 時事図鑑 × 自治体カルテ 連動解説 */}
+        <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h3 className="font-bold text-sm text-slate-900 dark:text-white">
+            なぜ「自治体カルテ」を公開するのか？
           </h3>
-          <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-            ニュース報道や突出した財政構造で注目される自治体
+          <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            国の政策論争（PoliScape）や政界ニュース（時事図鑑）だけでなく、国民が納めた税金が足元の自治体でどう使われ、健全に運営されているかを事実データで客観的に照合できるシビックテック基盤を目指しています。
           </p>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-          {featured.map((item) => (
+          <div className="flex flex-wrap items-center gap-4 text-xs font-semibold pt-1">
             <Link
-              key={item.code}
-              href={`/municipalities/${item.code}`}
-              className="group bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-indigo-500 dark:hover:border-indigo-500 transition shadow-2xs flex flex-col justify-between"
+              href="/topics/yana-minister-road-budget-retaliation-controversy"
+              className="text-indigo-600 dark:text-indigo-400 hover:underline"
             >
-              <div>
-                <span className={`inline-block px-2 py-0.5 rounded text-[11px] font-semibold mb-2 border ${item.badgeStyle}`}>
-                  {item.badge}
-                </span>
-                <h4 className="font-bold text-sm text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition mb-1">
-                  {item.name}
-                </h4>
-                <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed line-clamp-2">
-                  {item.description}
-                </p>
-              </div>
-              <div className="flex items-center justify-between text-xs font-semibold text-indigo-600 dark:text-indigo-400 pt-3 mt-3 border-t border-slate-100 dark:border-slate-800">
-                <span>カルテを見る</span>
-                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition transform" />
-              </div>
+              簗農水相の道路予算カット発言トピック →
             </Link>
-          ))}
+            <a
+              href="https://poliscape.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-600 dark:text-slate-400 hover:underline"
+            >
+              日本政策図鑑（PoliScape）→
+            </a>
+          </div>
         </div>
-      </div>
-
-      {/* 特異点ランキング（3大タブに集約） */}
-      <RankingTabs
-        topFinancial={topFinancial}
-        topNetReserve={topNetReserve}
-        topPublicWorks={topPublicWorks}
-        topFurusatoSurplus={topFurusatoSurplus}
-        topFurusatoDeficit={topFurusatoDeficit}
-        topAging={topAging}
-        topVanishing={topVanishing}
-        topSelfReliant={topSelfReliant}
-      />
-
-      {/* PoliScape × 時事図鑑 × 自治体カルテ 連動解説 */}
-      <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 space-y-2">
-        <h3 className="font-bold text-sm text-slate-900 dark:text-white">
-          なぜ「自治体カルテ」を公開するのか？
-        </h3>
-        <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-          国の政策論争（PoliScape）や政界ニュース（時事図鑑）だけでなく、国民が納めた税金が足元の自治体でどう使われ、健全に運営されているかを事実データで客観的に照合できるシビックテック基盤を目指しています。
-        </p>
-        <div className="flex flex-wrap items-center gap-4 text-xs font-semibold pt-1">
-          <Link
-            href="/topics/yana-minister-road-budget-retaliation-controversy"
-            className="text-indigo-600 dark:text-indigo-400 hover:underline"
-          >
-            簗農水相の道路予算カット発言トピック →
-          </Link>
-          <a
-            href="https://poliscape.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-slate-600 dark:text-slate-400 hover:underline"
-          >
-            日本政策図鑑（PoliScape）→
-          </a>
-        </div>
-      </div>
-    </div>
+      </main>
+      <Footer />
+    </>
   );
 }

@@ -379,3 +379,20 @@ export function getRecentlyUpdatedTopics(limit: number = 10): Topic[] {
     )
     .slice(0, limit);
 }
+
+export function getTopicsByMunicipality(code: string, name?: string): Topic[] {
+  return topics.filter((t) => {
+    // 1. relatedMunicipalities にコードまたは名前が明示登録されている場合
+    if (t.relatedMunicipalities?.some((m) => m.code === code || (name && m.name.includes(name)))) {
+      return true;
+    }
+    // 2. 自治体名で言及されている場合（例: 那須烏山、那珂川等）
+    if (name) {
+      const cleanName = name.replace(/[市区町村]$/, '');
+      if (cleanName.length >= 2 && (t.title.includes(cleanName) || t.subtitle.includes(cleanName))) {
+        return true;
+      }
+    }
+    return false;
+  });
+}
