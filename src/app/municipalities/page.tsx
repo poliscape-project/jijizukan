@@ -2,8 +2,9 @@ import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { 
-  Building2, Search, TrendingUp, AlertTriangle, ShieldCheck, 
-  MapPin, Sparkles, HelpCircle, ArrowRight, Coins, Scale, FileText, PiggyBank
+  Building2, Search, TrendingUp, TrendingDown, AlertTriangle, ShieldCheck, 
+  MapPin, Sparkles, HelpCircle, ArrowRight, Coins, Scale, FileText, PiggyBank,
+  Gift, Users
 } from 'lucide-react';
 import { getMunicipalitySummaries } from '@/lib/municipalities';
 import MunicipalitySearchFilter from '@/components/municipality/MunicipalitySearchFilter';
@@ -61,6 +62,24 @@ export default function MunicipalitiesPage() {
   // 実質純資産（住民1人あたり貯金超過）トップ3
   const topNetReserve = [...summaries]
     .sort((a, b) => (b.netPerCapita ?? 0) - (a.netPerCapita ?? 0))
+    .slice(0, 3);
+
+  // ふるさと納税 黒字（流入超過）トップ3
+  const topFurusatoSurplus = [...summaries]
+    .filter(m => m.furusatoBalance !== undefined)
+    .sort((a, b) => (b.furusatoBalance ?? 0) - (a.furusatoBalance ?? 0))
+    .slice(0, 3);
+
+  // ふるさと納税 赤字（流出超過）ワースト3
+  const topFurusatoDeficit = [...summaries]
+    .filter(m => m.furusatoBalance !== undefined)
+    .sort((a, b) => (a.furusatoBalance ?? 0) - (b.furusatoBalance ?? 0))
+    .slice(0, 3);
+
+  // 高齢化率トップ3
+  const topAging = [...summaries]
+    .filter(m => m.agingRate !== undefined)
+    .sort((a, b) => (b.agingRate ?? 0) - (a.agingRate ?? 0))
     .slice(0, 3);
 
   return (
@@ -258,6 +277,132 @@ export default function MunicipalitiesPage() {
                   <div className="text-right">
                     <div className="font-black text-amber-600 dark:text-amber-400 text-sm">
                       {(m.publicWorksPerCapita || 0).toLocaleString()}円
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* ふるさと納税 黒字（流入超過）トップ */}
+        <div className="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-1 flex items-center gap-1.5">
+              <Gift className="w-4 h-4 text-emerald-500" />
+              ふるさと納税 黒字（流入超過）トップ
+            </h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+              受入額が市民税流出額を大幅に上回る勝ち組
+            </p>
+
+            <div className="space-y-2">
+              {topFurusatoSurplus.map((m, idx) => (
+                <Link
+                  key={m.code}
+                  href={`/municipalities/${m.code}`}
+                  className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-slate-100 dark:border-slate-800 transition text-xs"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${
+                      idx === 0 ? 'bg-amber-400 text-slate-900' : idx === 1 ? 'bg-slate-300 text-slate-900' : 'bg-amber-700 text-white'
+                    }`}>
+                      {idx + 1}
+                    </span>
+                    <div>
+                      <div className="font-bold text-slate-900 dark:text-white truncate max-w-[110px]">
+                        {m.prefName} {m.name}
+                      </div>
+                      <div className="text-[10px] text-slate-400">1人あたり +{((m.furusatoBalancePerCapita || 0)).toLocaleString()}円</div>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <div className="font-black text-emerald-600 dark:text-emerald-400 text-sm">
+                      +{((m.furusatoBalance || 0) / 1e8).toFixed(1)}億円
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* ふるさと納税 赤字（流出超過）ワースト */}
+        <div className="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-1 flex items-center gap-1.5">
+              <TrendingDown className="w-4 h-4 text-rose-500" />
+              ふるさと納税 赤字（流出超過）ワースト
+            </h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+              住民税が他自治体に流出し減収となった自治体
+            </p>
+
+            <div className="space-y-2">
+              {topFurusatoDeficit.map((m, idx) => (
+                <Link
+                  key={m.code}
+                  href={`/municipalities/${m.code}`}
+                  className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-slate-100 dark:border-slate-800 transition text-xs"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${
+                      idx === 0 ? 'bg-rose-500 text-white' : idx === 1 ? 'bg-slate-300 text-slate-900' : 'bg-amber-700 text-white'
+                    }`}>
+                      {idx + 1}
+                    </span>
+                    <div>
+                      <div className="font-bold text-slate-900 dark:text-white truncate max-w-[110px]">
+                        {m.prefName} {m.name}
+                      </div>
+                      <div className="text-[10px] text-slate-400">1人あたり {((m.furusatoBalancePerCapita || 0)).toLocaleString()}円</div>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <div className="font-black text-rose-600 dark:text-rose-400 text-sm">
+                      {((m.furusatoBalance || 0) / 1e8).toFixed(1)}億円
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* 高齢化率トップ */}
+        <div className="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-1 flex items-center gap-1.5">
+              <Users className="w-4 h-4 text-purple-500" />
+              高齢化率 全国トップ3
+            </h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+              住民基本台帳に基づく65歳以上比率
+            </p>
+
+            <div className="space-y-2">
+              {topAging.map((m, idx) => (
+                <Link
+                  key={m.code}
+                  href={`/municipalities/${m.code}`}
+                  className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-slate-100 dark:border-slate-800 transition text-xs"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${
+                      idx === 0 ? 'bg-amber-400 text-slate-900' : idx === 1 ? 'bg-slate-300 text-slate-900' : 'bg-amber-700 text-white'
+                    }`}>
+                      {idx + 1}
+                    </span>
+                    <div>
+                      <div className="font-bold text-slate-900 dark:text-white truncate max-w-[110px]">
+                        {m.prefName} {m.name}
+                      </div>
+                      <div className="text-[10px] text-slate-400">人口: {m.population.toLocaleString()}人</div>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <div className="font-black text-purple-600 dark:text-purple-400 text-sm">
+                      {m.agingRate}%
                     </div>
                   </div>
                 </Link>

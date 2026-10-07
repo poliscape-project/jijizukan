@@ -13,6 +13,9 @@ import TaxSimulator from '@/components/municipality/TaxSimulator';
 import SimilarComparisonCard from '@/components/municipality/SimilarComparisonCard';
 import DebtFundBalanceCard from '@/components/municipality/DebtFundBalanceCard';
 import CouncilCostCard from '@/components/municipality/CouncilCostCard';
+import FurusatoBattleCard from '@/components/municipality/FurusatoBattleCard';
+import DemographicsCard from '@/components/municipality/DemographicsCard';
+import IndustryProfileCard from '@/components/municipality/IndustryProfileCard';
 
 interface Props {
   params: Promise<{ code: string }>;
@@ -240,6 +243,9 @@ export default async function MunicipalityDetailPage({ params }: Props) {
       {/* 街の貯金 vs 借金バランス（実質純資産） */}
       <DebtFundBalanceCard municipality={m} />
 
+      {/* ふるさと納税 収支バトル（勝ち組 vs 流出超過） */}
+      {m.furusato && <FurusatoBattleCard municipality={m} />}
+
       {/* 歳入・歳出の内訳グラフ */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <PieChartBreakdown
@@ -256,6 +262,12 @@ export default async function MunicipalityDetailPage({ params }: Props) {
 
       {/* 税金シミュレーター */}
       <TaxSimulator municipality={m} />
+
+      {/* 年齢3区分ピラミッド & 高齢化率・少子化率 */}
+      {m.demographics && <DemographicsCard municipality={m} />}
+
+      {/* 産業構造 & 経済プロファイル */}
+      {m.industryRatio && <IndustryProfileCard municipality={m} />}
 
       {/* 性質別歳出 & 議会・公務員・首長情報 */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

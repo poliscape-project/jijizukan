@@ -25,10 +25,14 @@ type SortKey =
   | 'default' 
   | 'financialDesc' 
   | 'financialAsc' 
-  | 'publicWorksDesc' 
-  | 'populationDesc' 
+  | 'furusatoSurplusDesc'
+  | 'furusatoDeficitAsc'
+  | 'agingRateDesc'
+  | 'childRateDesc'
   | 'netPerCapitaDesc'
+  | 'publicWorksDesc' 
   | 'assemblyCostDesc'
+  | 'populationDesc' 
   | 'alertsOnly';
 
 export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
@@ -64,6 +68,18 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
         break;
       case 'financialAsc':
         sorted.sort((a, b) => a.financialStrength - b.financialStrength);
+        break;
+      case 'furusatoSurplusDesc':
+        sorted.sort((a, b) => (b.furusatoBalance ?? 0) - (a.furusatoBalance ?? 0));
+        break;
+      case 'furusatoDeficitAsc':
+        sorted.sort((a, b) => (a.furusatoBalance ?? 0) - (b.furusatoBalance ?? 0));
+        break;
+      case 'agingRateDesc':
+        sorted.sort((a, b) => (b.agingRate ?? 0) - (a.agingRate ?? 0));
+        break;
+      case 'childRateDesc':
+        sorted.sort((a, b) => (b.childRate ?? 0) - (a.childRate ?? 0));
         break;
       case 'publicWorksDesc':
         sorted.sort((a, b) => b.publicWorksPerCapita - a.publicWorksPerCapita);
@@ -144,6 +160,10 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
               className="py-2.5 px-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               <option value="default">全国コード順</option>
+              <option value="furusatoSurplusDesc">ふるさと納税 黒字（流入超過順）</option>
+              <option value="furusatoDeficitAsc">ふるさと納税 赤字（流出超過順）</option>
+              <option value="agingRateDesc">高齢化率（高い順）</option>
+              <option value="childRateDesc">子ども比率（高い順）</option>
               <option value="financialDesc">財政力指数（高い順）</option>
               <option value="financialAsc">財政力指数（低い順）</option>
               <option value="netPerCapitaDesc">実質純資産（貯金超過順）</option>
@@ -242,9 +262,10 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
                   </div>
                 </div>
 
+                {/* 実質純資産 */}
                 {m.netPerCapita !== undefined && (
-                  <div className="flex items-center justify-between text-[11px] px-2 py-1 rounded-lg bg-slate-50 dark:bg-slate-850 border border-slate-100 dark:border-slate-800 mb-2">
-                    <span className="text-slate-500">実質純資産（貯金−借金）:</span>
+                  <div className="flex items-center justify-between text-[11px] px-2.5 py-1 rounded-lg bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 mb-1.5">
+                    <span className="text-slate-500">純資産（貯金−借金）:</span>
                     <span className={`font-bold ${
                       m.netPerCapita >= 0
                         ? 'text-emerald-600 dark:text-emerald-400'
@@ -254,10 +275,40 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
                     </span>
                   </div>
                 )}
+
+                {/* ふるさと納税 & 高齢化率 バッジ */}
+                <div className="grid grid-cols-2 gap-1.5 text-[11px] mb-2">
+                  {m.furusatoBalance !== undefined && (
+                    <div className="flex items-center justify-between px-2 py-1 rounded-lg bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800">
+                      <span className="text-slate-500 text-[10px]">ふるさと収支:</span>
+                      <span className={`font-bold text-[10px] ${
+                        m.furusatoBalance >= 0
+                          ? 'text-emerald-600 dark:text-emerald-400'
+                          : 'text-rose-600 dark:text-rose-400'
+                      }`}>
+                        {m.furusatoBalance >= 0 ? '+' : ''}{(m.furusatoBalance / 1e8).toFixed(1)}億円
+                      </span>
+                    </div>
+                  )}
+                  {m.agingRate !== undefined && (
+                    <div className="flex items-center justify-between px-2 py-1 rounded-lg bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800">
+                      <span className="text-slate-500 text-[10px]">高齢化率:</span>
+                      <span className={`font-bold text-[10px] ${
+                        m.agingRate >= 40
+                          ? 'text-rose-600 dark:text-rose-400'
+                          : m.agingRate >= 30
+                          ? 'text-amber-600 dark:text-amber-400'
+                          : 'text-blue-600 dark:text-blue-400'
+                      }`}>
+                        {m.agingRate}%
+                      </span>
+                    </div>
+                  )}
+                </div>
               </div>
 
               <div className="flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-100 dark:border-slate-800">
-                <span>歳出総額: {(m.expTotal / 1000000).toFixed(1)}億円</span>
+                <span>歳出: {(m.expTotal / 1000000).toFixed(1)}億円</span>
                 <span className="font-medium text-indigo-600 dark:text-indigo-400 group-hover:underline">
                   カルテを見る →
                 </span>

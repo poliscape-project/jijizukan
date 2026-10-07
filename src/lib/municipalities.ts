@@ -45,6 +45,12 @@ export function getMunicipalitySummaries(): MunicipalitySummary[] {
       debtTotal,
       netPerCapita: Math.round((reserveTotal - debtTotal) / pop),
       assemblyCostPerCapita: Math.round((m.expensesByPurpose.assembly * 1000) / pop),
+      agingRate: m.demographics ? m.demographics.elderlyRate : undefined,
+      childRate: m.demographics ? m.demographics.childRate : undefined,
+      furusatoBalance: m.furusato ? m.furusato.balance : undefined,
+      furusatoReceived: m.furusato ? m.furusato.received : undefined,
+      furusatoDeducted: m.furusato ? m.furusato.deducted : undefined,
+      furusatoBalancePerCapita: m.furusato ? m.furusato.balancePerCapita : undefined,
       hasAlerts: Boolean(m.alerts && m.alerts.length > 0)
     };
   });

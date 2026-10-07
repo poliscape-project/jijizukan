@@ -71,6 +71,42 @@ export interface MunicipalityExpensesByNature {
   other: number;
 }
 
+export interface DemographicAgeGroup {
+  ageGroup: string;
+  male: number;
+  female: number;
+  total: number;
+}
+
+export interface MunicipalityDemographics {
+  total: number;
+  childPop: number; // 0〜14歳人口
+  childRate: number; // 年少人口比率 (%)
+  workingAgePop: number; // 15〜64歳人口
+  workingAgeRate: number; // 生産年齢人口比率 (%)
+  elderlyPop: number; // 65歳以上人口
+  elderlyRate: number; // 高齢化率 (%)
+  lateElderlyPop: number; // 75歳以上人口
+  lateElderlyRate: number; // 後期高齢化率 (%)
+  pyramid: DemographicAgeGroup[];
+}
+
+export interface MunicipalityFurusato {
+  received: number; // 寄附受入額 (円)
+  receivedCount: number; // 受入件数
+  deducted: number; // 住民税控除流出額 (円)
+  deductedCount: number; // 控除適用人数
+  balance: number; // 純収支 = received - deducted (円)
+  balancePerCapita: number; // 住民1人あたり収支 (円)
+  expensesTotal: number; // 返礼品等の経費合計 (円)
+  expenseProcure: number; // うち返礼品調達費
+  expenseShipping: number; // うち送料
+  expensePr: number; // うち広報費
+  expensePayment: number; // うち決済等費用
+  expenseAdmin: number; // うち事務費
+  realBalance: number; // 実質純収支 = (received - expensesTotal) - deducted
+}
+
 export interface MunicipalityGovernance {
   mayorSalary: number; // 市区町村長給料月額 (円)
   councilMembersCount: number; // 議員定数
@@ -102,6 +138,8 @@ export interface MunicipalityData {
   expensesByNature: MunicipalityExpensesByNature;
   comparisonPrevYear: MunicipalityComparisonPrevYear;
   governance: MunicipalityGovernance;
+  demographics?: MunicipalityDemographics;
+  furusato?: MunicipalityFurusato;
   alerts?: MunicipalityAlert[];
 }
 
@@ -125,5 +163,11 @@ export interface MunicipalitySummary {
   debtTotal?: number;
   netPerCapita?: number;
   assemblyCostPerCapita?: number;
+  agingRate?: number;
+  childRate?: number;
+  furusatoBalance?: number;
+  furusatoReceived?: number;
+  furusatoDeducted?: number;
+  furusatoBalancePerCapita?: number;
   hasAlerts: boolean;
 }
