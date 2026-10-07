@@ -120,6 +120,21 @@ export interface MunicipalityComparisonPrevYear {
   realBalance: number;
 }
 
+export interface MunicipalitySustainability {
+  category: '消滅可能性自治体' | '自立持続可能性自治体' | 'ブラックホール型自治体' | '持続可能性自治体' | '推計対象外（原発被災区域）';
+  categoryType: 'vanishing' | 'self-reliant' | 'blackhole' | 'sustainable' | 'unestimated';
+  youngFemaleChangeRate: number; // 2020-2050 若年女性人口減少率 (%)
+  projectedPop2050: number; // 2050年予測総人口 (人)
+  popChangeRate: number; // 2020-2050 総人口増減率 (%)
+}
+
+export interface MunicipalityEconomy {
+  industryType: string; // 産業特性（例: '企業城下町・ものづくり型', '農林水産業拠点型' 等）
+  majorCompanies?: string[]; // 主たる企業・中核施設
+  featuredSpecialties?: string[]; // 看板産業・有名特産品
+  description: string; // 経済・産業の解説
+}
+
 export interface MunicipalityData {
   code: string;
   prefCode: string;
@@ -140,6 +155,8 @@ export interface MunicipalityData {
   governance: MunicipalityGovernance;
   demographics?: MunicipalityDemographics;
   furusato?: MunicipalityFurusato;
+  sustainability?: MunicipalitySustainability;
+  economy?: MunicipalityEconomy;
   alerts?: MunicipalityAlert[];
 }
 
@@ -169,5 +186,8 @@ export interface MunicipalitySummary {
   furusatoReceived?: number;
   furusatoDeducted?: number;
   furusatoBalancePerCapita?: number;
+  sustainabilityCategory?: string;
+  youngFemaleChangeRate?: number;
+  industryType?: string;
   hasAlerts: boolean;
 }

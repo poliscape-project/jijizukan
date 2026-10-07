@@ -51,6 +51,9 @@ export function getMunicipalitySummaries(): MunicipalitySummary[] {
       furusatoReceived: m.furusato ? m.furusato.received : undefined,
       furusatoDeducted: m.furusato ? m.furusato.deducted : undefined,
       furusatoBalancePerCapita: m.furusato ? m.furusato.balancePerCapita : undefined,
+      sustainabilityCategory: m.sustainability ? m.sustainability.category : undefined,
+      youngFemaleChangeRate: m.sustainability ? m.sustainability.youngFemaleChangeRate : undefined,
+      industryType: m.economy ? m.economy.industryType : undefined,
       hasAlerts: Boolean(m.alerts && m.alerts.length > 0)
     };
   });

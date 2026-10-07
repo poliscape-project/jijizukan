@@ -121,7 +121,7 @@ export default function IndustryProfileCard({ municipality }: Props) {
       </div>
 
       {/* 産業比率スタックバー */}
-      <div className="mb-4 p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800">
+      <div className="mb-6 p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800">
         <div className="flex items-center justify-between text-xs font-semibold text-slate-700 dark:text-slate-300 mb-2">
           <span>産業別構成比バランス</span>
           <span className="text-[11px] text-slate-500 font-normal">就業人口比率</span>
@@ -159,11 +159,56 @@ export default function IndustryProfileCard({ municipality }: Props) {
         </div>
       </div>
 
+      {/* 主たる企業 & 看板産業・特産品 */}
+      {municipality.economy && (
+        <div className="space-y-4 mb-5">
+          {/* 主要企業 */}
+          {municipality.economy.majorCompanies && municipality.economy.majorCompanies.length > 0 && (
+            <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800">
+              <div className="text-xs font-bold text-slate-800 dark:text-slate-200 mb-2 flex items-center gap-1.5">
+                <Building2 className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
+                <span>街を支える主たる企業・中核拠点（納税・雇用の柱）</span>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {municipality.economy.majorCompanies.map((company, idx) => (
+                  <span
+                    key={idx}
+                    className="inline-flex items-center px-3 py-1 rounded-lg text-xs font-semibold bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200 shadow-2xs"
+                  >
+                    🏢 {company}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* 看板産業・特産品 */}
+          {municipality.economy.featuredSpecialties && municipality.economy.featuredSpecialties.length > 0 && (
+            <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800">
+              <div className="text-xs font-bold text-slate-800 dark:text-slate-200 mb-2 flex items-center gap-1.5">
+                <TrendingUp className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+                <span>看板産業・有名特産品・名物</span>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {municipality.economy.featuredSpecialties.map((item, idx) => (
+                  <span
+                    key={idx}
+                    className="inline-flex items-center px-3 py-1 rounded-lg text-xs font-semibold bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/60 text-emerald-800 dark:text-emerald-300"
+                  >
+                    ✨ {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
       {/* 特徴解説 */}
       <div className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed bg-slate-50/60 dark:bg-slate-800/30 p-3.5 rounded-xl border border-slate-200/80 dark:border-slate-800 flex items-start gap-2">
         <Info className="w-4 h-4 text-slate-400 shrink-0 mt-0.5" />
         <p>
-          {profileDesc}
+          {municipality.economy ? municipality.economy.description : profileDesc}
         </p>
       </div>
     </div>

@@ -23,6 +23,8 @@ const PREFECTURES = [
 
 type SortKey = 
   | 'default' 
+  | 'vanishingOnly'
+  | 'selfReliantOnly'
   | 'financialDesc' 
   | 'financialAsc' 
   | 'furusatoSurplusDesc'
@@ -63,6 +65,22 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
     // Sort
     const sorted = [...result];
     switch (sortKey) {
+      case 'vanishingOnly':
+        sorted.sort((a, b) => {
+          const aVan = a.sustainabilityCategory === '消滅可能性自治体' ? 1 : 0;
+          const bVan = b.sustainabilityCategory === '消滅可能性自治体' ? 1 : 0;
+          if (aVan !== bVan) return bVan - aVan;
+          return (a.youngFemaleChangeRate ?? 0) - (b.youngFemaleChangeRate ?? 0);
+        });
+        break;
+      case 'selfReliantOnly':
+        sorted.sort((a, b) => {
+          const aRel = a.sustainabilityCategory === '自立持続可能性自治体' ? 1 : 0;
+          const bRel = b.sustainabilityCategory === '自立持続可能性自治体' ? 1 : 0;
+          if (aRel !== bRel) return bRel - aRel;
+          return (b.youngFemaleChangeRate ?? 0) - (a.youngFemaleChangeRate ?? 0);
+        });
+        break;
       case 'financialDesc':
         sorted.sort((a, b) => b.financialStrength - a.financialStrength);
         break;
@@ -160,6 +178,8 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
               className="py-2.5 px-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
             >
               <option value="default">全国コード順</option>
+              <option value="vanishingOnly">消滅可能性自治体（人口半減危機）</option>
+              <option value="selfReliantOnly">自立持続可能性自治体（全国65団体）</option>
               <option value="furusatoSurplusDesc">ふるさと納税 黒字（流入超過順）</option>
               <option value="furusatoDeficitAsc">ふるさと納税 赤字（流出超過順）</option>
               <option value="agingRateDesc">高齢化率（高い順）</option>
@@ -217,18 +237,30 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
               className="group bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 hover:border-indigo-400 dark:hover:border-indigo-600 hover:shadow-md transition flex flex-col justify-between"
             >
               <div>
-                <div className="flex items-start justify-between gap-2 mb-2">
+                <div className="flex items-start justify-between gap-2 mb-2 flex-wrap">
                   <div className="flex items-center gap-1.5 text-xs text-slate-500 dark:text-slate-400 font-medium">
                     <span>{m.prefName}</span>
                     <span>•</span>
                     <span>コード {m.code}</span>
                   </div>
-                  {m.hasAlerts && (
-                    <span className="flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300">
-                      <AlertTriangle className="w-3 h-3" />
-                      特異点あり
-                    </span>
-                  )}
+                  <div className="flex items-center gap-1">
+                    {m.sustainabilityCategory === '消滅可能性自治体' && (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-rose-100 text-rose-800 dark:bg-rose-950/60 dark:text-rose-300">
+                        消滅可能性
+                      </span>
+                    )}
+                    {m.sustainabilityCategory === '自立持続可能性自治体' && (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
+                        自立持続可能
+                      </span>
+                    )}
+                    {m.hasAlerts && (
+                      <span className="flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300">
+                        <AlertTriangle className="w-3 h-3" />
+                        特異点
+                      </span>
+                    )}
+                  </div>
                 </div>
 
                 <div className="flex items-center justify-between mb-3">
@@ -305,6 +337,14 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
                     </div>
                   )}
                 </div>
+
+                {/* 産業タイプバッジ */}
+                {m.industryType && (
+                  <div className="text-[10px] text-slate-500 dark:text-slate-400 truncate mb-1">
+                    <span className="font-medium text-slate-700 dark:text-slate-300">産業: </span>
+                    {m.industryType}
+                  </div>
+                )}
               </div>
 
               <div className="flex items-center justify-between text-[11px] text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-100 dark:border-slate-800">

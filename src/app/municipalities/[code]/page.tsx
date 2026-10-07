@@ -16,6 +16,7 @@ import CouncilCostCard from '@/components/municipality/CouncilCostCard';
 import FurusatoBattleCard from '@/components/municipality/FurusatoBattleCard';
 import DemographicsCard from '@/components/municipality/DemographicsCard';
 import IndustryProfileCard from '@/components/municipality/IndustryProfileCard';
+import SustainabilityCard from '@/components/municipality/SustainabilityCard';
 
 interface Props {
   params: Promise<{ code: string }>;
@@ -266,7 +267,10 @@ export default async function MunicipalityDetailPage({ params }: Props) {
       {/* 年齢3区分ピラミッド & 高齢化率・少子化率 */}
       {m.demographics && <DemographicsCard municipality={m} />}
 
-      {/* 産業構造 & 経済プロファイル */}
+      {/* 自治体持続可能性 & 2050年人口予測（人口戦略会議） */}
+      {m.sustainability && <SustainabilityCard municipality={m} />}
+
+      {/* 産業構造 & 街を支える主要企業・看板特産品 */}
       {m.industryRatio && <IndustryProfileCard municipality={m} />}
 
       {/* 性質別歳出 & 議会・公務員・首長情報 */}

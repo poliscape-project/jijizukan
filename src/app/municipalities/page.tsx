@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { 
   Building2, Search, TrendingUp, TrendingDown, AlertTriangle, ShieldCheck, 
   MapPin, Sparkles, HelpCircle, ArrowRight, Coins, Scale, FileText, PiggyBank,
-  Gift, Users
+  Gift, Users, AlertOctagon
 } from 'lucide-react';
 import { getMunicipalitySummaries } from '@/lib/municipalities';
 import MunicipalitySearchFilter from '@/components/municipality/MunicipalitySearchFilter';
@@ -80,6 +80,18 @@ export default function MunicipalitiesPage() {
   const topAging = [...summaries]
     .filter(m => m.agingRate !== undefined)
     .sort((a, b) => (b.agingRate ?? 0) - (a.agingRate ?? 0))
+    .slice(0, 3);
+
+  // 消滅可能性自治体（若年女性減少率ワースト3）
+  const topVanishing = [...summaries]
+    .filter(m => m.sustainabilityCategory === '消滅可能性自治体' && m.youngFemaleChangeRate !== undefined)
+    .sort((a, b) => (a.youngFemaleChangeRate ?? 0) - (b.youngFemaleChangeRate ?? 0))
+    .slice(0, 3);
+
+  // 自立持続可能性自治体（若年女性増加率トップ3）
+  const topSelfReliant = [...summaries]
+    .filter(m => m.sustainabilityCategory === '自立持続可能性自治体' && m.youngFemaleChangeRate !== undefined)
+    .sort((a, b) => (b.youngFemaleChangeRate ?? 0) - (a.youngFemaleChangeRate ?? 0))
     .slice(0, 3);
 
   return (
@@ -403,6 +415,90 @@ export default function MunicipalitiesPage() {
                   <div className="text-right">
                     <div className="font-black text-purple-600 dark:text-purple-400 text-sm">
                       {m.agingRate}%
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* 消滅可能性自治体（若年女性減少率ワースト） */}
+        <div className="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-1 flex items-center gap-1.5">
+              <AlertOctagon className="w-4 h-4 text-rose-500" />
+              消滅可能性自治体（人口減少ワースト）
+            </h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+              2050年までの若年女性（20-39歳）減少率
+            </p>
+
+            <div className="space-y-2">
+              {topVanishing.map((m, idx) => (
+                <Link
+                  key={m.code}
+                  href={`/municipalities/${m.code}`}
+                  className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-slate-100 dark:border-slate-800 transition text-xs"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${
+                      idx === 0 ? 'bg-rose-500 text-white' : idx === 1 ? 'bg-slate-300 text-slate-900' : 'bg-amber-700 text-white'
+                    }`}>
+                      {idx + 1}
+                    </span>
+                    <div>
+                      <div className="font-bold text-slate-900 dark:text-white truncate max-w-[110px]">
+                        {m.prefName} {m.name}
+                      </div>
+                      <div className="text-[10px] text-slate-400">人口: {m.population.toLocaleString()}人</div>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <div className="font-black text-rose-600 dark:text-rose-400 text-sm">
+                      {m.youngFemaleChangeRate}%
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* 自立持続可能性自治体（若年女性増加率トップ） */}
+        <div className="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+          <div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-1 flex items-center gap-1.5">
+              <Sparkles className="w-4 h-4 text-emerald-500" />
+              自立持続可能（若年女性増加トップ）
+            </h3>
+            <p className="text-[11px] text-slate-500 dark:text-slate-400 mb-3">
+              全国でわずか65団体のみの持続モデル
+            </p>
+
+            <div className="space-y-2">
+              {topSelfReliant.map((m, idx) => (
+                <Link
+                  key={m.code}
+                  href={`/municipalities/${m.code}`}
+                  className="flex items-center justify-between p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 border border-slate-100 dark:border-slate-800 transition text-xs"
+                >
+                  <div className="flex items-center gap-2">
+                    <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-black ${
+                      idx === 0 ? 'bg-amber-400 text-slate-900' : idx === 1 ? 'bg-slate-300 text-slate-900' : 'bg-amber-700 text-white'
+                    }`}>
+                      {idx + 1}
+                    </span>
+                    <div>
+                      <div className="font-bold text-slate-900 dark:text-white truncate max-w-[110px]">
+                        {m.prefName} {m.name}
+                      </div>
+                      <div className="text-[10px] text-slate-400">人口: {m.population.toLocaleString()}人</div>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <div className="font-black text-emerald-600 dark:text-emerald-400 text-sm">
+                      +{(m.youngFemaleChangeRate || 0)}%
                     </div>
                   </div>
                 </Link>
