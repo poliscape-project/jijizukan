@@ -54,10 +54,13 @@ export default async function PrefectureDetailPage({ params }: Props) {
   const revSlices = [
     { name: '道府県税（自主財源）', value: p.revenues.localTax, color: '#3b82f6' },
     { name: '地方交付税', value: p.revenues.localAllocationTax, color: '#8b5cf6' },
+    { name: '諸収入（融資貸付回収・宝くじ等）', value: p.revenues.miscellaneous || 0, color: '#06b6d4' },
     { name: '国庫支出金（国補助）', value: p.revenues.nationalSubsidy, color: '#ec4899' },
     { name: '地方債（県債・借入）', value: p.revenues.localBonds, color: '#f59e0b' },
     { name: '地方譲与税', value: p.revenues.localTransferTax, color: '#10b981' },
-    { name: 'その他（諸収入・貸付金回収・繰入金等）', value: p.revenues.other, color: '#94a3b8' }
+    { name: '前年度繰越金', value: p.revenues.carriedOver || 0, color: '#14b8a6' },
+    { name: '繰入金（積立基金の取崩し）', value: p.revenues.transfers || 0, color: '#a855f7' },
+    { name: 'その他（使用料・手数料・寄附等）', value: p.revenues.other, color: '#94a3b8' }
   ].filter(s => s.value > 0);
 
   // 目的別歳出スライス
@@ -354,18 +357,19 @@ export default async function PrefectureDetailPage({ params }: Props) {
         {/* 歳入・歳出の用語ミニ解説 */}
         <div className="bg-slate-50 dark:bg-slate-900/60 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 text-xs space-y-2">
           <div className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
-            <span>💡 決算用語のポイント解説（素朴な疑問を解消）</span>
+            <span>💡 決算用語のポイント解説（なぜ「諸収入」が大きいの？などの疑問を解消）</span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-600 dark:text-slate-400 text-[11px] leading-relaxed">
             <div>
               <p><strong>・道府県税:</strong> 住民税（個人・法人）、地方消費税、自動車税など、自治体が独自に徴収する純粋な自主財源。</p>
               <p className="mt-1"><strong>・地方交付税:</strong> 自治体間の税収格差を是正するため、国税（所得税・消費税等）の一部を国が財政力に応じて配分する一般財源。</p>
-              <p className="mt-1"><strong>・国庫支出金:</strong> 道路・河川整備や社会保障など、国の特定政策のために使途を限定して国から交付される補助金。</p>
+              <p className="mt-1"><strong>・国庫支出金:</strong> 道路・河川整備や社会保障など、国の特定政策のために使途を限定して交付される補助金。</p>
+              <p className="mt-1"><strong>・地方債（県債）:</strong> 長期インフラ整備のために発行した借入金（将来世代も利用するため負担を年数で平準化）。</p>
             </div>
             <div>
-              <p><strong>・その他（諸収入等）:</strong> 中小企業向け融資などの貸付金回収元利金、宝くじ収益金、過去の基金（貯金）からの取崩し（繰入金）、前年度繰越金など。</p>
-              <p className="mt-1"><strong>・地方債（県債）:</strong> 学校や道路などの長期インフラ整備のために発行した借入金（将来世代も利用するため負担を年数で平準化）。</p>
-              <p className="mt-1"><strong>・公債費:</strong> 過去に借り入れた地方債の元金返済および利子支払い。</p>
+              <p><strong>・諸収入（なぜこんなに大きいの？）:</strong> 都道府県特有の科目で、中小企業向け制度融資などの<strong>預託貸付金の回収元利金（回転資金）</strong>が大半を占めます。その他、宝くじ販売益、公営企業納付金などが含まれます。</p>
+              <p className="mt-1"><strong>・前年度繰越金・繰入金:</strong> 前年度の使い残し余剰金（繰越金）や、過去に貯めた積立基金（貯金）を取り崩して今年度の財源に充てたお金（繰入金）。</p>
+              <p className="mt-1"><strong>・その他:</strong> 施設使用料、各種証明手数料、分担金・負担金、寄附金などの細かい雑収入。</p>
             </div>
           </div>
         </div>

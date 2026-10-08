@@ -31,7 +31,7 @@
       "transfers": 64807951,
       "carriedOver": 36175293,
       "miscellaneous": 389022559,
-      "other": 546060398
+      "other": 56054595
     },
     "expensesByPurpose": {
       "total": 2819962872,
@@ -88,7 +88,7 @@
       "transfers": 8902447,
       "carriedOver": 24228511,
       "miscellaneous": 22929337,
-      "other": 75795732
+      "other": 19735437
     },
     "expensesByPurpose": {
       "total": 681161044,
@@ -145,7 +145,7 @@
       "transfers": 19716044,
       "carriedOver": 54363006,
       "miscellaneous": 117883738,
-      "other": 205614565
+      "other": 13651777
     },
     "expensesByPurpose": {
       "total": 756669461,
@@ -202,7 +202,7 @@
       "transfers": 45242852,
       "carriedOver": 37054900,
       "miscellaneous": 137660843,
-      "other": 243750271
+      "other": 23791676
     },
     "expensesByPurpose": {
       "total": 1008373713,
@@ -259,7 +259,7 @@
       "transfers": 17784390,
       "carriedOver": 19559986,
       "miscellaneous": 31714168,
-      "other": 82269964
+      "other": 13211420
     },
     "expensesByPurpose": {
       "total": 599529541,
@@ -316,7 +316,7 @@
       "transfers": 6808922,
       "carriedOver": 14323526,
       "miscellaneous": 106937429,
-      "other": 143866147
+      "other": 15796270
     },
     "expensesByPurpose": {
       "total": 664557243,
@@ -373,7 +373,7 @@
       "transfers": 80417433,
       "carriedOver": 37448665,
       "miscellaneous": 169417264,
-      "other": 309969227
+      "other": 22685865
     },
     "expensesByPurpose": {
       "total": 1224298248,
@@ -430,7 +430,7 @@
       "transfers": 40173820,
       "carriedOver": 31240443,
       "miscellaneous": 144169805,
-      "other": 244827277
+      "other": 29243209
     },
     "expensesByPurpose": {
       "total": 1220658113,
@@ -487,7 +487,7 @@
       "transfers": 18646225,
       "carriedOver": 30411549,
       "miscellaneous": 161978114,
-      "other": 227297587
+      "other": 16261699
     },
     "expensesByPurpose": {
       "total": 912533087,
@@ -544,7 +544,7 @@
       "transfers": 8586561,
       "carriedOver": 46755179,
       "miscellaneous": 139233121,
-      "other": 213190284
+      "other": 18615423
     },
     "expensesByPurpose": {
       "total": 886922117,
@@ -601,7 +601,7 @@
       "transfers": 55310290,
       "carriedOver": 48422704,
       "miscellaneous": 56086026,
-      "other": 209811196
+      "other": 49992176
     },
     "expensesByPurpose": {
       "total": 2059405178,
@@ -658,7 +658,7 @@
       "transfers": 13879129,
       "carriedOver": 35875799,
       "miscellaneous": 264461657,
-      "other": 363639176
+      "other": 49422591
     },
     "expensesByPurpose": {
       "total": 2011231816,
@@ -715,7 +715,7 @@
       "transfers": 210928050,
       "carriedOver": 566731336,
       "miscellaneous": 559272977,
-      "other": 1598750214
+      "other": 261817851
     },
     "expensesByPurpose": {
       "total": 8353285707,
@@ -772,7 +772,7 @@
       "transfers": 86417320,
       "carriedOver": 46513122,
       "miscellaneous": 41221331,
-      "other": 236683956
+      "other": 62532183
     },
     "expensesByPurpose": {
       "total": 2207423640,
@@ -829,7 +829,7 @@
       "transfers": 27885235,
       "carriedOver": 27311307,
       "miscellaneous": 149756291,
-      "other": 234098339
+      "other": 29145506
     },
     "expensesByPurpose": {
       "total": 1122782289,
@@ -886,7 +886,7 @@
       "transfers": 11057135,
       "carriedOver": 28874279,
       "miscellaneous": 91983470,
-      "other": 147317184
+      "other": 15402300
     },
     "expensesByPurpose": {
       "total": 588990295,
@@ -943,7 +943,7 @@
       "transfers": 15923589,
       "carriedOver": 24642636,
       "miscellaneous": 57264226,
-      "other": 115082602
+      "other": 17252151
     },
     "expensesByPurpose": {
       "total": 652501500,
@@ -1000,7 +1000,7 @@
       "transfers": 11375907,
       "carriedOver": 18131203,
       "miscellaneous": 36674154,
-      "other": 76494741
+      "other": 10313477
     },
     "expensesByPurpose": {
       "total": 523817438,
@@ -1057,7 +1057,7 @@
       "transfers": 4701621,
       "carriedOver": 30339252,
       "miscellaneous": 84430634,
-      "other": 136215247
+      "other": 16743740
     },
     "expensesByPurpose": {
       "total": 544039848,
@@ -1114,7 +1114,7 @@
       "transfers": 15298470,
       "carriedOver": 19063699,
       "miscellaneous": 181922391,
-      "other": 237880326
+      "other": 21595766
     },
     "expensesByPurpose": {
       "total": 1079564340,
@@ -1171,7 +1171,7 @@
       "transfers": 7288021,
       "carriedOver": 19653888,
       "miscellaneous": 51512568,
-      "other": 98651556
+      "other": 20197079
     },
     "expensesByPurpose": {
       "total": 859178419,
@@ -1228,7 +1228,7 @@
       "transfers": 20864308,
       "carriedOver": 25400209,
       "miscellaneous": 24139572,
-      "other": 101003820
+      "other": 30599731
     },
     "expensesByPurpose": {
       "total": 1250356192,
@@ -1285,7 +1285,7 @@
       "transfers": 50213935,
       "carriedOver": 75479296,
       "miscellaneous": 224832883,
-      "other": 419020454
+      "other": 68494340
     },
     "expensesByPurpose": {
       "total": 2547795499,
@@ -1342,7 +1342,7 @@
       "transfers": 26835845,
       "carriedOver": 28592572,
       "miscellaneous": 21460313,
-      "other": 92775941
+      "other": 15887211
     },
     "expensesByPurpose": {
       "total": 764500853,
@@ -1399,7 +1399,7 @@
       "transfers": 9774797,
       "carriedOver": 4745386,
       "miscellaneous": 44199638,
-      "other": 71453012
+      "other": 12733191
     },
     "expensesByPurpose": {
       "total": 611976612,
@@ -1456,7 +1456,7 @@
       "transfers": 12484692,
       "carriedOver": 16628100,
       "miscellaneous": 174639736,
-      "other": 219907020
+      "other": 16154492
     },
     "expensesByPurpose": {
       "total": 1024886167,
@@ -1513,7 +1513,7 @@
       "transfers": 89888624,
       "carriedOver": 29033987,
       "miscellaneous": 684509110,
-      "other": 886793682
+      "other": 83361961
     },
     "expensesByPurpose": {
       "total": 3325569052,
@@ -1570,7 +1570,7 @@
       "transfers": 117209408,
       "carriedOver": 35009293,
       "miscellaneous": 555002039,
-      "other": 752947265
+      "other": 45726525
     },
     "expensesByPurpose": {
       "total": 2417645312,
@@ -1627,7 +1627,7 @@
       "transfers": 9151927,
       "carriedOver": 8925855,
       "miscellaneous": 18683216,
-      "other": 47182926
+      "other": 10421928
     },
     "expensesByPurpose": {
       "total": 536284251,
@@ -1684,7 +1684,7 @@
       "transfers": 9677336,
       "carriedOver": 25663615,
       "miscellaneous": 75369858,
-      "other": 120261537
+      "other": 9550728
     },
     "expensesByPurpose": {
       "total": 608065885,
@@ -1741,7 +1741,7 @@
       "transfers": 10881654,
       "carriedOver": 22305514,
       "miscellaneous": 8320282,
-      "other": 47860654
+      "other": 6353204
     },
     "expensesByPurpose": {
       "total": 370967375,
@@ -1798,7 +1798,7 @@
       "transfers": 9977994,
       "carriedOver": 35938192,
       "miscellaneous": 50066099,
-      "other": 105793812
+      "other": 9811527
     },
     "expensesByPurpose": {
       "total": 528059488,
@@ -1855,7 +1855,7 @@
       "transfers": 19907318,
       "carriedOver": 13010720,
       "miscellaneous": 47884325,
-      "other": 98174540
+      "other": 17372177
     },
     "expensesByPurpose": {
       "total": 721336380,
@@ -1912,7 +1912,7 @@
       "transfers": 33243508,
       "carriedOver": 27984079,
       "miscellaneous": 97713281,
-      "other": 183413114
+      "other": 24472246
     },
     "expensesByPurpose": {
       "total": 1102901381,
@@ -1969,7 +1969,7 @@
       "transfers": 24922173,
       "carriedOver": 29006305,
       "miscellaneous": 86961870,
-      "other": 155462725
+      "other": 14572377
     },
     "expensesByPurpose": {
       "total": 678580641,
@@ -2026,7 +2026,7 @@
       "transfers": 17008865,
       "carriedOver": 27987125,
       "miscellaneous": 70410411,
-      "other": 124334426
+      "other": 8928025
     },
     "expensesByPurpose": {
       "total": 500502981,
@@ -2083,7 +2083,7 @@
       "transfers": 11910619,
       "carriedOver": 14310604,
       "miscellaneous": 47027630,
-      "other": 83606789
+      "other": 10357936
     },
     "expensesByPurpose": {
       "total": 462664477,
@@ -2140,7 +2140,7 @@
       "transfers": 17396952,
       "carriedOver": 26746887,
       "miscellaneous": 131334441,
-      "other": 192769052
+      "other": 17290772
     },
     "expensesByPurpose": {
       "total": 740769253,
@@ -2197,7 +2197,7 @@
       "transfers": 8011724,
       "carriedOver": 11368944,
       "miscellaneous": 9836014,
-      "other": 40909664
+      "other": 11692982
     },
     "expensesByPurpose": {
       "total": 473554741,
@@ -2254,7 +2254,7 @@
       "transfers": 53894358,
       "carriedOver": 59630687,
       "miscellaneous": 306634602,
-      "other": 462749072
+      "other": 42589425
     },
     "expensesByPurpose": {
       "total": 1993404740,
@@ -2311,7 +2311,7 @@
       "transfers": 14424850,
       "carriedOver": 17917943,
       "miscellaneous": 77817084,
-      "other": 122052430
+      "other": 11892553
     },
     "expensesByPurpose": {
       "total": 539531062,
@@ -2368,7 +2368,7 @@
       "transfers": 14291790,
       "carriedOver": 15799150,
       "miscellaneous": 45423163,
-      "other": 95064306
+      "other": 19550203
     },
     "expensesByPurpose": {
       "total": 731783777,
@@ -2425,7 +2425,7 @@
       "transfers": 38035757,
       "carriedOver": 50275156,
       "miscellaneous": 68930494,
-      "other": 176788404
+      "other": 19546997
     },
     "expensesByPurpose": {
       "total": 903825031,
@@ -2482,7 +2482,7 @@
       "transfers": 17090460,
       "carriedOver": 36906509,
       "miscellaneous": 77114384,
-      "other": 146561801
+      "other": 15450448
     },
     "expensesByPurpose": {
       "total": 676738407,
@@ -2539,7 +2539,7 @@
       "transfers": 30536607,
       "carriedOver": 31755879,
       "miscellaneous": 60475536,
-      "other": 137391373
+      "other": 14623351
     },
     "expensesByPurpose": {
       "total": 656385854,
@@ -2596,7 +2596,7 @@
       "transfers": 26128185,
       "carriedOver": 54339649,
       "miscellaneous": 14015486,
-      "other": 116010810
+      "other": 21527490
     },
     "expensesByPurpose": {
       "total": 856075115,
@@ -2653,7 +2653,7 @@
       "transfers": 15550674,
       "carriedOver": 20074592,
       "miscellaneous": 88856814,
-      "other": 145881433
+      "other": 21399353
     },
     "expensesByPurpose": {
       "total": 846256545,

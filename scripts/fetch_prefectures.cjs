@@ -142,7 +142,7 @@ function main() {
         transfers,
         carriedOver,
         miscellaneous,
-        other: Math.max(0, revTotal - (localTax + localTransferTax + localAllocationTax + nationalSubsidy + localBonds))
+        other: Math.max(0, revTotal - (localTax + localTransferTax + localAllocationTax + nationalSubsidy + localBonds + transfers + carriedOver + miscellaneous))
       },
       expensesByPurpose: {
         total: expTotal,
