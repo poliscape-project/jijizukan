@@ -113,6 +113,19 @@ export default function MunicipalitiesPage() {
               総務省「地方財政状況調査（決算カード）」の全自治体データを集約。
               あなたの街の<strong>積立基金・地方債残高・ふるさと納税収支・住民税の使い道</strong>を客観的な事実データから可視化します。
             </p>
+            <div className="mt-4 flex flex-wrap items-center gap-3">
+              <Link
+                href="/municipalities/compare"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition shadow-sm"
+              >
+                <Scale className="w-4 h-4 text-indigo-200" />
+                <span>2自治体を横並びで比較・対決する</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+              <span className="text-xs text-slate-400">
+                ※ 飛島村 vs 夕張市、千代田区 vs 横浜市 など注目の比較が可能
+              </span>
+            </div>
           </div>
         </div>
 

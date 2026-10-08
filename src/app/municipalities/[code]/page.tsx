@@ -124,13 +124,22 @@ export default async function MunicipalityDetailPage({ params }: Props) {
             </div>
           </Link>
 
-          <Link
-            href="/municipalities"
-            className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-indigo-600 transition px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200"
-          >
-            <ArrowLeft className="w-3.5 h-3.5" />
-            <span>自治体一覧へ戻る</span>
-          </Link>
+          <div className="flex items-center gap-2">
+            <Link
+              href={`/municipalities/compare?a=${m.code}&b=${similar[0]?.code || '234273'}`}
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-indigo-700 dark:text-indigo-300 bg-indigo-50 dark:bg-indigo-950/60 hover:bg-indigo-100 dark:hover:bg-indigo-900/60 border border-indigo-200/60 dark:border-indigo-800 transition px-3 py-1.5 rounded-lg shadow-2xs"
+            >
+              <Scale className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
+              <span>他の自治体と比較</span>
+            </Link>
+            <Link
+              href="/municipalities"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-indigo-600 transition px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200"
+            >
+              <ArrowLeft className="w-3.5 h-3.5" />
+              <span>一覧へ戻る</span>
+            </Link>
+          </div>
         </div>
 
         {/* ナビゲーション・パンくず */}

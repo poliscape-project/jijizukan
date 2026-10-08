@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Users, TrendingUp, AlertTriangle, ArrowRight } from 'lucide-react';
+import { Users, TrendingUp, AlertTriangle, ArrowRight, Scale } from 'lucide-react';
 import { MunicipalityData } from '@/types/municipality';
 
 interface Props {
@@ -100,25 +100,45 @@ export default function SimilarComparisonCard({ municipality, similarMunicipalit
           </h4>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
             {similarMunicipalities.map((item) => (
-              <Link
+              <div
                 key={item.code}
-                href={`/municipalities/${item.code}`}
-                className="group p-3 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-indigo-400 dark:hover:border-indigo-600 bg-slate-50/50 dark:bg-slate-850 transition"
+                className="group p-3 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-indigo-400 dark:hover:border-indigo-600 bg-slate-50/50 dark:bg-slate-850 transition flex flex-col justify-between"
               >
-                <div className="text-xs text-slate-500 dark:text-slate-400">
-                  {item.prefName}
+                <div>
+                  <div className="text-xs text-slate-500 dark:text-slate-400">
+                    {item.prefName}
+                  </div>
+                  <Link
+                    href={`/municipalities/${item.code}`}
+                    className="font-bold text-sm text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 flex items-center justify-between"
+                  >
+                    <span>{item.name}</span>
+                    <ArrowRight className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition" />
+                  </Link>
+                  <div className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+                    人口: {item.population.toLocaleString()}人
+                  </div>
+                  <div className="text-xs font-medium text-slate-700 dark:text-slate-300 mt-0.5">
+                    財政力: {item.financial.financialStrengthIndex.toFixed(2)}
+                  </div>
                 </div>
-                <div className="font-bold text-sm text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 flex items-center justify-between">
-                  <span>{item.name}</span>
-                  <ArrowRight className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition" />
+
+                <div className="mt-3 pt-2 border-t border-slate-200/60 dark:border-slate-750 flex items-center justify-between text-xs">
+                  <Link
+                    href={`/municipalities/compare?a=${municipality.code}&b=${item.code}`}
+                    className="inline-flex items-center gap-1 text-[11px] font-bold text-indigo-600 dark:text-indigo-400 hover:underline"
+                  >
+                    <Scale className="w-3 h-3" />
+                    <span>この市と比較</span>
+                  </Link>
+                  <Link
+                    href={`/municipalities/${item.code}`}
+                    className="text-[11px] text-slate-400 hover:text-slate-600"
+                  >
+                    カルテ →
+                  </Link>
                 </div>
-                <div className="text-xs text-slate-600 dark:text-slate-400 mt-1">
-                  人口: {item.population.toLocaleString()}人
-                </div>
-                <div className="text-xs font-medium text-slate-700 dark:text-slate-300 mt-0.5">
-                  財政力: {item.financial.financialStrengthIndex.toFixed(2)}
-                </div>
-              </Link>
+              </div>
             ))}
           </div>
         </div>
