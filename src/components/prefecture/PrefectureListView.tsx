@@ -51,7 +51,16 @@ export default function PrefectureListView({ prefectures }: Props) {
   const filteredAndSorted = useMemo(() => {
     return prefectures
       .filter((p) => {
-        const matchesSearch = p.name.includes(searchTerm) || p.prefCode.includes(searchTerm);
+        const query = searchTerm.trim().toLowerCase();
+        if (!query) {
+          if (selectedRegion === 'all') return true;
+          const regionPrefs = REGIONS[selectedRegion];
+          return regionPrefs ? regionPrefs.includes(p.name) : true;
+        }
+        const matchesName = p.name.toLowerCase().includes(query) || p.prefCode.includes(query);
+        const matchesHeadline = p.headline ? p.headline.toLowerCase().includes(query) : false;
+        const matchesTags = p.tags ? p.tags.some(t => t.toLowerCase().includes(query)) : false;
+        const matchesSearch = matchesName || matchesHeadline || matchesTags;
         if (!matchesSearch) return false;
         if (selectedRegion === 'all') return true;
         const regionPrefs = REGIONS[selectedRegion];
@@ -124,7 +133,7 @@ export default function PrefectureListView({ prefectures }: Props) {
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="都道府県名で検索（例: 兵庫県、東京都、愛知県）"
+              placeholder="都道府県名・特徴キーワードで検索（例: 兵庫県、半導体、自動車、不交付、原発）"
               className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/60 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
           </div>
@@ -249,10 +258,29 @@ export default function PrefectureListView({ prefectures }: Props) {
                     </div>
                   </div>
 
-                  <div className="text-xs text-slate-500 dark:text-slate-400 mt-2">
+                  {p.headline && (
+                    <div className="text-xs font-bold text-indigo-900 dark:text-indigo-200 mt-2 line-clamp-1">
+                      {p.headline}
+                    </div>
+                  )}
+
+                  <div className="text-xs text-slate-500 dark:text-slate-400 mt-1">
                     人口 <strong>{(p.population / 10000).toFixed(1)}万人</strong>
                     {' '}| 面積 <strong>{p.area.toFixed(0)} km²</strong>
                   </div>
+
+                  {p.tags && p.tags.length > 0 && (
+                    <div className="flex flex-wrap gap-1 mt-2">
+                      {p.tags.slice(0, 3).map((tag, idx) => (
+                        <span
+                          key={idx}
+                          className="text-[10px] font-medium px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 border border-slate-200/50 dark:border-slate-700/50"
+                        >
+                          #{tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
 
                   {/* 財政指標ハイライト */}
                   <div className="mt-4 grid grid-cols-2 gap-2 text-xs">
@@ -323,10 +351,15 @@ export default function PrefectureListView({ prefectures }: Props) {
 
                   return (
                     <tr key={p.code} className="hover:bg-slate-50/80 dark:hover:bg-slate-800/50 transition">
-                      <td className="py-3 px-4 font-bold text-slate-900 dark:text-white">
-                        <Link href={`/prefectures/${p.code}`} className="hover:text-indigo-600 transition">
+                      <td className="py-3 px-4 text-slate-900 dark:text-white max-w-[200px]">
+                        <Link href={`/prefectures/${p.code}`} className="font-bold hover:text-indigo-600 transition block truncate">
                           {p.name}
                         </Link>
+                        {p.headline && (
+                          <div className="text-[10px] text-slate-400 font-normal truncate">
+                            {p.headline}
+                          </div>
+                        )}
                       </td>
                       <td className="py-3 px-4 text-right text-slate-600 dark:text-slate-300">
                         {(p.population / 10000).toFixed(1)}万人

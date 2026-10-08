@@ -116,11 +116,28 @@ export default async function PrefectureDetailPage({ params }: Props) {
               <h1 className="text-3xl md:text-5xl font-black tracking-tight text-white">
                 {p.name}
               </h1>
+              {p.profile?.headline && (
+                <p className="text-sm md:text-base font-bold text-indigo-200 mt-1">
+                  {p.profile.headline}
+                </p>
+              )}
               <p className="text-xs md:text-sm text-slate-300">
                 人口 <strong>{p.population >= 10000 ? `${(p.population / 10000).toFixed(1)}万人` : `${p.population.toLocaleString()}人`}</strong>
                 {' '}| 面積 <strong>{p.area.toFixed(1)} km²</strong>
                 {' '}| 所属市区町村数 <strong>{childMunis.length} 団体</strong>
               </p>
+              {p.profile?.tags && (
+                <div className="flex flex-wrap gap-1.5 pt-1">
+                  {p.profile.tags.map((tag, idx) => (
+                    <span
+                      key={idx}
+                      className="px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-800 text-slate-300 border border-slate-700/80"
+                    >
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -155,6 +172,86 @@ export default async function PrefectureDetailPage({ params }: Props) {
             </div>
           </div>
         </div>
+
+        {/* 地域特性・財政構造プロファイル（公的分析に基づく客観解説） */}
+        {p.profile && (
+          <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-2xs space-y-5">
+            <div className="border-b border-slate-100 dark:border-slate-800 pb-3">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="flex items-center gap-2">
+                  <span className="px-2.5 py-0.5 rounded-md bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 font-bold text-xs border border-indigo-200/50">
+                    地域特性・財政プロファイル
+                  </span>
+                  <span className="text-xs font-bold text-slate-900 dark:text-white">
+                    公的分析に基づく客観解説
+                  </span>
+                </div>
+                <span className="text-[10px] text-slate-400">
+                  出典: 総務省「財政状況分析表」・内閣府/経産省「RESAS」・統計局「統計でみる都道府県のすがた」
+                </span>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {/* 産業・経済構造 */}
+              <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200/70 dark:border-slate-700/60 flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center gap-1.5 text-xs font-bold text-indigo-700 dark:text-indigo-400 mb-1.5">
+                    <Briefcase className="w-3.5 h-3.5" />
+                    <span>産業・経済の構造的特徴</span>
+                  </div>
+                  <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-2">
+                    地域経済と特化産業
+                  </h3>
+                  <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                    {p.profile.industrialStructure}
+                  </p>
+                </div>
+                <div className="mt-3 pt-2 border-t border-slate-200/60 dark:border-slate-700/60 text-[10px] text-slate-400">
+                  RESAS産業特化係数等に基づく構造データ
+                </div>
+              </div>
+
+              {/* 財政の強みと課題 */}
+              <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200/70 dark:border-slate-700/60 flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center gap-1.5 text-xs font-bold text-amber-700 dark:text-amber-400 mb-1.5">
+                    <Scale className="w-3.5 h-3.5" />
+                    <span>財政の強みと構造的課題</span>
+                  </div>
+                  <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-2">
+                    歳入基盤と公債費・維持費
+                  </h3>
+                  <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                    {p.profile.fiscalStrengthsAndRisks}
+                  </p>
+                </div>
+                <div className="mt-3 pt-2 border-t border-slate-200/60 dark:border-slate-700/60 text-[10px] text-slate-400">
+                  総務省「財政状況分析表」公表理由に基づく
+                </div>
+              </div>
+
+              {/* 今後の政策課題・展望 */}
+              <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200/70 dark:border-slate-700/60 flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center gap-1.5 text-xs font-bold text-emerald-700 dark:text-emerald-400 mb-1.5">
+                    <ShieldCheck className="w-3.5 h-3.5" />
+                    <span>重要政策課題と展望</span>
+                  </div>
+                  <h3 className="font-bold text-sm text-slate-900 dark:text-white mb-2">
+                    中長期的持続可能性と重点投資
+                  </h3>
+                  <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                    {p.profile.futureOutlook}
+                  </p>
+                </div>
+                <div className="mt-3 pt-2 border-t border-slate-200/60 dark:border-slate-700/60 text-[10px] text-slate-400">
+                  地方版総合戦略・地方財政計画等に基づく
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* 地方債 vs 積立基金（借金と貯金）セクション */}
         <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-2xs space-y-4">

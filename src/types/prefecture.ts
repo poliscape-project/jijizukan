@@ -46,6 +46,14 @@ export interface PrefectureGovernance {
   staffCount: number; // 職員総数
 }
 
+export interface PrefectureProfile {
+  headline: string; // 一言キャッチコピー
+  industrialStructure: string; // 産業・経済構造（RESAS・特化産業等）
+  fiscalStrengthsAndRisks: string; // 財政構造の強みと課題（総務省「財政状況分析表」視点）
+  futureOutlook: string; // 今後の注目点・政策課題
+  tags: string[]; // 構造キーワードタグ
+}
+
 export interface PrefectureData {
   code: string; // 6桁コード (例: '280003')
   prefCode: string; // 2桁コード (例: '28')
@@ -58,6 +66,7 @@ export interface PrefectureData {
   revenues: PrefectureRevenues;
   expensesByPurpose: PrefectureExpensesByPurpose;
   governance: PrefectureGovernance;
+  profile?: PrefectureProfile;
 }
 
 export interface PrefectureSummary {
@@ -82,4 +91,6 @@ export interface PrefectureSummary {
   educationPerCapita: number;
   governorSalary: number;
   councilSalary: number;
+  headline?: string;
+  tags?: string[];
 }

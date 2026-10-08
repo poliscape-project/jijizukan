@@ -1,12 +1,26 @@
 import fs from 'fs';
 import path from 'path';
-import { PrefectureData, PrefectureSummary } from '@/types/prefecture';
+import { PrefectureData, PrefectureSummary, PrefectureProfile } from '@/types/prefecture';
 
 let cachedPrefectures: PrefectureData[] | null = null;
 let cachedSummaries: PrefectureSummary[] | null = null;
+let cachedProfiles: Record<string, PrefectureProfile> | null = null;
 
 function getDataFilePath(filename: string): string {
   return path.join(process.cwd(), 'src', 'data', filename);
+}
+
+function getProfiles(): Record<string, PrefectureProfile> {
+  if (cachedProfiles) return cachedProfiles;
+  const filePath = getDataFilePath('prefecture_profiles.json');
+  if (!fs.existsSync(filePath)) return {};
+  try {
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    cachedProfiles = JSON.parse(raw);
+    return cachedProfiles || {};
+  } catch {
+    return {};
+  }
 }
 
 export function getAllPrefectures(): PrefectureData[] {
@@ -14,42 +28,54 @@ export function getAllPrefectures(): PrefectureData[] {
   const filePath = getDataFilePath('prefectures.json');
   if (!fs.existsSync(filePath)) return [];
   const raw = fs.readFileSync(filePath, 'utf-8');
-  cachedPrefectures = JSON.parse(raw);
+  const baseList: PrefectureData[] = JSON.parse(raw);
+  const profiles = getProfiles();
+
+  cachedPrefectures = baseList.map(p => {
+    const profile = profiles[p.prefCode];
+    return {
+      ...p,
+      profile: profile || undefined
+    };
+  });
+
   return cachedPrefectures || [];
 }
 
 export function getPrefectureSummaries(): PrefectureSummary[] {
   if (cachedSummaries) return cachedSummaries;
-  const filePath = getDataFilePath('prefectures_summary.json');
-  if (fs.existsSync(filePath)) {
-    const raw = fs.readFileSync(filePath, 'utf-8');
-    cachedSummaries = JSON.parse(raw);
-    return cachedSummaries || [];
-  }
   const all = getAllPrefectures();
-  cachedSummaries = all.map(p => ({
-    code: p.code,
-    prefCode: p.prefCode,
-    name: p.name,
-    population: p.population,
-    area: p.area,
-    financialStrength: p.financial.financialStrengthIndex,
-    ordinaryBalance: p.financial.ordinaryBalanceRatio,
-    realDebtRatio: p.financial.realDebtServiceRatio,
-    futureBurdenRatio: p.financial.futureBurdenRatio,
-    revTotal: p.revenues.total,
-    expTotal: p.expensesByPurpose.total,
-    debtOutstanding: p.financial.debtOutstanding,
-    reserveFundTotal: p.financial.reserveFundTotal,
-    debtPerCapita: p.financial.debtPerCapita,
-    reservePerCapita: p.financial.reservePerCapita,
-    netPerCapita: p.financial.netPerCapita,
-    publicWorksPerCapita: Math.round((p.expensesByPurpose.publicWorks * 1000) / p.population),
-    policePerCapita: Math.round((p.expensesByPurpose.police * 1000) / p.population),
-    educationPerCapita: Math.round((p.expensesByPurpose.education * 1000) / p.population),
-    governorSalary: p.governance.governorSalary,
-    councilSalary: p.governance.councilSalary
-  }));
+  const profiles = getProfiles();
+
+  cachedSummaries = all.map(p => {
+    const prof = profiles[p.prefCode];
+    return {
+      code: p.code,
+      prefCode: p.prefCode,
+      name: p.name,
+      population: p.population,
+      area: p.area,
+      financialStrength: p.financial.financialStrengthIndex,
+      ordinaryBalance: p.financial.ordinaryBalanceRatio,
+      realDebtRatio: p.financial.realDebtServiceRatio,
+      futureBurdenRatio: p.financial.futureBurdenRatio,
+      revTotal: p.revenues.total,
+      expTotal: p.expensesByPurpose.total,
+      debtOutstanding: p.financial.debtOutstanding,
+      reserveFundTotal: p.financial.reserveFundTotal,
+      debtPerCapita: p.financial.debtPerCapita,
+      reservePerCapita: p.financial.reservePerCapita,
+      netPerCapita: p.financial.netPerCapita,
+      publicWorksPerCapita: Math.round((p.expensesByPurpose.publicWorks * 1000) / p.population),
+      policePerCapita: Math.round((p.expensesByPurpose.police * 1000) / p.population),
+      educationPerCapita: Math.round((p.expensesByPurpose.education * 1000) / p.population),
+      governorSalary: p.governance.governorSalary,
+      councilSalary: p.governance.councilSalary,
+      headline: prof?.headline,
+      tags: prof?.tags
+    };
+  });
+
   return cachedSummaries || [];
 }
 
