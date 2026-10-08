@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (112件)
+// 国内トピック (113件)
 import abandonedGravesTempleCrisisCremationData from "@/data/topics/domestic/abandoned-graves-temple-crisis-cremation.json";
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import agricultureLivestockLaborShortageSafetyCrisisData from "@/data/topics/domestic/agriculture-livestock-labor-shortage-safety-crisis.json";
@@ -44,6 +44,7 @@ import henokoBoatCapsizeAccidentData from "@/data/topics/domestic/henoko-boat-ca
 import henokoProtestMovementControversyData from "@/data/topics/domestic/henoko-protest-movement-controversy.json";
 import higherEducationFreeTuitionData from "@/data/topics/domestic/higher-education-free-tuition.json";
 import hostClubUncollectedBillsExploitationData from "@/data/topics/domestic/host-club-uncollected-bills-exploitation.json";
+import hyogoDebtRefinancingGovernanceScandalData from "@/data/topics/domestic/hyogo-debt-refinancing-governance-scandal.json";
 import hyogoGubernatorialElection2024Data from "@/data/topics/domestic/hyogo-gubernatorial-election-2024.json";
 import immigrationReformData from "@/data/topics/domestic/immigration-reform.json";
 import imperialSuccessionData from "@/data/topics/domestic/imperial-succession.json";
@@ -224,6 +225,7 @@ export const topics: Topic[] = [
   { ...henokoProtestMovementControversyData, createdAt: "2026-09-19T23:29:02+09:00" } as unknown as Topic,
   { ...higherEducationFreeTuitionData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...hostClubUncollectedBillsExploitationData, createdAt: "2026-09-21T22:06:31+09:00" } as unknown as Topic,
+  { ...hyogoDebtRefinancingGovernanceScandalData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...hyogoGubernatorialElection2024Data, createdAt: "2026-09-20T00:27:48+09:00" } as unknown as Topic,
   { ...immigrationReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...imperialSuccessionData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { 
   Building2, Search, TrendingUp, TrendingDown, AlertTriangle, ShieldCheck, 
   MapPin, Sparkles, HelpCircle, ArrowRight, Coins, Scale, FileText, PiggyBank,
-  Gift, Users, AlertOctagon
+  Gift, Users, AlertOctagon, Landmark, Layers
 } from 'lucide-react';
 import { getMunicipalitySummaries } from '@/lib/municipalities';
 import MunicipalitySearchFilter from '@/components/municipality/MunicipalitySearchFilter';
@@ -99,6 +99,31 @@ export default function MunicipalitiesPage() {
   return (
     <>
       <main className="max-w-6xl mx-auto px-4 py-8 space-y-8">
+        {/* ナビゲーション・タブ */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="flex items-center p-1 rounded-xl bg-slate-100 dark:bg-slate-800 self-start">
+            <div className="px-4 py-2 rounded-lg text-xs font-bold bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-2xs flex items-center gap-1.5">
+              <Building2 className="w-3.5 h-3.5" />
+              <span>市区町村カルテ (1,741)</span>
+            </div>
+            <Link
+              href="/prefectures"
+              className="px-4 py-2 rounded-lg text-xs font-bold text-slate-500 hover:text-slate-900 dark:hover:text-white transition flex items-center gap-1.5"
+            >
+              <Landmark className="w-3.5 h-3.5" />
+              <span>都道府県カルテ (47)</span>
+            </Link>
+          </div>
+
+          <Link
+            href="/municipalities/compare"
+            className="inline-flex items-center gap-1.5 text-xs font-bold text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 bg-indigo-50 dark:bg-indigo-950/60 hover:bg-indigo-100 px-3 py-2 rounded-xl transition self-start sm:self-auto"
+          >
+            <Layers className="w-3.5 h-3.5" />
+            <span>2自治体 徹底比較へ</span>
+          </Link>
+        </div>
+
         {/* ヒーローセクション：すっきりとした知的なヘッダー */}
         <div className="rounded-2xl bg-slate-900 text-white p-6 md:p-8 border border-slate-800 shadow-sm">
           <div className="max-w-3xl">

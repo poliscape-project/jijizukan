@@ -8,6 +8,7 @@ import {
   FileText, Briefcase, PiggyBank, Gift, Newspaper, ArrowRight
 } from 'lucide-react';
 import { getMunicipalityByCode, getSimilarMunicipalities, getAllMunicipalities, getMunicipalityHistory } from '@/lib/municipalities';
+import { getPrefectureByPrefCode } from '@/lib/prefectures';
 import { getTopicsByMunicipality } from '@/lib/topics';
 import MunicipalityFooter from '@/components/municipality/MunicipalityFooter';
 import MunicipalityDetailTabs from '@/components/municipality/MunicipalityDetailTabs';
@@ -51,6 +52,7 @@ export default async function MunicipalityDetailPage({ params }: Props) {
 
   const similar = getSimilarMunicipalities(m.typeGroup, m.code, 4);
   const history = getMunicipalityHistory(m.code);
+  const parentPref = getPrefectureByPrefCode(m.prefCode);
 
   // Revenues slice
   const revSlices = [
@@ -144,11 +146,17 @@ export default async function MunicipalityDetailPage({ params }: Props) {
 
         {/* ナビゲーション・パンくず */}
         <div className="flex items-center gap-2 text-xs text-slate-500">
-          <Link href="/municipalities" className="hover:text-indigo-600">全国自治体カルテ</Link>
+          <Link href="/municipalities" className="hover:text-indigo-600 transition">全国自治体カルテ</Link>
           <span>/</span>
-          <span>{m.prefName}</span>
+          {parentPref ? (
+            <Link href={`/prefectures/${parentPref.code}`} className="hover:text-indigo-600 font-medium transition underline-offset-2 hover:underline">
+              {parentPref.name}
+            </Link>
+          ) : (
+            <span>{m.prefName}</span>
+          )}
           <span>/</span>
-          <span className="font-bold text-slate-900">{m.name}</span>
+          <span className="font-bold text-slate-900 dark:text-white">{m.name}</span>
         </div>
 
         {/* 自治体ヘッダー（端正でスッキリしたデザイン） */}
@@ -235,6 +243,35 @@ export default async function MunicipalityDetailPage({ params }: Props) {
             </div>
           </div>
         </div>
+
+        {/* 親自治体（都道府県）カルテへの連携バナー */}
+        {parentPref && (
+          <div className="bg-gradient-to-r from-slate-50 via-white to-indigo-50/40 dark:from-slate-900 dark:via-slate-900 dark:to-indigo-950/20 p-4 rounded-2xl border border-slate-200/80 dark:border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-2xs">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200/60 dark:border-indigo-800 text-indigo-600 dark:text-indigo-400 flex items-center justify-center shrink-0">
+                <Landmark className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="text-[10px] font-bold tracking-wider uppercase text-slate-400 dark:text-slate-500">
+                  広域自治体（都道府県）データ連携
+                </div>
+                <div className="text-sm font-bold text-slate-900 dark:text-white mt-0.5">
+                  所属する <span className="text-indigo-600 dark:text-indigo-400 font-black">{parentPref.name}</span> の財政カルテを見る
+                </div>
+                <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
+                  地方債残高: <strong>{Math.round(parentPref.financial.debtOutstanding / 100000).toLocaleString()}億円</strong>（県民1人あたり{parentPref.financial.debtPerCapita.toLocaleString()}円） | 財政力指数: <strong>{parentPref.financial.financialStrengthIndex.toFixed(2)}</strong>
+                </div>
+              </div>
+            </div>
+            <Link
+              href={`/prefectures/${parentPref.code}`}
+              className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition shadow-xs shrink-0"
+            >
+              <span>{parentPref.name}のカルテへ</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+        )}
 
         {/* 異常値・特異点アラート（ある場合のみ表示） */}
         {m.alerts && m.alerts.length > 0 && (

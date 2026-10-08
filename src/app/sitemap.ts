@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllTopics } from '@/lib/topics';
 import { getAllMunicipalities } from '@/lib/municipalities';
+import { getAllPrefectures } from '@/lib/prefectures';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://jijizukan.vercel.app';
@@ -44,15 +45,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/prefectures`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
   ];
 
-  // 政策トピック一覧 (全176件)
+  // 政策トピック一覧 (全177件)
   const topics = getAllTopics();
   const topicRoutes: MetadataRoute.Sitemap = topics.map((topic) => ({
     url: `${baseUrl}/topics/${topic.id}`,
     lastModified: new Date(topic.lastUpdated || now),
     changeFrequency: 'weekly',
     priority: 0.8,
+  }));
+
+  // 都道府県詳細ページ (全47件)
+  const prefectures = getAllPrefectures();
+  const prefectureRoutes: MetadataRoute.Sitemap = prefectures.map((p) => ({
+    url: `${baseUrl}/prefectures/${p.code}`,
+    lastModified: now,
+    changeFrequency: 'monthly',
+    priority: 0.7,
   }));
 
   // 自治体詳細ページ (全1,741件)
@@ -64,5 +80,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...topicRoutes, ...municipalityRoutes];
+  return [...staticRoutes, ...topicRoutes, ...prefectureRoutes, ...municipalityRoutes];
 }

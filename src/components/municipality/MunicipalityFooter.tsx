@@ -27,6 +27,10 @@ export default function MunicipalityFooter() {
               時事図鑑（政治・国際情勢追跡）
             </Link>
             <span>•</span>
+            <Link href="/prefectures" className="text-indigo-600 hover:underline">
+              47都道府県カルテ
+            </Link>
+            <span>•</span>
             <a
               href="https://poliscape.vercel.app"
               target="_blank"

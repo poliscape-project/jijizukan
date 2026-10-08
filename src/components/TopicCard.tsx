@@ -81,7 +81,7 @@ export const TopicCard: React.FC<TopicCardProps> = ({ topic, isChecked = false }
           <span className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-blue-50 text-blue-800">
             {topic.categoryLabel}
           </span>
-          {topic.keyActors.slice(0, 3).map((actor, i) => (
+          {(topic.keyActors || []).slice(0, 3).map((actor, i) => (
             <span
               key={i}
               className="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 text-slate-600"
