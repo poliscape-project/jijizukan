@@ -62,10 +62,13 @@ export default function PieChartBreakdown({
 
   const getCoordinatesForPercent = (deg: number, r: number) => {
     // 0度 = 12時方向（標準数学座標の-90度オフセット）
+    // SSRとブラウザ間での微小な浮動小数点誤差によるハイドレーション不一致を防ぐためtoFixed(2)で丸める
     const rad = ((deg - 90) * Math.PI) / 180.0;
+    const x = center + r * Math.cos(rad);
+    const y = center + r * Math.sin(rad);
     return {
-      x: center + r * Math.cos(rad),
-      y: center + r * Math.sin(rad)
+      x: x.toFixed(2),
+      y: y.toFixed(2)
     };
   };
 

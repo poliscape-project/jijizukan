@@ -167,8 +167,8 @@ function DebtReserveChart({
   const graphWidth = width - padding.left - padding.right;
   const graphHeight = height - padding.top - padding.bottom;
 
-  const getX = (idx: number) => padding.left + (idx / (history.length - 1)) * graphWidth;
-  const getY = (val: number) => padding.top + graphHeight - (val / ceiling) * graphHeight;
+  const getX = (idx: number) => Math.round((padding.left + (idx / (history.length - 1)) * graphWidth) * 10) / 10;
+  const getY = (val: number) => Math.round((padding.top + graphHeight - (val / ceiling) * graphHeight) * 10) / 10;
 
   // 地方債ライン
   const debtPoints = history.map((h, i) => `${getX(i)},${getY(h.debtOutstanding)}`).join(' ');
@@ -273,8 +273,8 @@ function FurusatoHistoryChart({
   const graphWidth = width - padding.left - padding.right;
   const graphHeight = height - padding.top - padding.bottom;
 
-  const getX = (idx: number) => padding.left + (idx / (history.length - 1)) * graphWidth;
-  const getY = (val: number) => padding.top + graphHeight - (val / ceiling) * graphHeight;
+  const getX = (idx: number) => Math.round((padding.left + (idx / (history.length - 1)) * graphWidth) * 10) / 10;
+  const getY = (val: number) => Math.round((padding.top + graphHeight - (val / ceiling) * graphHeight) * 10) / 10;
 
   const recPoints = history.map((h, i) => `${getX(i)},${getY(h.furusatoReceived)}`).join(' ');
   const dedPoints = history.map((h, i) => `${getX(i)},${getY(h.furusatoDeducted)}`).join(' ');
@@ -370,8 +370,8 @@ function PopulationAgingChart({
   const graphWidth = width - padding.left - padding.right;
   const graphHeight = height - padding.top - padding.bottom;
 
-  const getX = (idx: number) => padding.left + (idx / (history.length - 1)) * graphWidth;
-  const getYPop = (val: number) => padding.top + graphHeight - ((val - popFloor) / (popCeiling - popFloor)) * graphHeight;
+  const getX = (idx: number) => Math.round((padding.left + (idx / (history.length - 1)) * graphWidth) * 10) / 10;
+  const getYPop = (val: number) => Math.round((padding.top + graphHeight - ((val - popFloor) / (popCeiling - popFloor)) * graphHeight) * 10) / 10;
 
   const popPoints = history.map((h, i) => `${getX(i)},${getYPop(h.population)}`).join(' ');
 

@@ -809,8 +809,8 @@ function CompareDebtReserveChart({
   const graphHeight = height - padding.top - padding.bottom;
 
   const count = Math.min(historyA.length, historyB.length);
-  const getX = (idx: number) => padding.left + (idx / (count - 1)) * graphWidth;
-  const getY = (val: number) => padding.top + graphHeight - (val / ceiling) * graphHeight;
+  const getX = (idx: number) => Math.round((padding.left + (idx / (count - 1)) * graphWidth) * 10) / 10;
+  const getY = (val: number) => Math.round((padding.top + graphHeight - (val / ceiling) * graphHeight) * 10) / 10;
 
   // A市（青系実線＝地方債、青系破線＝基金）
   const debtPointsA = historyA.map((h, i) => `${getX(i)},${getY(h.debtOutstanding)}`).join(' ');
@@ -938,10 +938,10 @@ function CompareFurusatoChart({
   const graphHeight = height - padding.top - padding.bottom;
 
   const count = Math.min(historyA.length, historyB.length);
-  const getX = (idx: number) => padding.left + (idx / (count - 1)) * graphWidth;
+  const getX = (idx: number) => Math.round((padding.left + (idx / (count - 1)) * graphWidth) * 10) / 10;
   // ゼロラインは中央
   const zeroY = padding.top + graphHeight / 2;
-  const getY = (val: number) => zeroY - (val / ceiling) * (graphHeight / 2);
+  const getY = (val: number) => Math.round((zeroY - (val / ceiling) * (graphHeight / 2)) * 10) / 10;
 
   const pointsA = historyA.map((h, i) => `${getX(i)},${getY(h.furusatoBalance)}`).join(' ');
   const pointsB = historyB.map((h, i) => `${getX(i)},${getY(h.furusatoBalance)}`).join(' ');
@@ -1042,9 +1042,9 @@ function ComparePopulationChart({
   const graphHeight = height - padding.top - padding.bottom;
 
   const count = Math.min(historyA.length, historyB.length);
-  const getX = (idx: number) => padding.left + (idx / (count - 1)) * graphWidth;
+  const getX = (idx: number) => Math.round((padding.left + (idx / (count - 1)) * graphWidth) * 10) / 10;
   const maxAging = 60; // 60%天井
-  const getY = (val: number) => padding.top + graphHeight - (val / maxAging) * graphHeight;
+  const getY = (val: number) => Math.round((padding.top + graphHeight - (val / maxAging) * graphHeight) * 10) / 10;
 
   const pointsA = historyA.map((h, i) => `${getX(i)},${getY(h.agingRate ?? 30)}`).join(' ');
   const pointsB = historyB.map((h, i) => `${getX(i)},${getY(h.agingRate ?? 30)}`).join(' ');
