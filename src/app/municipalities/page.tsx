@@ -19,22 +19,8 @@ export const metadata: Metadata = {
 export default function MunicipalitiesPage() {
   const summaries = getMunicipalitySummaries();
 
-  // 注目自治体（簗大臣関連、財政力トップ、等）
+  // 注目自治体（財政力トップ、再生団体、新興産業、ふるさと納税など構造的モデル）
   const featured = [
-    {
-      code: '092151',
-      name: '栃木県 那須烏山市',
-      badge: '簗農水相発言関連',
-      badgeStyle: 'bg-slate-100 text-slate-800 dark:bg-slate-800 dark:text-slate-200 border-slate-300 dark:border-slate-700',
-      description: '国交省交付金削減率と発言が一致した注目自治体。土木費推移と依存度を検証。'
-    },
-    {
-      code: '094111',
-      name: '栃木県 那珂川町',
-      badge: '簗農水相発言関連',
-      badgeStyle: 'bg-slate-100 text-slate-800 dark:bg-slate-800 dark:text-slate-200 border-slate-300 dark:border-slate-700',
-      description: '補助金54%減の恫喝対象となった町。地方交付税と道路予算の実態。'
-    },
     {
       code: '234273',
       name: '愛知県 飛島村',
@@ -43,11 +29,25 @@ export default function MunicipalitiesPage() {
       description: '財政力指数1.94。名古屋港臨海工業地帯の固定資産税で驚異の自主財源を誇る。'
     },
     {
+      code: '012092',
+      name: '北海道 夕張市',
+      badge: '財政再生団体',
+      badgeStyle: 'bg-amber-50 text-amber-700 dark:bg-amber-950/60 dark:text-amber-300 border-amber-200 dark:border-amber-800',
+      description: '日本唯一の財政再生団体。過去の巨額債務返済と持続可能な行政サービスの両立に挑む。'
+    },
+    {
       code: '434043',
       name: '熊本県 菊陽町',
       badge: 'TSMC半導体メガハブ',
       badgeStyle: 'bg-indigo-50 text-indigo-700 dark:bg-indigo-950/60 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800',
       description: '世界最大手ファウンドリ進出。税収急増とインフラ投資が進む新興半導体城下町。'
+    },
+    {
+      code: '452017',
+      name: '宮崎県 都城市',
+      badge: 'ふるさと納税 日本一',
+      badgeStyle: 'bg-emerald-50 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800',
+      description: 'ふるさと納税受入額全国トップ。寄附金を財源に子育て・医療費無償化を推進するモデル。'
     }
   ];
 
@@ -195,31 +195,6 @@ export default function MunicipalitiesPage() {
           topSelfReliant={topSelfReliant}
         />
 
-        {/* PoliScape × 時事図鑑 × 自治体カルテ 連動解説 */}
-        <div className="p-6 rounded-2xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 space-y-2">
-          <h3 className="font-bold text-sm text-slate-900 dark:text-white">
-            なぜ「自治体カルテ」を公開するのか？
-          </h3>
-          <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-            国の政策論争（PoliScape）や政界ニュース（時事図鑑）だけでなく、国民が納めた税金が足元の自治体でどう使われ、健全に運営されているかを事実データで客観的に照合できるシビックテック基盤を目指しています。
-          </p>
-          <div className="flex flex-wrap items-center gap-4 text-xs font-semibold pt-1">
-            <Link
-              href="/topics/yana-minister-road-budget-retaliation-controversy"
-              className="text-indigo-600 dark:text-indigo-400 hover:underline"
-            >
-              簗農水相の道路予算カット発言トピック →
-            </Link>
-            <a
-              href="https://poliscape.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-600 dark:text-slate-400 hover:underline"
-            >
-              日本政策図鑑（PoliScape）→
-            </a>
-          </div>
-        </div>
       </main>
       <MunicipalityFooter />
     </>
