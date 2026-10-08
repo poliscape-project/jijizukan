@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { Search, Filter, AlertTriangle, ArrowUpDown, ChevronRight, Building, Sparkles, MapPin } from 'lucide-react';
+import { Search, Filter, AlertTriangle, ArrowUpDown, ChevronRight, Building, Sparkles, MapPin, Users, Coins } from 'lucide-react';
 import { MunicipalitySummary } from '@/types/municipality';
 
 interface Props {
@@ -347,40 +347,77 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
                       {m.name}
                     </h3>
                   </div>
-                  <span className="text-[10px] text-slate-400 font-mono">
-                    {m.code}
-                  </span>
-                </div>
-
-                {/* 指標ミニバッジ */}
-                <div className="grid grid-cols-2 gap-2 text-xs py-2 border-y border-slate-100 dark:border-slate-800 my-2">
-                  <div>
-                    <div className="text-[10px] text-slate-400">財政力指数</div>
-                    <div className={`font-bold ${m.financialStrength >= 1.0 ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-800 dark:text-slate-200'}`}>
-                      {m.financialStrength.toFixed(2)}
-                    </div>
-                  </div>
-                  <div>
-                    <div className="text-[10px] text-slate-400">土木費/人</div>
-                    <div className="font-bold text-slate-800 dark:text-slate-200">
-                      {m.publicWorksPerCapita.toLocaleString()}円
-                    </div>
+                  <div className="text-right shrink-0">
+                    <span className="text-[10px] text-slate-400 font-mono block">
+                      {m.code}
+                    </span>
+                    {m.typeGroup && (
+                      <span className="inline-block mt-0.5 px-1.5 py-0.5 rounded text-[10px] font-medium bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400">
+                        {m.typeGroup}
+                      </span>
+                    )}
                   </div>
                 </div>
 
-                {/* 実質純資産 */}
-                {m.netPerCapita !== undefined && (
-                  <div className="flex items-center justify-between text-[11px] px-2.5 py-1 rounded-lg bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 mb-1.5">
-                    <span className="text-slate-500">実質純資産（基金−債務）:</span>
-                    <span className={`font-bold ${
-                      m.netPerCapita >= 0
-                        ? 'text-emerald-600 dark:text-emerald-400'
-                        : 'text-amber-600 dark:text-amber-400'
-                    }`}>
-                      {m.netPerCapita >= 0 ? `+${m.netPerCapita.toLocaleString()}` : m.netPerCapita.toLocaleString()}円/人
+                {/* 基本規模（人口 & 予算規模） */}
+                <div className="flex items-center justify-between text-xs px-2.5 py-1.5 rounded-lg bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800/80 mb-2.5 text-slate-600 dark:text-slate-300">
+                  <div className="flex items-center gap-1.5">
+                    <Users className="w-3.5 h-3.5 text-slate-400" />
+                    <span className="text-[11px] text-slate-400">人口:</span>
+                    <span className="font-bold text-slate-800 dark:text-slate-200">
+                      {m.population >= 10000 ? `${(m.population / 10000).toFixed(1)}万人` : `${m.population.toLocaleString()}人`}
                     </span>
                   </div>
-                )}
+                  <div className="h-3 w-px bg-slate-200 dark:bg-slate-700" />
+                  <div className="flex items-center gap-1.5">
+                    <Coins className="w-3.5 h-3.5 text-slate-400" />
+                    <span className="text-[11px] text-slate-400">予算規模:</span>
+                    <span className="font-bold text-slate-800 dark:text-slate-200">
+                      {m.expTotal >= 1000000000
+                        ? `${(m.expTotal / 1000000000).toFixed(2)}兆円`
+                        : `${(m.expTotal / 100000).toFixed(1)}億円`}
+                    </span>
+                  </div>
+                </div>
+
+                {/* カルテ主要2指標（自立度 & 家計純資産） */}
+                <div className="grid grid-cols-2 gap-2 text-xs py-2 border-y border-slate-100 dark:border-slate-800 mb-2">
+                  <div>
+                    <div className="text-[10px] text-slate-400 flex items-center justify-between">
+                      <span>財政力指数</span>
+                      {m.financialStrength >= 1.0 && (
+                        <span className="text-[9px] px-1 py-0.2 rounded bg-indigo-100 dark:bg-indigo-900/60 text-indigo-700 dark:text-indigo-300 font-bold">自立</span>
+                      )}
+                    </div>
+                    <div className={`font-black text-sm mt-0.5 ${m.financialStrength >= 1.0 ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-900 dark:text-white'}`}>
+                      {m.financialStrength.toFixed(2)}
+                    </div>
+                    <div className="text-[9px] text-slate-400 truncate">
+                      {m.financialStrength >= 1.0 ? '不交付団体' : '交付税依存'}
+                    </div>
+                  </div>
+                  <div>
+                    <div className="text-[10px] text-slate-400">実質純資産/人</div>
+                    {m.netPerCapita !== undefined ? (
+                      <>
+                        <div className={`font-black text-sm mt-0.5 ${
+                          m.netPerCapita >= 0 ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'
+                        }`}>
+                          {m.netPerCapita >= 0
+                            ? `+${(m.netPerCapita / 10000).toFixed(1)}万円`
+                            : `${(m.netPerCapita / 10000).toFixed(1)}万円`}
+                        </div>
+                        <div className={`text-[9px] font-semibold truncate ${
+                          m.netPerCapita >= 0 ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'
+                        }`}>
+                          {m.netPerCapita >= 0 ? '貯金超過' : '借金超過'}
+                        </div>
+                      </>
+                    ) : (
+                      <div className="font-bold text-slate-400 text-sm mt-0.5">-</div>
+                    )}
+                  </div>
+                </div>
 
                 {/* ふるさと納税 & 高齢化率 バッジ */}
                 <div className="grid grid-cols-2 gap-1.5 text-[11px] mb-2">
