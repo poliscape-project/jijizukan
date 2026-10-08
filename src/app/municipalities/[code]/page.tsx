@@ -7,10 +7,11 @@ import {
   ExternalLink, Coins, Scale, TrendingDown, TrendingUp, ShieldCheck,
   FileText, Briefcase, PiggyBank, Gift, Newspaper, ArrowRight
 } from 'lucide-react';
-import { getMunicipalityByCode, getSimilarMunicipalities, getAllMunicipalities } from '@/lib/municipalities';
+import { getMunicipalityByCode, getSimilarMunicipalities, getAllMunicipalities, getMunicipalityHistory } from '@/lib/municipalities';
 import { getTopicsByMunicipality } from '@/lib/topics';
 import MunicipalityFooter from '@/components/municipality/MunicipalityFooter';
 import MunicipalityDetailTabs from '@/components/municipality/MunicipalityDetailTabs';
+import MunicipalityHistoryCharts from '@/components/municipality/MunicipalityHistoryCharts';
 
 interface Props {
   params: Promise<{ code: string }>;
@@ -41,6 +42,7 @@ export default async function MunicipalityDetailPage({ params }: Props) {
   }
 
   const similar = getSimilarMunicipalities(m.typeGroup, m.code, 4);
+  const history = getMunicipalityHistory(m.code);
 
   // Revenues slice
   const revSlices = [
@@ -278,6 +280,11 @@ export default async function MunicipalityDetailPage({ params }: Props) {
               ))}
             </div>
           </div>
+        )}
+
+        {/* 直近10年間の変遷・推移グラフ（地方債vs基金・ふるさと納税・人口動態） */}
+        {history.length > 0 && (
+          <MunicipalityHistoryCharts history={history} municipalityName={m.name} />
         )}
 
         {/* 3大タブコンポーネント（財政 / 人口・産業 / ふるさと・議会） */}

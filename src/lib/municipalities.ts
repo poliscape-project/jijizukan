@@ -73,3 +73,21 @@ export function getSimilarMunicipalities(typeGroup: string, currentCode: string,
     .sort((a, b) => Math.abs(a.population - (all.find(x => x.code === currentCode)?.population || 0)) - Math.abs(b.population - (all.find(x => x.code === currentCode)?.population || 0)))
     .slice(0, limit);
 }
+
+let cachedHistories: Record<string, import('@/types/municipality').MunicipalityYearlyHistory[]> | null = null;
+
+export function getMunicipalityHistory(code: string): import('@/types/municipality').MunicipalityYearlyHistory[] {
+  if (!cachedHistories) {
+    const filePath = getDataFilePath('municipality_history.json');
+    if (fs.existsSync(filePath)) {
+      try {
+        cachedHistories = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      } catch {
+        cachedHistories = {};
+      }
+    } else {
+      cachedHistories = {};
+    }
+  }
+  return cachedHistories?.[code] || [];
+}

@@ -135,6 +135,21 @@ export interface MunicipalityEconomy {
   description: string; // 経済・産業の解説
 }
 
+export interface MunicipalityYearlyHistory {
+  year: number; // 年度（西暦、例: 2014〜2023）
+  fiscalYearJp: string; // 和暦（例: 'H26', 'R5'）
+  population: number; // 人口（人）
+  financialStrength: number; // 財政力指数
+  ordinaryBalanceRatio?: number; // 経常収支比率 (%)
+  reserveFundTotal: number; // 積立基金残高 (千円)
+  debtOutstanding: number; // 地方債残高 (千円)
+  netPerCapita: number; // 住民1人あたり実質純資産 (円)
+  furusatoReceived: number; // ふるさと納税 受入額 (円)
+  furusatoDeducted: number; // ふるさと納税 住民税控除流出額 (円)
+  furusatoBalance: number; // ふるさと納税 純損益 (円)
+  agingRate?: number; // 高齢化率 (%)
+}
+
 export interface MunicipalityData {
   code: string;
   prefCode: string;
@@ -157,6 +172,7 @@ export interface MunicipalityData {
   furusato?: MunicipalityFurusato;
   sustainability?: MunicipalitySustainability;
   economy?: MunicipalityEconomy;
+  history?: MunicipalityYearlyHistory[];
   alerts?: MunicipalityAlert[];
   kana?: string;
   prefKana?: string;
