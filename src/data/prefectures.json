@@ -25,10 +25,13 @@
       "total": 2856219142,
       "localTax": 752046629,
       "localTransferTax": 111260329,
-      "localAllocationTax": 6694102,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 657026509,
+      "nationalSubsidy": 496005898,
       "localBonds": 293819379,
-      "other": 1692398703
+      "transfers": 64807951,
+      "carriedOver": 36175293,
+      "miscellaneous": 389022559,
+      "other": 546060398
     },
     "expensesByPurpose": {
       "total": 2819962872,
@@ -37,13 +40,14 @@
       "welfare": 416590304,
       "healthSanitation": 142099038,
       "labor": 5433309,
+      "agriculture": 285349719,
       "commerceIndustry": 388232492,
       "publicWorks": 335037732,
       "police": 132384500,
       "education": 412314175,
       "disasterRecovery": 6658415,
       "debtService": 377376810,
-      "other": 451757713
+      "other": 166407994
     },
     "governance": {
       "governorSalary": 966000,
@@ -78,10 +82,13 @@
       "total": 709754981,
       "localTax": 182723845,
       "localTransferTax": 26118223,
-      "localAllocationTax": 4207195,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 227117072,
+      "nationalSubsidy": 148535109,
       "localBonds": 49465000,
-      "other": 447240718
+      "transfers": 8902447,
+      "carriedOver": 24228511,
+      "miscellaneous": 22929337,
+      "other": 75795732
     },
     "expensesByPurpose": {
       "total": 681161044,
@@ -90,13 +97,14 @@
       "welfare": 115940121,
       "healthSanitation": 32206120,
       "labor": 1815935,
+      "agriculture": 62271453,
       "commerceIndustry": 26125603,
       "publicWorks": 88810545,
       "police": 29792070,
       "education": 127000161,
       "disasterRecovery": 8063385,
       "debtService": 101250307,
-      "other": 96949450
+      "other": 34677997
     },
     "governance": {
       "governorSalary": 1260000,
@@ -131,10 +139,13 @@
       "total": 809515999,
       "localTax": 168353665,
       "localTransferTax": 26499834,
-      "localAllocationTax": 4051520,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 232716630,
+      "nationalSubsidy": 125796972,
       "localBonds": 50534333,
-      "other": 560076647
+      "transfers": 19716044,
+      "carriedOver": 54363006,
+      "miscellaneous": 117883738,
+      "other": 205614565
     },
     "expensesByPurpose": {
       "total": 756669461,
@@ -143,13 +154,14 @@
       "welfare": 96028996,
       "healthSanitation": 61580874,
       "labor": 2418273,
+      "agriculture": 62058148,
       "commerceIndustry": 113510081,
       "publicWorks": 77032229,
       "police": 27044999,
       "education": 131922182,
       "disasterRecovery": 9764594,
       "debtService": 93228575,
-      "other": 96471374
+      "other": 34413226
     },
     "governance": {
       "governorSalary": 1230000,
@@ -184,10 +196,13 @@
       "total": 1024723861,
       "localTax": 348372942,
       "localTransferTax": 46003589,
-      "localAllocationTax": 5003639,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 164099893,
+      "nationalSubsidy": 144757312,
       "localBonds": 77739854,
-      "other": 547603837
+      "transfers": 45242852,
+      "carriedOver": 37054900,
+      "miscellaneous": 137660843,
+      "other": 243750271
     },
     "expensesByPurpose": {
       "total": 1008373713,
@@ -196,13 +211,14 @@
       "welfare": 148734591,
       "healthSanitation": 42343595,
       "labor": 2786568,
+      "agriculture": 53424068,
       "commerceIndustry": 154225251,
       "publicWorks": 90321114,
       "police": 53169260,
       "education": 176189384,
       "disasterRecovery": 14411991,
       "debtService": 115450459,
-      "other": 128738936
+      "other": 75314868
     },
     "governance": {
       "governorSalary": 1310000,
@@ -237,10 +253,13 @@
       "total": 617448721,
       "localTax": 128520899,
       "localTransferTax": 20894408,
-      "localAllocationTax": 5717394,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 207016190,
+      "nationalSubsidy": 107264260,
       "localBonds": 71483000,
-      "other": 390833020
+      "transfers": 17784390,
+      "carriedOver": 19559986,
+      "miscellaneous": 31714168,
+      "other": 82269964
     },
     "expensesByPurpose": {
       "total": 599529541,
@@ -249,13 +268,14 @@
       "welfare": 82555729,
       "healthSanitation": 19864731,
       "labor": 1202461,
+      "agriculture": 69499329,
       "commerceIndustry": 36876823,
       "publicWorks": 85393533,
       "police": 26690520,
       "education": 99598300,
       "disasterRecovery": 9936949,
       "debtService": 91100566,
-      "other": 97355472
+      "other": 27856143
     },
     "governance": {
       "governorSalary": 968000,
@@ -290,10 +310,13 @@
       "total": 676811593,
       "localTax": 148478513,
       "localTransferTax": 23051034,
-      "localAllocationTax": 3079031,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 192124937,
+      "nationalSubsidy": 102480473,
       "localBonds": 66810489,
-      "other": 435392526
+      "transfers": 6808922,
+      "carriedOver": 14323526,
+      "miscellaneous": 106937429,
+      "other": 143866147
     },
     "expensesByPurpose": {
       "total": 664557243,
@@ -302,13 +325,14 @@
       "welfare": 81577981,
       "healthSanitation": 41181766,
       "labor": 2421169,
+      "agriculture": 53758370,
       "commerceIndustry": 97718182,
       "publicWorks": 94223708,
       "police": 25226451,
       "education": 108709450,
       "disasterRecovery": 7114430,
       "debtService": 89208833,
-      "other": 84786365
+      "other": 31027995
     },
     "governance": {
       "governorSalary": 1240000,
@@ -343,10 +367,13 @@
       "total": 1257263227,
       "localTax": 301967791,
       "localTransferTax": 38917871,
-      "localAllocationTax": 6361510,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 242599588,
+      "nationalSubsidy": 249755462,
       "localBonds": 114053288,
-      "other": 795962767
+      "transfers": 80417433,
+      "carriedOver": 37448665,
+      "miscellaneous": 169417264,
+      "other": 309969227
     },
     "expensesByPurpose": {
       "total": 1224298248,
@@ -355,13 +382,14 @@
       "welfare": 142732388,
       "healthSanitation": 58581928,
       "labor": 3302484,
+      "agriculture": 93180236,
       "commerceIndustry": 158860880,
       "publicWorks": 194436458,
       "police": 44101183,
       "education": 208830055,
       "disasterRecovery": 14944538,
       "debtService": 131723274,
-      "other": 150998235
+      "other": 57817999
     },
     "governance": {
       "governorSalary": 1122000,
@@ -396,10 +424,13 @@
       "total": 1259006243,
       "localTax": 480320332,
       "localTransferTax": 58088097,
-      "localAllocationTax": 2201678,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 209549750,
+      "nationalSubsidy": 169957860,
       "localBonds": 96262927,
-      "other": 622133209
+      "transfers": 40173820,
+      "carriedOver": 31240443,
+      "miscellaneous": 144169805,
+      "other": 244827277
     },
     "expensesByPurpose": {
       "total": 1220658113,
@@ -408,13 +439,14 @@
       "welfare": 203503514,
       "healthSanitation": 54913884,
       "labor": 2591342,
+      "agriculture": 44819609,
       "commerceIndustry": 133911631,
       "publicWorks": 141051229,
       "police": 61500108,
       "education": 259550642,
       "disasterRecovery": 1403431,
       "debtService": 161259646,
-      "other": 131697913
+      "other": 86878304
     },
     "governance": {
       "governorSalary": 1340000,
@@ -449,10 +481,13 @@
       "total": 931727812,
       "localTax": 318940283,
       "localTransferTax": 39664372,
-      "localAllocationTax": 2131555,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 149118217,
+      "nationalSubsidy": 121599353,
       "localBonds": 75108000,
-      "other": 495883602
+      "transfers": 18646225,
+      "carriedOver": 30411549,
+      "miscellaneous": 161978114,
+      "other": 227297587
     },
     "expensesByPurpose": {
       "total": 912533087,
@@ -461,13 +496,14 @@
       "welfare": 129628945,
       "healthSanitation": 40794228,
       "labor": 1682296,
+      "agriculture": 42021129,
       "commerceIndustry": 152590596,
       "publicWorks": 106024768,
       "police": 43198716,
       "education": 174652253,
       "disasterRecovery": 1187355,
       "debtService": 95055739,
-      "other": 102503835
+      "other": 60482706
     },
     "governance": {
       "governorSalary": 1161000,
@@ -502,10 +538,13 @@
       "total": 904925531,
       "localTax": 321552570,
       "localTransferTax": 39483998,
-      "localAllocationTax": 2004046,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 155776770,
+      "nationalSubsidy": 116807209,
       "localBonds": 58114700,
-      "other": 483770217
+      "transfers": 8586561,
+      "carriedOver": 46755179,
+      "miscellaneous": 139233121,
+      "other": 213190284
     },
     "expensesByPurpose": {
       "total": 886922117,
@@ -514,13 +553,14 @@
       "welfare": 140298325,
       "healthSanitation": 42740479,
       "labor": 1689288,
+      "agriculture": 32283546,
       "commerceIndustry": 137960407,
       "publicWorks": 88831468,
       "police": 42958051,
       "education": 168554287,
       "disasterRecovery": 1227013,
       "debtService": 97495782,
-      "other": 93434993
+      "other": 61151447
     },
     "governance": {
       "governorSalary": 1310000,
@@ -555,10 +595,13 @@
       "total": 2102354725,
       "localTax": 1033433564,
       "localTransferTax": 142872290,
-      "localAllocationTax": 1907186,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 269765972,
+      "nationalSubsidy": 241780004,
       "localBonds": 204691699,
-      "other": 719449986
+      "transfers": 55310290,
+      "carriedOver": 48422704,
+      "miscellaneous": 56086026,
+      "other": 209811196
     },
     "expensesByPurpose": {
       "total": 2059405178,
@@ -567,13 +610,14 @@
       "welfare": 430697108,
       "healthSanitation": 109747666,
       "labor": 4471376,
+      "agriculture": 22816360,
       "commerceIndustry": 38712687,
       "publicWorks": 172168478,
       "police": 154317539,
       "education": 463154756,
       "disasterRecovery": 1317416,
       "debtService": 291780482,
-      "other": 232779455
+      "other": 209963095
     },
     "governance": {
       "governorSalary": 1420000,
@@ -608,10 +652,13 @@
       "total": 2045562522,
       "localTax": 928947034,
       "localTransferTax": 122604134,
-      "localAllocationTax": 1801929,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 233509147,
+      "nationalSubsidy": 260821164,
       "localBonds": 136041867,
-      "other": 856167558
+      "transfers": 13879129,
+      "carriedOver": 35875799,
+      "miscellaneous": 264461657,
+      "other": 363639176
     },
     "expensesByPurpose": {
       "total": 2011231816,
@@ -620,13 +667,14 @@
       "welfare": 376630442,
       "healthSanitation": 117893963,
       "labor": 3902080,
+      "agriculture": 49165442,
       "commerceIndustry": 265394903,
       "publicWorks": 145346309,
       "police": 142133461,
       "education": 400690320,
       "disasterRecovery": 700143,
       "debtService": 230351266,
-      "other": 240298246
+      "other": 191132804
     },
     "governance": {
       "governorSalary": 1390000,
@@ -662,9 +710,12 @@
       "localTax": 6345075503,
       "localTransferTax": 64088255,
       "localAllocationTax": 0,
-      "nationalSubsidy": 43162,
+      "nationalSubsidy": 661557142,
       "localBonds": 229255512,
-      "other": 2260264194
+      "transfers": 210928050,
+      "carriedOver": 566731336,
+      "miscellaneous": 559272977,
+      "other": 1598750214
     },
     "expensesByPurpose": {
       "total": 8353285707,
@@ -673,13 +724,14 @@
       "welfare": 1387467681,
       "healthSanitation": 637813214,
       "labor": 59979347,
+      "agriculture": 27934326,
       "commerceIndustry": 482506391,
       "publicWorks": 817112045,
       "police": 634387121,
       "education": 1086033279,
       "disasterRecovery": 1691654,
       "debtService": 380771329,
-      "other": 1983421133
+      "other": 1955486807
     },
     "governance": {
       "governorSalary": 728000,
@@ -714,10 +766,13 @@
       "total": 2251237949,
       "localTax": 1349970733,
       "localTransferTax": 176942020,
-      "localAllocationTax": 1066357,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 153816946,
+      "nationalSubsidy": 201666254,
       "localBonds": 132158040,
-      "other": 591100799
+      "transfers": 86417320,
+      "carriedOver": 46513122,
+      "miscellaneous": 41221331,
+      "other": 236683956
     },
     "expensesByPurpose": {
       "total": 2207423640,
@@ -726,13 +781,14 @@
       "welfare": 523687280,
       "healthSanitation": 89384435,
       "labor": 5467438,
+      "agriculture": 27090863,
       "commerceIndustry": 48819742,
       "publicWorks": 122105398,
       "police": 199092206,
       "education": 389469807,
       "disasterRecovery": 549138,
       "debtService": 313412861,
-      "other": 321237851
+      "other": 294146988
     },
     "governance": {
       "governorSalary": 1450000,
@@ -767,10 +823,13 @@
       "total": 1148075153,
       "localTax": 316204283,
       "localTransferTax": 45749077,
-      "localAllocationTax": 5959061,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 267304071,
+      "nationalSubsidy": 182835458,
       "localBonds": 101883925,
-      "other": 678278807
+      "transfers": 27885235,
+      "carriedOver": 27311307,
+      "miscellaneous": 149756291,
+      "other": 234098339
     },
     "expensesByPurpose": {
       "total": 1122782289,
@@ -779,13 +838,14 @@
       "welfare": 139943505,
       "healthSanitation": 58356214,
       "labor": 2283004,
+      "agriculture": 86580234,
       "commerceIndustry": 142328249,
       "publicWorks": 168965650,
       "police": 49784518,
       "education": 158892275,
       "disasterRecovery": 13523129,
       "debtService": 162019919,
-      "other": 158192472
+      "other": 71612238
     },
     "governance": {
       "governorSalary": 1020800,
@@ -820,10 +880,13 @@
       "total": 617351150,
       "localTax": 171242294,
       "localTransferTax": 21648261,
-      "localAllocationTax": 5052552,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 151164846,
+      "nationalSubsidy": 78216612,
       "localBonds": 47761953,
-      "other": 371646090
+      "transfers": 11057135,
+      "carriedOver": 28874279,
+      "miscellaneous": 91983470,
+      "other": 147317184
     },
     "expensesByPurpose": {
       "total": 588990295,
@@ -832,13 +895,14 @@
       "welfare": 70987968,
       "healthSanitation": 22615502,
       "labor": 1721668,
+      "agriculture": 39696348,
       "commerceIndustry": 95980710,
       "publicWorks": 76587377,
       "police": 24514964,
       "education": 96597701,
       "disasterRecovery": 3573053,
       "debtService": 90712981,
-      "other": 72656826
+      "other": 32960478
     },
     "governance": {
       "governorSalary": 1300000,
@@ -873,10 +937,13 @@
       "total": 693732898,
       "localTax": 185696404,
       "localTransferTax": 23497733,
-      "localAllocationTax": 13308007,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 153144334,
+      "nationalSubsidy": 150107825,
       "localBonds": 66204000,
-      "other": 405026754
+      "transfers": 15923589,
+      "carriedOver": 24642636,
+      "miscellaneous": 57264226,
+      "other": 115082602
     },
     "expensesByPurpose": {
       "total": 652501500,
@@ -885,13 +952,14 @@
       "welfare": 127000214,
       "healthSanitation": 31124657,
       "labor": 1847476,
+      "agriculture": 40201690,
       "commerceIndustry": 59772008,
       "publicWorks": 81783530,
       "police": 25099843,
       "education": 103934598,
       "disasterRecovery": 12217482,
       "debtService": 81169025,
-      "other": 75941832
+      "other": 35740142
     },
     "governance": {
       "governorSalary": 910000,
@@ -926,10 +994,13 @@
       "total": 539080066,
       "localTax": 146531016,
       "localTransferTax": 16186282,
-      "localAllocationTax": 3964979,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 143285149,
+      "nationalSubsidy": 86012378,
       "localBonds": 70570500,
-      "other": 301827289
+      "transfers": 11375907,
+      "carriedOver": 18131203,
+      "miscellaneous": 36674154,
+      "other": 76494741
     },
     "expensesByPurpose": {
       "total": 523817438,
@@ -938,13 +1009,14 @@
       "welfare": 67368536,
       "healthSanitation": 17494947,
       "labor": 1503949,
+      "agriculture": 34391466,
       "commerceIndustry": 52347330,
       "publicWorks": 78053929,
       "police": 24208046,
       "education": 95408493,
       "disasterRecovery": 8967049,
       "debtService": 65884248,
-      "other": 58558526
+      "other": 24167060
     },
     "governance": {
       "governorSalary": 1300000,
@@ -979,10 +1051,13 @@
       "total": 573586922,
       "localTax": 133339660,
       "localTransferTax": 16781348,
-      "localAllocationTax": 1909835,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 146611471,
+      "nationalSubsidy": 90610196,
       "localBonds": 50029000,
-      "other": 371527079
+      "transfers": 4701621,
+      "carriedOver": 30339252,
+      "miscellaneous": 84430634,
+      "other": 136215247
     },
     "expensesByPurpose": {
       "total": 544039848,
@@ -991,13 +1066,14 @@
       "welfare": 67127829,
       "healthSanitation": 23085600,
       "labor": 1840572,
+      "agriculture": 36267413,
       "commerceIndustry": 75805494,
       "publicWorks": 101430792,
       "police": 22049644,
       "education": 86358284,
       "disasterRecovery": 1291820,
       "debtService": 72883893,
-      "other": 61893618
+      "other": 25626205
     },
     "governance": {
       "governorSalary": 1250000,
@@ -1032,10 +1108,13 @@
       "total": 1098347683,
       "localTax": 321564070,
       "localTransferTax": 42601405,
-      "localAllocationTax": 4592763,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 219283326,
+      "nationalSubsidy": 176991656,
       "localBonds": 100026900,
-      "other": 629562545
+      "transfers": 15298470,
+      "carriedOver": 19063699,
+      "miscellaneous": 181922391,
+      "other": 237880326
     },
     "expensesByPurpose": {
       "total": 1079564340,
@@ -1044,13 +1123,14 @@
       "welfare": 142348014,
       "healthSanitation": 47825107,
       "labor": 2554651,
+      "agriculture": 49311069,
       "commerceIndustry": 191191361,
       "publicWorks": 163267210,
       "police": 44022240,
       "education": 185264585,
       "disasterRecovery": 9205653,
       "debtService": 124837786,
-      "other": 112931241
+      "other": 63620172
     },
     "governance": {
       "governorSalary": 1292000,
@@ -1085,10 +1165,13 @@
       "total": 876508334,
       "localTax": 306379147,
       "localTransferTax": 40852818,
-      "localAllocationTax": 3343491,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 200046440,
+      "nationalSubsidy": 131036573,
       "localBonds": 99541800,
-      "other": 426391078
+      "transfers": 7288021,
+      "carriedOver": 19653888,
+      "miscellaneous": 51512568,
+      "other": 98651556
     },
     "expensesByPurpose": {
       "total": 859178419,
@@ -1097,13 +1180,14 @@
       "welfare": 134843161,
       "healthSanitation": 55553185,
       "labor": 1914451,
+      "agriculture": 46815221,
       "commerceIndustry": 63508572,
       "publicWorks": 110251638,
       "police": 46431594,
       "education": 184778889,
       "disasterRecovery": 5332417,
       "debtService": 107639378,
-      "other": 107634396
+      "other": 60819175
     },
     "governance": {
       "governorSalary": 1340000,
@@ -1138,10 +1222,13 @@
       "total": 1269197338,
       "localTax": 585904682,
       "localTransferTax": 71480209,
-      "localAllocationTax": 2609717,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 192938003,
+      "nationalSubsidy": 182950174,
       "localBonds": 134920450,
-      "other": 474282280
+      "transfers": 20864308,
+      "carriedOver": 25400209,
+      "miscellaneous": 24139572,
+      "other": 101003820
     },
     "expensesByPurpose": {
       "total": 1250356192,
@@ -1150,13 +1237,14 @@
       "welfare": 215948661,
       "healthSanitation": 64256652,
       "labor": 2613491,
+      "agriculture": 60839334,
       "commerceIndustry": 42208369,
       "publicWorks": 142144461,
       "police": 79298740,
       "education": 236164724,
       "disasterRecovery": 14414695,
       "debtService": 199106633,
-      "other": 190840554
+      "other": 130001220
     },
     "governance": {
       "governorSalary": 1301000,
@@ -1191,10 +1279,13 @@
       "total": 2620933437,
       "localTax": 1389688897,
       "localTransferTax": 147876293,
-      "localAllocationTax": 1403556,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 125070840,
+      "nationalSubsidy": 281055570,
       "localBonds": 258221383,
-      "other": 823743308
+      "transfers": 50213935,
+      "carriedOver": 75479296,
+      "miscellaneous": 224832883,
+      "other": 419020454
     },
     "expensesByPurpose": {
       "total": 2547795499,
@@ -1203,13 +1294,14 @@
       "welfare": 448119552,
       "healthSanitation": 76068960,
       "labor": 5226666,
+      "agriculture": 90898606,
       "commerceIndustry": 237082087,
       "publicWorks": 239438688,
       "police": 170037324,
       "education": 517790023,
       "disasterRecovery": 2450527,
       "debtService": 389616507,
-      "other": 356203410
+      "other": 265304804
     },
     "governance": {
       "governorSalary": 1103200,
@@ -1244,10 +1336,13 @@
       "total": 807571927,
       "localTax": 303126320,
       "localTransferTax": 36358633,
-      "localAllocationTax": 2040568,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 166883522,
+      "nationalSubsidy": 115908111,
       "localBonds": 92519400,
-      "other": 373527006
+      "transfers": 26835845,
+      "carriedOver": 28592572,
+      "miscellaneous": 21460313,
+      "other": 92775941
     },
     "expensesByPurpose": {
       "total": 764500853,
@@ -1256,13 +1351,14 @@
       "welfare": 127955015,
       "healthSanitation": 38302025,
       "labor": 1226976,
+      "agriculture": 39518676,
       "commerceIndustry": 22316135,
       "publicWorks": 99112848,
       "police": 38868515,
       "education": 164266009,
       "disasterRecovery": 5921631,
       "debtService": 114010799,
-      "other": 96107028
+      "other": 56588352
     },
     "governance": {
       "governorSalary": 1280000,
@@ -1297,10 +1393,13 @@
       "total": 620385624,
       "localTax": 226462804,
       "localTransferTax": 28624318,
-      "localAllocationTax": 2014463,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 138974263,
+      "nationalSubsidy": 97607427,
       "localBonds": 57263800,
-      "other": 306020239
+      "transfers": 9774797,
+      "carriedOver": 4745386,
+      "miscellaneous": 44199638,
+      "other": 71453012
     },
     "expensesByPurpose": {
       "total": 611976612,
@@ -1309,13 +1408,14 @@
       "welfare": 95703680,
       "healthSanitation": 34088116,
       "labor": 1557749,
+      "agriculture": 29648039,
       "commerceIndustry": 38605190,
       "publicWorks": 90656817,
       "police": 31470435,
       "education": 141427204,
       "disasterRecovery": 990823,
       "debtService": 77334786,
-      "other": 71252704
+      "other": 41604665
     },
     "governance": {
       "governorSalary": 1250000,
@@ -1350,10 +1450,13 @@
       "total": 1042685775,
       "localTax": 377132017,
       "localTransferTax": 50505131,
-      "localAllocationTax": 3188499,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 195508222,
+      "nationalSubsidy": 128759885,
       "localBonds": 70873500,
-      "other": 540986628
+      "transfers": 12484692,
+      "carriedOver": 16628100,
+      "miscellaneous": 174639736,
+      "other": 219907020
     },
     "expensesByPurpose": {
       "total": 1024886167,
@@ -1362,13 +1465,14 @@
       "welfare": 186438256,
       "healthSanitation": 40699772,
       "labor": 3757588,
+      "agriculture": 22941284,
       "commerceIndustry": 180021976,
       "publicWorks": 81716964,
       "police": 78284804,
       "education": 166642881,
       "disasterRecovery": 1592134,
       "debtService": 121129052,
-      "other": 105627806
+      "other": 82686522
     },
     "governance": {
       "governorSalary": 1188600,
@@ -1403,10 +1507,13 @@
       "total": 3358436064,
       "localTax": 1478135691,
       "localTransferTax": 170643945,
-      "localAllocationTax": 1330964,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 339972156,
+      "nationalSubsidy": 341506778,
       "localBonds": 141383812,
-      "other": 1566941652
+      "transfers": 89888624,
+      "carriedOver": 29033987,
+      "miscellaneous": 684509110,
+      "other": 886793682
     },
     "expensesByPurpose": {
       "total": 3325569052,
@@ -1415,13 +1522,14 @@
       "welfare": 675553843,
       "healthSanitation": 140317348,
       "labor": 7194616,
+      "agriculture": 14789003,
       "commerceIndustry": 660666511,
       "publicWorks": 192278949,
       "police": 263701745,
       "education": 559582282,
       "disasterRecovery": 749203,
       "debtService": 385078176,
-      "other": 313790225
+      "other": 299001222
     },
     "governance": {
       "governorSalary": 1064000,
@@ -1456,10 +1564,13 @@
       "total": 2444905048,
       "localTax": 818640340,
       "localTransferTax": 107726254,
-      "localAllocationTax": 4115795,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 363574091,
+      "nationalSubsidy": 241737484,
       "localBonds": 160279614,
-      "other": 1354143045
+      "transfers": 117209408,
+      "carriedOver": 35009293,
+      "miscellaneous": 555002039,
+      "other": 752947265
     },
     "expensesByPurpose": {
       "total": 2417645312,
@@ -1468,13 +1579,14 @@
       "welfare": 371193311,
       "healthSanitation": 85315173,
       "labor": 9103744,
+      "agriculture": 80107869,
       "commerceIndustry": 539435628,
       "publicWorks": 180775770,
       "police": 136136342,
       "education": 366158107,
       "disasterRecovery": 2805576,
       "debtService": 360278015,
-      "other": 251548389
+      "other": 171440520
     },
     "governance": {
       "governorSalary": 938000,
@@ -1509,10 +1621,13 @@
       "total": 546695998,
       "localTax": 168224334,
       "localTransferTax": 26702816,
-      "localAllocationTax": 2211302,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 182547827,
+      "nationalSubsidy": 81663286,
       "localBonds": 40374809,
-      "other": 309182737
+      "transfers": 9151927,
+      "carriedOver": 8925855,
+      "miscellaneous": 18683216,
+      "other": 47182926
     },
     "expensesByPurpose": {
       "total": 536284251,
@@ -1521,13 +1636,14 @@
       "welfare": 100008462,
       "healthSanitation": 30106180,
       "labor": 2673218,
+      "agriculture": 13386856,
       "commerceIndustry": 17589118,
       "publicWorks": 69297457,
       "police": 29408145,
       "education": 123704907,
       "disasterRecovery": 1506068,
       "debtService": 83828432,
-      "other": 50284929
+      "other": 36898073
     },
     "governance": {
       "governorSalary": 1092600,
@@ -1562,10 +1678,13 @@
       "total": 636274296,
       "localTax": 122077427,
       "localTransferTax": 19515162,
-      "localAllocationTax": 2473841,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 191264275,
+      "nationalSubsidy": 111076986,
       "localBonds": 72078909,
-      "other": 420128957
+      "transfers": 9677336,
+      "carriedOver": 25663615,
+      "miscellaneous": 75369858,
+      "other": 120261537
     },
     "expensesByPurpose": {
       "total": 608065885,
@@ -1574,13 +1693,14 @@
       "welfare": 87256942,
       "healthSanitation": 21596775,
       "labor": 1085215,
+      "agriculture": 25974938,
       "commerceIndustry": 79032798,
       "publicWorks": 109250360,
       "police": 27746947,
       "education": 103449855,
       "disasterRecovery": 8700467,
       "debtService": 76655743,
-      "other": 52674313
+      "other": 26699375
     },
     "governance": {
       "governorSalary": 1137400,
@@ -1615,10 +1735,13 @@
       "total": 389626524,
       "localTax": 74007924,
       "localTransferTax": 12171915,
-      "localAllocationTax": 3795402,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 150426214,
+      "nationalSubsidy": 70327817,
       "localBonds": 34832000,
-      "other": 264819283
+      "transfers": 10881654,
+      "carriedOver": 22305514,
+      "miscellaneous": 8320282,
+      "other": 47860654
     },
     "expensesByPurpose": {
       "total": 370967375,
@@ -1627,13 +1750,14 @@
       "welfare": 53599733,
       "healthSanitation": 18515143,
       "labor": 1934592,
+      "agriculture": 26384814,
       "commerceIndustry": 24956027,
       "publicWorks": 57546449,
       "police": 16242853,
       "education": 68262094,
       "disasterRecovery": 5852686,
       "debtService": 52703199,
-      "other": 42174938
+      "other": 15790124
     },
     "governance": {
       "governorSalary": 1153000,
@@ -1668,10 +1792,13 @@
       "total": 561454234,
       "localTax": 95698824,
       "localTransferTax": 15110762,
-      "localAllocationTax": 3173141,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 191769854,
+      "nationalSubsidy": 100744362,
       "localBonds": 52336620,
-      "other": 395134887
+      "transfers": 9977994,
+      "carriedOver": 35938192,
+      "miscellaneous": 50066099,
+      "other": 105793812
     },
     "expensesByPurpose": {
       "total": 528059488,
@@ -1680,13 +1807,14 @@
       "welfare": 59331577,
       "healthSanitation": 24661129,
       "labor": 1903572,
+      "agriculture": 46760627,
       "commerceIndustry": 60669748,
       "publicWorks": 84274510,
       "police": 20437694,
       "education": 87714700,
       "disasterRecovery": 10028247,
       "debtService": 72394464,
-      "other": 65975638
+      "other": 19215011
     },
     "governance": {
       "governorSalary": 1116000,
@@ -1721,10 +1849,13 @@
       "total": 730821476,
       "localTax": 268508917,
       "localTransferTax": 38490211,
-      "localAllocationTax": 2564844,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 178509720,
+      "nationalSubsidy": 90581224,
       "localBonds": 56556864,
-      "other": 364700640
+      "transfers": 19907318,
+      "carriedOver": 13010720,
+      "miscellaneous": 47884325,
+      "other": 98174540
     },
     "expensesByPurpose": {
       "total": 721336380,
@@ -1733,13 +1864,14 @@
       "welfare": 129723533,
       "healthSanitation": 27089679,
       "labor": 1740094,
+      "agriculture": 69153936,
       "commerceIndustry": 19284695,
       "publicWorks": 77617363,
       "police": 47122991,
       "education": 137114948,
       "disasterRecovery": 1586336,
       "debtService": 98573542,
-      "other": 130823158
+      "other": 61669222
     },
     "governance": {
       "governorSalary": 1290000,
@@ -1774,10 +1906,13 @@
       "total": 1124841043,
       "localTax": 410527765,
       "localTransferTax": 56215104,
-      "localAllocationTax": 3827243,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 200058147,
+      "nationalSubsidy": 170153314,
       "localBonds": 104473599,
-      "other": 549797332
+      "transfers": 33243508,
+      "carriedOver": 27984079,
+      "miscellaneous": 97713281,
+      "other": 183413114
     },
     "expensesByPurpose": {
       "total": 1102901381,
@@ -1786,13 +1921,14 @@
       "welfare": 191190185,
       "healthSanitation": 52957892,
       "labor": 2887179,
+      "agriculture": 40818903,
       "commerceIndustry": 114025027,
       "publicWorks": 144099797,
       "police": 63235706,
       "education": 178994808,
       "disasterRecovery": 17556382,
       "debtService": 147148769,
-      "other": 130897906
+      "other": 90079003
     },
     "governance": {
       "governorSalary": 1389000,
@@ -1827,10 +1963,13 @@
       "total": 712962097,
       "localTax": 198016830,
       "localTransferTax": 28161268,
-      "localAllocationTax": 3794093,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 186432782,
+      "nationalSubsidy": 100714868,
       "localBonds": 44173624,
-      "other": 438816282
+      "transfers": 24922173,
+      "carriedOver": 29006305,
+      "miscellaneous": 86961870,
+      "other": 155462725
     },
     "expensesByPurpose": {
       "total": 678580641,
@@ -1839,13 +1978,14 @@
       "welfare": 101592393,
       "healthSanitation": 30223151,
       "labor": 2386993,
+      "agriculture": 34980617,
       "commerceIndustry": 90798595,
       "publicWorks": 73765132,
       "police": 36177663,
       "education": 124090368,
       "disasterRecovery": 7281545,
       "debtService": 86580221,
-      "other": 74949944
+      "other": 39969327
     },
     "governance": {
       "governorSalary": 1161000,
@@ -1880,10 +2020,13 @@
       "total": 531810865,
       "localTax": 105039537,
       "localTransferTax": 15363024,
-      "localAllocationTax": 2660883,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 160415427,
+      "nationalSubsidy": 80455451,
       "localBonds": 46203000,
-      "other": 362544421
+      "transfers": 17008865,
+      "carriedOver": 27987125,
+      "miscellaneous": 70410411,
+      "other": 124334426
     },
     "expensesByPurpose": {
       "total": 500502981,
@@ -1892,13 +2035,14 @@
       "welfare": 68732619,
       "healthSanitation": 33799902,
       "labor": 2552978,
+      "agriculture": 32393101,
       "commerceIndustry": 64617357,
       "publicWorks": 73038343,
       "police": 21369945,
       "education": 79746136,
       "disasterRecovery": 1015505,
       "debtService": 66717015,
-      "other": 53568838
+      "other": 21175737
     },
     "governance": {
       "governorSalary": 975000,
@@ -1933,10 +2077,13 @@
       "total": 477854963,
       "localTax": 147991488,
       "localTransferTax": 19426439,
-      "localAllocationTax": 2030763,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 132838424,
+      "nationalSubsidy": 64801823,
       "localBonds": 29190000,
-      "other": 279216273
+      "transfers": 11910619,
+      "carriedOver": 14310604,
+      "miscellaneous": 47027630,
+      "other": 83606789
     },
     "expensesByPurpose": {
       "total": 462664477,
@@ -1945,13 +2092,14 @@
       "welfare": 72611732,
       "healthSanitation": 24115595,
       "labor": 1057886,
+      "agriculture": 19887371,
       "commerceIndustry": 53012248,
       "publicWorks": 53759536,
       "police": 25138572,
       "education": 92574818,
       "disasterRecovery": 207043,
       "debtService": 60173432,
-      "other": 49350314
+      "other": 29462943
     },
     "governance": {
       "governorSalary": 1285000,
@@ -1986,10 +2134,13 @@
       "total": 765414818,
       "localTax": 196688537,
       "localTransferTax": 27961018,
-      "localAllocationTax": 3551518,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 185305026,
+      "nationalSubsidy": 109676185,
       "localBonds": 53015000,
-      "other": 484198745
+      "transfers": 17396952,
+      "carriedOver": 26746887,
+      "miscellaneous": 131334441,
+      "other": 192769052
     },
     "expensesByPurpose": {
       "total": 740769253,
@@ -1998,13 +2149,14 @@
       "welfare": 106879572,
       "healthSanitation": 37633717,
       "labor": 1997918,
+      "agriculture": 40231964,
       "commerceIndustry": 129198882,
       "publicWorks": 96590430,
       "police": 30117644,
       "education": 130095671,
       "disasterRecovery": 3835345,
       "debtService": 79469523,
-      "other": 79558325
+      "other": 39326361
     },
     "governance": {
       "governorSalary": 1188000,
@@ -2039,10 +2191,13 @@
       "total": 483884519,
       "localTax": 88592678,
       "localTransferTax": 15304869,
-      "localAllocationTax": 3301479,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 186478194,
+      "nationalSubsidy": 96979114,
       "localBonds": 55620000,
-      "other": 321065493
+      "transfers": 8011724,
+      "carriedOver": 11368944,
+      "miscellaneous": 9836014,
+      "other": 40909664
     },
     "expensesByPurpose": {
       "total": 473554741,
@@ -2051,13 +2206,14 @@
       "welfare": 67209907,
       "healthSanitation": 27416962,
       "labor": 1059383,
+      "agriculture": 37416238,
       "commerceIndustry": 19764348,
       "publicWorks": 85621501,
       "police": 20189606,
       "education": 90100363,
       "disasterRecovery": 4247675,
       "debtService": 74390426,
-      "other": 57557308
+      "other": 20141070
     },
     "governance": {
       "governorSalary": 1098000,
@@ -2092,10 +2248,13 @@
       "total": 2054311220,
       "localTax": 730868711,
       "localTransferTax": 101263362,
-      "localAllocationTax": 4693431,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 312122496,
+      "nationalSubsidy": 267138862,
       "localBonds": 180168717,
-      "other": 1037316999
+      "transfers": 53894358,
+      "carriedOver": 59630687,
+      "miscellaneous": 306634602,
+      "other": 462749072
     },
     "expensesByPurpose": {
       "total": 1993404740,
@@ -2104,13 +2263,14 @@
       "welfare": 400814125,
       "healthSanitation": 76371165,
       "labor": 5556499,
+      "agriculture": 63234661,
       "commerceIndustry": 324032663,
       "publicWorks": 168897332,
       "police": 132632770,
       "education": 311052562,
       "disasterRecovery": 22212286,
       "debtService": 243046068,
-      "other": 225954776
+      "other": 162720115
     },
     "governance": {
       "governorSalary": 1350000,
@@ -2145,10 +2305,13 @@
       "total": 555571022,
       "localTax": 119740424,
       "localTransferTax": 16800931,
-      "localAllocationTax": 3026887,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 159683872,
+      "nationalSubsidy": 84628432,
       "localBonds": 52664933,
-      "other": 363337847
+      "transfers": 14424850,
+      "carriedOver": 17917943,
+      "miscellaneous": 77817084,
+      "other": 122052430
     },
     "expensesByPurpose": {
       "total": 539531062,
@@ -2157,13 +2320,14 @@
       "welfare": 72227822,
       "healthSanitation": 19900439,
       "labor": 1179729,
+      "agriculture": 37528961,
       "commerceIndustry": 86510836,
       "publicWorks": 66861805,
       "police": 21001969,
       "education": 97317538,
       "disasterRecovery": 5935380,
       "debtService": 64674206,
-      "other": 60527521
+      "other": 22998560
     },
     "governance": {
       "governorSalary": 1260000,
@@ -2198,10 +2362,13 @@
       "total": 747602171,
       "localTax": 162149462,
       "localTransferTax": 26685899,
-      "localAllocationTax": 3978535,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 238405108,
+      "nationalSubsidy": 149052215,
       "localBonds": 76245181,
-      "other": 478543094
+      "transfers": 14291790,
+      "carriedOver": 15799150,
+      "miscellaneous": 45423163,
+      "other": 95064306
     },
     "expensesByPurpose": {
       "total": 731783777,
@@ -2210,13 +2377,14 @@
       "welfare": 112160522,
       "healthSanitation": 33717801,
       "labor": 1995744,
+      "agriculture": 61449146,
       "commerceIndustry": 58495083,
       "publicWorks": 103773331,
       "police": 37756604,
       "education": 143017586,
       "disasterRecovery": 3043424,
       "debtService": 96392063,
-      "other": 98661672
+      "other": 37212526
     },
     "governance": {
       "governorSalary": 1260000,
@@ -2251,10 +2419,13 @@
       "total": 954296621,
       "localTax": 225860631,
       "localTransferTax": 35602321,
-      "localAllocationTax": 6044699,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 233207008,
+      "nationalSubsidy": 182182750,
       "localBonds": 100655507,
-      "other": 586133463
+      "transfers": 38035757,
+      "carriedOver": 50275156,
+      "miscellaneous": 68930494,
+      "other": 176788404
     },
     "expensesByPurpose": {
       "total": 903825031,
@@ -2263,13 +2434,14 @@
       "welfare": 148288954,
       "healthSanitation": 45884260,
       "labor": 3516948,
+      "agriculture": 68055509,
       "commerceIndustry": 76432766,
       "publicWorks": 112717152,
       "police": 39772750,
       "education": 138335184,
       "disasterRecovery": 44568602,
       "debtService": 104097392,
-      "other": 120781790
+      "other": 52726281
     },
     "governance": {
       "governorSalary": 1240000,
@@ -2304,10 +2476,13 @@
       "total": 710291970,
       "localTax": 154042990,
       "localTransferTax": 23858903,
-      "localAllocationTax": 3353815,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 188678148,
+      "nationalSubsidy": 129570461,
       "localBonds": 67579667,
-      "other": 461456595
+      "transfers": 17090460,
+      "carriedOver": 36906509,
+      "miscellaneous": 77114384,
+      "other": 146561801
     },
     "expensesByPurpose": {
       "total": 676738407,
@@ -2316,13 +2491,14 @@
       "welfare": 96775208,
       "healthSanitation": 22291315,
       "labor": 2135238,
+      "agriculture": 55168240,
       "commerceIndustry": 84919729,
       "publicWorks": 104073746,
       "police": 25903841,
       "education": 113835106,
       "disasterRecovery": 14223299,
       "debtService": 79146187,
-      "other": 87376662
+      "other": 32208422
     },
     "governance": {
       "governorSalary": 1240000,
@@ -2357,10 +2533,13 @@
       "total": 685628744,
       "localTax": 142700346,
       "localTransferTax": 22680769,
-      "localAllocationTax": 3004354,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 196880550,
+      "nationalSubsidy": 120350061,
       "localBonds": 65625645,
-      "other": 451617630
+      "transfers": 30536607,
+      "carriedOver": 31755879,
+      "miscellaneous": 60475536,
+      "other": 137391373
     },
     "expensesByPurpose": {
       "total": 656385854,
@@ -2369,13 +2548,14 @@
       "welfare": 95596263,
       "healthSanitation": 31849870,
       "labor": 1339484,
+      "agriculture": 55167979,
       "commerceIndustry": 57207064,
       "publicWorks": 83907208,
       "police": 26348699,
       "education": 111437491,
       "disasterRecovery": 16064469,
       "debtService": 75677578,
-      "other": 85782101
+      "other": 30614122
     },
     "governance": {
       "governorSalary": 1240000,
@@ -2410,10 +2590,13 @@
       "total": 901447777,
       "localTax": 204841000,
       "localTransferTax": 33433571,
-      "localAllocationTax": 6216369,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 292104281,
+      "nationalSubsidy": 183748779,
       "localBonds": 71309336,
-      "other": 585647501
+      "transfers": 26128185,
+      "carriedOver": 54339649,
+      "miscellaneous": 14015486,
+      "other": 116010810
     },
     "expensesByPurpose": {
       "total": 856075115,
@@ -2422,13 +2605,14 @@
       "welfare": 149962454,
       "healthSanitation": 41454380,
       "labor": 1730789,
+      "agriculture": 76739090,
       "commerceIndustry": 23163374,
       "publicWorks": 103367368,
       "police": 35777418,
       "education": 177256033,
       "disasterRecovery": 8691947,
       "debtService": 114920958,
-      "other": 120991369
+      "other": 44252279
     },
     "governance": {
       "governorSalary": 1240000,
@@ -2463,10 +2647,13 @@
       "total": 862154876,
       "localTax": 186467987,
       "localTransferTax": 28664609,
-      "localAllocationTax": 4639508,
-      "nationalSubsidy": 0,
+      "localAllocationTax": 234582587,
+      "nationalSubsidy": 235324406,
       "localBonds": 31233854,
-      "other": 611148918
+      "transfers": 15550674,
+      "carriedOver": 20074592,
+      "miscellaneous": 88856814,
+      "other": 145881433
     },
     "expensesByPurpose": {
       "total": 846256545,
@@ -2475,13 +2662,14 @@
       "welfare": 141578302,
       "healthSanitation": 57548950,
       "labor": 2188651,
+      "agriculture": 58070407,
       "commerceIndustry": 124441986,
       "publicWorks": 77843724,
       "police": 35642873,
       "education": 175000044,
       "disasterRecovery": 920744,
       "debtService": 65249551,
-      "other": 96278354
+      "other": 38207947
     },
     "governance": {
       "governorSalary": 1230000,

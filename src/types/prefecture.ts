@@ -20,6 +20,9 @@ export interface PrefectureRevenues {
   localAllocationTax: number; // 地方交付税
   nationalSubsidy: number; // 国庫支出金
   localBonds: number; // 地方債
+  transfers?: number; // 繰入金（基金取崩し等）
+  carriedOver?: number; // 繰越金
+  miscellaneous?: number; // 諸収入（貸付金回収・利子等）
   other: number;
 }
 
@@ -30,6 +33,7 @@ export interface PrefectureExpensesByPurpose {
   welfare: number; // 民生費
   healthSanitation: number; // 衛生費
   labor: number; // 労働費
+  agriculture: number; // 農林水産業費
   commerceIndustry: number; // 商工費
   publicWorks: number; // 土木費
   police: number; // 警察費

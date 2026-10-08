@@ -55,12 +55,15 @@ function main() {
     // 2. 歳入 (千円)
     const localTax = parseNum(data[10] ? data[10][11] : 0);
     const localTransferTax = parseNum(data[11] ? data[11][11] : 0);
-    const localAllocationTax = parseNum(data[25] ? data[25][11] : (data[26] ? data[26][11] : 0)); // 地方交付税
-    const allocOrdinary = parseNum(data[26] ? data[26][11] : (data[27] ? data[27][11] : 0));
-    const allocSpecial = parseNum(data[27] ? data[27][11] : (data[28] ? data[28][11] : 0));
-    const nationalSubsidy = parseNum(data[33] ? data[33][11] : 0); // 国庫支出金
-    const localBonds = parseNum(data[39] ? data[39][11] : 0);      // 地方債
-    const revTotal = parseNum(data[42] ? data[42][11] : 0);        // 歳入合計
+    const localAllocationTax = parseNum(data[23] ? data[23][11] : 0); // 地方交付税
+    const allocOrdinary = parseNum(data[24] ? data[24][11] : 0);      // 普通交付税
+    const allocSpecial = parseNum(data[25] ? data[25][11] : 0);       // 特別交付税
+    const nationalSubsidy = parseNum(data[32] ? data[32][11] : 0);    // 国庫支出金
+    const transfers = parseNum(data[36] ? data[36][11] : 0);          // 繰入金
+    const carriedOver = parseNum(data[37] ? data[37][11] : 0);        // 繰越金
+    const miscellaneous = parseNum(data[38] ? data[38][11] : 0);      // 諸収入
+    const localBonds = parseNum(data[39] ? data[39][11] : 0);         // 地方債
+    const revTotal = parseNum(data[42] ? data[42][11] : 0);           // 歳入合計
 
     // 3. 目的別歳出 (千円)
     const expAssembly = parseNum(data[47] ? data[47][54] : 0);  // 議会費
@@ -68,13 +71,14 @@ function main() {
     const expWelfare = parseNum(data[49] ? data[49][54] : 0);   // 民生費
     const expHealth = parseNum(data[50] ? data[50][54] : 0);    // 衛生費
     const expLabor = parseNum(data[51] ? data[51][54] : 0);     // 労働費
+    const expAgriculture = parseNum(data[52] ? data[52][54] : 0); // 農林水産業費
     const expCommerce = parseNum(data[53] ? data[53][54] : 0);  // 商工費
     const expPublicWorks = parseNum(data[54] ? data[54][54] : 0); // 土木費
     const expPolice = parseNum(data[55] ? data[55][54] : 0);    // 警察費
     const expEducation = parseNum(data[57] ? data[57][54] : 0); // 教育費
     const expDisaster = parseNum(data[58] ? data[58][54] : 0);  // 災害復旧費
     const expDebt = parseNum(data[59] ? data[59][54] : 0);      // 公債費
-    const expTotal = parseNum(data[71] ? data[71][11] : (data[74] ? data[74][54] : revTotal)); // 歳出合計
+    const expTotal = parseNum(data[74] ? data[74][54] : (data[71] ? data[71][11] : revTotal)); // 歳出合計
 
     // 4. 財政健全化判断比率・主要指標
     const finStrength = parseNum(data[37] ? data[37][93] : 0);     // 財政力指数
@@ -135,6 +139,9 @@ function main() {
         localAllocationTax,
         nationalSubsidy,
         localBonds,
+        transfers,
+        carriedOver,
+        miscellaneous,
         other: Math.max(0, revTotal - (localTax + localTransferTax + localAllocationTax + nationalSubsidy + localBonds))
       },
       expensesByPurpose: {
@@ -144,13 +151,14 @@ function main() {
         welfare: expWelfare,
         healthSanitation: expHealth,
         labor: expLabor,
+        agriculture: expAgriculture,
         commerceIndustry: expCommerce,
         publicWorks: expPublicWorks,
         police: expPolice,
         education: expEducation,
         disasterRecovery: expDisaster,
         debtService: expDebt,
-        other: Math.max(0, expTotal - (expAssembly + expGeneral + expWelfare + expHealth + expLabor + expCommerce + expPublicWorks + expPolice + expEducation + expDisaster + expDebt))
+        other: Math.max(0, expTotal - (expAssembly + expGeneral + expWelfare + expHealth + expLabor + expAgriculture + expCommerce + expPublicWorks + expPolice + expEducation + expDisaster + expDebt))
       },
       governance: {
         governorSalary,

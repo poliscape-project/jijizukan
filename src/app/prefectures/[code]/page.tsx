@@ -53,24 +53,27 @@ export default async function PrefectureDetailPage({ params }: Props) {
   // 歳入スライス (千円単位)
   const revSlices = [
     { name: '道府県税（自主財源）', value: p.revenues.localTax, color: '#3b82f6' },
-    { name: '国庫支出金（国補助）', value: p.revenues.nationalSubsidy, color: '#ec4899' },
     { name: '地方交付税', value: p.revenues.localAllocationTax, color: '#8b5cf6' },
+    { name: '国庫支出金（国補助）', value: p.revenues.nationalSubsidy, color: '#ec4899' },
     { name: '地方債（県債・借入）', value: p.revenues.localBonds, color: '#f59e0b' },
     { name: '地方譲与税', value: p.revenues.localTransferTax, color: '#10b981' },
-    { name: '諸収入・繰入金等', value: p.revenues.other, color: '#94a3b8' }
+    { name: 'その他（諸収入・貸付金回収・繰入金等）', value: p.revenues.other, color: '#94a3b8' }
   ].filter(s => s.value > 0);
 
   // 目的別歳出スライス
   const expPurposeSlices = [
     { name: '教育費（公立高・学校）', value: p.expensesByPurpose.education, color: '#3b82f6' },
-    { name: '民生費（福祉・支援）', value: p.expensesByPurpose.welfare, color: '#10b981' },
-    { name: '公債費（借金返済）', value: p.expensesByPurpose.debtService, color: '#f43f5e' },
-    { name: '土木費（県道・河川）', value: p.expensesByPurpose.publicWorks, color: '#f59e0b' },
     { name: '商工費（産業支援）', value: p.expensesByPurpose.commerceIndustry, color: '#8b5cf6' },
+    { name: '民生費（福祉・支援）', value: p.expensesByPurpose.welfare, color: '#10b981' },
+    { name: '土木費（県道・河川）', value: p.expensesByPurpose.publicWorks, color: '#f59e0b' },
+    { name: '公債費（借金返済）', value: p.expensesByPurpose.debtService, color: '#f43f5e' },
+    { name: '農林水産業費（農業・漁港）', value: p.expensesByPurpose.agriculture || 0, color: '#84cc16' },
     { name: '警察費（県警・治安）', value: p.expensesByPurpose.police, color: '#06b6d4' },
     { name: '総務費', value: p.expensesByPurpose.generalAdmin, color: '#64748b' },
     { name: '衛生費（保健・環境）', value: p.expensesByPurpose.healthSanitation, color: '#ec4899' },
-    { name: 'その他', value: p.expensesByPurpose.other, color: '#cbd5e1' }
+    { name: '労働費', value: p.expensesByPurpose.labor || 0, color: '#a855f7' },
+    { name: '災害復旧費', value: p.expensesByPurpose.disasterRecovery || 0, color: '#fb923c' },
+    { name: 'その他（議会費・各種交付金等）', value: p.expensesByPurpose.other, color: '#cbd5e1' }
   ].filter(s => s.value > 0);
 
   const pop = p.population || 1;
@@ -346,6 +349,25 @@ export default async function PrefectureDetailPage({ params }: Props) {
             data={expPurposeSlices}
             unit="千円"
           />
+        </div>
+
+        {/* 歳入・歳出の用語ミニ解説 */}
+        <div className="bg-slate-50 dark:bg-slate-900/60 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 text-xs space-y-2">
+          <div className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
+            <span>💡 決算用語のポイント解説（素朴な疑問を解消）</span>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-600 dark:text-slate-400 text-[11px] leading-relaxed">
+            <div>
+              <p><strong>・道府県税:</strong> 住民税（個人・法人）、地方消費税、自動車税など、自治体が独自に徴収する純粋な自主財源。</p>
+              <p className="mt-1"><strong>・地方交付税:</strong> 自治体間の税収格差を是正するため、国税（所得税・消費税等）の一部を国が財政力に応じて配分する一般財源。</p>
+              <p className="mt-1"><strong>・国庫支出金:</strong> 道路・河川整備や社会保障など、国の特定政策のために使途を限定して国から交付される補助金。</p>
+            </div>
+            <div>
+              <p><strong>・その他（諸収入等）:</strong> 中小企業向け融資などの貸付金回収元利金、宝くじ収益金、過去の基金（貯金）からの取崩し（繰入金）、前年度繰越金など。</p>
+              <p className="mt-1"><strong>・地方債（県債）:</strong> 学校や道路などの長期インフラ整備のために発行した借入金（将来世代も利用するため負担を年数で平準化）。</p>
+              <p className="mt-1"><strong>・公債費:</strong> 過去に借り入れた地方債の元金返済および利子支払い。</p>
+            </div>
+          </div>
         </div>
 
         {/* ガバナンス・政治データ */}
