@@ -4,6 +4,8 @@ import { getAllTopics, getTopicById } from "@/lib/topics";
 import { TopicDetailView } from "@/components/TopicDetailView";
 import type { Metadata } from "next";
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const topics = getAllTopics();
   return topics.map((topic) => ({

@@ -17,9 +17,17 @@ interface Props {
   params: Promise<{ code: string }>;
 }
 
+// 初回アクセス時に生成されたページは24時間Edgeキャッシュし、Serverless Functionの再実行と負荷を防止
+export const dynamicParams = true;
+export const revalidate = 86400;
+
 export async function generateStaticParams() {
   const all = getAllMunicipalities();
-  return all.slice(0, 100).map(m => ({ code: m.code }));
+  // 人口上位300自治体（政令市・中核市・主要都市など全アクセスの大半を占める自治体）を事前生成
+  return [...all]
+    .sort((a, b) => b.population - a.population)
+    .slice(0, 300)
+    .map(m => ({ code: m.code }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
