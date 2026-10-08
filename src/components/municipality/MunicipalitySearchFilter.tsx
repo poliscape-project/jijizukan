@@ -147,6 +147,48 @@ function getMunicipalityBadges(m: MunicipalitySummary): BadgeItem[] {
   return badges.slice(0, 3);
 }
 
+function getRankBadge(
+  sortKey: SortKey,
+  rank: number,
+  totalCount: number,
+  scopeLabel: string
+): { label: string; style: string } | null {
+  if (sortKey === 'default') return null;
+
+  const isNational = scopeLabel === '全国';
+
+  if (rank === 1) {
+    return {
+      label: `🥇 ${scopeLabel} 1位`,
+      style: 'bg-amber-100 dark:bg-amber-950/80 text-amber-900 dark:text-amber-200 border-amber-300 dark:border-amber-700 font-black shadow-2xs'
+    };
+  }
+  if (rank === 2) {
+    return {
+      label: `🥈 ${scopeLabel} 2位`,
+      style: 'bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border-slate-300 dark:border-slate-600 font-black shadow-2xs'
+    };
+  }
+  if (rank === 3) {
+    return {
+      label: `🥉 ${scopeLabel} 3位`,
+      style: 'bg-amber-50 dark:bg-amber-900/40 text-amber-900 dark:text-amber-300 border-amber-200 dark:border-amber-800 font-bold'
+    };
+  }
+
+  if (!isNational || rank <= 10) {
+    return {
+      label: `${scopeLabel} ${rank}位`,
+      style: 'bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800 font-bold'
+    };
+  }
+
+  return {
+    label: `${scopeLabel} ${rank}位`,
+    style: 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-slate-700 font-medium'
+  };
+}
+
 export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
   const [query, setQuery] = useState('');
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
@@ -158,6 +200,12 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
   const currentRegion = useMemo(() => {
     return REGIONS.find(r => r.name === selectedRegion) || null;
   }, [selectedRegion]);
+
+  const scopeLabel = useMemo(() => {
+    if (selectedPref === '全自治体') return '全国';
+    if (selectedPref.endsWith('すべて')) return `${selectedRegion}全域`;
+    return selectedPref;
+  }, [selectedPref, selectedRegion]);
 
   const filteredAndSorted = useMemo(() => {
     let result = initialSummaries;
@@ -322,21 +370,21 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
               value={sortKey}
               onChange={handleSortChange}
               aria-label="並び替え順の選択"
-              className="py-2.5 px-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 cursor-pointer"
+              className="py-2.5 px-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 cursor-pointer font-medium"
             >
-              <option value="default">全国コード順</option>
-              <option value="vanishingOnly">消滅可能性自治体（人口半減危機）</option>
-              <option value="selfReliantOnly">自立持続可能性自治体（全国65団体）</option>
-              <option value="furusatoSurplusDesc">ふるさと納税 黒字（流入超過順）</option>
-              <option value="furusatoDeficitAsc">ふるさと納税 赤字（流出超過順）</option>
-              <option value="agingRateDesc">高齢化率（高い順）</option>
-              <option value="childRateDesc">子ども比率（高い順）</option>
+              <option value="default">{scopeLabel} コード順</option>
               <option value="financialDesc">財政力指数（高い順）</option>
               <option value="financialAsc">財政力指数（低い順）</option>
               <option value="netPerCapitaDesc">実質純資産（基金超過順）</option>
+              <option value="furusatoSurplusDesc">ふるさと納税 黒字（流入超過順）</option>
+              <option value="furusatoDeficitAsc">ふるさと納税 赤字（流出超過順）</option>
+              <option value="populationDesc">人口規模（多い順）</option>
+              <option value="agingRateDesc">高齢化率（高い順）</option>
+              <option value="childRateDesc">子ども比率（高い順）</option>
+              <option value="vanishingOnly">消滅可能性自治体（人口半減危機）</option>
+              <option value="selfReliantOnly">自立持続可能性自治体（全国65団体）</option>
               <option value="publicWorksDesc">1人あたり土木費（高い順）</option>
               <option value="assemblyCostDesc">1人あたり議会費（高い順）</option>
-              <option value="populationDesc">人口規模（多い順）</option>
               <option value="alertsOnly">注目バッジ・要注意自治体優先</option>
             </select>
           </div>
@@ -418,15 +466,22 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
         </div>
 
         {/* 検索結果サマリー */}
-        <div className="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-100 dark:border-slate-800">
-          <span>
-            該当自治体: <strong className="text-slate-900 dark:text-white font-bold">{filteredAndSorted.length}</strong> 団体
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-slate-500 dark:text-slate-400 pt-2 border-t border-slate-100 dark:border-slate-800">
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <span>
+              該当自治体: <strong className="text-slate-900 dark:text-white font-bold">{filteredAndSorted.length}</strong> 団体
+            </span>
             {selectedPref !== '全自治体' && (
-              <span className="ml-1.5 px-2 py-0.5 rounded bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 font-bold border border-indigo-200/50">
-                {selectedPref.endsWith('すべて') ? `${selectedRegion}全域` : selectedPref}
+              <span className="px-2 py-0.5 rounded bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 font-bold border border-indigo-200/50">
+                📍 {scopeLabel}
               </span>
             )}
-          </span>
+            {sortKey !== 'default' && (
+              <span className="px-2 py-0.5 rounded bg-amber-50 dark:bg-amber-950/50 text-amber-800 dark:text-amber-300 font-bold border border-amber-200/60 text-[11px]">
+                🏆 {scopeLabel}内ランキング順
+              </span>
+            )}
+          </div>
           <span>
             {page} / {Math.max(1, totalPages)} ページ（全{filteredAndSorted.length}件中 {(page - 1) * pageSize + 1}〜{Math.min(page * pageSize, filteredAndSorted.length)}件）
           </span>
@@ -435,7 +490,10 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
 
       {/* 自治体グリッド */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {paginated.map((m) => {
+        {paginated.map((m, index) => {
+          const overallRank = (page - 1) * pageSize + index + 1;
+          const rankBadge = getRankBadge(sortKey, overallRank, filteredAndSorted.length, scopeLabel);
+
           return (
             <Link
               key={m.code}
@@ -445,11 +503,18 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
               <div>
                 {/* Header */}
                 <div className="flex items-start justify-between gap-2 mb-2">
-                  <div>
-                    <span className="text-[11px] font-semibold text-slate-400">
-                      {m.prefName}
-                    </span>
-                    <h3 className="font-black text-base text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition">
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-1.5 mb-1 flex-wrap">
+                      <span className="text-[11px] font-semibold text-slate-400">
+                        {m.prefName}
+                      </span>
+                      {rankBadge && (
+                        <span className={`inline-flex items-center px-1.5 py-0.2 rounded text-[10px] border ${rankBadge.style}`}>
+                          {rankBadge.label}
+                        </span>
+                      )}
+                    </div>
+                    <h3 className="font-black text-base text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition truncate">
                       {m.name}
                     </h3>
                   </div>
