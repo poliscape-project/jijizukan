@@ -43,7 +43,7 @@ export default function MunicipalityRankingTabs({
             全国注目ランキング（財政・ふるさと・人口）
           </h3>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-            全国1,662自治体の決算から突出した特徴を持つトップ・ワースト自治体
+            全国1,741自治体の決算から突出した特徴を持つトップ・ワースト自治体
           </p>
         </div>
 

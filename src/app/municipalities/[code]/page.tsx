@@ -119,7 +119,7 @@ export default async function MunicipalityDetailPage({ params }: Props) {
                 全国自治体カルテ
               </span>
               <span className="text-[10px] text-slate-400 block -mt-0.5">
-                47都道府県・1,700自治体オープンデータ
+                47都道府県・全1,741市区町村オープンデータ
               </span>
             </div>
           </Link>

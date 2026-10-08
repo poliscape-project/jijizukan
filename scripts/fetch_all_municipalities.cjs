@@ -238,6 +238,7 @@ function parseSheet(sheet, sheetName, defaultPref) {
 // Pref list with Soumu Excel links
 const PREFS = [
   { pref: "北海道", url: "https://www.soumu.go.jp/main_content/000998921.xlsx" },
+  { pref: "北海道", url: "https://www.soumu.go.jp/main_content/000998922.xlsx" },
   { pref: "青森県", url: "https://www.soumu.go.jp/main_content/000998924.xlsx" },
   { pref: "岩手県", url: "https://www.soumu.go.jp/main_content/000998926.xlsx" },
   { pref: "宮城県", url: "https://www.soumu.go.jp/main_content/000998928.xlsx" },

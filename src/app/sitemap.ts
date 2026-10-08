@@ -49,7 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // 自治体詳細ページ (全1,662件)
+  // 自治体詳細ページ (全1,741件)
   const municipalities = getAllMunicipalities();
   const municipalityRoutes: MetadataRoute.Sitemap = municipalities.map((m) => ({
     url: `${baseUrl}/municipalities/${m.code}`,

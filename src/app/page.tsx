@@ -125,7 +125,7 @@ export default function HomePage() {
                   </span>
                 </div>
                 <p className="text-xs text-indigo-200/80 mt-0.5">
-                  全1,700自治体の決算・税金の使い道を完全可視化
+                  全1,741市区町村の決算・税金の使い道を完全可視化
                 </p>
               </div>
             </div>

@@ -12,7 +12,7 @@ import RankingTabs from '@/components/municipality/RankingTabs';
 import MunicipalityFooter from '@/components/municipality/MunicipalityFooter';
 
 export const metadata: Metadata = {
-  title: '全国自治体カルテ | 全47都道府県・1,700自治体の決算と税金の使い道を完全可視化',
+  title: '全国自治体カルテ | 全47都道府県・1,741市区町村の決算と税金の使い道を完全可視化',
   description: '総務省「地方財政状況調査（決算カード）」の全自治体データを完全集約。財政力指数、住民1人あたり土木費、首長・議員報酬、類似団体比較、住民税の使途シミュレーターまで、日本初の三位一体シビックテック基盤。'
 };
 

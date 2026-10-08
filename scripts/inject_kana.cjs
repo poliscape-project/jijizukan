@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const xlsx = require('xlsx');
 
-const excelPath = 'C:/Users/theea/.gemini/antigravity/brain/3cf26d71-788c-4dfb-9960-4c7e04a9e909/scratch/soumu_code.xlsx';
+const excelPath = path.join(__dirname, 'soumu_code.xlsx');
 const summaryPath = path.join(__dirname, '../src/data/municipalities_summary.json');
 const fullPath = path.join(__dirname, '../src/data/municipalities.json');
 

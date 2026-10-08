@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
             >
               全国自治体カルテ
             </a>
-            {" "}（全1,700自治体の決算・税金の使い道） | 姉妹サイト:{" "}
+            {" "}（全1,741市区町村の決算・税金の使い道） | 姉妹サイト:{" "}
             <a
               href="https://poliscape.vercel.app"
               target="_blank"

@@ -19,7 +19,7 @@ export default function MunicipalityFooter() {
             </span>
           </div>
           <p className="text-slate-500 text-xs leading-relaxed">
-            総務省「地方財政状況調査（決算カード）」のオープンデータを基に、全国47都道府県・1,700自治体の決算と税金の使い道を完全可視化するシビックテック基盤です。
+            総務省「地方財政状況調査（決算カード）」のオープンデータを基に、全国47都道府県・全1,741市区町村の決算と税金の使い道を完全可視化するシビックテック基盤です。
           </p>
           <div className="flex flex-wrap items-center gap-3 mt-2 text-[11px] text-slate-400">
             <span>連携プロジェクト:</span>
