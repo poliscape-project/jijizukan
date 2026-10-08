@@ -88,13 +88,15 @@ function getMunicipalityBadges(m: MunicipalitySummary): BadgeItem[] {
 
   // 5. 借金超過 / 貯金超過
   if (m.netPerCapita !== undefined) {
-    if (m.netPerCapita < 0) {
+    if (m.netPerCapita <= -500000) {
+      // 1人あたり純負債が50万円を超える深刻な自治体（全国下位約15%）に限定
       badges.push({
         key: 'debt',
-        label: '⚠️ 借金超過',
+        label: '⚠️ 借金過大（深刻）',
         style: 'bg-rose-50 dark:bg-rose-950/60 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-800'
       });
-    } else if (m.netPerCapita >= 200000 && badges.length < 2) {
+    } else if (m.netPerCapita >= 0) {
+      // 貯金が借金を上回る超希少な富裕自治体（全国上位約15%）
       badges.push({
         key: 'reserve',
         label: '⭐ 貯金超過',
@@ -572,16 +574,28 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
                     {m.netPerCapita !== undefined ? (
                       <>
                         <div className={`font-black text-sm mt-0.5 ${
-                          m.netPerCapita >= 0 ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'
+                          m.netPerCapita >= 0
+                            ? 'text-emerald-600 dark:text-emerald-400'
+                            : m.netPerCapita <= -500000
+                            ? 'text-rose-600 dark:text-rose-400'
+                            : 'text-slate-800 dark:text-slate-200'
                         }`}>
                           {m.netPerCapita >= 0
                             ? `+${(m.netPerCapita / 10000).toFixed(1)}万円`
                             : `${(m.netPerCapita / 10000).toFixed(1)}万円`}
                         </div>
                         <div className={`text-[9px] font-semibold truncate ${
-                          m.netPerCapita >= 0 ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-600 dark:text-rose-400'
+                          m.netPerCapita >= 0
+                            ? 'text-emerald-600 dark:text-emerald-400'
+                            : m.netPerCapita <= -500000
+                            ? 'text-rose-600 dark:text-rose-400'
+                            : 'text-slate-500 dark:text-slate-400'
                         }`}>
-                          {m.netPerCapita >= 0 ? '貯金超過' : '借金超過'}
+                          {m.netPerCapita >= 0
+                            ? '貯金超過'
+                            : m.netPerCapita <= -500000
+                            ? '純負債過大（深刻）'
+                            : 'インフラ債務（標準内）'}
                         </div>
                       </>
                     ) : (
