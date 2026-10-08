@@ -25,7 +25,9 @@ export default function MunicipalityHistoryCharts({ history, municipalityName }:
   const reserveDiffMillion = Math.round((lastYear.reserveFundTotal - firstYear.reserveFundTotal) / 100000); // 億円
   // 3. 人口変化
   const popDiff = lastYear.population - firstYear.population;
-  const popDiffRate = Math.round((popDiff / firstYear.population) * 1000) / 10;
+  const popDiffRate = firstYear.population > 0
+    ? Math.round((popDiff / firstYear.population) * 1000) / 10
+    : 0;
   // 4. ふるさと納税収支変化
   const furusatoDiffMillion = Math.round((lastYear.furusatoBalance - firstYear.furusatoBalance) / 1e8 * 10) / 10;
 

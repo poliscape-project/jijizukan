@@ -37,8 +37,9 @@ for (const m of municipalities) {
   const furusatoRec = m.furusato?.received || 0;
   const furusatoDed = m.furusato?.deducted || 0;
 
-  // 人口減少率（年率）
-  const popAnnualChange = (m.popChangeRate ? m.popChangeRate / 5 : -0.008); // 5年国勢調査増減から年率換算
+  // 人口変化率（5年間の変化率%を年率の小数に換算）
+  const rawRate = typeof m.popChangeRate === 'number' ? m.popChangeRate : -4.0;
+  const popAnnualChange = Math.max(-0.04, Math.min(0.04, (rawRate / 100) / 5));
 
   const history = [];
 
@@ -46,8 +47,8 @@ for (const m of municipalities) {
     const yInfo = YEARS[i];
     const yearsAgo = 9 - i; // 2014年は9年前、2023年は0年前
 
-    // 1. 人口（過去ほど多い、または東京等は過去ほど少ない）
-    const pop = Math.round(currentPop * Math.pow(1 - popAnnualChange, yearsAgo));
+    // 1. 人口（yearsAgo年前の人口 = currentPop / (1 + popAnnualChange)^yearsAgo）
+    const pop = Math.round(currentPop / Math.pow(1 + popAnnualChange, yearsAgo));
 
     // 2. 高齢化率（過去ほど低い、年約0.3〜0.5ポイント上昇）
     const agingRate = Math.max(10, Math.round((currentAging - (yearsAgo * 0.45)) * 10) / 10);
@@ -65,7 +66,7 @@ for (const m of municipalities) {
     const reserveFundTotal = Math.round(currentReserve * reserveTrend);
 
     // 6. 実質純資産（1人あたり円）
-    const netPerCapita = Math.round(((reserveFundTotal - debtOutstanding) * 1000) / pop);
+    const netPerCapita = Math.round(((reserveFundTotal - debtOutstanding) * 1000) / Math.max(1, pop));
 
     // 7. ふるさと納税（受入・控除）
     const furusatoReceived = Math.round(furusatoRec * yInfo.furusatoRatio);
