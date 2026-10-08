@@ -9,6 +9,7 @@ import {
   TrendingUp, TrendingDown, Sparkles, X, ChevronRight, PieChart, Layers
 } from 'lucide-react';
 import { MunicipalityData, MunicipalitySummary, MunicipalityYearlyHistory } from '@/types/municipality';
+import PieChartBreakdown from '@/components/municipality/PieChartBreakdown';
 
 interface Props {
   muniA: MunicipalityData;
@@ -50,6 +51,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
   const router = useRouter();
   const [copied, setCopied] = useState(false);
   const [activeTab, setActiveTab] = useState<'debtReserve' | 'furusato' | 'population'>('debtReserve');
+  const [pieCompareTab, setPieCompareTab] = useState<'revenues' | 'expensesPurpose' | 'expensesNature'>('revenues');
   const [hoveredYearIndex, setHoveredYearIndex] = useState<number | null>(null);
 
   // 自治体変更モーダル
@@ -113,6 +115,107 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
 
   const councilSalaryA = muniA.governance.councilSalary;
   const councilSalaryB = muniB.governance.councilSalary;
+
+  // 構成比（円グラフ）比較用スライス
+  const revSlicesA = useMemo(() => [
+    { name: '地方税（自主財源）', value: muniA.revenues.localTax, color: '#3b82f6' },
+    { name: '普通交付税', value: muniA.revenues.localAllocationTaxOrdinary, color: '#8b5cf6' },
+    { name: '国庫支出金（国補助）', value: muniA.revenues.nationalSubsidy, color: '#ec4899' },
+    { name: '地方債（借入金）', value: muniA.revenues.localBonds, color: '#f59e0b' },
+    { name: '都道府県支出金', value: muniA.revenues.prefecturalSubsidy, color: '#10b981' },
+    { name: '特別交付税', value: muniA.revenues.localAllocationTaxSpecial, color: '#6366f1' },
+    { name: '地方消費税交付金', value: muniA.revenues.localConsumptionTax, color: '#06b6d4' },
+    { name: '繰入・繰越金・その他', value: muniA.revenues.transfers + muniA.revenues.carriedOver + muniA.revenues.miscellaneous + muniA.revenues.other, color: '#94a3b8' }
+  ].filter(s => s.value > 0), [muniA]);
+
+  const revSlicesB = useMemo(() => [
+    { name: '地方税（自主財源）', value: muniB.revenues.localTax, color: '#3b82f6' },
+    { name: '普通交付税', value: muniB.revenues.localAllocationTaxOrdinary, color: '#8b5cf6' },
+    { name: '国庫支出金（国補助）', value: muniB.revenues.nationalSubsidy, color: '#ec4899' },
+    { name: '地方債（借入金）', value: muniB.revenues.localBonds, color: '#f59e0b' },
+    { name: '都道府県支出金', value: muniB.revenues.prefecturalSubsidy, color: '#10b981' },
+    { name: '特別交付税', value: muniB.revenues.localAllocationTaxSpecial, color: '#6366f1' },
+    { name: '地方消費税交付金', value: muniB.revenues.localConsumptionTax, color: '#06b6d4' },
+    { name: '繰入・繰越金・その他', value: muniB.revenues.transfers + muniB.revenues.carriedOver + muniB.revenues.miscellaneous + muniB.revenues.other, color: '#94a3b8' }
+  ].filter(s => s.value > 0), [muniB]);
+
+  const expPurposeSlicesA = useMemo(() => [
+    { name: '民生費（福祉・子育て）', value: muniA.expensesByPurpose.welfare, color: '#f43f5e' },
+    { name: '総務費（庁舎・行政運営）', value: muniA.expensesByPurpose.generalAdmin, color: '#3b82f6' },
+    { name: '公債費（地方債償還）', value: muniA.expensesByPurpose.debtService, color: '#64748b' },
+    { name: '土木費（道路・公園等）', value: muniA.expensesByPurpose.publicWorks, color: '#f59e0b' },
+    { name: '衛生費（保健・清掃）', value: muniA.expensesByPurpose.healthSanitation, color: '#10b981' },
+    { name: '教育費（学校・社会教育）', value: muniA.expensesByPurpose.education, color: '#6366f1' },
+    { name: '消防費（消防・救急）', value: muniA.expensesByPurpose.fireFighting, color: '#ef4444' },
+    { name: '農林水産業費', value: muniA.expensesByPurpose.agricultureForestry, color: '#84cc16' },
+    { name: '商工費', value: muniA.expensesByPurpose.commerceIndustry, color: '#06b6d4' },
+    { name: '議会費', value: muniA.expensesByPurpose.assembly, color: '#a855f7' },
+    { name: '災害復旧・その他', value: muniA.expensesByPurpose.disasterRecovery + muniA.expensesByPurpose.labor + muniA.expensesByPurpose.other, color: '#cbd5e1' }
+  ].filter(s => s.value > 0), [muniA]);
+
+  const expPurposeSlicesB = useMemo(() => [
+    { name: '民生費（福祉・子育て）', value: muniB.expensesByPurpose.welfare, color: '#f43f5e' },
+    { name: '総務費（庁舎・行政運営）', value: muniB.expensesByPurpose.generalAdmin, color: '#3b82f6' },
+    { name: '公債費（地方債償還）', value: muniB.expensesByPurpose.debtService, color: '#64748b' },
+    { name: '土木費（道路・公園等）', value: muniB.expensesByPurpose.publicWorks, color: '#f59e0b' },
+    { name: '衛生費（保健・清掃）', value: muniB.expensesByPurpose.healthSanitation, color: '#10b981' },
+    { name: '教育費（学校・社会教育）', value: muniB.expensesByPurpose.education, color: '#6366f1' },
+    { name: '消防費（消防・救急）', value: muniB.expensesByPurpose.fireFighting, color: '#ef4444' },
+    { name: '農林水産業費', value: muniB.expensesByPurpose.agricultureForestry, color: '#84cc16' },
+    { name: '商工費', value: muniB.expensesByPurpose.commerceIndustry, color: '#06b6d4' },
+    { name: '議会費', value: muniB.expensesByPurpose.assembly, color: '#a855f7' },
+    { name: '災害復旧・その他', value: muniB.expensesByPurpose.disasterRecovery + muniB.expensesByPurpose.labor + muniB.expensesByPurpose.other, color: '#cbd5e1' }
+  ].filter(s => s.value > 0), [muniB]);
+
+  const expNatureSlicesA = useMemo(() => [
+    { name: '人件費（職員給等）', value: muniA.expensesByNature.personnel, color: '#3b82f6' },
+    { name: '扶助費（社会保障給付）', value: muniA.expensesByNature.socialAssistance, color: '#f43f5e' },
+    { name: '公債費（元利償還）', value: muniA.expensesByNature.debtService, color: '#64748b' },
+    { name: '物件費（委託料・需用費）', value: muniA.expensesByNature.supplies, color: '#10b981' },
+    { name: '普通建設事業費（投資的経費）', value: muniA.expensesByNature.investmentOrdinary, color: '#f59e0b' },
+    { name: '補助費等', value: muniA.expensesByNature.subsidies, color: '#8b5cf6' },
+    { name: '繰出金（下水道・病院等）', value: muniA.expensesByNature.transfers, color: '#06b6d4' },
+    { name: 'その他・維持補修', value: muniA.expensesByNature.maintenance + muniA.expensesByNature.disasterRecovery + muniA.expensesByNature.other, color: '#94a3b8' }
+  ].filter(s => s.value > 0), [muniA]);
+
+  const expNatureSlicesB = useMemo(() => [
+    { name: '人件費（職員給等）', value: muniB.expensesByNature.personnel, color: '#3b82f6' },
+    { name: '扶助費（社会保障給付）', value: muniB.expensesByNature.socialAssistance, color: '#f43f5e' },
+    { name: '公債費（元利償還）', value: muniB.expensesByNature.debtService, color: '#64748b' },
+    { name: '物件費（委託料・需用費）', value: muniB.expensesByNature.supplies, color: '#10b981' },
+    { name: '普通建設事業費（投資的経費）', value: muniB.expensesByNature.investmentOrdinary, color: '#f59e0b' },
+    { name: '補助費等', value: muniB.expensesByNature.subsidies, color: '#8b5cf6' },
+    { name: '繰出金（下水道・病院等）', value: muniB.expensesByNature.transfers, color: '#06b6d4' },
+    { name: 'その他・維持補修', value: muniB.expensesByNature.maintenance + muniB.expensesByNature.disasterRecovery + muniB.expensesByNature.other, color: '#94a3b8' }
+  ].filter(s => s.value > 0), [muniB]);
+
+  // 歳入主要比率
+  const revTotalA = muniA.revenues.total || 1;
+  const revTotalB = muniB.revenues.total || 1;
+  const taxShareA = (muniA.revenues.localTax / revTotalA) * 100;
+  const taxShareB = (muniB.revenues.localTax / revTotalB) * 100;
+  const allocShareA = (muniA.revenues.localAllocationTaxOrdinary / revTotalA) * 100;
+  const allocShareB = (muniB.revenues.localAllocationTaxOrdinary / revTotalB) * 100;
+  const bondShareA = (muniA.revenues.localBonds / revTotalA) * 100;
+  const bondShareB = (muniB.revenues.localBonds / revTotalB) * 100;
+
+  // 目的別歳出主要比率
+  const expPurpTotalA = muniA.expensesByPurpose.total || 1;
+  const expPurpTotalB = muniB.expensesByPurpose.total || 1;
+  const welfareShareA = (muniA.expensesByPurpose.welfare / expPurpTotalA) * 100;
+  const welfareShareB = (muniB.expensesByPurpose.welfare / expPurpTotalB) * 100;
+  const pwShareA = (muniA.expensesByPurpose.publicWorks / expPurpTotalA) * 100;
+  const pwShareB = (muniB.expensesByPurpose.publicWorks / expPurpTotalB) * 100;
+  const eduShareA = (muniA.expensesByPurpose.education / expPurpTotalA) * 100;
+  const eduShareB = (muniB.expensesByPurpose.education / expPurpTotalB) * 100;
+
+  // 性質別歳出主要比率
+  const expNatTotalA = muniA.expensesByPurpose.total || 1;
+  const expNatTotalB = muniB.expensesByPurpose.total || 1;
+  const mandatoryShareA = ((muniA.expensesByNature.personnel + muniA.expensesByNature.socialAssistance + muniA.expensesByNature.debtService) / expNatTotalA) * 100;
+  const mandatoryShareB = ((muniB.expensesByNature.personnel + muniB.expensesByNature.socialAssistance + muniB.expensesByNature.debtService) / expNatTotalB) * 100;
+  const investShareA = (muniA.expensesByNature.investmentOrdinary / expNatTotalA) * 100;
+  const investShareB = (muniB.expensesByNature.investmentOrdinary / expNatTotalB) * 100;
 
   return (
     <div className="space-y-8">
@@ -289,6 +392,22 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
         </div>
       </div>
 
+      {/* 同一自治体選択時のアラート */}
+      {muniA.code === muniB.code && (
+        <div className="p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-amber-800 dark:text-amber-200 shadow-2xs">
+          <div className="flex items-center gap-2.5 text-xs">
+            <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0" />
+            <span>現在、左右に同じ自治体（<strong>{muniA.name}</strong>）が選択されています。どちらかの自治体を変更すると2自治体での比較が行えます。</span>
+          </div>
+          <button
+            onClick={() => setSelectingSide('B')}
+            className="px-3.5 py-1.5 bg-amber-600 hover:bg-amber-700 text-white rounded-xl text-xs font-bold transition shrink-0 cursor-pointer shadow-2xs"
+          >
+            自治体Bを変更
+          </button>
+        </div>
+      )}
+
       {/* セクション1: 基本スペック横並び対決テーブル */}
       <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-2xs space-y-4">
         <div className="border-b border-slate-100 dark:border-slate-800 pb-3">
@@ -460,7 +579,232 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
         </div>
       </div>
 
-      {/* セクション2: 住民1人あたり指標のバーメーター対決 */}
+      {/* セクション2: 予算の配分構成比 徹底対決（規模を超えた構造比較） */}
+      <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-2xs space-y-6">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 dark:border-slate-800 pb-4">
+          <div>
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 text-xs font-semibold mb-1.5 border border-indigo-200/50">
+              <PieChart className="w-3.5 h-3.5" />
+              100%規格化・構成比（％）比較
+            </div>
+            <h3 className="text-lg font-black text-slate-900 dark:text-white">
+              予算の配分構成比 左右並列対決
+            </h3>
+            <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+              総額規模が大きく異なる自治体同士でも、比率（％）を見ることで「稼ぎ方の自立度」や「お金の使われ方」の本質的な性格差が浮き彫りになります
+            </p>
+          </div>
+
+          {/* タブ切り替えボタン */}
+          <div className="inline-flex p-1 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shrink-0 self-start sm:self-auto">
+            <button
+              onClick={() => setPieCompareTab('revenues')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                pieCompareTab === 'revenues'
+                  ? 'bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-2xs'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+              }`}
+            >
+              歳入（財源構成）
+            </button>
+            <button
+              onClick={() => setPieCompareTab('expensesPurpose')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                pieCompareTab === 'expensesPurpose'
+                  ? 'bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-2xs'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+              }`}
+            >
+              目的別歳出（使い道）
+            </button>
+            <button
+              onClick={() => setPieCompareTab('expensesNature')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition cursor-pointer ${
+                pieCompareTab === 'expensesNature'
+                  ? 'bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-2xs'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+              }`}
+            >
+              性質別歳出（固定費vs投資）
+            </button>
+          </div>
+        </div>
+
+        {/* 主要比率の直接対決ミニカード群 */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          {pieCompareTab === 'revenues' && (
+            <>
+              <RatioComparisonCard
+                label="自主財源比率（地方税シェア）"
+                desc="自前の税収で賄える割合（高いほど自立）"
+                valA={taxShareA}
+                valB={taxShareB}
+                nameA={muniA.name}
+                nameB={muniB.name}
+              />
+              <RatioComparisonCard
+                label="普通交付税 依存度"
+                desc="国からの財政保障への依存度（0%なら不交付）"
+                valA={allocShareA}
+                valB={allocShareB}
+                nameA={muniA.name}
+                nameB={muniB.name}
+              />
+              <RatioComparisonCard
+                label="地方債（借金）依存度"
+                desc="歳入総額に占める新規借入金の割合"
+                valA={bondShareA}
+                valB={bondShareB}
+                nameA={muniA.name}
+                nameB={muniB.name}
+              />
+            </>
+          )}
+          {pieCompareTab === 'expensesPurpose' && (
+            <>
+              <RatioComparisonCard
+                label="民生費（福祉・子育て）シェア"
+                desc="高齢者福祉・生活保護・子育て支援の割合"
+                valA={welfareShareA}
+                valB={welfareShareB}
+                nameA={muniA.name}
+                nameB={muniB.name}
+              />
+              <RatioComparisonCard
+                label="土木費（道路・都市基盤）シェア"
+                desc="道路整備・公園・都市開発への投資割合"
+                valA={pwShareA}
+                valB={pwShareB}
+                nameA={muniA.name}
+                nameB={muniB.name}
+              />
+              <RatioComparisonCard
+                label="教育費（学校教育・文化）シェア"
+                desc="小中学校教育・生涯学習への投資割合"
+                valA={eduShareA}
+                valB={eduShareB}
+                nameA={muniA.name}
+                nameB={muniB.name}
+              />
+            </>
+          )}
+          {pieCompareTab === 'expensesNature' && (
+            <>
+              <RatioComparisonCard
+                label="義務的経費比率（固定費の重さ）"
+                desc="人件費＋扶助費＋公債費（削減困難な必須支出）"
+                valA={mandatoryShareA}
+                valB={mandatoryShareB}
+                nameA={muniA.name}
+                nameB={muniB.name}
+              />
+              <RatioComparisonCard
+                label="普通建設事業費（投資的経費）"
+                desc="公共施設新設やインフラ更新等の先行投資"
+                valA={investShareA}
+                valB={investShareB}
+                nameA={muniA.name}
+                nameB={muniB.name}
+              />
+              <RatioComparisonCard
+                label="公債費（借金返済元利）比率"
+                desc="過去の借金返済に消える予算の割合"
+                valA={(muniA.expensesByNature.debtService / expNatTotalA) * 100}
+                valB={(muniB.expensesByNature.debtService / expNatTotalB) * 100}
+                nameA={muniA.name}
+                nameB={muniB.name}
+              />
+            </>
+          )}
+        </div>
+
+        {/* 左右並列円グラフ対決 */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-2">
+          {/* 自治体A */}
+          <div className="rounded-2xl border-2 border-indigo-200/80 dark:border-indigo-900/60 overflow-hidden bg-white dark:bg-slate-900 p-4 shadow-2xs">
+            <div className="flex items-center justify-between pb-3 mb-3 border-b border-indigo-100 dark:border-indigo-900/40">
+              <div className="flex items-center gap-2">
+                <span className="w-3 h-3 rounded-full bg-indigo-600 shrink-0" />
+                <h4 className="font-black text-sm text-slate-900 dark:text-white">
+                  {muniA.name}
+                </h4>
+                <span className="text-[11px] text-slate-400">({muniA.prefName})</span>
+              </div>
+              <div className="text-right text-[11px] text-slate-500">
+                {pieCompareTab === 'revenues' && `歳入総額: ${(muniA.revenues.total / 100000).toFixed(1)}億円`}
+                {pieCompareTab === 'expensesPurpose' && `歳出総額: ${(muniA.expensesByPurpose.total / 100000).toFixed(1)}億円`}
+                {pieCompareTab === 'expensesNature' && `歳出総額: ${(muniA.expensesByPurpose.total / 100000).toFixed(1)}億円`}
+              </div>
+            </div>
+            <PieChartBreakdown
+              title={
+                pieCompareTab === 'revenues'
+                  ? `${muniA.name} 歳入の内訳`
+                  : pieCompareTab === 'expensesPurpose'
+                  ? `${muniA.name} 目的別歳出`
+                  : `${muniA.name} 性質別歳出`
+              }
+              subtitle={
+                pieCompareTab === 'revenues'
+                  ? `自主財源比率: ${taxShareA.toFixed(1)}%`
+                  : pieCompareTab === 'expensesPurpose'
+                  ? `民生費比率: ${welfareShareA.toFixed(1)}% / 土木費比率: ${pwShareA.toFixed(1)}%`
+                  : `義務的経費: ${mandatoryShareA.toFixed(1)}%`
+              }
+              data={
+                pieCompareTab === 'revenues'
+                  ? revSlicesA
+                  : pieCompareTab === 'expensesPurpose'
+                  ? expPurposeSlicesA
+                  : expNatureSlicesA
+              }
+            />
+          </div>
+
+          {/* 自治体B */}
+          <div className="rounded-2xl border-2 border-rose-200/80 dark:border-rose-900/60 overflow-hidden bg-white dark:bg-slate-900 p-4 shadow-2xs">
+            <div className="flex items-center justify-between pb-3 mb-3 border-b border-rose-100 dark:border-rose-900/40">
+              <div className="flex items-center gap-2">
+                <span className="w-3 h-3 rounded-full bg-rose-600 shrink-0" />
+                <h4 className="font-black text-sm text-slate-900 dark:text-white">
+                  {muniB.name}
+                </h4>
+                <span className="text-[11px] text-slate-400">({muniB.prefName})</span>
+              </div>
+              <div className="text-right text-[11px] text-slate-500">
+                {pieCompareTab === 'revenues' && `歳入総額: ${(muniB.revenues.total / 100000).toFixed(1)}億円`}
+                {pieCompareTab === 'expensesPurpose' && `歳出総額: ${(muniB.expensesByPurpose.total / 100000).toFixed(1)}億円`}
+                {pieCompareTab === 'expensesNature' && `歳出総額: ${(muniB.expensesByPurpose.total / 100000).toFixed(1)}億円`}
+              </div>
+            </div>
+            <PieChartBreakdown
+              title={
+                pieCompareTab === 'revenues'
+                  ? `${muniB.name} 歳入の内訳`
+                  : pieCompareTab === 'expensesPurpose'
+                  ? `${muniB.name} 目的別歳出`
+                  : `${muniB.name} 性質別歳出`
+              }
+              subtitle={
+                pieCompareTab === 'revenues'
+                  ? `自主財源比率: ${taxShareB.toFixed(1)}%`
+                  : pieCompareTab === 'expensesPurpose'
+                  ? `民生費比率: ${welfareShareB.toFixed(1)}% / 土木費比率: ${pwShareB.toFixed(1)}%`
+                  : `義務的経費: ${mandatoryShareB.toFixed(1)}%`
+              }
+              data={
+                pieCompareTab === 'revenues'
+                  ? revSlicesB
+                  : pieCompareTab === 'expensesPurpose'
+                  ? expPurposeSlicesB
+                  : expNatureSlicesB
+              }
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* セクション3: 住民1人あたり指標のバーメーター対決 */}
       <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-2xs space-y-6">
         <div className="border-b border-slate-100 dark:border-slate-800 pb-3">
           <h3 className="font-bold text-base text-slate-900 dark:text-white flex items-center gap-2">
@@ -1109,6 +1453,75 @@ function ComparePopulationChart({
             );
           })}
         </svg>
+      </div>
+    </div>
+  );
+}
+
+// -------------------------------------------------------------
+// サブコンポーネント: 構成比率（％）直接対決ミニカード
+// -------------------------------------------------------------
+function RatioComparisonCard({
+  label,
+  desc,
+  valA,
+  valB,
+  nameA,
+  nameB,
+}: {
+  label: string;
+  desc?: string;
+  valA: number;
+  valB: number;
+  nameA: string;
+  nameB: string;
+}) {
+  const diffA = valA - valB;
+  const sum = valA + valB;
+  const pctA = sum > 0 ? (valA / sum) * 100 : 50;
+  const pctB = sum > 0 ? (valB / sum) * 100 : 50;
+
+  return (
+    <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200/60 dark:border-slate-800 space-y-1.5 flex flex-col justify-between">
+      <div>
+        <div className="flex items-center justify-between text-xs mb-1">
+          <span className="font-black text-indigo-600 dark:text-indigo-400 text-sm">
+            {valA.toFixed(1)}%
+          </span>
+          <span className="font-bold text-slate-800 dark:text-slate-200 text-center px-1 text-xs">
+            {label}
+          </span>
+          <span className="font-black text-rose-600 dark:text-rose-400 text-sm">
+            {valB.toFixed(1)}%
+          </span>
+        </div>
+
+        <div className="w-full h-2 rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden flex">
+          <div
+            style={{ width: `${pctA}%` }}
+            className="h-full bg-indigo-500 transition-all duration-300"
+            title={`${nameA}: ${valA.toFixed(1)}%`}
+          />
+          <div
+            style={{ width: `${pctB}%` }}
+            className="h-full bg-rose-500 transition-all duration-300"
+            title={`${nameB}: ${valB.toFixed(1)}%`}
+          />
+        </div>
+      </div>
+
+      <div className="flex items-center justify-between text-[10px] text-slate-500 dark:text-slate-400 pt-1">
+        <span className={diffA > 0 ? 'text-indigo-600 dark:text-indigo-400 font-bold' : 'text-slate-400'}>
+          {diffA > 0 ? `+${diffA.toFixed(1)}pt 高` : ''}
+        </span>
+        {desc && (
+          <span className="text-[10px] text-slate-400 dark:text-slate-500 truncate max-w-[170px] text-center" title={desc}>
+            {desc}
+          </span>
+        )}
+        <span className={diffA < 0 ? 'text-rose-600 dark:text-rose-400 font-bold' : 'text-slate-400'}>
+          {diffA < 0 ? `+${Math.abs(diffA).toFixed(1)}pt 高` : ''}
+        </span>
       </div>
     </div>
   );
