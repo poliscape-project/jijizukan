@@ -19,29 +19,29 @@ interface Props {
   summaries: MunicipalitySummary[];
 }
 
-// 注目のおすすめ対決プリセット
+// 注目のおすすめ比較プリセット
 const PRESET_MATCHUPS = [
   {
-    title: '👑 財政日本一 vs 財政再生団体',
-    desc: '日本一裕福な村と借金返済に挑む町の財政対決',
+    title: '🏛️ 財政指標上位村 ＆ 財政再生団体',
+    desc: '臨海工業地域の村と財政再建に取り組む町の構造比較',
     codeA: '234273', // 愛知県飛島村
     codeB: '012092', // 北海道夕張市
   },
   {
-    title: '🏙️ 首都中枢 vs 最大政令市',
-    desc: '日本屈指の富裕区と最大規模基礎自治体の比較',
+    title: '🏙️ 都心特別区 ＆ 最大政令市',
+    desc: '都心特別区と広域大都市（政令市）の行政規模・税構造比較',
     codeA: '131016', // 東京都千代田区
     codeB: '141003', // 神奈川県横浜市
   },
   {
-    title: '🎁 ふるさと納税 勝ち組 vs 負け組',
-    desc: '全国屈指の黒字流入自治体 vs 巨額流出赤字区',
+    title: '🎁 ふるさと納税 流入超過自治体 ＆ 流出超過区',
+    desc: '全国屈指の寄附受入自治体と住民税控除影響の大きい特別区',
     codeA: '452017', // 宮崎県都城市
     codeB: '131121', // 東京都世田谷区
   },
   {
-    title: '🏭 TSMC半導体メガハブ vs 地方県都',
-    desc: '巨額外資誘致で激変する新興城下町と中核市',
+    title: '🏭 半導体集積の町 ＆ 県庁所在地',
+    desc: '大型外資誘致で急成長する工業集積地と地方中核都市',
     codeA: '434043', // 熊本県菊陽町
     codeB: '431001', // 熊本県熊本市
   },
@@ -257,11 +257,11 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
         </div>
       </div>
 
-      {/* おすすめ対決プリセットピル */}
+      {/* おすすめ比較プリセットピル */}
       <div className="space-y-2">
         <div className="text-xs font-bold text-slate-500 dark:text-slate-400 flex items-center gap-1.5">
           <Sparkles className="w-3.5 h-3.5 text-indigo-500" />
-          <span>注目のテーマ対決クイック切り替え</span>
+          <span>注目のテーマ別比較</span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5">
           {PRESET_MATCHUPS.map((preset, idx) => {
@@ -286,7 +286,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
                   </div>
                 </div>
                 <div className="text-[10px] text-indigo-600 dark:text-indigo-400 font-bold mt-2 flex items-center gap-1">
-                  <span>対決を見る</span>
+                  <span>比較を見る</span>
                   <ArrowRight className="w-3 h-3" />
                 </div>
               </button>
@@ -295,7 +295,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
         </div>
       </div>
 
-      {/* VS ヒーロー対決カード */}
+      {/* 2自治体 比較カード */}
       <div className="bg-slate-900 text-white rounded-3xl p-6 md:p-8 border border-slate-800 shadow-lg relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-rose-500/10 rounded-full blur-3xl pointer-events-none" />
@@ -342,11 +342,12 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
             </div>
           </div>
 
-          {/* VS バッジ */}
+          {/* 中央の比較バッジ */}
           <div className="md:col-span-1 flex flex-col items-center justify-center py-2 md:py-0">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-indigo-500 to-rose-500 flex items-center justify-center font-black text-sm tracking-widest text-white shadow-lg border-2 border-slate-900">
-              VS
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-indigo-500 to-rose-500 flex items-center justify-center text-white shadow-lg border-2 border-slate-900" title="2自治体を比較">
+              <Scale className="w-5 h-5 text-white" />
             </div>
+            <span className="text-[10px] text-slate-400 font-bold mt-1 tracking-wider">比較</span>
           </div>
 
           {/* 自治体B */}
@@ -408,15 +409,15 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
         </div>
       )}
 
-      {/* セクション1: 基本スペック横並び対決テーブル */}
+      {/* セクション1: 基本スペック横並び比較テーブル */}
       <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-2xs space-y-4">
         <div className="border-b border-slate-100 dark:border-slate-800 pb-3">
           <h3 className="font-bold text-base text-slate-900 dark:text-white flex items-center gap-2">
             <Scale className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
-            主要スペック・財政健全度 徹底対決
+            主要スペック・財政健全度 横並び比較
           </h3>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-            規模・財政力・予算の柔軟性を指標ごとに直接対比
+            規模・財政力・予算の柔軟性を指標ごとに客観的に対比
           </p>
         </div>
 
@@ -442,11 +443,9 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
                   <span className="font-bold text-sm text-slate-900 dark:text-white">
                     {muniA.population >= 10000 ? `${(muniA.population / 10000).toFixed(1)}万人` : `${muniA.population.toLocaleString()}人`}
                   </span>
-                  {muniA.population > muniB.population && <span className="ml-1.5 text-[10px] text-indigo-600 font-bold">大</span>}
                 </td>
                 <td className="py-3 px-3 text-center text-slate-500">人口規模</td>
                 <td className="py-3 px-3 text-right">
-                  {muniB.population > muniA.population && <span className="mr-1.5 text-[10px] text-rose-600 font-bold">大</span>}
                   <span className="font-bold text-sm text-slate-900 dark:text-white">
                     {muniB.population >= 10000 ? `${(muniB.population / 10000).toFixed(1)}万人` : `${muniB.population.toLocaleString()}人`}
                   </span>
@@ -473,18 +472,12 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
                   {muniA.financial.financialStrengthIndex >= 1.0 && (
                     <span className="ml-1.5 px-1.5 py-0.2 rounded text-[10px] bg-indigo-100 text-indigo-700 font-bold">不交付</span>
                   )}
-                  {muniA.financial.financialStrengthIndex > muniB.financial.financialStrengthIndex && (
-                    <span className="ml-1.5 text-xs">👑</span>
-                  )}
                 </td>
                 <td className="py-3 px-3 text-center text-slate-700 dark:text-slate-300 font-bold">
                   財政力指数
                   <span className="block text-[10px] text-slate-400 font-normal">1.0以上で不交付団体</span>
                 </td>
                 <td className="py-3 px-3 text-right">
-                  {muniB.financial.financialStrengthIndex > muniA.financial.financialStrengthIndex && (
-                    <span className="mr-1.5 text-xs">👑</span>
-                  )}
                   {muniB.financial.financialStrengthIndex >= 1.0 && (
                     <span className="mr-1.5 px-1.5 py-0.2 rounded text-[10px] bg-rose-100 text-rose-700 font-bold">不交付</span>
                   )}
@@ -500,18 +493,12 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
                   <span className={`font-bold text-sm ${muniA.financial.ordinaryBalanceRatio > 95 ? 'text-amber-600' : 'text-slate-900 dark:text-white'}`}>
                     {muniA.financial.ordinaryBalanceRatio.toFixed(1)}%
                   </span>
-                  {muniA.financial.ordinaryBalanceRatio < muniB.financial.ordinaryBalanceRatio && (
-                    <span className="ml-1.5 text-[10px] text-emerald-600 font-bold">柔軟</span>
-                  )}
                 </td>
                 <td className="py-3 px-3 text-center text-slate-500">
                   経常収支比率
                   <span className="block text-[10px] text-slate-400 font-normal">低いほど使途に余裕あり</span>
                 </td>
                 <td className="py-3 px-3 text-right">
-                  {muniB.financial.ordinaryBalanceRatio < muniA.financial.ordinaryBalanceRatio && (
-                    <span className="mr-1.5 text-[10px] text-emerald-600 font-bold">柔軟</span>
-                  )}
                   <span className={`font-bold text-sm ${muniB.financial.ordinaryBalanceRatio > 95 ? 'text-amber-600' : 'text-slate-900 dark:text-white'}`}>
                     {muniB.financial.ordinaryBalanceRatio.toFixed(1)}%
                   </span>
@@ -524,18 +511,12 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
                   <span className={`font-bold text-sm ${muniA.financial.realDebtServiceRatio >= 18 ? 'text-rose-600 font-black' : 'text-slate-900 dark:text-white'}`}>
                     {muniA.financial.realDebtServiceRatio.toFixed(1)}%
                   </span>
-                  {muniA.financial.realDebtServiceRatio < muniB.financial.realDebtServiceRatio && (
-                    <span className="ml-1.5 text-[10px] text-emerald-600 font-bold">健全</span>
-                  )}
                 </td>
                 <td className="py-3 px-3 text-center text-slate-500">
                   実質公債費比率
                   <span className="block text-[10px] text-slate-400 font-normal">18%以上で起債許可制</span>
                 </td>
                 <td className="py-3 px-3 text-right">
-                  {muniB.financial.realDebtServiceRatio < muniA.financial.realDebtServiceRatio && (
-                    <span className="mr-1.5 text-[10px] text-emerald-600 font-bold">健全</span>
-                  )}
                   <span className={`font-bold text-sm ${muniB.financial.realDebtServiceRatio >= 18 ? 'text-rose-600 font-black' : 'text-slate-900 dark:text-white'}`}>
                     {muniB.financial.realDebtServiceRatio.toFixed(1)}%
                   </span>
@@ -579,7 +560,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
         </div>
       </div>
 
-      {/* セクション2: 予算の配分構成比 徹底対決（規模を超えた構造比較） */}
+      {/* セクション2: 予算の配分構成比 徹底比較（規模を超えた構造比較） */}
       <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-2xs space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 dark:border-slate-800 pb-4">
           <div>
@@ -588,7 +569,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
               100%規格化・構成比（％）比較
             </div>
             <h3 className="text-lg font-black text-slate-900 dark:text-white">
-              予算の配分構成比 左右並列対決
+              予算の配分構成比 左右並列比較
             </h3>
             <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
               総額規模が大きく異なる自治体同士でも、比率（％）を見ることで「稼ぎ方の自立度」や「お金の使われ方」の本質的な性格差が浮き彫りになります
@@ -718,7 +699,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
           )}
         </div>
 
-        {/* 左右並列円グラフ対決 */}
+        {/* 左右並列円グラフ比較 */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-2">
           {/* 自治体A */}
           <div className="rounded-2xl border-2 border-indigo-200/80 dark:border-indigo-900/60 overflow-hidden bg-white dark:bg-slate-900 p-4 shadow-2xs">
@@ -804,12 +785,12 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
         </div>
       </div>
 
-      {/* セクション3: 住民1人あたり指標のバーメーター対決 */}
+      {/* セクション3: 住民1人あたり指標のバーメーター比較 */}
       <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-2xs space-y-6">
         <div className="border-b border-slate-100 dark:border-slate-800 pb-3">
           <h3 className="font-bold text-base text-slate-900 dark:text-white flex items-center gap-2">
             <Coins className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
-            住民1人あたり負担・使い道メーター対比
+            住民1人あたり負担・使い道の比較
           </h3>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
             規模の異なる自治体でも人口で割ることで「住民目線のリアルな行政サービス水準」を比較
@@ -820,13 +801,12 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
           {/* 1. 住民1人あたり土木費 */}
           <CompareBarMeter
             label="住民1人あたり土木費（道路・インフラ投資）"
-            desc="高すぎる自治体は過疎地での過剰投資や道路偏重の傾向"
+            desc="過疎地や新興開発地での道路・インフラ投資水準"
             valA={pwA}
             valB={pwB}
             unit="円/人"
             nameA={muniA.name}
             nameB={muniB.name}
-            betterSide="lower"
           />
 
           {/* 2. 住民1人あたり純資産（貯金 － 借金） */}
@@ -838,20 +818,18 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
             unit="円/人"
             nameA={muniA.name}
             nameB={muniB.name}
-            betterSide="higher"
             allowNegative
           />
 
           {/* 3. ふるさと納税 住民1人あたり純収支 */}
           <CompareBarMeter
             label="ふるさと納税 1人あたり収支（受入 － 流出）"
-            desc="全国からの寄附金獲得による黒字か、住民税流出による赤字か"
+            desc="全国からの寄附金受入額と住民税控除流出額の差引収支"
             valA={furuA}
             valB={furuB}
             unit="円/人"
             nameA={muniA.name}
             nameB={muniB.name}
-            betterSide="higher"
             allowNegative
           />
 
@@ -879,19 +857,19 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
         </div>
       </div>
 
-      {/* セクション3: 直近10年間（2014〜2023年度）の変遷重ね合わせグラフ */}
+      {/* セクション4: 直近10年間（2014〜2023年度）の変遷重ね合わせグラフ */}
       <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 border border-slate-200 dark:border-slate-800 shadow-2xs space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 dark:border-slate-800 pb-4">
           <div>
             <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 text-xs font-semibold mb-1.5 border border-indigo-200/50">
               <Calendar className="w-3.5 h-3.5" />
-              直近10年間の時系列重ね合わせ（2014〜2023年度）
+              直近10年間の時系列推移（2014〜2023年度）
             </div>
             <h3 className="text-lg font-black text-slate-900 dark:text-white">
-              {muniA.name}（青） vs {muniB.name}（赤） 10年タイムライン
+              {muniA.name}（青） と {muniB.name}（赤）の10年推移
             </h3>
             <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-              過去10年の政策努力、財政健全化、人口減少スピードの軌跡を同一軸で比較
+              過去10年の財政健全化や人口動態の軌跡を同一軸で比較
             </p>
           </div>
 
@@ -1039,7 +1017,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
 }
 
 // -------------------------------------------------------------
-// サブコンポーネント: バーメーター対比 (CompareBarMeter)
+// サブコンポーネント: バーメーター比較 (CompareBarMeter)
 // -------------------------------------------------------------
 function CompareBarMeter({
   label,
@@ -1049,7 +1027,6 @@ function CompareBarMeter({
   unit,
   nameA,
   nameB,
-  betterSide,
   allowNegative = false
 }: {
   label: string;
@@ -1059,15 +1036,11 @@ function CompareBarMeter({
   unit: string;
   nameA: string;
   nameB: string;
-  betterSide?: 'higher' | 'lower';
   allowNegative?: boolean;
 }) {
   const maxAbs = Math.max(Math.abs(valA), Math.abs(valB), 1);
   const pctA = Math.min(100, (Math.abs(valA) / maxAbs) * 100);
   const pctB = Math.min(100, (Math.abs(valB) / maxAbs) * 100);
-
-  const isWinA = betterSide === 'higher' ? valA > valB : betterSide === 'lower' ? valA < valB : false;
-  const isWinB = betterSide === 'higher' ? valB > valA : betterSide === 'lower' ? valB < valA : false;
 
   return (
     <div className="space-y-2 p-3 rounded-xl bg-slate-50/70 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
@@ -1085,7 +1058,6 @@ function CompareBarMeter({
             <span className="font-bold text-indigo-600 dark:text-indigo-400 truncate max-w-[120px]">{nameA}</span>
             <span className={`font-black ${valA < 0 ? 'text-rose-600' : 'text-slate-900 dark:text-white'}`}>
               {valA.toLocaleString()} <span className="text-[10px] font-normal text-slate-400">{unit}</span>
-              {isWinA && <span className="ml-1 text-xs">👑</span>}
             </span>
           </div>
           <div className="w-full h-2.5 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
@@ -1104,7 +1076,6 @@ function CompareBarMeter({
             <span className="font-bold text-rose-600 dark:text-rose-400 truncate max-w-[120px]">{nameB}</span>
             <span className={`font-black ${valB < 0 ? 'text-rose-600' : 'text-slate-900 dark:text-white'}`}>
               {valB.toLocaleString()} <span className="text-[10px] font-normal text-slate-400">{unit}</span>
-              {isWinB && <span className="ml-1 text-xs">👑</span>}
             </span>
           </div>
           <div className="w-full h-2.5 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
@@ -1459,7 +1430,7 @@ function ComparePopulationChart({
 }
 
 // -------------------------------------------------------------
-// サブコンポーネント: 構成比率（％）直接対決ミニカード
+// サブコンポーネント: 構成比率（％）左右対比ミニカード
 // -------------------------------------------------------------
 function RatioComparisonCard({
   label,
@@ -1512,7 +1483,7 @@ function RatioComparisonCard({
 
       <div className="flex items-center justify-between text-[10px] text-slate-500 dark:text-slate-400 pt-1">
         <span className={diffA > 0 ? 'text-indigo-600 dark:text-indigo-400 font-bold' : 'text-slate-400'}>
-          {diffA > 0 ? `+${diffA.toFixed(1)}pt 高` : ''}
+          {diffA > 0 ? `+${diffA.toFixed(1)}pt` : ''}
         </span>
         {desc && (
           <span className="text-[10px] text-slate-400 dark:text-slate-500 truncate max-w-[170px] text-center" title={desc}>
@@ -1520,7 +1491,7 @@ function RatioComparisonCard({
           </span>
         )}
         <span className={diffA < 0 ? 'text-rose-600 dark:text-rose-400 font-bold' : 'text-slate-400'}>
-          {diffA < 0 ? `+${Math.abs(diffA).toFixed(1)}pt 高` : ''}
+          {diffA < 0 ? `+${Math.abs(diffA).toFixed(1)}pt` : ''}
         </span>
       </div>
     </div>
