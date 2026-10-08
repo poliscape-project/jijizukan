@@ -192,6 +192,7 @@ export interface MunicipalitySummary {
   youngFemaleChangeRate?: number;
   industryType?: string;
   hasAlerts: boolean;
+  alerts?: MunicipalityAlert[];
   kana?: string;
   prefKana?: string;
 }

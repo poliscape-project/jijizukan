@@ -54,7 +54,8 @@ export function getMunicipalitySummaries(): MunicipalitySummary[] {
       sustainabilityCategory: m.sustainability ? m.sustainability.category : undefined,
       youngFemaleChangeRate: m.sustainability ? m.sustainability.youngFemaleChangeRate : undefined,
       industryType: m.economy ? m.economy.industryType : undefined,
-      hasAlerts: Boolean(m.alerts && m.alerts.length > 0)
+      hasAlerts: Boolean(m.alerts && m.alerts.length > 0),
+      alerts: m.alerts
     };
   });
   return cachedSummaries;

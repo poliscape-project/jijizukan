@@ -170,7 +170,7 @@ export default function MunicipalitiesPage() {
           </div>
         </div>
 
-        {/* 特異点ランキング（3大タブに集約） */}
+        {/* 全国注目ランキング（3大タブに集約） */}
         <RankingTabs
           topFinancial={topFinancial}
           topNetReserve={topNetReserve}

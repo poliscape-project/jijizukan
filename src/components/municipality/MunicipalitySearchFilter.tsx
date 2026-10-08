@@ -41,6 +41,112 @@ type SortKey =
   | 'populationDesc' 
   | 'alertsOnly';
 
+interface BadgeItem {
+  key: string;
+  label: string;
+  style: string;
+}
+
+function getMunicipalityBadges(m: MunicipalitySummary): BadgeItem[] {
+  const badges: BadgeItem[] = [];
+
+  // 1. ニュース注目
+  if (m.alerts?.some(a => a.title.includes('簗') || a.title.includes('疑惑') || a.title.includes('注目'))) {
+    badges.push({
+      key: 'news',
+      label: '📰 ニュース注目',
+      style: 'bg-blue-50 dark:bg-blue-950/60 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-800'
+    });
+  }
+
+  // 2. 不交付（自立）
+  if (m.financialStrength >= 1.0) {
+    badges.push({
+      key: 'independent',
+      label: '⭐ 不交付（自立）',
+      style: 'bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-800'
+    });
+  }
+
+  // 3. 予算硬直（経常収支95%超）
+  if (m.alerts?.some(a => a.title.includes('硬直') || a.title.includes('95%'))) {
+    badges.push({
+      key: 'rigid',
+      label: '⚠️ 予算硬直',
+      style: 'bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800'
+    });
+  }
+
+  // 4. 交付税依存
+  if (m.alerts?.some(a => a.title.includes('交付税依存') || a.title.includes('0.25未満'))) {
+    badges.push({
+      key: 'dependent',
+      label: '⚠️ 交付税依存',
+      style: 'bg-amber-50 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800'
+    });
+  }
+
+  // 5. 借金超過 / 貯金超過
+  if (m.netPerCapita !== undefined) {
+    if (m.netPerCapita < 0) {
+      badges.push({
+        key: 'debt',
+        label: '⚠️ 借金超過',
+        style: 'bg-rose-50 dark:bg-rose-950/60 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-800'
+      });
+    } else if (m.netPerCapita >= 200000 && badges.length < 2) {
+      badges.push({
+        key: 'reserve',
+        label: '⭐ 貯金超過',
+        style: 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800'
+      });
+    }
+  }
+
+  // 6. 土木費突出
+  if (m.alerts?.some(a => a.title.includes('土木費'))) {
+    badges.push({
+      key: 'works',
+      label: '⚠️ 土木費突出',
+      style: 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700'
+    });
+  }
+
+  // 7. ふるさと納税 流出（大赤字） / 黒字
+  if (m.furusatoBalance !== undefined) {
+    if (m.furusatoBalance <= -200000000) {
+      badges.push({
+        key: 'furusato-loss',
+        label: '⚠️ 税金流出',
+        style: 'bg-rose-50 dark:bg-rose-950/60 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-800'
+      });
+    } else if (m.furusatoBalance >= 1000000000 && badges.length < 2) {
+      badges.push({
+        key: 'furusato-surplus',
+        label: '⭐ ふるさと黒字',
+        style: 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800'
+      });
+    }
+  }
+
+  // 8. 人口持続可能性（消滅危機 / 自立持続）
+  if (m.sustainabilityCategory === '消滅可能性自治体') {
+    badges.push({
+      key: 'vanishing',
+      label: '⚠️ 人口半減危機',
+      style: 'bg-rose-50 dark:bg-rose-950/60 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-800'
+    });
+  } else if (m.sustainabilityCategory === '自立持続可能性自治体' && badges.length < 2) {
+    badges.push({
+      key: 'self-reliant',
+      label: '⭐ 自立持続',
+      style: 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800'
+    });
+  }
+
+  return badges.slice(0, 3);
+}
+
 export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
   const [query, setQuery] = useState('');
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
@@ -231,7 +337,7 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
               <option value="publicWorksDesc">1人あたり土木費（高い順）</option>
               <option value="assemblyCostDesc">1人あたり議会費（高い順）</option>
               <option value="populationDesc">人口規模（多い順）</option>
-              <option value="alertsOnly">特異点・アラート自治体優先</option>
+              <option value="alertsOnly">注目バッジ・要注意自治体優先</option>
             </select>
           </div>
         </div>
@@ -444,40 +550,38 @@ export default function MunicipalitySearchFilter({ initialSummaries }: Props) {
                   )}
                 </div>
 
-                {/* 人口戦略会議2024判定 & 産業タイプ */}
-                <div className="space-y-1 mb-2">
-                  {m.sustainabilityCategory && (
-                    <div className="flex items-center justify-between text-[11px]">
-                      <span className="text-slate-400 text-[10px]">持続可能性:</span>
-                      <span className={`font-bold text-[10px] ${
-                        m.sustainabilityCategory === '自立持続可能性自治体'
-                          ? 'text-emerald-600 dark:text-emerald-400'
-                          : m.sustainabilityCategory === '消滅可能性自治体'
-                          ? 'text-rose-600 dark:text-rose-400'
-                          : 'text-slate-600 dark:text-slate-400'
-                      }`}>
-                        {m.sustainabilityCategory}
-                      </span>
-                    </div>
-                  )}
-
-                  {m.industryType && (
-                    <div className="flex items-center justify-between text-[11px]">
-                      <span className="text-slate-400 text-[10px]">産業特性:</span>
-                      <span className="font-medium text-slate-600 dark:text-slate-400 text-[10px] truncate max-w-[150px]">
-                        {m.industryType}
-                      </span>
-                    </div>
-                  )}
-                </div>
-
-                {/* アラート */}
-                {m.hasAlerts && (
-                  <div className="flex items-center gap-1 text-[11px] text-amber-600 dark:text-amber-400 mb-2">
-                    <AlertTriangle className="w-3.5 h-3.5" />
-                    <span>特異点検知あり</span>
+                {/* 産業特性 */}
+                {m.industryType && (
+                  <div className="flex items-center justify-between text-[11px] mb-2">
+                    <span className="text-slate-400 text-[10px]">産業特性:</span>
+                    <span className="font-medium text-slate-600 dark:text-slate-400 text-[10px] truncate max-w-[170px]">
+                      {m.industryType}
+                    </span>
                   </div>
                 )}
+
+                {/* 診断バッジ・注目一言チップ */}
+                {(() => {
+                  const badges = getMunicipalityBadges(m);
+                  return (
+                    <div className="flex flex-wrap items-center gap-1.5 pt-2 border-t border-slate-100 dark:border-slate-800/80">
+                      {badges.length > 0 ? (
+                        badges.map((b) => (
+                          <span
+                            key={b.key}
+                            className={`inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-bold border ${b.style}`}
+                          >
+                            {b.label}
+                          </span>
+                        ))
+                      ) : (
+                        <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-medium text-slate-400 dark:text-slate-500">
+                          安定運営
+                        </span>
+                      )}
+                    </div>
+                  );
+                })()}
               </div>
 
               {/* Footer */}

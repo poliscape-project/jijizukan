@@ -40,7 +40,7 @@ export default function MunicipalityRankingTabs({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 dark:border-slate-800 pb-3">
         <div>
           <h3 className="font-bold text-base text-slate-900 dark:text-white flex items-center gap-2">
-            全国特異点ランキング
+            全国注目ランキング（財政・ふるさと・人口）
           </h3>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
             全国1,662自治体の決算から突出した特徴を持つトップ・ワースト自治体
