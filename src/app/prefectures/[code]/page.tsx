@@ -357,19 +357,20 @@ export default async function PrefectureDetailPage({ params }: Props) {
         {/* 歳入・歳出の用語ミニ解説 */}
         <div className="bg-slate-50 dark:bg-slate-900/60 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 text-xs space-y-2">
           <div className="font-bold text-slate-800 dark:text-slate-200 flex items-center gap-1.5">
-            <span>💡 決算用語のポイント解説（なぜ「諸収入」が大きいの？などの疑問を解消）</span>
+            <span>💡 歳入・歳出の主な用語と仕組み</span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-600 dark:text-slate-400 text-[11px] leading-relaxed">
-            <div>
-              <p><strong>・道府県税:</strong> 住民税（個人・法人）、地方消費税、自動車税など、自治体が独自に徴収する純粋な自主財源。</p>
-              <p className="mt-1"><strong>・地方交付税:</strong> 自治体間の税収格差を是正するため、国税（所得税・消費税等）の一部を国が財政力に応じて配分する一般財源。</p>
-              <p className="mt-1"><strong>・国庫支出金:</strong> 道路・河川整備や社会保障など、国の特定政策のために使途を限定して交付される補助金。</p>
-              <p className="mt-1"><strong>・地方債（県債）:</strong> 長期インフラ整備のために発行した借入金（将来世代も利用するため負担を年数で平準化）。</p>
+            <div className="space-y-1.5">
+              <p><strong>・道府県税:</strong> 個人住民税、法人事業税、地方消費税、自動車税など、自治体が独自に徴収する純粋な自主財源。</p>
+              <p><strong>・地方交付税:</strong> 自治体間の税収格差を是正するため、国税（所得税・消費税等）の一部を国が財政力に応じて配分する一般財源。</p>
+              <p><strong>・国庫支出金:</strong> 道路・河川整備や社会保障など、国の特定政策のために使途を指定して国から交付される補助金。</p>
+              <p><strong>・地方債（県債）:</strong> 長期インフラ整備のために発行した借入金（将来世代も利用するため負担を複数年に平準化）。</p>
             </div>
-            <div>
-              <p><strong>・諸収入（なぜこんなに大きいの？）:</strong> 都道府県特有の科目で、中小企業向け制度融資などの<strong>預託貸付金の回収元利金（回転資金）</strong>が大半を占めます。その他、宝くじ販売益、公営企業納付金などが含まれます。</p>
-              <p className="mt-1"><strong>・前年度繰越金・繰入金:</strong> 前年度の使い残し余剰金（繰越金）や、過去に貯めた積立基金（貯金）を取り崩して今年度の財源に充てたお金（繰入金）。</p>
-              <p className="mt-1"><strong>・その他:</strong> 施設使用料、各種証明手数料、分担金・負担金、寄附金などの細かい雑収入。</p>
+            <div className="space-y-1.5">
+              <p><strong>・諸収入:</strong> 都道府県の中小企業向け制度融資などの預託貸付金の回収元利金（回転資金）や、宝くじ販売益、公営企業納付金など。</p>
+              <p><strong>・繰入金・前年度繰越金:</strong> 過去に貯めた積立基金（貯金）を取り崩して充てたお金（繰入金）や、前年度の使い残し余剰金（繰越金）。</p>
+              <p><strong>・公債費:</strong> 過去に借り入れた地方債（借金）の元金返済および利子支払い。</p>
+              <p><strong>・その他:</strong> 県立施設の使用料、各種証明手数料、分担金・負担金、寄附金などの雑収入。</p>
             </div>
           </div>
         </div>

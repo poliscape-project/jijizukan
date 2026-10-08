@@ -6,32 +6,35 @@ let cachedPrefectures: PrefectureData[] | null = null;
 let cachedSummaries: PrefectureSummary[] | null = null;
 let cachedProfiles: Record<string, PrefectureProfile> | null = null;
 
+const isProd = process.env.NODE_ENV === 'production';
+
 function getDataFilePath(filename: string): string {
   return path.join(process.cwd(), 'src', 'data', filename);
 }
 
 function getProfiles(): Record<string, PrefectureProfile> {
-  if (cachedProfiles) return cachedProfiles;
+  if (isProd && cachedProfiles) return cachedProfiles;
   const filePath = getDataFilePath('prefecture_profiles.json');
   if (!fs.existsSync(filePath)) return {};
   try {
     const raw = fs.readFileSync(filePath, 'utf-8');
-    cachedProfiles = JSON.parse(raw);
-    return cachedProfiles || {};
+    const parsed = JSON.parse(raw);
+    if (isProd) cachedProfiles = parsed;
+    return parsed || {};
   } catch {
     return {};
   }
 }
 
 export function getAllPrefectures(): PrefectureData[] {
-  if (cachedPrefectures) return cachedPrefectures;
+  if (isProd && cachedPrefectures) return cachedPrefectures;
   const filePath = getDataFilePath('prefectures.json');
   if (!fs.existsSync(filePath)) return [];
   const raw = fs.readFileSync(filePath, 'utf-8');
   const baseList: PrefectureData[] = JSON.parse(raw);
   const profiles = getProfiles();
 
-  cachedPrefectures = baseList.map(p => {
+  const mapped = baseList.map(p => {
     const profile = profiles[p.prefCode];
     return {
       ...p,
@@ -39,15 +42,16 @@ export function getAllPrefectures(): PrefectureData[] {
     };
   });
 
-  return cachedPrefectures || [];
+  if (isProd) cachedPrefectures = mapped;
+  return mapped;
 }
 
 export function getPrefectureSummaries(): PrefectureSummary[] {
-  if (cachedSummaries) return cachedSummaries;
+  if (isProd && cachedSummaries) return cachedSummaries;
   const all = getAllPrefectures();
   const profiles = getProfiles();
 
-  cachedSummaries = all.map(p => {
+  const mapped = all.map(p => {
     const prof = profiles[p.prefCode];
     return {
       code: p.code,
@@ -76,7 +80,8 @@ export function getPrefectureSummaries(): PrefectureSummary[] {
     };
   });
 
-  return cachedSummaries || [];
+  if (isProd) cachedSummaries = mapped;
+  return mapped;
 }
 
 export function getPrefectureByCode(code: string): PrefectureData | null {
