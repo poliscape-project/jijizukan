@@ -28,6 +28,7 @@ export default function FruitHandbookView({ handbookData }: Props) {
       grain: 0,
       vegetable: 0,
       livestock: 0,
+      industry: 0,
     };
     for (const item of handbookData.items) {
       if (counts[item.category] !== undefined) {
@@ -127,7 +128,7 @@ export default function FruitHandbookView({ handbookData }: Props) {
             }`}
           >
             <Sparkles className="w-3.5 h-3.5 text-rose-500" />
-            <span>品目（農畜産物）から探す</span>
+            <span>品目・産業から探す</span>
           </button>
           <button
             onClick={() => setActiveTab('prefecture')}
@@ -149,7 +150,7 @@ export default function FruitHandbookView({ handbookData }: Props) {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="品目名・品種・産地名で検索..."
+            placeholder="品目・産業名・品種・産地で検索..."
             className="w-full pl-9 pr-3 py-1.5 text-xs rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-500 transition"
           />
           {searchQuery && (
@@ -177,6 +178,7 @@ export default function FruitHandbookView({ handbookData }: Props) {
               { id: 'vegetable', label: '野菜', icon: '🥬', count: categoryCounts.vegetable },
               { id: 'grain', label: '米・穀物', icon: '🌾', count: categoryCounts.grain },
               { id: 'livestock', label: '畜産・酪農', icon: '🥛', count: categoryCounts.livestock },
+              { id: 'industry', label: '鉱工業・先端産業', icon: '🏭', count: categoryCounts.industry },
             ].map(cat => {
               const isSelected = selectedCategory === cat.id;
               return (
@@ -480,7 +482,7 @@ export default function FruitHandbookView({ handbookData }: Props) {
                 都道府県を選択（全国47都道府県）
               </h3>
               <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                選択した都道府県が全国上位シェア（ベスト5）にランクインしている主要農畜産物一覧を表示します
+                選択した都道府県が全国上位シェア（ベスト5）にランクインしている主要品目・基幹産業一覧を表示します
               </p>
             </div>
 
@@ -507,12 +509,12 @@ export default function FruitHandbookView({ handbookData }: Props) {
               })}
             </div>
 
-            {/* 選択された都道府県の特産農畜産物一覧 */}
+            {/* 選択された都道府県の特産・産業一覧 */}
             <div className="space-y-4 pt-4 border-t border-slate-100 dark:border-slate-800">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <span className="text-lg font-black text-slate-900 dark:text-white">
-                    {allRankedPrefectures.find(p => p.code === selectedPrefectureCode)?.name}の全国上位特産品
+                    {allRankedPrefectures.find(p => p.code === selectedPrefectureCode)?.name}の全国上位品目・産業
                   </span>
                   <Link
                     href={`/prefectures/${selectedPrefectureCode}`}
