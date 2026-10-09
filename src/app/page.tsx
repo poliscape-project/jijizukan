@@ -146,11 +146,11 @@ export default function HomePage() {
                     新設
                   </span>
                   <span className="font-black text-xs text-white group-hover:text-rose-200 transition">
-                    都道府県便覧【果実編】
+                    都道府県便覧【農畜産・特産編】
                   </span>
                 </div>
                 <p className="text-[11px] text-rose-200/80 mt-0.5 line-clamp-1">
-                  特産品シェアと主産地・地理探究
+                  米・野菜・果実・畜産の全国シェアと主産地
                 </p>
               </div>
             </div>

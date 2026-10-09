@@ -477,7 +477,7 @@ export default async function PrefectureDetailPage({ params }: Props) {
                   <BookOpen className="w-3.5 h-3.5" />
                 </div>
                 <h3 className="font-bold text-sm text-slate-900 dark:text-white">
-                  {p.name}の特産果実・農林水産統計（都道府県便覧連携）
+                  {p.name}の主要農畜産物・特産品（都道府県便覧連携）
                 </h3>
               </div>
               <Link
@@ -511,7 +511,7 @@ export default async function PrefectureDetailPage({ params }: Props) {
                         </span>
                       </div>
                       <div className="text-[11px] text-slate-500 mt-0.5">
-                        シェア: <strong className="text-rose-600 dark:text-rose-400 font-mono">{rankItem.share}%</strong> ({rankItem.production.toLocaleString()}t)
+                        シェア: <strong className="text-rose-600 dark:text-rose-400 font-mono">{rankItem.share}%</strong> ({rankItem.production.toLocaleString()}{fruit.unit || 't'})
                       </div>
                     </div>
                   </div>

@@ -10,8 +10,8 @@ import FruitHandbookView from '@/components/handbook/FruitHandbookView';
 import MunicipalityFooter from '@/components/municipality/MunicipalityFooter';
 
 export const metadata: Metadata = {
-  title: '都道府県便覧【果実・特産品編】| 農林水産省統計でみる日本の産地と地理 | 時事図鑑',
-  description: '農林水産省「作物統計」確定値に基づく47都道府県の主要果実（りんご、みかん、ぶどう、もも、いちご等）収穫量・全国シェアと主要産地市区町村。地理・気候的背景と自治体決算カルテを繋ぐ新世代シビックテック便覧。'
+  title: '都道府県便覧【農林水産・特産品編】| 農水省統計でみる日本の産地・米・野菜・果実・畜産 | 時事図鑑',
+  description: '農林水産省「作物統計・畜産統計」確定値に基づく47都道府県の主要農畜産物（米、キャベツ、玉ねぎ、トマト、生乳、和牛、りんご、みかん等全20品目）収穫量・全国シェアと主産地市町村。地理・気候的背景と自治体決算カルテを繋ぐ新世代シビックテック便覧。'
 };
 
 export default function HandbookPage() {
@@ -39,7 +39,7 @@ export default function HandbookPage() {
             </Link>
             <div className="px-4 py-2 rounded-lg text-xs font-bold bg-white dark:bg-slate-900 text-rose-600 dark:text-rose-400 shadow-2xs flex items-center gap-1.5">
               <BookOpen className="w-3.5 h-3.5" />
-              <span>都道府県便覧</span>
+              <span>都道府県便覧 (20品目)</span>
             </div>
           </div>
 
@@ -64,11 +64,11 @@ export default function HandbookPage() {
               4本柱シビックテック・調べ学習＆探究基盤
             </div>
             <h1 className="text-2xl md:text-4xl font-black tracking-tight text-white">
-              都道府県便覧 <span className="text-rose-400 text-xl md:text-2xl font-bold">【果実・特産品編】</span>
+              都道府県便覧 <span className="text-rose-400 text-xl md:text-2xl font-bold">【農林水産・特産品編】</span>
             </h1>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">
-              農林水産省「作物統計調査」の確定値に基づき、日本全国の主要果実の都道府県別シェアと主産地自治体を完全網羅。
-              「なぜその地域で盛んなのか」の地理・気候的背景から、産地市町村の財政・暮らしカルテまでシームレスに探究できます。
+              農林水産省「作物統計・畜産統計」の確定値に基づき、日本全国の主要農畜産物（果実・野菜・米・酪農・畜産）全20品目の都道府県別シェアと主産地市町村を完全網羅。
+              「なぜその地域で盛んなのか」の地理・気候的背景から、産地自治体の財政・暮らしカルテまでシームレスに探究できます。
             </p>
           </div>
         </div>
