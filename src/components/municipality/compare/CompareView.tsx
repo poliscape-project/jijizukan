@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import { 
   Building2, ArrowLeft, ArrowRight, Share2, Check, Search, 
   Coins, Users, Scale, Calendar, Gift, AlertTriangle, ShieldCheck,
-  TrendingUp, TrendingDown, Sparkles, X, ChevronRight, PieChart, Layers
+  TrendingUp, TrendingDown, Sparkles, X, ChevronRight, PieChart, Layers, Minus
 } from 'lucide-react';
 import { MunicipalityData, MunicipalitySummary, MunicipalityYearlyHistory } from '@/types/municipality';
 import PieChartBreakdown from '@/components/municipality/PieChartBreakdown';
@@ -342,12 +342,11 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
             </div>
           </div>
 
-          {/* 中央の比較バッジ */}
-          <div className="md:col-span-1 flex flex-col items-center justify-center py-2 md:py-0">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-indigo-500 to-rose-500 flex items-center justify-center text-white shadow-lg border-2 border-slate-900" title="2自治体を比較">
-              <Scale className="w-5 h-5 text-white" />
+          {/* 中央の区切り（横棒） */}
+          <div className="md:col-span-1 flex items-center justify-center py-2 md:py-0">
+            <div className="w-10 h-10 rounded-full bg-slate-800/90 border border-slate-700/80 flex items-center justify-center text-slate-300 shadow-md">
+              <Minus className="w-5 h-5 stroke-[2.5]" />
             </div>
-            <span className="text-[10px] text-slate-400 font-bold mt-1 tracking-wider">比較</span>
           </div>
 
           {/* 自治体B */}
