@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!m) return { title: '自治体が見つかりません | 時事図鑑' };
 
   return {
-    title: `${m.name}（${m.prefName}）の財政カルテ・税金の使い道 | 全国自治体カルテ`,
+    title: `${m.name}（${m.prefName}）の財政データ・税金の使い道 | 全国自治体カルテ`,
     description: `${m.prefName}${m.name}の決算カード詳細データ。歳入・歳出の内訳、財政力指数（${m.financial.financialStrengthIndex.toFixed(2)}）、住民1人あたり土木費、首長・議員報酬、類似団体比較と税金使途シミュレーター。`
   };
 }
@@ -175,10 +175,10 @@ export default async function MunicipalityDetailPage({ params }: Props) {
                 </span>
               </div>
               <h1 className="text-2xl md:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
-                {m.name} 財政カルテ
+                {m.name}
               </h1>
               <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-                総務省「地方財政状況調査（決算カード）」確定値に基づく詳細カルテ
+                総務省「地方財政状況調査（決算カード）」確定値に基づく決算データ・税金の使途分析
               </p>
             </div>
 
@@ -256,7 +256,7 @@ export default async function MunicipalityDetailPage({ params }: Props) {
                   広域自治体（都道府県）データ連携
                 </div>
                 <div className="text-sm font-bold text-slate-900 dark:text-white mt-0.5">
-                  所属する <span className="text-indigo-600 dark:text-indigo-400 font-black">{parentPref.name}</span> の財政カルテを見る
+                  所属する <span className="text-indigo-600 dark:text-indigo-400 font-black">{parentPref.name}</span> のデータを見る
                 </div>
                 <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
                   地方債残高: <strong>{Math.round(parentPref.financial.debtOutstanding / 100000).toLocaleString()}億円</strong>（県民1人あたり{parentPref.financial.debtPerCapita.toLocaleString()}円） | 財政力指数: <strong>{parentPref.financial.financialStrengthIndex.toFixed(2)}</strong>
@@ -267,7 +267,7 @@ export default async function MunicipalityDetailPage({ params }: Props) {
               href={`/prefectures/${parentPref.code}`}
               className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition shadow-xs shrink-0"
             >
-              <span>{parentPref.name}のカルテへ</span>
+              <span>{parentPref.name}のデータへ</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>

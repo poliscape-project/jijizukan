@@ -326,7 +326,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
                 href={`/municipalities/${muniA.code}`}
                 className="text-xs text-indigo-300 hover:text-white font-bold inline-flex items-center gap-1"
               >
-                <span>カルテ詳細へ</span>
+                <span>詳細データへ</span>
                 <ArrowRight className="w-3 h-3" />
               </Link>
               <button
@@ -371,7 +371,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
                 href={`/municipalities/${muniB.code}`}
                 className="text-xs text-rose-300 hover:text-white font-bold inline-flex items-center gap-1"
               >
-                <span>カルテ詳細へ</span>
+                <span>詳細データへ</span>
                 <ArrowRight className="w-3 h-3" />
               </Link>
               <button
