@@ -5,11 +5,12 @@ import { Metadata } from 'next';
 import { 
   Building2, Users, MapPin, Landmark, AlertTriangle, ArrowLeft, 
   Coins, Scale, TrendingDown, TrendingUp, ShieldCheck,
-  FileText, Briefcase, PiggyBank, Newspaper, ArrowRight, Shield, Award
+  FileText, Briefcase, PiggyBank, Newspaper, ArrowRight, Shield, Award, BookOpen
 } from 'lucide-react';
 import { getAllPrefectures, getPrefectureByCode } from '@/lib/prefectures';
 import { getAllMunicipalities } from '@/lib/municipalities';
 import { getTopicsByMunicipality } from '@/lib/topics';
+import { getFruitsByPrefecture } from '@/lib/handbook';
 import PieChartBreakdown from '@/components/municipality/PieChartBreakdown';
 import MunicipalityFooter from '@/components/municipality/MunicipalityFooter';
 
@@ -49,6 +50,9 @@ export default async function PrefectureDetailPage({ params }: Props) {
 
   // 関連トピック（県名で言及されている政策トピック）
   const relatedTopics = getTopicsByMunicipality(p.code, p.name);
+
+  // 都道府県便覧・特産果実（上位ランクイン品目）
+  const rankedFruits = getFruitsByPrefecture(p.code);
 
   // 歳入スライス (千円単位)
   const revSlices = [
@@ -458,6 +462,60 @@ export default async function PrefectureDetailPage({ params }: Props) {
                     <span>解説記事を読む</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition transform" />
                   </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* 都道府県便覧・特産果実連携セクション */}
+        {rankedFruits.length > 0 && (
+          <div className="bg-rose-50/40 dark:bg-rose-950/20 p-5 rounded-2xl border border-rose-200/60 dark:border-rose-900/40 space-y-3">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <div className="w-6 h-6 rounded-lg bg-rose-500 text-white flex items-center justify-center text-xs shadow-2xs">
+                  <BookOpen className="w-3.5 h-3.5" />
+                </div>
+                <h3 className="font-bold text-sm text-slate-900 dark:text-white">
+                  {p.name}の特産果実・農林水産統計（都道府県便覧連携）
+                </h3>
+              </div>
+              <Link
+                href="/handbook"
+                className="text-xs font-bold text-rose-600 dark:text-rose-400 hover:underline flex items-center gap-1"
+              >
+                <span>便覧で詳しく見る</span>
+                <ArrowRight className="w-3 h-3" />
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+              {rankedFruits.map(({ fruit, rankItem }) => (
+                <Link
+                  key={fruit.id}
+                  href="/handbook"
+                  className="group p-3.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-rose-400 transition flex items-center justify-between shadow-2xs"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-2xl leading-none">{fruit.icon}</span>
+                    <div>
+                      <div className="flex items-center gap-1.5">
+                        <span className="font-bold text-xs text-slate-900 dark:text-white group-hover:text-rose-600 transition">
+                          {fruit.name}
+                        </span>
+                        <span className={`text-[10px] font-black px-1.5 py-0.2 rounded ${
+                          rankItem.rank === 1 ? 'bg-amber-100 text-amber-900 border border-amber-300' :
+                          rankItem.rank === 2 ? 'bg-slate-200 text-slate-800 border border-slate-300' :
+                          'bg-orange-100 text-orange-900 border border-orange-300'
+                        }`}>
+                          {rankItem.rank === 1 ? '🥇 1位' : `${rankItem.rank}位`}
+                        </span>
+                      </div>
+                      <div className="text-[11px] text-slate-500 mt-0.5">
+                        シェア: <strong className="text-rose-600 dark:text-rose-400 font-mono">{rankItem.share}%</strong> ({rankItem.production.toLocaleString()}t)
+                      </div>
+                    </div>
+                  </div>
+                  <ArrowRight className="w-3.5 h-3.5 text-slate-400 group-hover:text-rose-500 group-hover:translate-x-0.5 transition shrink-0 ml-1" />
                 </Link>
               ))}
             </div>

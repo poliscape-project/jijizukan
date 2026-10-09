@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { 
   Building2, Search, TrendingUp, TrendingDown, AlertTriangle, ShieldCheck, 
   MapPin, Sparkles, HelpCircle, ArrowRight, Coins, Scale, FileText, PiggyBank,
-  Gift, Users, AlertOctagon, Landmark, Layers
+  Gift, Users, AlertOctagon, Landmark, Layers, BookOpen
 } from 'lucide-react';
 import { getMunicipalitySummaries } from '@/lib/municipalities';
 import MunicipalitySearchFilter from '@/components/municipality/MunicipalitySearchFilter';
@@ -112,6 +112,13 @@ export default function MunicipalitiesPage() {
             >
               <Landmark className="w-3.5 h-3.5" />
               <span>都道府県カルテ (47)</span>
+            </Link>
+            <Link
+              href="/handbook"
+              className="px-4 py-2 rounded-lg text-xs font-bold text-slate-500 hover:text-slate-900 dark:hover:text-white transition flex items-center gap-1.5"
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>都道府県便覧</span>
             </Link>
           </div>
 

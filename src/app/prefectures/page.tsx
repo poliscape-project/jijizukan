@@ -1,7 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Landmark, Building2, Layers, AlertCircle, ArrowRight } from 'lucide-react';
+import { Landmark, Building2, Layers, AlertCircle, ArrowRight, BookOpen } from 'lucide-react';
 import { getPrefectureSummaries } from '@/lib/prefectures';
 import PrefectureListView from '@/components/prefecture/PrefectureListView';
 import MunicipalityFooter from '@/components/municipality/MunicipalityFooter';
@@ -31,6 +31,13 @@ export default function PrefecturesPage() {
               <Landmark className="w-3.5 h-3.5" />
               <span>都道府県カルテ (47)</span>
             </div>
+            <Link
+              href="/handbook"
+              className="px-4 py-2 rounded-lg text-xs font-bold text-slate-500 hover:text-slate-900 dark:hover:text-white transition flex items-center gap-1.5"
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>都道府県便覧</span>
+            </Link>
           </div>
 
           <Link

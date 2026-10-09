@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 import { TopicCard } from "@/components/TopicCard";
 import { useCheckedTopics } from "@/lib/checkHistory";
 import { sortTopics, SORT_OPTIONS, type SortOption } from "@/lib/sortTopics";
-import { Search, X, Landmark, Globe, Filter, CheckCircle2, ArrowUpDown, Building2, ArrowRight } from "lucide-react";
+import { Search, X, Landmark, Globe, Filter, CheckCircle2, ArrowUpDown, Building2, ArrowRight, BookOpen } from "lucide-react";
 import type { TopicStatus } from "@/types/topic";
 
 const allTopics = getAllTopics();
@@ -105,34 +105,56 @@ export default function HomePage() {
           )}
         </div>
 
-        {/* 全国自治体カルテ PRバナー */}
-        <div className="max-w-xl mx-auto mb-6">
+        {/* 4本柱シビックテック PRバナー */}
+        <div className="max-w-2xl mx-auto mb-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link
             href="/municipalities"
-            className="group flex items-center justify-between p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-indigo-900 via-indigo-950 to-slate-900 text-white shadow-md hover:shadow-lg transition-all border border-indigo-700/50"
+            className="group flex items-center justify-between p-3.5 rounded-2xl bg-gradient-to-r from-indigo-900 via-indigo-950 to-slate-900 text-white shadow-md hover:shadow-lg transition-all border border-indigo-700/50"
           >
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-indigo-600/30 flex items-center justify-center text-indigo-300 border border-indigo-400/30 shrink-0">
                 <Building2 className="w-5 h-5" />
               </div>
               <div>
-                <div className="flex items-center gap-2">
-                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/40">
-                    新機能
+                <div className="flex items-center gap-1.5">
+                  <span className="text-[10px] font-bold px-1.5 py-0.2 rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/40">
+                    自治体
                   </span>
-                  <span className="font-black text-sm text-white group-hover:text-indigo-200 transition">
-                    全国自治体カルテ 公開
+                  <span className="font-black text-xs text-white group-hover:text-indigo-200 transition">
+                    全国自治体カルテ
                   </span>
                 </div>
-                <p className="text-xs text-indigo-200/80 mt-0.5">
-                  全1,741市区町村の決算・税金の使い道を完全可視化
+                <p className="text-[11px] text-indigo-200/80 mt-0.5 line-clamp-1">
+                  1,741市区町村・47都道府県の決算
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-1 text-xs font-bold text-indigo-300 group-hover:text-white shrink-0 pl-2">
-              <span className="hidden sm:inline">カルテを見る</span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition transform" />
+            <ArrowRight className="w-4 h-4 text-indigo-300 group-hover:text-white group-hover:translate-x-0.5 transition shrink-0 ml-1" />
+          </Link>
+
+          <Link
+            href="/handbook"
+            className="group flex items-center justify-between p-3.5 rounded-2xl bg-gradient-to-r from-rose-950 via-slate-900 to-slate-900 text-white shadow-md hover:shadow-lg transition-all border border-rose-800/40"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-rose-600/20 flex items-center justify-center text-rose-300 border border-rose-500/30 shrink-0">
+                <BookOpen className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="flex items-center gap-1.5">
+                  <span className="text-[10px] font-bold px-1.5 py-0.2 rounded-full bg-rose-500/30 text-rose-200 border border-rose-400/40">
+                    新設
+                  </span>
+                  <span className="font-black text-xs text-white group-hover:text-rose-200 transition">
+                    都道府県便覧【果実編】
+                  </span>
+                </div>
+                <p className="text-[11px] text-rose-200/80 mt-0.5 line-clamp-1">
+                  特産品シェアと主産地・地理探究
+                </p>
+              </div>
             </div>
+            <ArrowRight className="w-4 h-4 text-rose-300 group-hover:text-white group-hover:translate-x-0.5 transition shrink-0 ml-1" />
           </Link>
         </div>
 

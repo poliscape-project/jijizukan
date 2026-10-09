@@ -31,6 +31,10 @@ export default function MunicipalityFooter() {
               47都道府県カルテ
             </Link>
             <span>•</span>
+            <Link href="/handbook" className="text-indigo-600 hover:underline">
+              都道府県便覧（特産品・果実）
+            </Link>
+            <span>•</span>
             <a
               href="https://poliscape.vercel.app"
               target="_blank"
