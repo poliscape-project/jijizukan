@@ -305,13 +305,10 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
           <div className="md:col-span-5 bg-slate-800/80 rounded-2xl p-5 border border-indigo-500/40 shadow-inner flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between gap-2 mb-2">
-                <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/40">
-                  自治体 A（青）
-                </span>
-                <span className="text-xs text-slate-400 font-mono">{muniA.code}</span>
+                <span className="text-xs text-slate-300 font-medium">{muniA.prefName}</span>
+                <span className="text-xs text-slate-400 font-mono">コード: {muniA.code}</span>
               </div>
-              <div className="text-xs text-slate-300 font-medium">{muniA.prefName}</div>
-              <h2 className="text-2xl md:text-3xl font-black text-white tracking-tight mt-0.5">
+              <h2 className="text-2xl md:text-3xl font-black text-white tracking-tight">
                 {muniA.name}
               </h2>
               <div className="text-xs text-indigo-200 mt-1">
@@ -337,7 +334,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
                 className="px-3 py-1 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition cursor-pointer flex items-center gap-1 shadow-2xs"
               >
                 <Search className="w-3 h-3" />
-                <span>自治体Aを変更</span>
+                <span>自治体を変更</span>
               </button>
             </div>
           </div>
@@ -353,13 +350,10 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
           <div className="md:col-span-5 bg-slate-800/80 rounded-2xl p-5 border border-rose-500/40 shadow-inner flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between gap-2 mb-2">
-                <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40">
-                  自治体 B（赤）
-                </span>
-                <span className="text-xs text-slate-400 font-mono">{muniB.code}</span>
+                <span className="text-xs text-slate-300 font-medium">{muniB.prefName}</span>
+                <span className="text-xs text-slate-400 font-mono">コード: {muniB.code}</span>
               </div>
-              <div className="text-xs text-slate-300 font-medium">{muniB.prefName}</div>
-              <h2 className="text-2xl md:text-3xl font-black text-white tracking-tight mt-0.5">
+              <h2 className="text-2xl md:text-3xl font-black text-white tracking-tight">
                 {muniB.name}
               </h2>
               <div className="text-xs text-rose-200 mt-1">
@@ -385,7 +379,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
                 className="px-3 py-1 rounded-lg bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold transition cursor-pointer flex items-center gap-1 shadow-2xs"
               >
                 <Search className="w-3 h-3" />
-                <span>自治体Bを変更</span>
+                <span>自治体を変更</span>
               </button>
             </div>
           </div>
@@ -403,7 +397,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
             onClick={() => setSelectingSide('B')}
             className="px-3.5 py-1.5 bg-amber-600 hover:bg-amber-700 text-white rounded-xl text-xs font-bold transition shrink-0 cursor-pointer shadow-2xs"
           >
-            自治体Bを変更
+            別の自治体を選択
           </button>
         </div>
       )}
@@ -865,7 +859,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
               直近10年間の時系列推移（2014〜2023年度）
             </div>
             <h3 className="text-lg font-black text-slate-900 dark:text-white">
-              {muniA.name}（青） と {muniB.name}（赤）の10年推移
+              {muniA.name} と {muniB.name} の10年推移
             </h3>
             <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
               過去10年の財政健全化や人口動態の軌跡を同一軸で比較
@@ -952,7 +946,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
             <div className="p-4 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between">
               <div>
                 <h4 className="font-black text-slate-900 dark:text-white text-base">
-                  自治体 {selectingSide} を変更
+                  比較する自治体を選択
                 </h4>
                 <p className="text-xs text-slate-500">全国1,741市区町村から選択</p>
               </div>
