@@ -22,11 +22,11 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   }
 
   return {
-    title: `${mA.name} vs ${mB.name} 財政・決算データ徹底比較 | 全国自治体カルテ`,
-    description: `${mA.prefName}${mA.name}と${mB.prefName}${mB.name}の地方財政状況調査（決算カード）詳細比較。財政力指数、住民1人あたり土木費、実質純資産、ふるさと納税収支、10年間の借金と貯金の推移をグラフで直接対比。`,
+    title: `${mA.name} と ${mB.name} の財政・決算データ比較 | 全国自治体カルテ`,
+    description: `${mA.prefName}${mA.name}と${mB.prefName}${mB.name}の地方財政状況調査（決算カード）詳細比較。財政力指数、住民1人あたり土木費、実質純資産、ふるさと納税収支、10年間の推移をグラフで客観対比。`,
     openGraph: {
-      title: `${mA.name} vs ${mB.name} 財政・決算データ徹底比較 | 全国自治体カルテ`,
-      description: `${mA.name}と${mB.name}の財政健全度、住民1人あたり負担、10年タイムライン推移を直接対決。`,
+      title: `${mA.name} と ${mB.name} の財政・決算データ比較 | 全国自治体カルテ`,
+      description: `${mA.name}と${mB.name}の財政健全度、住民1人あたり負担、10年推移を客観比較。`,
     }
   };
 }

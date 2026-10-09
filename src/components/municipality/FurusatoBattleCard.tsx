@@ -36,11 +36,11 @@ export default function FurusatoBattleCard({ municipality }: Props) {
               <Gift className="w-4 h-4" />
             </span>
             <h3 className="font-bold text-lg text-slate-900 dark:text-white">
-              ふるさと納税 収支バトル（勝ち組 vs 流出超過）
+              ふるさと納税 収支状況（寄附受入額と住民税控除額）
             </h3>
           </div>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            全国から稼いだ寄附受入額 vs 住民税として他自治体へ流出した控除額の損益
+            全国からの寄附受入額と、住民税として他自治体へ控除流出した金額の実質収支
           </p>
         </div>
 
@@ -134,7 +134,7 @@ export default function FurusatoBattleCard({ municipality }: Props) {
       {/* 対比バー */}
       <div className="mb-6 p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800">
         <div className="text-xs font-bold text-slate-700 dark:text-slate-300 mb-3 flex items-center justify-between">
-          <span>受入額（獲得） vs 流出額（市民税控除）の直接対決</span>
+          <span>受入額（寄附金）と流出額（住民税控除）の対比</span>
           <span className="text-[11px] text-slate-500 font-normal">
             総務省「ふるさと納税に関する現況調査（最新）」より
           </span>

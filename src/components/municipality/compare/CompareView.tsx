@@ -611,7 +611,7 @@ export default function CompareView({ muniA, muniB, historyA, historyB, summarie
           </div>
         </div>
 
-        {/* 主要比率の直接対決ミニカード群 */}
+        {/* 主要比率の左右対比ミニカード群 */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           {pieCompareTab === 'revenues' && (
             <>
