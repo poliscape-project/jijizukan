@@ -29,6 +29,7 @@ export default function FruitHandbookView({ handbookData }: Props) {
       vegetable: 0,
       livestock: 0,
       industry: 0,
+      living: 0,
     };
     for (const item of handbookData.items) {
       if (counts[item.category] !== undefined) {
@@ -179,6 +180,7 @@ export default function FruitHandbookView({ handbookData }: Props) {
               { id: 'grain', label: '米・穀物', icon: '🌾', count: categoryCounts.grain },
               { id: 'livestock', label: '畜産・酪農', icon: '🥛', count: categoryCounts.livestock },
               { id: 'industry', label: '鉱工業・先端産業', icon: '🏭', count: categoryCounts.industry },
+              { id: 'living', label: '暮らし・ご当地日本一', icon: '🏡', count: categoryCounts.living },
             ].map(cat => {
               const isSelected = selectedCategory === cat.id;
               return (
@@ -263,17 +265,23 @@ export default function FruitHandbookView({ handbookData }: Props) {
                 {/* 主要指標 */}
                 <div className="flex items-center gap-3 shrink-0 self-start">
                   <div className="bg-slate-50 dark:bg-slate-800/80 px-4 py-3 rounded-2xl border border-slate-100 dark:border-slate-700/60 text-right">
-                    <div className="text-[11px] font-semibold text-slate-500 dark:text-slate-400">全国総生産量・規模</div>
+                    <div className="text-[11px] font-semibold text-slate-500 dark:text-slate-400">
+                      {currentFruit.category === 'living' ? '全国平均指標' : '全国総生産量・規模'}
+                    </div>
                     <div className="text-lg md:text-xl font-black text-slate-900 dark:text-white">
                       {currentFruit.nationalTotalProduction.toLocaleString()}
                       <span className="text-xs font-normal text-slate-500 ml-1">{currentFruit.unit || 't'}</span>
                     </div>
                   </div>
                   <div className="bg-slate-50 dark:bg-slate-800/80 px-4 py-3 rounded-2xl border border-slate-100 dark:border-slate-700/60 text-right">
-                    <div className="text-[11px] font-semibold text-slate-500 dark:text-slate-400">年間産出額</div>
+                    <div className="text-[11px] font-semibold text-slate-500 dark:text-slate-400">
+                      {currentFruit.category === 'living' ? (currentFruit.id === 'housing-space' ? '全国持ち家率' : '全国市場規模') : '年間産出額'}
+                    </div>
                     <div className="text-lg md:text-xl font-black text-slate-900 dark:text-white">
                       {currentFruit.nationalOutputValue.toLocaleString()}
-                      <span className="text-xs font-normal text-slate-500 ml-1">億円</span>
+                      <span className="text-xs font-normal text-slate-500 ml-1">
+                        {currentFruit.category === 'living' && currentFruit.id === 'housing-space' ? '%' : '億円'}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -283,7 +291,7 @@ export default function FruitHandbookView({ handbookData }: Props) {
               <div className="space-y-2">
                 <span className="text-xs font-bold text-slate-700 dark:text-slate-300 flex items-center gap-1.5">
                   <Award className="w-3.5 h-3.5 text-amber-500" />
-                  主な代表品種・銘柄：
+                  {currentFruit.category === 'living' ? '代表的スタイル・ご当地特色：' : '主な代表品種・銘柄：'}
                 </span>
                 <div className="flex flex-wrap gap-1.5">
                   {currentFruit.mainVarieties.map((v) => (
@@ -397,12 +405,16 @@ export default function FruitHandbookView({ handbookData }: Props) {
 
                           <div className="flex items-center gap-4 text-xs">
                             <div>
-                              <span className="text-slate-400 text-[11px]">生産規模: </span>
+                              <span className="text-slate-400 text-[11px]">
+                                {currentFruit.category === 'living' ? (currentFruit.id === 'housing-space' ? '平均延べ床: ' : '年間支出: ') : '生産規模: '}
+                              </span>
                               <strong className="text-slate-900 dark:text-white font-mono">{r.production.toLocaleString()}</strong>
                               <span className="text-slate-500 text-[10px] ml-0.5">{currentFruit.unit || 't'}</span>
                             </div>
                             <div>
-                              <span className="text-slate-400 text-[11px]">全国シェア: </span>
+                              <span className="text-slate-400 text-[11px]">
+                                {currentFruit.category === 'living' && currentFruit.id === 'housing-space' ? '持ち家率: ' : '全国シェア: '}
+                              </span>
                               <strong className="text-rose-600 dark:text-rose-400 font-mono text-sm">{r.share}%</strong>
                             </div>
                           </div>
@@ -415,11 +427,11 @@ export default function FruitHandbookView({ handbookData }: Props) {
                           </p>
                         )}
 
-                        {/* 主要産地市町村リンクバッジ */}
+                        {/* 主要産地・関連市町村リンクバッジ */}
                         <div className="space-y-1.5 pt-1">
                           <span className="text-[11px] font-bold text-slate-500 dark:text-slate-400 flex items-center gap-1">
                             <MapPin className="w-3 h-3 text-slate-400" />
-                            主な産地市町村（カルテ連携）：
+                            {currentFruit.category === 'living' ? '主要関連都市（カルテ連携）：' : '主な産地市町村（カルテ連携）：'}
                           </span>
                           <div className="flex flex-wrap gap-2">
                             {r.mainCities.map((city) => (

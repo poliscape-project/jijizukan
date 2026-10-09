@@ -14,14 +14,14 @@ export interface FruitRankingItem {
   notes?: string; // 地域特性・産業・栽培背景
 }
 
-export type HandbookCategory = 'all' | 'fruit' | 'grain' | 'vegetable' | 'livestock' | 'industry';
+export type HandbookCategory = 'all' | 'fruit' | 'grain' | 'vegetable' | 'livestock' | 'industry' | 'living';
 
 export interface FruitItem {
   id: string; // 品目ID (例: "automobile")
   name: string; // 品目名 (例: "自動車・輸送用機械")
   kana: string; // フリガナ (例: "ジドウシャ")
   englishName: string; // 英語名 (例: "Automotive & Transport")
-  category: 'fruit' | 'grain' | 'vegetable' | 'livestock' | 'industry'; // 分類カテゴリ
+  category: 'fruit' | 'grain' | 'vegetable' | 'livestock' | 'industry' | 'living'; // 分類カテゴリ
   categoryLabel: string; // 分類ラベル (例: "果実", "主食・米", "野菜", "畜産・酪農", "鉱工業・先端産業")
   unit: string; // 単位 (例: "t", "頭", "億円", "兆円")
   icon: string; // 絵文字 (例: "🚗")
