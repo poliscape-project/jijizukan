@@ -10,8 +10,8 @@ import FruitHandbookView from '@/components/handbook/FruitHandbookView';
 import MunicipalityFooter from '@/components/municipality/MunicipalityFooter';
 
 export const metadata: Metadata = {
-  title: '都道府県便覧【全32大項目】日本の特産品・基幹産業・暮らしご当地日本一 | 農水省・経産省・総務省統計 | 時事図鑑',
-  description: '農水省（米・果実・野菜・畜産）、経産省（自動車・半導体・化学・鉄鋼等）、総務省家計調査・住宅土地統計（餃子・ラーメン・納豆・カレー・喫茶・住まいの広さ等）確定値に基づく47都道府県の全32品目・指標ランキングと主産地・主要都市。地理・産業・生活文化と自治体カルテを繋ぐ新世代シビックテック便覧。'
+  title: '都道府県便覧【全38大項目】日本の特産品・基幹産業・水産・暮らしご当地日本一 | 農水省・経産省・総務省統計 | 時事図鑑',
+  description: '農水省（米・果実・野菜・畜産・水産）、経産省（自動車・半導体・化学・鉄鋼等）、総務省家計調査・住宅土地統計（餃子・ラーメン・納豆・カレー・喫茶・住まいの広さ等）確定値に基づく47都道府県の全38品目・指標ランキングと主産地・水揚港・主要都市。地理・海洋環境・産業集積・生活文化と自治体カルテを繋ぐ新世代シビックテック便覧。'
 };
 
 export default function HandbookPage() {
@@ -39,7 +39,7 @@ export default function HandbookPage() {
             </Link>
             <div className="px-4 py-2 rounded-lg text-xs font-bold bg-white dark:bg-slate-900 text-rose-600 dark:text-rose-400 shadow-2xs flex items-center gap-1.5">
               <BookOpen className="w-3.5 h-3.5" />
-              <span>都道府県便覧 (32項目)</span>
+              <span>都道府県便覧 (38項目)</span>
             </div>
           </div>
 
@@ -64,11 +64,11 @@ export default function HandbookPage() {
               4本柱シビックテック・調べ学習＆探究基盤
             </div>
             <h1 className="text-2xl md:text-4xl font-black tracking-tight text-white">
-              都道府県便覧 <span className="text-rose-400 text-xl md:text-2xl font-bold">【産業・特産・暮らしの日本一編】</span>
+              都道府県便覧 <span className="text-rose-400 text-xl md:text-2xl font-bold">【産業・水産・特産・暮らしの日本一編】</span>
             </h1>
             <p className="text-xs md:text-sm text-slate-300 leading-relaxed">
-              農林水産省「作物統計・畜産統計」、経済産業省「工業統計・経済構造実態調査」、総務省統計局「家計調査・住宅土地統計調査」の確定値に基づき、日本全国の主要農畜産物・基幹産業・生活文化（果実・野菜・米・酪農・畜産・自動車・半導体・医薬品・化学・鉄鋼・餃子・ラーメン・納豆・喫茶・住まいの広さ等）全32項目の都道府県別シェアと主産地・主要都市を完全網羅。
-              なぜその地域で盛んなのかの地理・産業集積・生活文化から、自治体の財政・暮らしカルテまでシームレスに探究できます。
+              農林水産省「作物統計・畜産統計・漁業養殖業生産統計」、経済産業省「工業統計・経済構造実態調査」、総務省統計局「家計調査・住宅土地統計調査」の確定値に基づき、日本全国の主要農畜水産物・基幹産業・生活文化（果実・野菜・米・酪農・畜産・自動車・半導体・医薬品・化学・鉄鋼・餃子・ラーメン・納豆・喫茶・住まいの広さ・マグロ・ホタテ・カツオ・サケ・海苔・ブリ等）全38項目の都道府県別シェアと主産地・水揚港・主要都市を完全網羅。
+              なぜその地域で盛んなのかの地理・海洋環境・産業集積・生活文化から、自治体の財政・暮らしカルテまでシームレスに探究できます。
             </p>
           </div>
         </div>
