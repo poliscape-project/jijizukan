@@ -1,6 +1,6 @@
 import type { Topic } from "@/types/topic";
 
-// 国内トピック (114件)
+// 国内トピック (115件)
 import abandonedGravesTempleCrisisCremationData from "@/data/topics/domestic/abandoned-graves-temple-crisis-cremation.json";
 import agingInfrastructureWaterPipesCrisisData from "@/data/topics/domestic/aging-infrastructure-water-pipes-crisis.json";
 import agricultureLivestockLaborShortageSafetyCrisisData from "@/data/topics/domestic/agriculture-livestock-labor-shortage-safety-crisis.json";
@@ -78,6 +78,7 @@ import okinawaBaseIssueData from "@/data/topics/domestic/okinawa-base-issue.json
 import okinawaGubernatorialElection2026Data from "@/data/topics/domestic/okinawa-gubernatorial-election-2026.json";
 import onlineCasinoMizuharaIllegalGamblingData from "@/data/topics/domestic/online-casino-mizuhara-illegal-gambling.json";
 import osakaExpo2025Data from "@/data/topics/domestic/osaka-expo-2025.json";
+import osakaExpoSubcontractorUnpaidCrisisData from "@/data/topics/domestic/osaka-expo-subcontractor-unpaid-crisis.json";
 import osakaIrCasinoGamblingAddictionData from "@/data/topics/domestic/osaka-ir-casino-gambling-addiction.json";
 import overtourismInboundPolicyData from "@/data/topics/domestic/overtourism-inbound-policy.json";
 import pensionReformData from "@/data/topics/domestic/pension-reform.json";
@@ -260,6 +261,7 @@ export const topics: Topic[] = [
   { ...okinawaGubernatorialElection2026Data, createdAt: "2026-09-19T23:17:03+09:00" } as unknown as Topic,
   { ...onlineCasinoMizuharaIllegalGamblingData, createdAt: "2026-09-21T22:22:11+09:00" } as unknown as Topic,
   { ...osakaExpo2025Data, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
+  { ...osakaExpoSubcontractorUnpaidCrisisData, createdAt: "2026-09-19T00:00:00+09:00" } as unknown as Topic,
   { ...osakaIrCasinoGamblingAddictionData, createdAt: "2026-09-19T12:52:38+09:00" } as unknown as Topic,
   { ...overtourismInboundPolicyData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
   { ...pensionReformData, createdAt: "2026-09-19T11:10:52+09:00" } as unknown as Topic,
